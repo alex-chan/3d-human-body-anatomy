@@ -1,0 +1,1326 @@
+{
+  "layer": "doctor",
+  "systems": [
+    {
+      "id": "skeletal",
+      "title": "Skeletal System",
+      "summary": "The skeleton is the body's framework: it supports the body, protects organs such as the brain, heart and lungs, and gives muscles something to pull on. Bones also store minerals and house the red marrow that makes blood cells. A newborn starts with roughly 270 bones, many of which fuse during growth into the adult count of about 206. Ligaments hold bones together at joints, while tendons anchor muscles to bone.",
+      "keyFacts": [
+        "Most adults have about 206 bones (individual counts can range up to about 213); babies are born with around 270 that later fuse.",
+        "The femur is the longest and strongest bone; the stapes in the middle ear is the smallest.",
+        "The spine has 33 vertebral segments (7 cervical, 12 thoracic, 5 lumbar, 5 sacral, about 4 coccygeal). In adults the sacral and coccygeal segments fuse, so the adult spine is 26 separate bones: 24 vertebrae plus the sacrum and coccyx, as shown in the model.",
+        "There are 12 pairs of ribs: 1-7 are true ribs, 8-10 are false ribs and 11-12 are floating ribs."
+      ],
+      "keywords": [
+        "skeleton",
+        "bone",
+        "bones",
+        "skull",
+        "spine",
+        "vertebrae",
+        "ribs",
+        "femur",
+        "stapes",
+        "joint",
+        "ligament",
+        "marrow",
+        "206",
+        "sacrum",
+        "coccyx",
+        "atlas",
+        "axis"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/25176-bones",
+        "https://my.clevelandclinic.org/health/body/21048-skeletal-system",
+        "https://my.clevelandclinic.org/health/body/22503-femur",
+        "https://my.clevelandclinic.org/health/body/ossicles",
+        "https://my.clevelandclinic.org/health/body/10040-spine-structure-and-function",
+        "https://my.clevelandclinic.org/health/body/rib-cage",
+        "https://www.kenhub.com/en/library/anatomy/the-ribs"
+      ]
+    },
+    {
+      "id": "muscular",
+      "title": "Muscular System",
+      "summary": "There are more than 600 muscles in the body, made of three tissue types. Skeletal muscle is voluntary and moves the skeleton via tendons; cardiac muscle forms the heart wall; smooth muscle lines hollow organs such as the gut and blood vessels. Cardiac and smooth muscle are involuntary. The heart generates its own rhythm (SA node), which the autonomic nervous system speeds up or slows down, and smooth muscle is controlled by autonomic nerves, hormones and local signals. Skeletal muscle makes up roughly 30 to 40 percent of body mass.",
+      "keyFacts": [
+        "The body has more than 600 muscles.",
+        "Three muscle types exist: skeletal (voluntary), cardiac and smooth (both involuntary).",
+        "The gluteus maximus is the largest muscle by mass, the masseter is often called the strongest for its size, and the stapedius (about 5 mm long, reported range roughly 4-7 mm) is the smallest."
+      ],
+      "keywords": [
+        "muscle",
+        "muscles",
+        "skeletal muscle",
+        "cardiac muscle",
+        "smooth muscle",
+        "tendon",
+        "gluteus",
+        "masseter",
+        "biceps",
+        "strongest",
+        "largest muscle"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21887-muscle",
+        "https://my.clevelandclinic.org/health/body/21787-skeletal-muscle",
+        "https://www.ncbi.nlm.nih.gov/books/NBK459238/",
+        "https://www.loc.gov/everyday-mysteries/categories/biology-and-human-anatomy/item/what-is-the-strongest-muscle-in-the-human-body/",
+        "https://www.kenhub.com/en/library/anatomy/stapedius-muscle",
+        "https://www.kenhub.com/en/library/anatomy/gluteus-maximus-muscle"
+      ]
+    },
+    {
+      "id": "circulatory",
+      "title": "Circulatory System",
+      "summary": "The heart, blood and blood vessels form a transport network that delivers oxygen and nutrients and removes waste. Blood follows two loops: the pulmonary circuit sends it through the lungs to pick up oxygen, and the systemic circuit delivers oxygen-rich blood to the rest of the body. Arteries carry blood away from the heart and veins carry it back. The heart has four chambers and four valves. The atrioventricular valves (tricuspid on the right, mitral on the left) are held by chordae tendineae anchored to papillary muscles, which stop the leaflets flipping back into the atria when the ventricles contract.",
+      "keyFacts": [
+        "Resting cardiac output is about 5 L/min, roughly 7,000-7,500 L per day, from about 100,000 heartbeats.",
+        "The body contains more than 60,000 miles of blood vessels.",
+        "An average adult male has about 5 liters of blood."
+      ],
+      "keywords": [
+        "heart",
+        "blood",
+        "artery",
+        "arteries",
+        "vein",
+        "veins",
+        "aorta",
+        "vena cava",
+        "capillary",
+        "pulse",
+        "circulation",
+        "valves",
+        "pulmonary",
+        "atrium",
+        "ventricle",
+        "papillary muscle",
+        "chordae tendineae",
+        "tricuspid",
+        "mitral",
+        "cardiac output"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21775-circulatory-system",
+        "https://health.clevelandclinic.org/fun-facts-about-your-heart",
+        "https://my.clevelandclinic.org/health/body/23074-heart-chambers",
+        "https://my.clevelandclinic.org/health/body/17067-heart-valves",
+        "https://my.clevelandclinic.org/health/body/24836-blood",
+        "https://www.ncbi.nlm.nih.gov/books/NBK526089/"
+      ]
+    },
+    {
+      "id": "nervous",
+      "title": "Nervous System",
+      "summary": "The nervous system is the body's control and communication network. The central nervous system is the brain and spinal cord; the peripheral nervous system is the nerves that branch out to the rest of the body. The brain has three main parts: the cerebrum (four main lobes, joined across the midline by the corpus callosum), the cerebellum (coordination and balance) and the brainstem (midbrain, pons and medulla, which control breathing and heart rate). The precentral gyrus is the primary motor cortex and the postcentral gyrus is the primary sensory cortex. Each spinal nerve forms from a posterior (dorsal) root carrying sensory fibres, with its spinal ganglion, and an anterior (ventral) root carrying motor fibres. The autonomic division runs automatic functions through the sympathetic (fight-or-flight) and parasympathetic (rest-and-digest) branches.",
+      "keyFacts": [
+        "An adult brain weighs about 3 pounds and contains close to 86 billion neurons.",
+        "There are 12 pairs of cranial nerves and 31 pairs of spinal nerves.",
+        "The sciatic nerve is the longest and widest single nerve in the body."
+      ],
+      "keywords": [
+        "nerve",
+        "nerves",
+        "brain",
+        "spinal cord",
+        "neuron",
+        "sciatic",
+        "cranial nerves",
+        "reflex",
+        "autonomic",
+        "sympathetic",
+        "parasympathetic",
+        "cerebrum",
+        "cerebellum",
+        "brainstem",
+        "midbrain",
+        "pons",
+        "medulla",
+        "corpus callosum",
+        "precentral gyrus",
+        "postcentral gyrus",
+        "dorsal root",
+        "ventral root",
+        "spinal ganglion"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/22638-brain",
+        "https://my.clevelandclinic.org/health/body/23123-peripheral-nervous-system-pns",
+        "https://my.clevelandclinic.org/health/body/21998-cranial-nerves",
+        "https://my.clevelandclinic.org/health/body/23273-autonomic-nervous-system",
+        "https://www.kenhub.com/en/library/anatomy/major-arteries-veins-and-nerves-of-the-body",
+        "https://www.kenhub.com/en/library/anatomy/lobes-of-the-brain",
+        "https://www.kenhub.com/en/library/anatomy/cerebellum-and-brainstem",
+        "https://www.kenhub.com/en/library/anatomy/spinal-nerves"
+      ]
+    },
+    {
+      "id": "respiratory",
+      "title": "Respiratory System",
+      "summary": "The respiratory system brings oxygen into the body and removes carbon dioxide. Air enters through the nose and pharynx and passes the larynx, where the epiglottis closes during swallowing. The trachea splits into the right and left main bronchi, which divide into lobar and then segmental bronchi (10 segments on the right, usually 8-10 on the left), then ever-smaller bronchioles ending in alveoli, where gas exchange takes place. The right lung has three lobes and the left has two, leaving room for the heart. The diaphragm is the main breathing muscle.",
+      "keyFacts": [
+        "Adults normally breathe about 12 to 20 times per minute at rest.",
+        "A stereological study estimated about 480 million alveoli in adult lungs on average (range 274 to 790 million).",
+        "When you breathe in, the diaphragm contracts and flattens, giving the lungs room to expand."
+      ],
+      "keywords": [
+        "lungs",
+        "lung",
+        "breathing",
+        "trachea",
+        "bronchi",
+        "alveoli",
+        "diaphragm",
+        "oxygen",
+        "respiration",
+        "larynx",
+        "epiglottis",
+        "pharynx",
+        "nasal cavity",
+        "main bronchus",
+        "segmental bronchus",
+        "bronchopulmonary segment"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/8960-lungs",
+        "https://pubmed.ncbi.nlm.nih.gov/14512270/",
+        "https://my.clevelandclinic.org/health/body/21578-diaphragm",
+        "https://www.kenhub.com/en/library/anatomy/bronchopulmonary-segments"
+      ]
+    },
+    {
+      "id": "digestive",
+      "title": "Digestive System",
+      "summary": "The digestive system breaks food down into nutrients the body can absorb and removes what is left as waste. In the mouth, the tongue moves food and three pairs of salivary glands (parotid, submandibular, sublingual) make about 1-1.5 L of saliva a day, whose amylase starts starch digestion. Food passes through the pharynx and oesophagus to the stomach, then the small intestine (duodenum, jejunum and ileum), where most nutrients are absorbed, then the large intestine: the appendix and the ascending, transverse, descending and sigmoid colon, which reclaim water and salts. The liver, gallbladder and pancreas add bile and enzymes. In this model the ileum, caecum and rectum are not shown as separate objects.",
+      "keyFacts": [
+        "The small intestine is about 22 feet (6-7 m) long when relaxed, as measured at autopsy, but only about 3-5 m in a living person because of muscle tone; over 90 percent of nutrient absorption happens there.",
+        "The liver is the largest internal organ (about 1.4-1.6 kg) and can regrow after part of it is removed. Surgeons divide it into eight functional (Couinaud) segments, I-VIII, each with its own blood supply and bile drainage, so one segment can be removed without harming the rest; the model shows each segment.",
+        "The gallbladder stores bile made by the liver, which helps digest fats."
+      ],
+      "keywords": [
+        "stomach",
+        "liver",
+        "intestine",
+        "small intestine",
+        "colon",
+        "large intestine",
+        "gallbladder",
+        "pancreas",
+        "digestion",
+        "bile",
+        "esophagus",
+        "teeth",
+        "salivary",
+        "parotid",
+        "submandibular",
+        "sublingual",
+        "saliva",
+        "tongue",
+        "pharynx",
+        "appendix",
+        "sigmoid colon",
+        "liver segments",
+        "Couinaud",
+        "oesophagus"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/22135-small-intestine",
+        "https://my.clevelandclinic.org/health/body/21481-liver",
+        "https://my.clevelandclinic.org/health/body/21690-gallbladder",
+        "https://my.clevelandclinic.org/health/body/22134-colon-large-intestine",
+        "https://my.clevelandclinic.org/health/body/22951-exocrine-system",
+        "https://www.ncbi.nlm.nih.gov/books/NBK542251/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK539858/"
+      ]
+    },
+    {
+      "id": "urinary",
+      "title": "Urinary System",
+      "summary": "The urinary system filters blood plasma and removes waste and excess fluid as urine. The two kidneys do the filtering using about a million nephrons each. Urine travels down the ureters to the urinary bladder, which stores it until it is passed. The kidneys also balance fluids, salts, acid and blood pressure, and act as endocrine organs: they make erythropoietin (which drives red cell production) and renin, and convert vitamin D to its active form, calcitriol.",
+      "keyFacts": [
+        "The kidneys produce about 150-180 litres of glomerular filtrate a day (GFR about 120-125 mL/min; NIDDK puts it at about 150 quarts) and reabsorb about 99% of it, leaving 1-2 litres of urine.",
+        "Each kidney contains about 1 million nephrons.",
+        "A healthy bladder typically holds about 1.5 to 2 cups of urine.",
+        "The kidneys make erythropoietin and renin and activate vitamin D."
+      ],
+      "keywords": [
+        "kidney",
+        "kidneys",
+        "bladder",
+        "ureter",
+        "urine",
+        "nephron",
+        "renal",
+        "glomerular filtration",
+        "GFR",
+        "erythropoietin",
+        "renin",
+        "vitamin D"
+      ],
+      "sources": [
+        "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work",
+        "https://www.niddk.nih.gov/Dictionary/N/nephron",
+        "https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-tract-how-it-works",
+        "https://my.clevelandclinic.org/health/body/21824-kidney",
+        "https://www.ncbi.nlm.nih.gov/books/NBK500032/"
+      ]
+    },
+    {
+      "id": "endocrine",
+      "title": "Endocrine System",
+      "summary": "The endocrine system is a set of glands that release hormones into the bloodstream to regulate growth, metabolism, stress responses and blood sugar. Glands shown in the model are the pituitary, pineal gland, thyroid, four parathyroid glands, suprarenal (adrenal) glands and pancreas. The pea-sized pituitary has an anterior lobe (adenohypophysis) and a posterior lobe (neurohypophysis); it is often called the master gland because it controls many other glands. The pineal gland makes melatonin, which helps set the sleep-wake rhythm, and the parathyroids control blood calcium. The hypothalamus, which directs the pituitary, is not modelled.",
+      "keyFacts": [
+        "The pituitary sits at the base of the brain; its anterior lobe (adenohypophysis) makes hormones such as growth hormone, TSH and ACTH, while the posterior lobe (neurohypophysis) releases ADH and oxytocin made in the hypothalamus.",
+        "The butterfly-shaped thyroid in the front of the neck helps control metabolism.",
+        "The adrenal glands sit on top of the kidneys and make hormones including cortisol, aldosterone and adrenaline.",
+        "The pineal gland releases melatonin, and the four parathyroid glands release parathyroid hormone to raise blood calcium."
+      ],
+      "keywords": [
+        "hormone",
+        "hormones",
+        "gland",
+        "pituitary",
+        "thyroid",
+        "adrenal",
+        "insulin",
+        "pancreas",
+        "endocrine",
+        "suprarenal",
+        "pineal",
+        "melatonin",
+        "parathyroid",
+        "adenohypophysis",
+        "neurohypophysis"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21201-endocrine-system",
+        "https://my.clevelandclinic.org/health/body/21459-pituitary-gland",
+        "https://my.clevelandclinic.org/health/body/23188-thyroid",
+        "https://my.clevelandclinic.org/health/body/23005-adrenal-gland",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532912/",
+        "https://my.clevelandclinic.org/health/body/23334-pineal-gland"
+      ]
+    },
+    {
+      "id": "lymphatic-immune",
+      "title": "Lymphatic and Immune System",
+      "summary": "The lymphatic and immune system defends the body against infection. The lymphoid organs shown in this model are the spleen and the two lobes of the thymus; lymph nodes and lymph vessels are not modelled. The spleen is the largest lymphoid organ: it filters blood, removes old red cells and mounts immune responses to blood-borne germs. The thymus, behind the sternum, is where T cells mature; it is largest in childhood and is gradually replaced by fat in adults. Elsewhere in the body, about 600 lymph nodes filter lymph returning to the blood.",
+      "keyFacts": [
+        "The spleen, in the left upper abdomen under ribs 9-11, is the largest lymphoid organ and filters blood.",
+        "The thymus is where T lymphocytes (T cells) mature; it shrinks after puberty.",
+        "Lymph nodes (about 600) and lymph vessels are not shown in this 3D model."
+      ],
+      "keywords": [
+        "lymph",
+        "lymphatic",
+        "spleen",
+        "thymus",
+        "immune",
+        "white blood cells",
+        "T cells"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21199-lymphatic-system",
+        "https://my.clevelandclinic.org/health/body/23016-thymus",
+        "https://my.clevelandclinic.org/health/body/21196-immune-system",
+        "https://www.kenhub.com/en/library/anatomy/the-spleen"
+      ]
+    },
+    {
+      "id": "integumentary",
+      "title": "Integumentary System",
+      "summary": "The integumentary system is the skin together with hair, nails and glands such as sweat and oil glands. Skin is the body's largest organ. It has two layers, the epidermis and the dermis, and sits on the hypodermis (subcutaneous fat), which is often grouped with it in patient materials. Skin protects against germs, helps regulate temperature, senses touch, heat and cold, and helps make vitamin D. Skin colour comes mainly from melanin made by melanocytes.",
+      "keyFacts": [
+        "Skin is the largest organ, weighing about 3-4 kg (roughly 6-9 lb); it averages about 2 mm thick, thinnest on the eyelids and thickest on the palms and soles.",
+        "The epidermis constantly renews itself, shedding tens of thousands of cells every minute (hundreds of millions a day).",
+        "The amount and type of melanin you make determines skin, hair and eye colour."
+      ],
+      "keywords": [
+        "skin",
+        "hair",
+        "nails",
+        "epidermis",
+        "dermis",
+        "sweat",
+        "melanin",
+        "integumentary",
+        "sweat glands",
+        "hypodermis",
+        "subcutaneous"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/22827-integumentary-system",
+        "https://my.clevelandclinic.org/health/body/10978-skin",
+        "https://my.clevelandclinic.org/health/body/22615-melanin",
+        "https://www.ncbi.nlm.nih.gov/books/NBK441980/"
+      ]
+    },
+    {
+      "id": "special-senses",
+      "title": "Special Senses: Eye and Ear",
+      "summary": "The model shows the outer eyeball (sclera, cornea and iris) and the middle-ear ossicles; the lens, retina and vitreous body are described but not modelled. Light is bent mostly by the cornea (about two-thirds of the eye's focusing power) and then fine-tuned by the lens, which changes shape to focus near or far. The iris controls pupil size, aqueous humour fills the anterior chamber and the gel-like vitreous body fills the space behind the lens. The retina lines the back of the eye; its rods and cones turn light into nerve signals carried by the optic nerve. The tough white sclera protects the eyeball. In the middle ear, three ossicles (malleus, incus and stapes) pass vibrations from the eardrum to the oval window of the inner ear and amplify them; the stapedius muscle damps loud sounds.",
+      "keyFacts": [
+        "The cornea provides about 65-75% of the eye's refractive power; the lens adjusts focus.",
+        "The retina contains rods (dim light) and cones (colour and detail).",
+        "The ossicle chain runs malleus, incus, stapes; the stapes is the smallest bone in the body."
+      ],
+      "keywords": [
+        "eye",
+        "eyeball",
+        "cornea",
+        "iris",
+        "lens",
+        "retina",
+        "sclera",
+        "vitreous",
+        "pupil",
+        "vision",
+        "ear",
+        "ossicles",
+        "malleus",
+        "incus",
+        "stapes",
+        "hearing"
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK470340/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK470322/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK542332/",
+        "https://my.clevelandclinic.org/health/body/ossicles"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many bones are in the adult human body?",
+      "a": "Most adults have about 206 bones. Normal variants, such as an extra cervical rib or small sesamoid bones, mean some people have up to about 213.",
+      "keywords": [
+        "bones",
+        "how many bones",
+        "206",
+        "skeleton"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/25176-bones"
+      ]
+    },
+    {
+      "q": "Why do babies have more bones than adults?",
+      "a": "Babies start with around 270 bones. Many of them, like the skull plates, gradually fuse together as the child grows, bringing the total down to roughly 206 in adulthood. Those extra pieces keep a baby's skeleton flexible.",
+      "keywords": [
+        "baby bones",
+        "270",
+        "fuse",
+        "newborn"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/25176-bones",
+        "https://my.clevelandclinic.org/health/body/21048-skeletal-system"
+      ]
+    },
+    {
+      "q": "What is the longest and strongest bone?",
+      "a": "The femur (thighbone). It is about 18 to 19 inches (45 to 48 cm) long in adults and is the strongest bone in the body, carrying body weight during standing and walking.",
+      "keywords": [
+        "femur",
+        "longest bone",
+        "strongest bone",
+        "thigh"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/22503-femur",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532982/"
+      ]
+    },
+    {
+      "q": "What is the smallest bone in the body?",
+      "a": "The stapes (stirrup) in the middle ear. With the malleus and incus it carries sound vibrations from the eardrum to the inner ear. All three ossicles are shown in the model.",
+      "keywords": [
+        "smallest bone",
+        "stapes",
+        "ear bones",
+        "ossicles"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/ossicles"
+      ]
+    },
+    {
+      "q": "How many vertebrae are in the spine?",
+      "a": "The spine has 33 vertebral segments: 7 cervical, 12 thoracic, 5 lumbar, 5 sacral and about 4 coccygeal. In adults the sacral and coccygeal segments fuse, so the adult spine is 26 separate bones: 24 vertebrae plus the sacrum and coccyx, as shown in the model. Together they form the canal that protects the spinal cord.",
+      "keywords": [
+        "vertebrae",
+        "spine",
+        "backbone",
+        "33",
+        "26",
+        "sacrum",
+        "coccyx"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/10040-spine-structure-and-function"
+      ]
+    },
+    {
+      "q": "How many ribs do we have?",
+      "a": "24 ribs, 12 on each side, all joined to the 12 thoracic vertebrae at the back. Ribs 1-7 are true ribs (each has its own costal cartilage attached to the sternum), ribs 8-10 are false ribs (their cartilages join the cartilage above), and ribs 11-12 are floating ribs with no front attachment. The model shows this: only ribs 1-10 have costal cartilages.",
+      "keywords": [
+        "ribs",
+        "rib cage",
+        "thoracic",
+        "true ribs",
+        "false ribs",
+        "floating ribs",
+        "costal cartilage"
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-ribs",
+        "https://my.clevelandclinic.org/health/body/rib-cage"
+      ]
+    },
+    {
+      "q": "What is the difference between tendons and ligaments?",
+      "a": "Tendons connect muscle to bone, so when a muscle contracts it pulls the bone. Ligaments connect bone to bone and stabilise joints, letting them move the right way and stopping them moving the wrong way.",
+      "keywords": [
+        "tendon",
+        "ligament",
+        "difference",
+        "joint"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21738-tendon",
+        "https://my.clevelandclinic.org/health/body/21604-ligament"
+      ]
+    },
+    {
+      "q": "Where are blood cells made?",
+      "a": "In adults, red blood cells, platelets and white blood cells are all made in red bone marrow (haematopoiesis), mainly in flat bones and vertebrae such as the pelvis, sternum, ribs and skull. Some lymphocytes then mature or multiply in the thymus, spleen and lymph nodes.",
+      "keywords": [
+        "bone marrow",
+        "blood cells",
+        "hematopoiesis"
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/red-bone-marrow",
+        "https://www.ncbi.nlm.nih.gov/books/NBK544245/"
+      ]
+    },
+    {
+      "q": "How many muscles are in the human body?",
+      "a": "You have more than 600 muscles, and you use many of them almost constantly, even while sitting still. They come in three types: skeletal, cardiac and smooth.",
+      "keywords": [
+        "how many muscles",
+        "600",
+        "muscles"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21887-muscle"
+      ]
+    },
+    {
+      "q": "What are the three types of muscle?",
+      "a": "Skeletal muscle is voluntary and moves the bones. Cardiac muscle makes up the heart wall, and smooth muscle lines organs such as the gut and blood vessels. Cardiac and smooth muscle are involuntary: the heart generates its own rhythm (SA node), which the autonomic nervous system speeds up or slows down, and smooth muscle is controlled by autonomic nerves, hormones and local signals.",
+      "keywords": [
+        "muscle types",
+        "skeletal",
+        "cardiac",
+        "smooth"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21887-muscle",
+        "https://www.ncbi.nlm.nih.gov/books/NBK459238/"
+      ]
+    },
+    {
+      "q": "What is the strongest muscle in the body?",
+      "a": "It depends how strength is measured. For its size and weight, the masseter, the main chewing muscle, is usually called the strongest. For sustained work over a lifetime, the heart is a strong contender.",
+      "keywords": [
+        "strongest muscle",
+        "masseter",
+        "jaw"
+      ],
+      "sources": [
+        "https://www.loc.gov/everyday-mysteries/categories/biology-and-human-anatomy/item/what-is-the-strongest-muscle-in-the-human-body/",
+        "https://www.britannica.com/science/What-is-the-strongest-muscle-in-the-human-body-based-on-its-size"
+      ]
+    },
+    {
+      "q": "What is the largest muscle?",
+      "a": "The gluteus maximus is the largest muscle by mass. It is the main extensor of the hip, used to stand up, climb stairs and sprint.",
+      "keywords": [
+        "largest muscle",
+        "gluteus maximus",
+        "buttock"
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/gluteus-maximus-muscle"
+      ]
+    },
+    {
+      "q": "What is the smallest muscle?",
+      "a": "The stapedius in the middle ear, about 5 mm long (reported range roughly 4-7 mm). It attaches to the stapes and contracts in response to loud sound, damping vibration to protect the inner ear.",
+      "keywords": [
+        "smallest muscle",
+        "stapedius",
+        "ear"
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/stapedius-muscle",
+        "https://eurjanat.com/articles/morphometrics-of-the-stapedius-muscle-a-systematic-review-of-cadaveric-studies/"
+      ]
+    },
+    {
+      "q": "How much of my body weight is muscle?",
+      "a": "Skeletal muscle alone makes up roughly 30 to 40 percent of total body mass. The exact share varies with age, sex and fitness.",
+      "keywords": [
+        "muscle mass",
+        "body weight",
+        "percentage"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21787-skeletal-muscle"
+      ]
+    },
+    {
+      "q": "How does blood circulate through the body?",
+      "a": "Oxygen-poor blood returns to the right side of the heart, which pumps it to the lungs to pick up oxygen (the pulmonary circuit). Oxygen-rich blood returns to the left side of the heart, which pumps it out through the aorta to the whole body (the systemic circuit).",
+      "keywords": [
+        "circulation",
+        "blood flow",
+        "pulmonary circulation",
+        "systemic circulation"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21775-circulatory-system",
+        "https://my.clevelandclinic.org/health/articles/17060-how-does-the-blood-flow-through-your-heart"
+      ]
+    },
+    {
+      "q": "What is the difference between arteries and veins?",
+      "a": "Arteries carry blood away from the heart and veins carry it back toward the heart. In the systemic circuit, arteries carry oxygen-rich blood and veins carry oxygen-poor blood. The direction of flow, not the oxygen level, is what defines them.",
+      "keywords": [
+        "arteries",
+        "veins",
+        "difference"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21775-circulatory-system",
+        "https://www.kenhub.com/en/library/anatomy/pulmonary-arteries-and-veins"
+      ]
+    },
+    {
+      "q": "Why do pulmonary arteries carry deoxygenated blood?",
+      "a": "Vessels are named by direction of flow, not oxygen content. The pulmonary arteries carry blood away from the heart to the lungs, and that blood is oxygen-poor because it has just returned from the body. The pulmonary veins then return oxygenated blood to the left atrium.",
+      "keywords": [
+        "pulmonary artery",
+        "pulmonary vein",
+        "deoxygenated",
+        "oxygenated",
+        "exception"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21486-pulmonary-arteries",
+        "https://www.kenhub.com/en/library/anatomy/pulmonary-arteries-and-veins"
+      ]
+    },
+    {
+      "q": "Why are arteries red and veins blue in anatomy models?",
+      "a": "It is a long-standing illustration convention: red marks arteries and blue marks veins, broadly reflecting oxygen-rich versus oxygen-poor blood, and yellow marks nerves. Because the colours track oxygen, they swap in the lungs' circuit: pulmonary arteries are shown blue and pulmonary veins red. In life all blood is red; oxygenated blood is brighter and deoxygenated blood is darker.",
+      "keywords": [
+        "colour",
+        "color",
+        "red",
+        "blue",
+        "convention",
+        "model"
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/major-arteries-veins-and-nerves-of-the-body",
+        "https://www.kenhub.com/en/library/anatomy/pulmonary-arteries-and-veins"
+      ]
+    },
+    {
+      "q": "Why do my veins look blue through my skin if blood is red?",
+      "a": "It is an optical effect. Red light penetrates deeper into the skin and is absorbed by blood in the vein, while more blue light is scattered back from the skin. The vein therefore looks bluish against the surrounding skin, although the blood inside is dark red.",
+      "keywords": [
+        "veins blue",
+        "why blue",
+        "skin",
+        "light"
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/major-arteries-veins-and-nerves-of-the-body"
+      ]
+    },
+    {
+      "q": "How much blood is in the body?",
+      "a": "An average adult male has about 5 litres of blood and an average adult female about 4 litres. The model is an adult male.",
+      "keywords": [
+        "blood volume",
+        "how much blood",
+        "liters"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/24836-blood"
+      ]
+    },
+    {
+      "q": "How much blood does the heart pump each day?",
+      "a": "Resting cardiac output is about 5 L per minute (heart rate times stroke volume), which comes to roughly 7,000-7,500 litres a day over about 100,000 beats.",
+      "keywords": [
+        "heart pump",
+        "cardiac output",
+        "litres",
+        "heartbeats"
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK526089/",
+        "https://my.clevelandclinic.org/health/body/21775-circulatory-system"
+      ]
+    },
+    {
+      "q": "How many chambers and valves does the heart have?",
+      "a": "Four chambers: the right and left atria on top and the right and left ventricles below. Four valves keep blood flowing one way: the tricuspid (right atrioventricular, three leaflets), pulmonary, mitral (left atrioventricular, two leaflets) and aortic. The atrioventricular leaflets are tethered by chordae tendineae to papillary muscles, which tense during ventricular contraction so the leaflets do not flip back into the atria. The model shows the chambers, papillary muscles and the tricuspid, pulmonary and aortic valve leaflets.",
+      "keywords": [
+        "heart chambers",
+        "atria",
+        "ventricles",
+        "valves",
+        "tricuspid",
+        "mitral",
+        "papillary muscle",
+        "chordae tendineae"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/23074-heart-chambers",
+        "https://my.clevelandclinic.org/health/body/17067-heart-valves",
+        "https://www.kenhub.com/en/library/anatomy/heart-valves"
+      ]
+    },
+    {
+      "q": "How big is the heart?",
+      "a": "About the size of a fist, weighing roughly 250-350 g (8 to 12 ounces) depending on sex, body size and health.",
+      "keywords": [
+        "heart size",
+        "heart weight"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21775-circulatory-system"
+      ]
+    },
+    {
+      "q": "How long are all the blood vessels combined?",
+      "a": "More than 60,000 miles (about 100,000 km) of arteries, veins and capillaries if laid end to end, most of it capillaries.",
+      "keywords": [
+        "blood vessels length",
+        "60000 miles",
+        "capillaries"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21775-circulatory-system"
+      ]
+    },
+    {
+      "q": "What are the largest artery and vein?",
+      "a": "The aorta is the largest artery, carrying oxygen-rich blood out of the left ventricle. The venae cavae are the largest veins; the inferior vena cava returns oxygen-poor blood from the lower body to the right atrium.",
+      "keywords": [
+        "aorta",
+        "vena cava",
+        "largest artery",
+        "largest vein"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/17058-aorta-anatomy",
+        "https://my.clevelandclinic.org/health/body/22619-vena-cava"
+      ]
+    },
+    {
+      "q": "How long do red blood cells live?",
+      "a": "About 120 days. Old red cells are removed mainly by macrophages in the spleen and liver, and the bone marrow replaces them continuously.",
+      "keywords": [
+        "red blood cells",
+        "lifespan",
+        "120 days"
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK539702/",
+        "https://my.clevelandclinic.org/health/body/21691-function-of-red-blood-cells"
+      ]
+    },
+    {
+      "q": "How many neurons are in the brain?",
+      "a": "An adult brain contains close to 86 billion neurons and weighs about 1.3-1.4 kg (about 3 pounds).",
+      "keywords": [
+        "neurons",
+        "brain",
+        "86 billion",
+        "brain weight"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/22638-brain"
+      ]
+    },
+    {
+      "q": "How much energy does the brain use?",
+      "a": "The brain is only about 2 percent of body weight but uses about 20 percent of the body's oxygen and about a quarter of its glucose at rest.",
+      "keywords": [
+        "brain energy",
+        "oxygen",
+        "20 percent"
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK28194/"
+      ]
+    },
+    {
+      "q": "How fast do nerves conduct signals?",
+      "a": "It depends on the fibre. The thickest myelinated fibres (A-alpha) conduct at roughly 80 to 120 m/s, while thin unmyelinated C fibres, which carry dull pain and temperature, conduct at about 0.5 to 2 m/s. Myelin lets the impulse jump between nodes of Ranvier (saltatory conduction).",
+      "keywords": [
+        "nerve speed",
+        "conduction velocity",
+        "myelin",
+        "m/s"
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK554461/",
+        "https://pubmed.ncbi.nlm.nih.gov/6131421/"
+      ]
+    },
+    {
+      "q": "How many cranial and spinal nerves are there?",
+      "a": "There are 12 pairs of cranial nerves that come directly from the brain and 31 pairs of spinal nerves: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal.",
+      "keywords": [
+        "cranial nerves",
+        "spinal nerves",
+        "12 pairs",
+        "31 pairs"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/23123-peripheral-nervous-system-pns",
+        "https://my.clevelandclinic.org/health/body/21998-cranial-nerves"
+      ]
+    },
+    {
+      "q": "What is the longest nerve?",
+      "a": "The sciatic nerve, the longest and widest single nerve in the body. It starts in the lower back and runs through the buttock and down the leg.",
+      "keywords": [
+        "sciatic nerve",
+        "longest nerve"
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/major-arteries-veins-and-nerves-of-the-body"
+      ]
+    },
+    {
+      "q": "What's the difference between the central and peripheral nervous system?",
+      "a": "The central nervous system is your brain and spinal cord. The peripheral nervous system is all the nerves outside them that carry messages to and from the rest of the body.",
+      "keywords": [
+        "CNS",
+        "PNS",
+        "central",
+        "peripheral"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/23123-peripheral-nervous-system-pns",
+        "https://my.clevelandclinic.org/health/body/22584-nerves"
+      ]
+    },
+    {
+      "q": "What do the sympathetic and parasympathetic systems do?",
+      "a": "Both belong to the autonomic nervous system. The sympathetic branch drives fight-or-flight, raising heart rate and breathing and slowing digestion, while the parasympathetic branch handles rest-and-digest and calms things back down.",
+      "keywords": [
+        "sympathetic",
+        "parasympathetic",
+        "fight or flight",
+        "rest and digest",
+        "autonomic"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/23262-sympathetic-nervous-system-sns-fight-or-flight",
+        "https://my.clevelandclinic.org/health/body/23266-parasympathetic-nervous-system-psns",
+        "https://my.clevelandclinic.org/health/body/23273-autonomic-nervous-system"
+      ]
+    },
+    {
+      "q": "How long is the spinal cord?",
+      "a": "About 18 inches (45 cm). In adults it runs from the top of the neck to around the L1 to L2 level of the lower back, so it's shorter than the spinal column itself.",
+      "keywords": [
+        "spinal cord length",
+        "L1",
+        "conus medullaris"
+      ],
+      "sources": [
+        "https://www.aans.org/patients/conditions-treatments/anatomy-of-the-spine-and-peripheral-nervous-system/"
+      ]
+    },
+    {
+      "q": "How many breaths do we take per minute?",
+      "a": "At rest, adults usually breathe about 12 to 20 times per minute.",
+      "keywords": [
+        "breathing rate",
+        "respiratory rate",
+        "breaths per minute"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/8960-lungs"
+      ]
+    },
+    {
+      "q": "How many lobes do the lungs have?",
+      "a": "The right lung has three lobes (superior, middle and inferior) and the left lung has two (superior and inferior); the left lung has a cardiac notch for the heart. Each lobe is further divided into bronchopulmonary segments, each supplied by its own segmental bronchus: 10 on the right and usually 8-10 on the left.",
+      "keywords": [
+        "lung lobes",
+        "right lung",
+        "left lung"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/8960-lungs",
+        "https://www.kenhub.com/en/library/anatomy/bronchopulmonary-segments"
+      ]
+    },
+    {
+      "q": "What are alveoli and how many are there?",
+      "a": "Alveoli are tiny air sacs at the end of the airways, wrapped in capillaries, where oxygen enters the blood and carbon dioxide leaves. A stereological study counted about 480 million on average in adult lungs, with larger lungs having more.",
+      "keywords": [
+        "alveoli",
+        "air sacs",
+        "gas exchange"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/14512270/",
+        "https://my.clevelandclinic.org/health/body/8960-lungs"
+      ]
+    },
+    {
+      "q": "Which muscle helps us breathe?",
+      "a": "The diaphragm, a dome-shaped muscle under the lungs. When you inhale it contracts and flattens, giving your lungs room to expand; the phrenic nerve controls it.",
+      "keywords": [
+        "diaphragm",
+        "breathing muscle",
+        "phrenic nerve"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21578-diaphragm",
+        "https://my.clevelandclinic.org/health/body/22270-phrenic-nerve"
+      ]
+    },
+    {
+      "q": "What does the liver do?",
+      "a": "The liver has hundreds of functions. It processes nutrients and drugs, clears toxins from the blood, makes bile and plasma proteins such as albumin and clotting factors, stores glycogen and helps regulate blood sugar. It can regenerate after part of it is removed.",
+      "keywords": [
+        "liver",
+        "liver function",
+        "detox",
+        "regenerate"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21481-liver"
+      ]
+    },
+    {
+      "q": "What is the largest organ in the body?",
+      "a": "The skin, which weighs about 3-4 kg in an adult. The largest internal organ is the liver.",
+      "keywords": [
+        "largest organ",
+        "skin",
+        "biggest organ"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/10978-skin",
+        "https://www.ncbi.nlm.nih.gov/books/NBK441980/",
+        "https://my.clevelandclinic.org/health/body/21481-liver"
+      ]
+    },
+    {
+      "q": "How long is the small intestine?",
+      "a": "About 22 feet (roughly 6-7 m) when relaxed, as measured at autopsy; in a living person muscle tone keeps it shorter, about 3-5 m. It is only about 2-3 cm wide. It has three parts, the duodenum, jejunum and ileum, and absorbs more than 90 percent of nutrients. In this model the duodenum and jejunum are separate objects; the ileum is not modelled separately.",
+      "keywords": [
+        "small intestine",
+        "length",
+        "duodenum",
+        "jejunum",
+        "ileum"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/22135-small-intestine"
+      ]
+    },
+    {
+      "q": "What does the large intestine do?",
+      "a": "The large intestine, about 5 to 6 feet (1.5-1.8 m) long, absorbs water and salts from what is left and forms stool. The model shows the vermiform appendix and the ascending, transverse, descending and sigmoid colon; the caecum and rectum are not modelled separately.",
+      "keywords": [
+        "large intestine",
+        "colon",
+        "water absorption",
+        "appendix",
+        "sigmoid colon"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/22134-colon-large-intestine"
+      ]
+    },
+    {
+      "q": "What does stomach acid do?",
+      "a": "Stomach acid (hydrochloric acid) helps break down proteins, helps you absorb certain nutrients, and helps control bacteria and viruses that you swallow.",
+      "keywords": [
+        "stomach",
+        "acid",
+        "hydrochloric acid",
+        "digestion"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/diseases/23392-hypochlorhydria"
+      ]
+    },
+    {
+      "q": "What does the gallbladder do?",
+      "a": "The gallbladder stores bile, a fluid made by the liver, and releases it into the small intestine to help digest fats.",
+      "keywords": [
+        "gallbladder",
+        "bile",
+        "fat digestion"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21690-gallbladder",
+        "https://my.clevelandclinic.org/health/body/what-is-bile"
+      ]
+    },
+    {
+      "q": "What does the pancreas do?",
+      "a": "The pancreas has two roles. Its exocrine part (about 85 percent of the gland) releases digestive enzymes and bicarbonate into the duodenum, and its endocrine part, the islets of Langerhans, releases insulin and glucagon to regulate blood sugar.",
+      "keywords": [
+        "pancreas",
+        "insulin",
+        "glucagon",
+        "enzymes"
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK532912/",
+        "https://my.clevelandclinic.org/health/body/22601-insulin"
+      ]
+    },
+    {
+      "q": "How many teeth do adults have?",
+      "a": "Most adults have 32 permanent teeth: 8 incisors, 4 canines, 8 premolars and 12 molars, including the four wisdom teeth (third molars). The model shows 28 teeth; the wisdom teeth are not included, and many adults have them removed or never develop them. Children have 20 primary teeth.",
+      "keywords": [
+        "teeth",
+        "how many teeth",
+        "32",
+        "molars",
+        "wisdom teeth"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/24655-teeth",
+        "https://my.clevelandclinic.org/health/diseases/hyperdontia"
+      ]
+    },
+    {
+      "q": "How much blood do the kidneys filter?",
+      "a": "The kidneys produce about 150-180 litres of glomerular filtrate a day (GFR about 120-125 mL/min; NIDDK puts it at about 150 quarts) and reabsorb about 99% of it, leaving 1-2 litres of urine. Total renal blood flow is much higher, about 1.1-1.2 L per minute.",
+      "keywords": [
+        "kidneys",
+        "filter",
+        "urine",
+        "GFR",
+        "glomerular filtration"
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK500032/",
+        "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work"
+      ]
+    },
+    {
+      "q": "What is a nephron?",
+      "a": "A nephron is the kidney's tiny filtering unit that removes wastes and extra fluid from blood to make urine. Each kidney has about a million of them.",
+      "keywords": [
+        "nephron",
+        "kidney",
+        "filtering unit"
+      ],
+      "sources": [
+        "https://www.niddk.nih.gov/Dictionary/N/nephron",
+        "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work"
+      ]
+    },
+    {
+      "q": "How much urine can the bladder hold?",
+      "a": "A healthy bladder can usually hold about 1.5 to 2 cups of urine. Urine reaches it from the kidneys through two muscular tubes called ureters.",
+      "keywords": [
+        "bladder",
+        "capacity",
+        "ureters"
+      ],
+      "sources": [
+        "https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-tract-how-it-works",
+        "https://my.clevelandclinic.org/health/body/ureters"
+      ]
+    },
+    {
+      "q": "Why is the pituitary called the master gland?",
+      "a": "The pea-sized pituitary at the base of the brain releases hormones that control other endocrine glands, such as the thyroid and adrenal glands. It has an anterior lobe (adenohypophysis) and a posterior lobe (neurohypophysis), shown as separate objects in the model. It is directed by the hypothalamus just above it, which is not modelled.",
+      "keywords": [
+        "pituitary",
+        "master gland",
+        "hypothalamus"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21459-pituitary-gland"
+      ]
+    },
+    {
+      "q": "What does the thyroid do?",
+      "a": "The butterfly-shaped thyroid in the front of the neck releases hormones that help control your metabolism, the rate your body uses energy.",
+      "keywords": [
+        "thyroid",
+        "metabolism",
+        "neck gland"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/23188-thyroid"
+      ]
+    },
+    {
+      "q": "What do the adrenal glands do?",
+      "a": "The adrenal (suprarenal) glands sit on top of the kidneys. The cortex makes cortisol and aldosterone and the medulla makes adrenaline. These help regulate blood pressure, metabolism, immunity and the stress response. In the model they are named 'Suprarenal gland'.",
+      "keywords": [
+        "adrenal",
+        "suprarenal",
+        "cortisol",
+        "adrenaline",
+        "aldosterone"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/23005-adrenal-gland"
+      ]
+    },
+    {
+      "q": "What does the lymphatic system do?",
+      "a": "It returns tissue fluid (lymph) to the bloodstream, keeps fluid levels balanced, absorbs dietary fats and supports immune defence. About 600 lymph nodes filter lymph along the way. Lymph nodes and vessels are not shown in this model; the spleen and thymus are.",
+      "keywords": [
+        "lymphatic system",
+        "lymph",
+        "immune"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/21199-lymphatic-system",
+        "https://my.clevelandclinic.org/health/body/23131-lymph-nodes"
+      ]
+    },
+    {
+      "q": "What do the spleen and thymus do?",
+      "a": "The spleen is the largest lymphoid organ: it filters blood, removes old red cells and helps fight blood-borne infection. The thymus, behind the sternum, is where T cells mature; it is largest in childhood and shrinks after puberty. Both are shown in the model.",
+      "keywords": [
+        "spleen",
+        "thymus",
+        "T cells"
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-spleen",
+        "https://my.clevelandclinic.org/health/body/23016-thymus"
+      ]
+    },
+    {
+      "q": "Why does skin colour differ between people?",
+      "a": "Everyone has a similar number of melanocytes, the pigment cells. Differences come from how active they are, how much melanin they make, and the balance of dark eumelanin and reddish-yellow pheomelanin, all shaped by genetics.",
+      "keywords": [
+        "skin colour",
+        "skin color",
+        "melanin",
+        "eumelanin",
+        "pheomelanin"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/22615-melanin",
+        "https://medlineplus.gov/genetics/gene/mc1r/"
+      ]
+    },
+    {
+      "q": "What are the layers of the skin?",
+      "a": "Skin has two layers, the epidermis on top and the dermis below, which holds sweat glands, oil glands and hair follicles. It sits on the hypodermis (subcutaneous fat), which is often grouped with it in patient materials.",
+      "keywords": [
+        "skin layers",
+        "epidermis",
+        "dermis",
+        "hypodermis"
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK441980/",
+        "https://my.clevelandclinic.org/health/body/10978-skin"
+      ]
+    },
+    {
+      "q": "How often does skin renew itself?",
+      "a": "The epidermis is always regenerating and sheds tens of thousands of cells every minute, so the outer layer is replaced roughly every month.",
+      "keywords": [
+        "skin renewal",
+        "shedding",
+        "skin cells"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/10978-skin"
+      ]
+    },
+    {
+      "q": "What are the main parts of the brain?",
+      "a": "The brain has three main parts. The cerebrum has four main lobes (frontal, parietal, temporal, occipital); the insula lies deep within the lateral sulcus and the limbic lobe (e.g. cingulate gyrus) on the medial surface. The hemispheres are joined across the midline by the corpus callosum. The cerebellum coordinates movement and balance. The brainstem (midbrain, pons and medulla) controls breathing and heart rate and carries tracts between brain and spinal cord. In the model, the precentral gyrus is the primary motor cortex and the postcentral gyrus is the primary sensory cortex.",
+      "keywords": [
+        "brain parts",
+        "cerebrum",
+        "cerebellum",
+        "brainstem",
+        "corpus callosum",
+        "precentral gyrus",
+        "postcentral gyrus",
+        "lobes"
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/lobes-of-the-brain",
+        "https://www.kenhub.com/en/library/anatomy/cerebellum-and-brainstem",
+        "https://my.clevelandclinic.org/health/body/22638-brain"
+      ]
+    },
+    {
+      "q": "What are the dorsal and ventral roots of a spinal nerve?",
+      "a": "Each spinal nerve forms from two roots. The posterior (dorsal) root carries sensory fibres into the spinal cord; their cell bodies sit in the spinal (dorsal root) ganglion. The anterior (ventral) root carries motor fibres out to muscles. The roots join to form a mixed spinal nerve.",
+      "keywords": [
+        "dorsal root",
+        "ventral root",
+        "spinal ganglion",
+        "spinal nerve",
+        "sensory",
+        "motor"
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/spinal-nerves"
+      ]
+    },
+    {
+      "q": "What are the liver segments?",
+      "a": "The Couinaud system divides the liver into eight functional segments (I-VIII). Each has its own branch of the portal vein and hepatic artery and its own bile drainage, so surgeons can remove a segment without harming the others. The model shows each segment as a separate object.",
+      "keywords": [
+        "liver segments",
+        "Couinaud",
+        "hepatic segment",
+        "liver surgery"
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK539858/",
+        "https://radiologyassistant.nl/abdomen/liver/segmental-anatomy"
+      ]
+    },
+    {
+      "q": "How does the eye focus light?",
+      "a": "The cornea does most of the focusing (about 65-75 percent), and the lens fine-tunes it by changing shape. The iris adjusts pupil size to control how much light enters. Light lands on the retina, where rods and cones convert it into nerve signals sent along the optic nerve. The model shows the cornea, iris and sclera; the lens and retina are not modelled.",
+      "keywords": [
+        "eye",
+        "cornea",
+        "lens",
+        "retina",
+        "iris",
+        "focus",
+        "vision"
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK470340/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK470322/"
+      ]
+    },
+    {
+      "q": "What do the salivary glands do?",
+      "a": "Three pairs of major salivary glands (parotid, submandibular and sublingual) make about 1-1.5 litres of saliva a day. Saliva moistens food, helps form a bolus for swallowing, protects the teeth and contains amylase, which starts starch digestion. The model shows the glands and the parotid and submandibular ducts.",
+      "keywords": [
+        "salivary glands",
+        "saliva",
+        "parotid",
+        "submandibular",
+        "sublingual",
+        "amylase"
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK542251/"
+      ]
+    },
+    {
+      "q": "What do the pineal and parathyroid glands do?",
+      "a": "The pineal gland, deep in the brain, releases melatonin, which helps regulate the sleep-wake cycle. The four parathyroid glands, on the back of the thyroid, release parathyroid hormone, which raises blood calcium by acting on bone, kidney and (through vitamin D) the gut.",
+      "keywords": [
+        "pineal",
+        "melatonin",
+        "parathyroid",
+        "calcium",
+        "PTH"
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/23334-pineal-gland",
+        "https://my.clevelandclinic.org/health/articles/22355-parathyroid-hormone"
+      ]
+    },
+    {
+      "q": "What does the epiglottis do?",
+      "a": "The epiglottis is a leaf-shaped flap of elastic cartilage at the top of the larynx, behind the root of the tongue. During swallowing it folds back over the laryngeal inlet so food and drink go into the oesophagus rather than the airway.",
+      "keywords": [
+        "epiglottis",
+        "larynx",
+        "swallowing",
+        "choking"
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/epiglottis"
+      ]
+    }
+  ],
+  "colorConventions": {
+    "arteries": "#C62828",
+    "veins": "#1E4FA3",
+    "pulmonaryArteries": "#1E4FA3",
+    "pulmonaryVeins": "#C62828",
+    "nerves": "#F2C94C",
+    "lymphatics": "#3E9B4F",
+    "bone": "#E8DCC0",
+    "muscle": "#A8413A",
+    "note": "Anatomy atlases and medical illustration conventionally use red for arteries, blue for veins and yellow for nerves; Kenhub describes this as the usual convention in anatomy atlases. The red/blue split tracks blood oxygenation, so in the pulmonary circuit the colours swap: pulmonary arteries (deoxygenated blood to the lungs) are blue and pulmonary veins (oxygenated blood to the heart) are red. Real blood is always red; the colours are a teaching convention. The lymphatics colour is reserved and not currently used, because this model has no lymph nodes or vessels. Bone (ivory) and muscle (red-brown) hexes are artistic choices for this site, not a formal standard.",
+    "sources": [
+      "https://www.kenhub.com/en/library/anatomy/major-arteries-veins-and-nerves-of-the-body",
+      "https://www.kenhub.com/en/library/anatomy/pulmonary-arteries-and-veins"
+    ]
+  },
+  "lines": {
+    "greetings": [
+      "Hello there, future doctor! Ready to explore the human body?",
+      "Hi! I'm your anatomy buddy. Pick a layer and let's dive in!",
+      "Welcome back! Bones, muscles, nerves... where shall we start today?",
+      "Hey hey! Stethoscope's on, let's learn something amazing!",
+      "Good to see you! Click any body part and I'll tell you all about it."
+    ],
+    "clickReactions": [
+      "Oh-ho! What do you want to know? Ask me anything!",
+      "Hehe, that tickles! Got a question for me?",
+      "Doctor on duty! What shall we look at?",
+      "Ooh, curious today? Try asking about the heart or the femur!",
+      "You called? I've got anatomy facts ready to go!"
+    ],
+    "idleSleeping": [
+      "Zzz... 206 bones... zzz...",
+      "Mmm... just resting my neurons for a moment...",
+      "Zzz... rest-and-digest mode activated..."
+    ],
+    "idleStudying": [
+      "Hmm, 12 pairs of cranial nerves... let me review them again.",
+      "Reading up on the nephron. So tiny, so clever!",
+      "Just brushing up on the heart valves. Always good to revise!"
+    ],
+    "idleEating": [
+      "Crunching an apple; fibre keeps the large intestine happy!",
+      "A handful of nuts: healthy fats for my hard-working brain!",
+      "Yogurt break! Calcium and protein help look after bones and muscles."
+    ],
+    "dontKnow": [
+      "Hmm, I'm not sure about that one. Try clicking a body part and I'll tell you what I know!",
+      "Good question, but it's outside my notes. Could you rephrase it or ask about a specific organ?",
+      "I don't want to guess on that. Try asking about bones, muscles, vessels, organs or nerves!"
+    ],
+    "disclaimer": "For educational purposes only. This is not medical advice; please consult a qualified healthcare professional about any health concerns."
+  }
+}

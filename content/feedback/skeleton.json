@@ -1,0 +1,168 @@
+{
+ "review r1": {
+  "issues": [
+   {
+    "id": "sphenoid-bone",
+    "severity": "major",
+    "problem": "Wrong etymology fact: 'Its name comes from Greek and is usually linked to its winged, butterfly-like look.' Sphenoid comes from Greek sphen, 'wedge' (sphenoeides, 'wedge-shaped'), because it sits wedged between the other skull bones. The butterfly comparison is only a common way to describe its shape, not where the name comes from.",
+    "fix": "Replace with: 'Its name comes from the Greek sphenoeides, meaning wedge-shaped, because it is wedged between the other bones of the skull base; its outline is often compared to a butterfly or bat.' Keeping the common name as a shape descriptor is fine. Also add https://teachmeanatomy.info/head/osteology/sphenoid-bone/ as a source."
+   },
+   {
+    "id": "false-ribs",
+    "severity": "major",
+    "problem": "Wrong definition. The medical name 'False ribs (ribs 8-10)' and the summary treat false ribs as ribs 8-10 only. In standard anatomy (TeachMeAnatomy, Kenhub) false ribs are ribs 8-12: they are all the ribs that do not join the sternum by their own cartilage. Ribs 11-12 (floating ribs) are a subset of the false ribs. Ribs 8-10 on their own are the vertebrochondral ribs.",
+    "fix": "Change medical to 'Vertebrochondral ribs (ribs 8-10; upper false ribs)'. Change the summary to start: 'Ribs 8-12 are called false ribs because they do not reach the sternum by their own cartilage. Ribs 8, 9 and 10 (vertebrochondral ribs) join the cartilage of the rib above...' In floating-ribs, add 'Ribs 11 and 12 are the lowest of the false ribs.'"
+   },
+   {
+    "id": "false-ribs",
+    "severity": "major",
+    "problem": "Flail chest fact is incomplete and therefore wrong: 'Multiple adjacent rib fractures can cause a flail chest.' StatPearls defines flail chest as 3 or more consecutive ribs each broken in at least 2 places, which leaves a free-floating segment. Adjacent single breaks do not cause it.",
+    "fix": "Replace with: 'When three or more neighbouring ribs are each broken in two or more places, the loose segment can move the wrong way during breathing (flail chest).' Cite https://www.ncbi.nlm.nih.gov/books/NBK534090/."
+   },
+   {
+    "id": "false-ribs",
+    "severity": "minor",
+    "problem": "'In some people, notably in Japan, the tenth rib can be a floating rib' rests on a single 1974 study. Later imaging studies find a floating 10th rib is common in all populations (reported in more than half of people in some series), so the Japan-specific framing is weakly supported.",
+    "fix": "Reword to: 'The tenth rib is quite often a floating rib too, with no cartilage link to the rib above; this is a normal variant.'"
+   },
+   {
+    "id": "true-ribs",
+    "severity": "major",
+    "problem": "Wrong number: 'About 1 in 200-500 people have an extra cervical rib' works out to 0.2-0.5%. StatPearls (Anatomy, Thorax, Cervical Rib) gives about 0.5-1% of the population, which is 1 in 100-200.",
+    "fix": "Change to: 'About 0.5-1% of people (roughly 1 in 100-200) have an extra cervical rib arising from C7; most never have symptoms.' Cite https://www.ncbi.nlm.nih.gov/books/NBK541001/."
+   },
+   {
+    "id": "true-ribs",
+    "severity": "minor",
+    "problem": "The summary's description of a typical rib leaves out the tubercle ('head, neck and curved body'). The floating-ribs entry then says those ribs lack a tubercle, which only makes sense if the tubercle was introduced first.",
+    "fix": "Change to: 'A typical rib has a head, neck, tubercle and curved body (shaft), with a costal groove underneath for the intercostal nerve and vessels.'"
+   },
+   {
+    "id": "overview",
+    "severity": "minor",
+    "problem": "'The skeletal system... makes up roughly 20 percent of body weight' is at the top end of published estimates. Bone alone is about 12-15% of adult body weight (ICRP reference values: about 15% in men and 13% in women). Without a qualifier, readers will take 20% to mean bone.",
+    "fix": "Change to: 'Bones make up about 15 percent of adult body weight; with cartilage, ligaments and marrow included, the whole skeletal system is closer to 20 percent.' Alternatively, cite a source that states the 20% figure directly."
+   },
+   {
+    "id": "overview",
+    "severity": "minor",
+    "problem": "The list of adult red-marrow sites leaves out the upper ends of the femur and humerus, which are standard sites (SEER).",
+    "fix": "Add 'and the upper ends of the femur and humerus'."
+   },
+   {
+    "id": "axis-c2",
+    "severity": "major",
+    "problem": "Untrustworthy sourcing: both sources are Wikipedia (Axis_(anatomy) and Cervical_vertebrae). This is the only structure with no trusted anatomy source. Separately, the hangman's fracture fact is imprecise: Radiopaedia and StatPearls describe it as bilateral fractures through the pars interarticularis of C2, not specifically 'both pedicles'.",
+    "fix": "Replace one Wikipedia link with https://teachmeanatomy.info/neck/bones/cervical-spine/ and/or https://radiopaedia.org/articles/hangman-fracture. Reword the fact to: 'A break through both sides of the C2 arch (the pars interarticularis), classically from forceful backward bending of the head, is called a hangman's fracture.'"
+   },
+   {
+    "id": "cervical-vertebrae-c3-c7",
+    "severity": "minor",
+    "problem": "The function field says the transverse foramina carry the vertebral arteries. The artery normally enters at C6, and C7's small transverse foramen usually carries only veins, so the statement is inaccurate for C7 in this C3-C7 group.",
+    "fix": "Change to: '...the transverse foramina of C1-C6 carry the vertebral arteries up toward the brain (C7's small foramina usually carry only veins).'"
+   },
+   {
+    "id": "thoracic-vertebrae",
+    "severity": "minor",
+    "problem": "'Excessive forward curvature here (kyphosis)' is ambiguous to lay readers. Kyphosis is an outward (backward-convex) rounding of the upper back. 'Forward curvature' could be read as the inward curve of lordosis.",
+    "fix": "Change to: 'An exaggerated rounding of the upper back (kyphosis, or a hunchback posture) is often caused by osteoporotic compression fractures in older adults.'"
+   },
+   {
+    "id": "femur",
+    "severity": "minor",
+    "problem": "'Its neck meets the shaft at roughly 135 degrees' is high. The adult mean neck-shaft angle is about 125-130 degrees (systematic review mean 128.8 degrees; TeachMeAnatomy gives about 125). Angles above this are called coxa valga.",
+    "fix": "Change to 'roughly 125-130 degrees in adults (it is wider in children)'."
+   },
+   {
+    "id": "auditory-ossicles",
+    "severity": "minor",
+    "problem": "The function 'using lever action to boost their force' is shallow and slightly misleading. Most of the middle ear's pressure gain comes from the eardrum being about 17 times larger than the oval window; the ossicles' lever adds only about 1.3 times.",
+    "fix": "Change to: 'Carry sound vibrations from the eardrum to the fluid of the inner ear, boosting the pressure about 20-fold, mainly by focusing force from the large eardrum onto the tiny oval window, helped by a small lever effect.'"
+   },
+   {
+    "id": "mandible",
+    "severity": "minor",
+    "problem": "'It holds the lower teeth and is the only skull bone that moves' conflicts with this site's own content, which files the moving ear ossicles under the Skull category.",
+    "fix": "Change to 'the only skull bone connected to the rest of the skull by a freely movable joint' (the temporomandibular joint)."
+   },
+   {
+    "id": "incisors",
+    "severity": "minor",
+    "problem": "'Lower central incisors are usually the first permanent teeth to come in' is contested. The first permanent molars erupt at the same time (about 6-7 years) and are often first.",
+    "fix": "Change to: 'Lower central incisors and the first molars are the first permanent teeth to come in, at around 6 to 7 years of age.'"
+   },
+   {
+    "id": "body-of-sternum",
+    "severity": "minor",
+    "problem": "The common name 'Breastbone' refers to the whole sternum, but this object is only its body. The same common name would suit manubrium, body and xiphoid equally.",
+    "fix": "Change common to 'Main part of the breastbone'."
+   },
+   {
+    "id": "thyroid-cartilage",
+    "severity": "minor",
+    "problem": "The common name 'Adam's apple' strictly means only the laryngeal prominence, not the whole cartilage (the summary and facts say this correctly).",
+    "fix": "Change common to 'Adam's apple cartilage' or 'Voice box shield (Adam's apple)'."
+   },
+   {
+    "id": "nasal-cartilages",
+    "severity": "minor",
+    "problem": "'Its lateral processes shape the sides of the bridge' is inaccurate. The lateral processes (upper lateral cartilages) form the side walls of the middle third of the nose, below the bony bridge made by the nasal bones.",
+    "fix": "Change to: 'its lateral processes (upper lateral cartilages) form the sides of the middle part of the nose below the nasal bones'. Also mention that these are commonly called the upper lateral cartilages."
+   },
+   {
+    "id": "palatine-bone",
+    "severity": "minor",
+    "problem": "Redundant fact: 'Each bone is shaped like the letter L' repeats the summary ('A paired, L-shaped bone') and teaches nothing new.",
+    "fix": "Replace with a new fact, for example: 'Its small pyramidal process fits between the pterygoid plates of the sphenoid, and the lesser palatine foramina behind the greater one carry nerves to the soft palate.'"
+   },
+   {
+    "id": "floating-ribs",
+    "severity": "minor",
+    "problem": "The function field repeats the summary ('end in the muscles of the posterior abdominal wall'). The fact 'They are called floating because they have no connection to the sternum' also restates the summary. Together the entry is shallow.",
+    "fix": "Function: 'Protect the back of the kidneys and give attachment to the diaphragm, quadratus lumborum and abdominal wall muscles.' Replace the second fact with: 'The 12th rib lies over the upper pole of the kidney and pleura, a landmark in kidney surgery.'"
+   },
+   {
+    "id": "cricoid-cartilage",
+    "severity": "minor",
+    "problem": "The fact 'It is the only cartilage that fully encircles the airway' repeats the summary sentence almost word for word.",
+    "fix": "Replace with: 'In an emergency, the membrane between the thyroid and cricoid cartilages is the site for a cricothyrotomy to open an airway.'"
+   },
+   {
+    "id": "frontal-sinus-sphenoid-sinus",
+    "severity": "minor",
+    "problem": "One entry combines two anatomically distinct sinuses in different bones. Clicking either model object shows mixed content, and the location text has to cover two unrelated places. The development ages also need care: frontal sinuses usually appear on X-ray around 6-8 years; sphenoidal pneumatisation starts around 3 years.",
+    "fix": "Split into two entries, 'frontal-sinus' (match: 'Sinus of frontal bone') and 'sphenoidal-sinus' (match: 'Sinus of sphenoid bone'), each with its own location and facts. Otherwise, phrase the ages as 'the sphenoidal sinus starts to form around age 3 and the frontal sinus becomes visible on X-ray around age 6-8'."
+   },
+   {
+    "id": "sources-general",
+    "severity": "minor",
+    "problem": "About half of all citations are Wikipedia, which is not on the trusted-source list. Several entries have only one trusted source paired with Wikipedia (for example ethmoid, nasal, lacrimal, palatine, inferior concha, vomer, and all the teeth). One TeachMeAnatomy URL (bones-of-the-hand-carpals-metacarpals-and-phalanges) now redirects to /upper-limb/bones/hand/. All URLs returned HTTP 200 with the correct page titles.",
+    "fix": "Where possible, swap Wikipedia links for Kenhub, TeachMeAnatomy, StatPearls or Radiopaedia pages on the same bone (for example teachmeanatomy.info/head/osteology/sphenoid-bone/, kenhub.com/en/library/anatomy/ethmoid-bone, radiopaedia.org/articles/vomer). Update the hand URL to https://teachmeanatomy.info/upper-limb/bones/hand/."
+   }
+  ],
+  "missingImportant": [
+   "No object in the model is left without an entry. A Python check confirmed that all 271 names in names/skeleton.txt are used in 'match' and that every match string exists exactly, including all .l/.r pairs. None are missing.",
+   "The only structural gap is that frontal and sphenoidal sinuses share one entry; consider splitting them (see issue frontal-sinus-sphenoid-sinus).",
+   "Content-level gaps, since these structures are not in the model: the text could note that third molars (wisdom teeth), the maxillary and ethmoidal sinuses, the epiglottis and the intervertebral discs are not shown. The molars and sinuses entries already do this well."
+  ],
+  "notes": "I reviewed all 59 structures. Overall accuracy is high: most numbers, eponymous fractures, articulation counts and etymologies checked out, and the level suits an educated adult. The claims I confirmed as correct include: the vomer's 6 articulations, the zygomatic's 4, 17 muscles on the scapula, 23 on the femur, femur length at 26.7% of height, hyoid at C3, cricoid at C6, sternal angle at rib 2, xiphoid ossifying around 40, the clavicle's ossification timing, the metatarsal length order, the 27 bones of the hand, and the Jones, Bennett, Colles and Monteggia fracture descriptions. The factual errors that need fixing are the sphenoid etymology, false ribs being defined as 8-10 instead of 8-12, the incomplete flail chest definition, the understated cervical rib prevalence, and the Wikipedia-only sourcing for axis-c2. I found no signs of copied text: the wording is paraphrased throughout. Files checked: C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\skeleton.json and C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\names\\skeleton.txt. Sources used for verification: StatPearls Cervical Rib (ncbi.nlm.nih.gov/books/NBK541001), StatPearls Flail Chest (NBK534090), etymonline/TeachMeAnatomy for the sphenoid, a PubMed systematic review of femoral neck-shaft angle (26305058), and PubMed 4416068 for the tenth rib."
+ },
+ "score r1": {
+  "score": 7,
+  "accuracy": 6,
+  "modelMatching": 10,
+  "levelAndClarity": 8,
+  "coverage": 9,
+  "sourcing": 6,
+  "mustFix": [
+   "sphenoid-bone: the etymology is wrong. Replace with: 'Its name comes from the Greek sphenoeides, meaning wedge-shaped, because it is wedged between the other skull-base bones; its outline is often compared to a butterfly.' (etymonline confirms sphen = wedge.) Add https://teachmeanatomy.info/head/osteology/sphenoid-bone/ in place of Wikipedia.",
+   "true-ribs: the cervical rib prevalence is too low. '1 in 200-500' (0.2-0.5%) should be about 0.5-1% of people (roughly 1 in 100-200), per StatPearls NBK541001. Also add 'tubercle' to the parts of a typical rib (head, neck, tubercle, body), because floating-ribs refers to it.",
+   "false-ribs: the flail chest fact is imprecise. Change to: 'three or more consecutive ribs each broken in two or more places, leaving a loose segment that moves the wrong way during breathing (flail chest)'. Cite StatPearls NBK534090.",
+   "axis-c2: both sources are Wikipedia. Replace with TeachMeAnatomy (cervical spine) and/or Radiopaedia (hangman fracture). Reword the hangman's fracture as bilateral fractures of the C2 pars interarticularis, usually from hyperextension (Radiopaedia).",
+   "false-ribs: soften the Japan-specific claim about the tenth rib to 'The tenth rib is fairly often floating as a normal variant'. Optionally add that some texts count ribs 8-12 as false ribs, with 11-12 as the floating subset. Both conventions exist (Kenhub uses 8-10 as vertebrochondral false ribs), so the current label is not an error.",
+   "overview: qualify the '20 percent of body weight' figure (bone alone is about 12-15%). Add the proximal femur and humerus to the adult red-marrow sites.",
+   "Reduce reliance on Wikipedia: give every entry at least one trusted source (Kenhub, TeachMeAnatomy, StatPearls, Radiopaedia). Update the redirected TeachMeAnatomy hand URL to /upper-limb/bones/hand/."
+  ],
+  "rationale": "I checked the names with Python after stripping the tab-separated group/material metadata from names/skeleton.txt. All 271 object names are matched exactly once across the 59 structures: none missing, no bad matches, no duplicates. That supports a modelMatching score of 10.\n\nSpot-checks against trusted sources:\n(1) Sphenoid etymology: etymonline says sphen means 'wedge'. The file's butterfly-based etymology is a real factual error.\n(2) Cervical rib prevalence: StatPearls gives 0.5-1%. The file's '1 in 200-500' understates it by about half. Real error.\n(3) Flail chest: StatPearls requires 3 or more consecutive ribs, each broken in at least 2 places. The file's 'multiple adjacent rib fractures' is incomplete and misleading.\n(4) Hangman's fracture: Radiopaedia describes bilateral pars interarticularis fractures. 'Both pedicles' is imprecise, though older texts do use it. The axis entry is also sourced only from Wikipedia.\n(5) Typical rib: TeachMeAnatomy confirms the tubercle is part of it, so the omission creates an inconsistency with the floating-ribs entry.\n(6) False ribs: Kenhub and TeachMeAnatomy both present ribs 8-10 as the false (vertebrochondral) ribs and note that some texts use 8-12. The reviewer's 'major' finding is overstated; the current label is an accepted convention.\n(7) Femoral neck-shaft angle: TeachMeAnatomy itself states about 135 degrees, which matches the file's own cited source. The reviewer's objection is minor at most and not a must-fix.\n(8) Floating ribs 11-12 ending in the abdominal musculature is confirmed.\n\nBeyond these checks, the content is well written and pitched at an appropriate level, with good coverage. Because there are confirmed factual errors (sphenoid etymology, cervical rib prevalence, and to a lesser degree flail chest), the overall score is capped at 7. Sourcing is weakened by heavy Wikipedia use and one entry sourced only from Wikipedia.\n\nFiles reviewed: C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\skeleton.json and C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\names\\skeleton.txt.\n\nSources used for verification:\n- https://www.etymonline.com/word/sphenoid\n- https://www.ncbi.nlm.nih.gov/sites/books/NBK541001/\n- https://www.ncbi.nlm.nih.gov/sites/books/NBK534090/\n- https://radiopaedia.org/articles/hangman-fracture\n- https://teachmeanatomy.info/thorax/bones/ribcage/\n- https://teachmeanatomy.info/lower-limb/bones/femur/\n- https://www.kenhub.com/en/library/anatomy/false-ribs"
+ }
+}

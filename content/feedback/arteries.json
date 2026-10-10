@@ -1,0 +1,245 @@
+{
+ "review r1": {
+  "issues": [
+   {
+    "id": "overview",
+    "severity": "minor",
+    "problem": "The overview says the aorta is about 2.5 cm wide at its widest. The ascending-aorta entry says roughly 3 cm across. TeachMeAnatomy gives 2.5 cm at the origin, and Cleveland Clinic says 'an inch in diameter at its widest point'. The overview fact about pulmonary arteries carrying oxygen-poor blood also appears again word for word in pulmonary-trunk.",
+    "fix": "Use one figure in both places, e.g. 'about 2.5-3 cm (1 inch) wide near the heart, narrowing to about 2 cm in the abdomen'. Change the ascending-aorta fact to 'about 2.5-3 cm'. Replace the repeated pulmonary fact in either the overview or pulmonary-trunk with a different fact."
+   },
+   {
+    "id": "ascending-aorta",
+    "severity": "minor",
+    "problem": "The summary says it is 'the widest part of the aorta' and the fact repeats that and the 5 cm length. The location 'directly behind the sternum in the middle of the chest' is loose. It starts behind the left half of the sternum at the level of the 3rd costal cartilage or intercostal space.",
+    "fix": "Location: 'Starts behind the left half of the sternum at the level of the third costal cartilage and rises up and to the right to the level of the second right sternocostal joint.' Replace the repeated size fact with a different one, e.g. 'Its root has three bulges, the aortic sinuses (of Valsalva).'"
+   },
+   {
+    "id": "aortic-arch",
+    "severity": "minor",
+    "problem": "Fact 1 repeats the three branches already given in the function field.",
+    "fix": "Replace it with, e.g., 'The ligamentum arteriosum links the underside of the arch to the left pulmonary artery, and the left recurrent laryngeal nerve hooks beneath the arch here.'"
+   },
+   {
+    "id": "thoracic-aorta",
+    "severity": "minor",
+    "problem": "The location says it lies on the 'left front side of the thoracic vertebrae' for its whole length. In fact it starts to the left of the vertebral bodies and moves toward the midline as it descends. The model has its branches (Posterior intercostal arteries.l/.r, Subcostal artery.l/.r, Superior phrenic arteries), but no entry matches them.",
+    "fix": "Location: 'begins on the left side of T4 and gradually moves to the midline in front of the vertebral bodies by T12'. Add a 'posterior-intercostal-arteries' entry matching Posterior intercostal arteries.l/.r, Subcostal artery.l/.r, First posterior intercostal artery.l/.r (and second) and Supreme intercostal artery.l/.r."
+   },
+   {
+    "id": "abdominal-aorta",
+    "severity": "minor",
+    "problem": "The function field says 'phrenic' when it means the inferior phrenic arteries. The model has Inferior phrenic artery, Lumbar arteries.l/.r and Median sacral artery, but nothing matches them.",
+    "fix": "Change 'phrenic' to 'inferior phrenic'. Add those objects to a new 'abdominal-aorta-branches' entry, or add them to the abdominal-aorta match list if the app highlights them together."
+   },
+   {
+    "id": "common-carotid-artery",
+    "severity": "minor",
+    "problem": "'The standard pulse check during CPR' is too broad. Current guidance tells lay rescuers not to check for a pulse. The carotid is the pulse that healthcare providers check in adults.",
+    "fix": "'Healthcare providers check the carotid pulse, felt beside the windpipe, when assessing an unresponsive adult.'"
+   },
+   {
+    "id": "internal-carotid-artery",
+    "severity": "minor",
+    "problem": "Fact 1 ('gives no branches in the neck') repeats the summary. The model has Ophthalmic artery.l/.r and its sub-branches (Central retinal artery, Lacrimal, Supra-orbital, Supratrochlear, Anterior/Posterior ethmoidal, Long/Short posterior ciliary arteries), but nothing matches them.",
+    "fix": "Replace fact 1 with 'Its ophthalmic branch gives off the central retinal artery; blockage of that artery causes sudden painless loss of vision in one eye.' Add an 'ophthalmic-artery' entry matching Ophthalmic artery.l/.r plus its children."
+   },
+   {
+    "id": "external-carotid-artery",
+    "severity": "major",
+    "problem": "The model has five named ECA branches (Facial, Maxillary, Superficial temporal, Occipital, Ascending pharyngeal .l/.r), plus Middle meningeal, Inferior alveolar and others under Maxillary. None are matched. The scalp-bleeding explanation is incomplete: scalp wounds bleed mainly because dense connective tissue holds the cut vessels open, not just because branches interconnect. The entry also lists eight branches when only five exist in the model, so users look for vessels that are not there.",
+    "fix": "Add entries for facial-artery (Facial artery.l/.r plus Superior/Inferior labial, Angular, Submental), superficial-temporal-artery (plus Frontal branch, Transverse facial), maxillary-artery (Maxillary artery.l/.r plus Middle meningeal, Inferior alveolar, Descending palatine, Infra-orbital, Buccal, Deep temporal, Sphenopalatine branches) and occipital-artery. Middle meningeal deserves a mention because of epidural haematoma. Reword the scalp fact to: 'Scalp wounds bleed heavily because the rich arterial network is held open by dense connective tissue and cannot constrict easily.'"
+   },
+   {
+    "id": "subclavian-artery",
+    "severity": "major",
+    "problem": "The function field names the internal thoracic, thyrocervical and costocervical branches. All exist as objects (Internal thoracic artery.l/.r, Thyrocervical trunk.l/.r with Inferior thyroid, Suprascapular and Transverse cervical; Costocervical trunk.l/.r with Deep cervical and Supreme intercostal), but none are matched to any structure.",
+    "fix": "Add an 'internal-thoracic-artery' entry (common name: internal mammary artery; used in CABG) matching Internal thoracic artery.l/.r, Superior epigastric artery and Musculophrenic artery. Add 'thyrocervical-trunk' and 'costocervical-trunk' entries matching their child objects."
+   },
+   {
+    "id": "vertebral-artery",
+    "severity": "minor",
+    "problem": "The PICA fact is correct, but Posterior inferior cerebellar artery.l/.r exist in the model and are not matched. Anterior spinal artery.l/.r are also unmatched.",
+    "fix": "Add a 'cerebellar-arteries' entry matching PICA, AICA (Anterior inferior cerebellar artery.l/.r) and SCA (Superior cerebellar artery.l/.r). Add Anterior spinal artery.l/.r as their own entry or under vertebral-artery."
+   },
+   {
+    "id": "axillary-artery",
+    "severity": "minor",
+    "problem": "The common name 'Armpit artery' is not a widely used term. The subscapular, thoraco-acromial, lateral thoracic, circumflex humeral, thoracodorsal and circumflex scapular arteries are all in the model but unmatched.",
+    "fix": "Use common name 'Axillary (armpit) artery'. Add a 'subscapular-artery' entry matching Subscapular artery.l/.r, Thoracodorsal and Circumflex scapular, or add these branches to the axillary match."
+   },
+   {
+    "id": "brachial-artery",
+    "severity": "minor",
+    "problem": "The deep brachial artery is named in the function field and exists as an object (Deep brachial artery.l/.r, with Radial collateral and Middle collateral), but it is not matched. Superior and Inferior ulnar collateral are also unmatched.",
+    "fix": "Add a 'deep-brachial-artery' entry (common name: profunda brachii) with these objects, or add them to the brachial match list."
+   },
+   {
+    "id": "radial-artery",
+    "severity": "minor",
+    "problem": "The common name 'Wrist pulse artery' is invented and not a widely used term. The model's Deep palmar arch.l/.r, Palmar metacarpal arteries and Palmar carpal branch are not matched.",
+    "fix": "Common name: 'Radial artery (wrist pulse)' or 'Thumb-side forearm artery'. Add a 'palmar-arches' entry matching Superficial palmar arch.l/.r, Deep palmar arch.l/.r, Common palmar digital, Proper palmar digital and Palmar metacarpal arteries."
+   },
+   {
+    "id": "ulnar-artery",
+    "severity": "minor",
+    "problem": "'Larger terminal branch' is correct per TeachMeAnatomy, but the cited Kenhub page does not state it. Common interosseous artery.l/.r (with Posterior interosseous and Recurrent interosseous) and Dorsal carpal branch are unmatched.",
+    "fix": "Add a TeachMeAnatomy ulnar source or drop the size claim. Add the interosseous objects as a sub-entry or to the ulnar match list."
+   },
+   {
+    "id": "basilar-artery",
+    "severity": "minor",
+    "problem": "Fact 1 ('formed by the union of the vertebral arteries') repeats the summary. The model has AICA, SCA and Medial/Lateral pontine branches in the Basilar artery group, and none are matched.",
+    "fix": "Replace fact 1 with, e.g., 'Its labyrinthine branch supplies the inner ear, so basilar strokes can cause sudden deafness.' Match the cerebellar and pontine branch objects (see vertebral-artery)."
+   },
+   {
+    "id": "anterior-cerebral-artery",
+    "severity": "major",
+    "problem": "Pericallosal artery.l/.r, Callosomarginal artery.l/.r (with frontal branches) and Orbitofrontal branches are separate objects in the model. The entry names the pericallosal and callosomarginal arteries in a fact but does not match them, so clicking those vessels will not open ACA content.",
+    "fix": "Add Pericallosal artery.l/.r, Callosomarginal artery.l/.r, Frontal branches of callosomarginal artery.l/.r and Orbitofrontal branches of anterior cerebral artery.l/.r to the match list."
+   },
+   {
+    "id": "middle-cerebral-artery",
+    "severity": "major",
+    "problem": "The match list has only M1, M2 and M3. The model also has Proximal and Distal lateral striate branches (the lenticulostriates named in the function field), Prefrontal and Lateral frontobasal arteries, Artery of central sulcus, Artery of precentral sulcus, Postcentral branch, Branch to angular gyrus, Posterior parietal, Temporal branches, Temporo-occipital branch and Parietal branches. None are matched. Fact 1 repeats the summary's 'largest territory' claim.",
+    "fix": "Add all of these objects (.l/.r) to the match list. Replace fact 1 with 'Rupture of the lenticulostriate branches is a classic cause of hypertensive brain haemorrhage.'"
+   },
+   {
+    "id": "posterior-cerebral-artery",
+    "severity": "minor",
+    "problem": "The model's Medial occipital, Lateral occipital and Parieto-occipital arteries are unmatched. The 13-15% fetal PCA figure matches Radiopaedia (unilateral), but the text should say it is usually on one side.",
+    "fix": "Add Medial occipital artery, Lateral occipital artery and Parieto-occipital artery (.l/.r) to the match list. Fact: 'In about 13-15% of people, one posterior cerebral artery is fed mainly by the internal carotid (a fetal-type PCA).'"
+   },
+   {
+    "id": "left-coronary-artery",
+    "severity": "major",
+    "problem": "Circumflex artery of heart exists in the model with no entry at all, although it is one of the three main coronary arteries. The 'drinking straw' comparison is vague: a standard straw is about 6 mm wide, so 3-4 mm is roughly half a straw's width, not 'slightly narrower'.",
+    "fix": "Add a 'circumflex-artery' entry (medical: Circumflex branch of left coronary artery; common: Left circumflex artery (LCx)). It runs in the left atrioventricular groove, supplies the lateral and posterior left ventricle and the left atrium, and gives obtuse marginal branches. Change the straw fact to 'about 3-4 mm wide, roughly the width of a cooked spaghetti strand' or drop the comparison."
+   },
+   {
+    "id": "right-coronary-artery",
+    "severity": "minor",
+    "problem": "The model's 'Right inferolateral branch of right coronary artery' is unmatched.",
+    "fix": "Add it to the right-coronary-artery match list."
+   },
+   {
+    "id": "coeliac-trunk",
+    "severity": "major",
+    "problem": "Common hepatic artery, Proper hepatic artery, Gastroduodenal artery, Left gastric artery and Splenic artery are all separate objects, and none are matched. The entry only highlights a 1-2 cm stub.",
+    "fix": "Add a 'splenic-artery' entry (tortuous course along the pancreas, supplies the spleen and pancreas), a 'hepatic-arteries' entry (Common hepatic, Proper hepatic, Gastroduodenal) and a 'left-gastric-artery' entry, or add all of them to the coeliac match list."
+   },
+   {
+    "id": "superior-mesenteric-artery",
+    "severity": "major",
+    "problem": "The summary says the SMA passes 'over the duodenum', which is vague. It crosses in front of the uncinate process and the third part of the duodenum. The model has Ileocolic artery (with appendicular, colic and ileal branches), Middle colic, Right colic, Inferior pancreaticoduodenal (and anterior) and Marginal artery, and none are matched, although the 'MRI' mnemonic names them.",
+    "fix": "Summary: 'descends behind the neck of the pancreas, then crosses in front of the uncinate process and the third part of the duodenum into the root of the mesentery.' Add these branch objects to the match list, or create 'colic-arteries' and 'marginal-artery' entries. Appendicular artery is relevant to appendicitis."
+   },
+   {
+    "id": "inferior-mesenteric-artery",
+    "severity": "minor",
+    "problem": "Left colic artery (ascending and descending branches), Sigmoid arteries and Superior anorectal artery exist in the model and are unmatched. The Marginal artery object is named in a fact but not matched.",
+    "fix": "Add them to the match list, or give Marginal artery its own entry."
+   },
+   {
+    "id": "renal-artery",
+    "severity": "minor",
+    "problem": "The model has Anterior branch of renal artery.l/.r, Posterior branch of renal artery.l/.r, Intrarenal arteries of left kidney, Intrarenal arteries of right kidney and Inferior suprarenal artery.l/.r, and none are matched.",
+    "fix": "Add them to the match list so the whole renal tree highlights."
+   },
+   {
+    "id": "common-iliac-artery",
+    "severity": "minor",
+    "problem": "The common name 'Iliac artery' is ambiguous because there are three iliac arteries. The internal iliac artery is in the model (Internal iliac artery.l/.r, Anterior and Posterior division, Superior and Inferior gluteal, Obturator, Internal pudendal, Iliolumbar) but has no entry. It is the main pelvic artery.",
+    "fix": "Common name: 'Common iliac artery (main pelvic artery)'. Add an 'internal-iliac-artery' entry that supplies the pelvic organs, perineum, buttock and medial thigh, matching all those objects."
+   },
+   {
+    "id": "external-iliac-artery",
+    "severity": "minor",
+    "problem": "The location says it runs 'to the midpoint of the inguinal ligament'. The artery passes under the mid-inguinal point, halfway between the ASIS and the pubic symphysis. The midpoint of the ligament itself is a different landmark, closer to the deep inguinal ring. This also contradicts the femoral-artery location. Inferior epigastric artery is named in the function field but not matched.",
+    "fix": "Change to 'to the mid-inguinal point (halfway between the ASIS and the pubic symphysis)'. Add Inferior epigastric artery to the match list."
+   },
+   {
+    "id": "femoral-artery",
+    "severity": "major",
+    "problem": "Deep femoral artery.l/.r (with Perforating femoral arteries), Lateral circumflex femoral (and its descending branch), Medial circumflex femoral and Superficial epigastric are in the model and unmatched. The deep femoral is named as the largest branch but cannot be clicked. The common name 'Thigh artery' is not an established term.",
+    "fix": "Add a 'deep-femoral-artery' entry (profunda femoris; circumflex femoral branches supply the femoral head, which matters in hip fractures) with these objects. Common name: 'Femoral artery (main thigh artery)'."
+   },
+   {
+    "id": "popliteal-artery",
+    "severity": "minor",
+    "problem": "'Its pulse is felt low in the popliteal fossa' is misleading. The pulse is felt deep in the centre of the fossa with the knee slightly bent, and it is notoriously hard to feel. The genicular arteries (Superior/Inferior medial/lateral, Middle genicular) and Patellar anastomosis are unmatched. 'Knee artery' is not a widely used term.",
+    "fix": "Fact: 'Its pulse is felt deep in the middle of the back of the knee with the knee slightly bent, and it is often hard to feel.' Add the genicular objects to the match list. Common name: 'Popliteal (back-of-knee) artery'."
+   },
+   {
+    "id": "anterior-tibial-artery",
+    "severity": "minor",
+    "problem": "The common name 'Front shin artery' is invented. Fact 2 repeats the summary. The artery passes above the upper border of the interosseous membrane, not through it.",
+    "fix": "Common name: 'Anterior tibial (front-of-leg) artery'. Summary and location: 'passes forward through the gap above the upper edge of the interosseous membrane'. Replace fact 2 with 'Swelling in the anterior compartment can compress it (anterior compartment syndrome).'"
+   },
+   {
+    "id": "posterior-tibial-artery",
+    "severity": "major",
+    "problem": "The common name 'Back shin artery' is invented and contradicts itself, since the shin is the front of the leg. The fibular (peroneal) artery, its largest branch, is in the model (Fibular artery.l/.r plus calcaneal branches) with no entry. The Medial and Lateral plantar arteries, Plantar arch and plantar metatarsal and digital arteries are also unmatched.",
+    "fix": "Common name: 'Posterior tibial (calf) artery'. Add a 'fibular-artery' entry (supplies the lateral compartment and fibula; used for fibula free flaps) and a 'plantar-arteries' entry matching Medial/Lateral plantar, Plantar arch, Plantar metatarsal, Common and Proper plantar digital arteries."
+   },
+   {
+    "id": "dorsalis-pedis-artery",
+    "severity": "minor",
+    "problem": "'A weak or absent pulse usually points to poor arterial flow' ignores that the dorsalis pedis pulse is congenitally absent or impalpable in roughly 2-12% of healthy people. The common name 'Top-of-foot artery' is not a standard term. Arcuate, Lateral tarsal, Deep plantar, Dorsal metatarsal and Dorsal digital arteries of the foot are unmatched. It runs lateral to the EHL tendon, and 'just beside' does not say which side.",
+    "fix": "Fact: 'A weak pulse can signal peripheral arterial disease, but in a few healthy people this pulse is naturally absent, so it is checked with the posterior tibial pulse.' Location: 'just lateral to the extensor hallucis longus tendon'. Common name: 'Dorsal foot (pedal pulse) artery'. Add the branch objects to the match list."
+   },
+   {
+    "id": "pulmonary-arteries",
+    "severity": "minor",
+    "problem": "The model contains Superior, Middle and Inferior lobar arteries of the right lung and all the segmental arteries of both lungs (Apical, Anterior, Posterior, Lingular, Basal and so on). The match list has only the two main vessels, so clicking a lobar or segmental branch gives nothing.",
+    "fix": "Add Superior lobar artery of right lung, Middle lobar artery of right lung, Inferior lobar artery of right lung and all '... segmental artery of left/right lung' and lingular objects to this match list, or create a 'lobar-segmental-pulmonary-arteries' entry."
+   },
+   {
+    "id": "model-names",
+    "severity": "minor",
+    "problem": "The model has objects called '?x.l' and '?x.r' (under Artery of pterygoid canal) with no real anatomical name. They cannot be labelled.",
+    "fix": "Rename them in the model (they are probably the pterygoid canal (Vidian) artery segment or a pharyngeal branch of the maxillary artery), or map them to maxillary-artery once identified."
+   }
+  ],
+  "missingImportant": [
+   "Circumflex artery of heart (LCx), a main coronary artery with no entry",
+   "Internal iliac artery with anterior/posterior divisions, superior/inferior gluteal, obturator, internal pudendal, iliolumbar",
+   "Deep femoral artery (profunda femoris) with medial/lateral circumflex femoral and perforating arteries",
+   "Fibular (peroneal) artery",
+   "Splenic, common hepatic, proper hepatic, gastroduodenal and left gastric arteries",
+   "Internal thoracic artery with superior epigastric and musculophrenic",
+   "Thyrocervical trunk (inferior thyroid, suprascapular, transverse cervical) and costocervical trunk",
+   "Facial, maxillary (incl. middle meningeal, inferior alveolar), superficial temporal, occipital and ascending pharyngeal arteries",
+   "Ophthalmic artery and central retinal artery",
+   "Cerebellar arteries: PICA, AICA, SCA; pontine branches; anterior spinal artery",
+   "Lenticulostriate (lateral striate) branches and cortical MCA branches; pericallosal/callosomarginal ACA branches",
+   "Superficial and deep palmar arches with digital arteries; plantar arch with medial/lateral plantar arteries",
+   "Posterior intercostal, subcostal, lumbar, inferior phrenic and median sacral arteries",
+   "Colic arteries (ileocolic, appendicular, right/middle/left colic, sigmoid, superior anorectal) and marginal artery",
+   "Genicular arteries, deep brachial artery, subscapular/thoracodorsal, common interosseous",
+   "Pulmonary lobar and segmental arteries",
+   "Inferior epigastric artery"
+  ],
+  "notes": "What was checked: all 36 entries against the 417 model objects in C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\names\\arteries.txt, using Python. Each line of that file has the form 'Name<TAB>[group: X]<TAB>[mat: Y]'.\n\nMatch names: every \"match\" name in C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\arteries.json exists in the model with the correct .l/.r suffix, so there are no broken mappings. The main weakness is coverage: about 210 of the 247 unique base names (L/R pairs counted once) are not matched to any entry, including most branch vessels.\n\nSources: I checked these against the sources and they are correct:\n- aorta segment lengths and vertebral levels (TeachMeAnatomy)\n- Cleveland Clinic aorta size and LAD claims\n- left main coronary 5-10 mm long, trifurcating in about 15%\n- fetal PCA 13-15% on one side\n- complete circle of Willis in 20-25%\n- right coronary dominance 70% and SA node supply 60%\n- right common iliac about 1 cm longer than the left\n- the subclavian 'VIT C and D' mnemonic\n- subscapular as the largest axillary branch\n\nAll the cited URLs I opened with WebFetch loaded, including the TeachMeAnatomy colon page and the Kenhub subclavian, axillary and ulnar pages. curl from the shell failed on every URL, apparently a sandbox network block, so any URL not opened with WebFetch was not confirmed working.\n\nCopying: no copied text was found; the wording is paraphrased.\n\nReading level: suitable for an educated adult. Several facts repeat their own summary (ascending aorta, arch, internal carotid, basilar, MCA, anterior tibial); those facts are listed individually in the issues.\n\nCommon names: several are invented rather than real terms ('Wrist pulse artery', 'Front shin artery', 'Back shin artery', 'Top-of-foot artery', 'Knee artery', 'Armpit artery', 'Thigh artery').\n\nNo dangerous factual errors were found. The substantive corrections are:\n- external iliac: 'midpoint of the inguinal ligament' should be 'mid-inguinal point'\n- anterior tibial: passes above the interosseous membrane, not through it\n- dorsalis pedis: an absent pulse can be normal\n- popliteal pulse: felt deep in the centre of the fossa, not 'low'\n- aorta width: 2.5 cm in the overview versus 3 cm in the ascending-aorta entry\n- SMA: 'over the duodenum' should say it crosses the uncinate process and third part of the duodenum"
+ },
+ "score r1": {
+  "score": 6,
+  "accuracy": 7,
+  "modelMatching": 4,
+  "levelAndClarity": 7,
+  "coverage": 4,
+  "sourcing": 8,
+  "mustFix": [
+   "external-iliac-artery location: change 'to the midpoint of the inguinal ligament' to 'to the mid-inguinal point (halfway between the ASIS and the pubic symphysis)'. This matches TeachMeAnatomy and the femoral-artery entry. This is the one real factual error.",
+   "Aorta size: overview says about 2.5 cm at its widest, ascending-aorta fact says about 3 cm. TeachMeAnatomy gives about 2.5 cm at the origin. Use one figure in both places (e.g. 'about 2.5-3 cm').",
+   "Add a 'circumflex-artery' entry matching 'Circumflex artery of heart'. It exists in the model under Left coronary artery and is one of the three main coronary arteries.",
+   "Add entries for the major unmatched named vessels: internal iliac (with its divisions, gluteal, obturator, internal pudendal), deep femoral (with circumflex femoral and perforating arteries), fibular, splenic, common and proper hepatic, gastroduodenal, left gastric, internal thoracic, thyrocervical and costocervical trunks, facial, maxillary (with middle meningeal), superficial temporal, occipital, ophthalmic, posterior intercostal, lumbar and inferior phrenic, palmar and plantar arches. Only 64 of 417 model objects are matched now.",
+   "Add the unmatched branch objects of existing entries to their match lists: ACA (Pericallosal, Callosomarginal and its frontal branches, Orbitofrontal), MCA (Proximal and Distal lateral striate branches and the cortical branches), PCA (Medial and Lateral occipital, Parieto-occipital), SMA (Ileocolic, Middle and Right colic, Marginal artery), IMA (Left colic, Sigmoid, Superior anorectal), renal branches, right inferolateral branch of the RCA, pulmonary lobar and segmental arteries, genicular arteries. Clicking these vessels currently shows no content.",
+   "dorsalis-pedis fact: say that the pulse is congenitally absent or impalpable in a small share of healthy people (about 2-10% across studies). As written, 'usually points to poor arterial flow' could mislead.",
+   "common-carotid fact: replace 'standard pulse check during CPR' with 'healthcare providers check the carotid pulse in an unresponsive adult'. Current guidance tells lay rescuers not to check a pulse.",
+   "Replace invented common names with real terms or descriptive glosses: 'Wrist pulse artery', 'Front shin artery', 'Back shin artery' (this one is self-contradictory), 'Top-of-foot artery', 'Knee artery', 'Armpit artery', 'Thigh artery', 'Iliac artery' (ambiguous).",
+   "Replace facts that repeat their own summary or function field: ascending-aorta size, aortic-arch branches, internal-carotid 'no branches in neck', basilar formation, MCA 'largest territory', anterior-tibial membrane fact. Also remove the duplicated pulmonary 'only oxygen-poor arteries' fact, which appears in both the overview and pulmonary-trunk.",
+   "popliteal fact: say the pulse is felt deep in the centre of the fossa with the knee slightly flexed and is often hard to feel, not 'low'. Tighten the ascending-aorta location (starts behind the left half of the sternum at the 3rd costal cartilage) and the SMA summary (crosses in front of the uncinate process and the third part of the duodenum)."
+  ],
+  "rationale": "Match names: I checked every name with Python. All 64 match names across the 35 structures (the reviewer said 36) exist exactly in names/arteries.txt, so there are no broken mappings. But 353 of the 417 objects (about 201 base names) are unmatched. That includes 'Circumflex artery of heart', a main coronary artery, and almost every named branch vessel. modelMatching and coverage are therefore low.\n\nSpot checks (10), all against the cited sources:\n- TeachMeAnatomy aorta: ascending aorta about 5 cm long and about 2.5 cm wide at the origin; thoracic aorta moves toward the midline as it descends; abdominal aorta about 13 cm, bifurcating at L4. The segment content is correct, but the 3 cm figure is inconsistent with the overview's 2.5 cm.\n- TeachMeAnatomy lower limb: femoral artery begins at the mid-inguinal point. This confirms that the external-iliac text 'midpoint of the inguinal ligament' is a real error and contradicts the femoral entry.\n- Same page: dorsalis pedis lies lateral to the EHL tendon; the popliteal is the hardest pulse to find, felt deep with the knee flexed.\n- Same page: the anterior tibial passes 'through a gap in the interosseous membrane'. The content matches its cited source, so the reviewer's 'above, not through' point is a textbook nuance, not an error.\n- Radiopaedia left main: 5-10 mm long, trifurcation in about 15%. Correct.\n- Radiopaedia RCA: 70% right dominant, SA node supply in 60%. Correct.\n- Radiopaedia circle of Willis: complete in 20-25%. Correct.\n- Radiopaedia PCA: fetal PCA unilateral in 13-15%, bilateral in 0.5%. Correct, and the text already says 'one'.\n- Cleveland Clinic coronary arteries: '3-4 mm, a little smaller than a drinking straw'. The straw comparison is faithful to its source, so the reviewer's 'major' rating on it is overstated.\n- Kenhub via search: accessory renal arteries in about 30%. Correct.\n- Search: dorsalis pedis pulse absent in about 2-10% of healthy people, which supports adding that caveat.\n\nAccuracy: the one real factual error (the external-iliac landmark) caps accuracy and the overall score at 7. Several imprecisions add to that: the aorta width inconsistency, the CPR pulse-check wording, the 'low' popliteal pulse, the loose ascending-aorta location and 'over the duodenum'.\n\nClarity: reading level suits students, but repeated facts and invented common names lower clarity.\n\nSourcing: reputable sources (TeachMeAnatomy, Kenhub, Radiopaedia, Cleveland Clinic), and the checked claims trace to them.\n\nOverall 6: accurate and well sourced in most places, but not publishable at 9+ until the landmark error and inconsistencies are fixed and model coverage is greatly expanded."
+ }
+}

@@ -1,0 +1,1649 @@
+{
+  "layer": "arteries",
+  "overview": {
+    "title": "Arteries",
+    "summary": "Arteries are the thick-walled, elastic and muscular vessels that carry blood away from the heart under high pressure. In the systemic circulation they start at the aorta, the body's largest artery, and branch repeatedly to reach every organ; the separate pulmonary circulation starts at the pulmonary trunk.",
+    "function": "Deliver oxygen- and nutrient-rich blood from the left ventricle to all body tissues; the separate pulmonary arteries take blood from the right ventricle to the lungs to pick up oxygen.",
+    "facts": [
+      "The aorta is more than 30 cm (1 foot) long; it is about 2.5-3 cm (1 inch) wide near the heart and narrows to about 2 cm in the abdomen.",
+      "Artery walls have three layers, and the large arteries near the heart are rich in elastic tissue, so they stretch with each heartbeat and recoil to keep blood moving between beats."
+    ],
+    "sources": [
+      "https://my.clevelandclinic.org/health/body/17058-aorta-anatomy",
+      "https://teachmeanatomy.info/abdomen/vasculature/arteries/aorta/",
+      "https://my.clevelandclinic.org/health/body/21486-pulmonary-arteries"
+    ]
+  },
+  "structures": [
+    {
+      "id": "ascending-aorta",
+      "medical": "Ascending aorta",
+      "common": "Ascending aorta",
+      "category": "Aorta",
+      "match": [
+        "Ascending aorta"
+      ],
+      "summary": "The ascending aorta is the first segment of the aorta, rising from the left ventricle of the heart. It is roughly 5 cm long and sits inside the pericardial sac beside the pulmonary trunk.",
+      "function": "Receives oxygen-rich blood pumped out of the left ventricle and passes it on to the aortic arch; its only branches are the two coronary arteries that feed the heart muscle.",
+      "location": "Starts behind the left half of the sternum at the level of the third costal cartilage and rises up and to the right to the level of the second right sternocostal joint.",
+      "facts": [
+        "It is about 2.5-3 cm (1 inch) wide, the widest part of the aorta.",
+        "Its root has three bulges, the aortic sinuses (of Valsalva); the right and left coronary arteries arise from two of them just above the aortic valve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/vasculature/arteries/aorta/",
+        "https://www.kenhub.com/en/library/anatomy/aorta",
+        "https://my.clevelandclinic.org/health/body/17058-aorta-anatomy"
+      ]
+    },
+    {
+      "id": "aortic-arch",
+      "medical": "Arch of aorta",
+      "common": "Aortic arch",
+      "category": "Aorta",
+      "match": [
+        "Aortic arch"
+      ],
+      "summary": "The aortic arch is the curved segment that links the ascending aorta to the descending aorta. It bends upward, backward and to the left, giving the whole aorta its walking-cane shape.",
+      "function": "Sends blood up to the head, neck and arms through its three large branches: the brachiocephalic trunk, the left common carotid artery and the left subclavian artery.",
+      "location": "Sits in the superior mediastinum behind the manubrium of the sternum, starting near the second sternocostal joint and ending at the level of the T4 vertebra.",
+      "facts": [
+        "The ligamentum arteriosum links the underside of the arch to the left pulmonary artery, and the left recurrent laryngeal nerve hooks beneath the arch here.",
+        "Coarctation of the aorta, a congenital narrowing, typically occurs near where the ligamentum arteriosum attaches just beyond the arch."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/vasculature/arteries/aorta/",
+        "https://www.kenhub.com/en/library/anatomy/aorta",
+        "https://my.clevelandclinic.org/health/body/17058-aorta-anatomy"
+      ]
+    },
+    {
+      "id": "thoracic-aorta",
+      "medical": "Thoracic aorta",
+      "common": "Descending aorta in the chest",
+      "category": "Aorta",
+      "match": [
+        "Thoracic aorta",
+        "Superior phrenic arteries"
+      ],
+      "summary": "The thoracic (descending) aorta continues the arch down through the back of the chest, from T4 to the diaphragm. Its small superior phrenic branches to the top of the diaphragm are highlighted with it.",
+      "function": "Supplies the chest wall and chest organs through intercostal, bronchial, oesophageal, pericardial, mediastinal and superior phrenic branches, then carries the remaining flow into the abdomen.",
+      "location": "Runs down the posterior mediastinum; it begins on the left side of the T4 vertebra and gradually moves to the midline in front of the vertebral bodies by T12, where it passes through the aortic hiatus of the diaphragm.",
+      "facts": [
+        "It leaves the chest through the aortic hiatus of the diaphragm at the level of the T12 vertebra.",
+        "Its paired posterior intercostal arteries run along the spaces between the ribs."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/vasculature/arteries/aorta/",
+        "https://www.kenhub.com/en/library/anatomy/aorta",
+        "https://my.clevelandclinic.org/health/body/17058-aorta-anatomy"
+      ]
+    },
+    {
+      "id": "posterior-intercostal-arteries",
+      "medical": "Posterior intercostal and subcostal arteries",
+      "common": "Rib (intercostal) arteries",
+      "category": "Aorta",
+      "match": [
+        "Posterior intercostal arteries.l",
+        "Posterior intercostal arteries.r",
+        "First posterior intercostal artery.l",
+        "First posterior intercostal artery.r",
+        "Second posterior intercostal artery.l",
+        "Second posterior intercostal artery.r",
+        "Subcostal artery.l",
+        "Subcostal artery.r"
+      ],
+      "summary": "The posterior intercostal arteries run along the spaces between the ribs. The first two on each side come from the supreme intercostal artery (costocervical trunk); the rest arise from the back of the thoracic aorta, and the subcostal artery runs below the 12th rib.",
+      "function": "Supply the muscles and skin of the chest wall, the ribs and, through spinal branches, the vertebrae and spinal cord.",
+      "location": "Each runs in the groove on the lower edge of a rib, between the vein above and the nerve below, from the vertebral column around toward the front of the chest.",
+      "facts": [
+        "The vein-artery-nerve order (VAN) in the rib groove is why chest drains are placed just above a rib, not below it.",
+        "They join the anterior intercostal branches of the internal thoracic artery, forming a ring of blood supply around the chest wall."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/vasculature/arteries/aorta/",
+        "https://www.kenhub.com/en/library/anatomy/intercostal-arteries-and-veins",
+        "https://teachmeanatomy.info/thorax/vasculature/overview/"
+      ]
+    },
+    {
+      "id": "abdominal-aorta",
+      "medical": "Abdominal aorta",
+      "common": "Abdominal aorta",
+      "category": "Aorta",
+      "match": [
+        "Abdominal aorta"
+      ],
+      "summary": "The abdominal aorta is the last part of the aorta, running about 13 cm from the diaphragm to the lower lumbar spine. It lies just in front of the vertebral bodies and ends by splitting into the two common iliac arteries.",
+      "function": "Supplies the abdominal organs and walls through the inferior phrenic, coeliac trunk, superior and inferior mesenteric, suprarenal, renal, lumbar and median sacral arteries, and feeds the pelvis and legs via the iliac arteries.",
+      "location": "Lies on the front of the lumbar vertebrae slightly left of the midline, from the aortic hiatus at T12 to its bifurcation at the level of L4.",
+      "facts": [
+        "It divides into the right and left common iliac arteries at the level of the L4 vertebra.",
+        "Abdominal aortic aneurysms most often develop in the segment below the renal arteries."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/vasculature/arteries/aorta/",
+        "https://www.kenhub.com/en/library/anatomy/aorta",
+        "https://my.clevelandclinic.org/health/body/17058-aorta-anatomy"
+      ]
+    },
+    {
+      "id": "abdominal-aorta-branches",
+      "medical": "Inferior phrenic, lumbar and median sacral arteries",
+      "common": "Abdominal wall branches of the aorta",
+      "category": "Aorta",
+      "match": [
+        "Inferior phrenic artery",
+        "Lumbar arteries.l",
+        "Lumbar arteries.r",
+        "Median sacral artery"
+      ],
+      "summary": "These are the parietal (body wall) branches of the abdominal aorta. The inferior phrenic arteries are its first branches, the paired lumbar arteries arise from its back, and the small median sacral artery leaves near its bifurcation.",
+      "function": "The inferior phrenic arteries supply the underside of the diaphragm and give branches to the adrenal glands; the lumbar arteries supply the back muscles, abdominal wall and spinal canal; the median sacral artery supplies the sacrum and coccyx.",
+      "location": "The inferior phrenic arteries arise just below the aortic hiatus at T12; four pairs of lumbar arteries run around the L1-L4 vertebral bodies; the median sacral artery runs down the front of the sacrum in the midline.",
+      "facts": [
+        "The median sacral artery is a remnant of the original continuation of the aorta, which in many animals carries on as the tail artery.",
+        "The inferior phrenic arteries give off the superior suprarenal arteries to the adrenal glands."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/vasculature/arteries/aorta/"
+      ]
+    },
+    {
+      "id": "brachiocephalic-trunk",
+      "medical": "Brachiocephalic trunk",
+      "common": "Brachiocephalic artery",
+      "category": "Aortic arch branches",
+      "match": [
+        "Brachiocephalic trunk"
+      ],
+      "summary": "The brachiocephalic trunk is the first and largest branch of the aortic arch. It is a short vessel, about 4-5 cm long, found only on the right side of the body.",
+      "function": "Carries blood toward the right arm and the right side of the head and neck by dividing into the right subclavian and right common carotid arteries.",
+      "location": "Rises from the aortic arch behind the manubrium and runs up and to the right, ending behind the right sternoclavicular joint.",
+      "facts": [
+        "There is no left brachiocephalic trunk; on the left the carotid and subclavian arteries come straight off the aortic arch.",
+        "It is the most common source of a small extra thyroid artery, the thyroid ima artery, found in only a few percent of adults."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/brachiocephalic-trunk",
+        "https://teachmeanatomy.info/abdomen/vasculature/arteries/aorta/"
+      ]
+    },
+    {
+      "id": "common-carotid-artery",
+      "medical": "Common carotid artery",
+      "common": "Common carotid artery (neck artery)",
+      "category": "Head and neck",
+      "match": [
+        "Left common carotid artery",
+        "Right common carotid artery"
+      ],
+      "summary": "The common carotid arteries are the main vessels running up each side of the neck. The right one branches from the brachiocephalic trunk while the left arises directly from the aortic arch.",
+      "function": "Deliver blood to the head and neck and divide into the internal carotid artery (mainly brain and eye) and the external carotid artery (face, scalp and neck).",
+      "location": "Run up the side of the neck beside the trachea and larynx inside the carotid sheath with the internal jugular vein and vagus nerve, dividing near the upper border of the thyroid cartilage (about C4).",
+      "facts": [
+        "Healthcare providers check the carotid pulse, felt beside the windpipe, when assessing an unresponsive adult; lay rescuers are taught not to check a pulse.",
+        "At the bifurcation, the carotid sinus senses blood pressure and the carotid body senses blood oxygen, carbon dioxide and pH."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/common-carotid-artery",
+        "https://teachmeanatomy.info/neck/vessels/arterial-supply/",
+        "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support"
+      ]
+    },
+    {
+      "id": "internal-carotid-artery",
+      "medical": "Internal carotid artery",
+      "common": "Internal carotid artery",
+      "category": "Head and neck",
+      "match": [
+        "Internal carotid artery.l",
+        "Internal carotid artery.r"
+      ],
+      "summary": "The internal carotid artery is one of the two terminal branches of the common carotid and a principal blood supply to the brain. It gives no branches in the neck, enters the skull through the carotid canal and ends by dividing into the anterior and middle cerebral arteries.",
+      "function": "Supplies most of the cerebral hemispheres and the eye (via the ophthalmic artery) and forms the front part of the circle of Willis.",
+      "location": "Ascends deep in the neck from the carotid bifurcation to the skull base, then winds through the temporal bone and cavernous sinus to the underside of the brain.",
+      "facts": [
+        "Narrowing at its origin (carotid stenosis) is a major cause of stroke and can be treated by carotid endarterectomy.",
+        "The brain is about 2% of body weight but receives around 15-20% of cardiac output, much of it via the internal carotids."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/internal-carotid-artery",
+        "https://teachmeanatomy.info/neck/vessels/arterial-supply/",
+        "https://www.asrs.org/patients/retinal-diseases/32/central-retinal-artery-occlusion"
+      ]
+    },
+    {
+      "id": "ophthalmic-artery",
+      "medical": "Ophthalmic artery",
+      "common": "Ophthalmic (eye) artery",
+      "category": "Head and neck",
+      "match": [
+        "Ophthalmic artery.l",
+        "Ophthalmic artery.r",
+        "Central retinal artery.l",
+        "Central retinal artery.r",
+        "Lacrimal artery.l",
+        "Lacrimal artery.r",
+        "Supra-orbital artery.l",
+        "Supra-orbital artery.r",
+        "Supratrochlear artery.l",
+        "Supratrochlear artery.r",
+        "Anterior ethmoidal artery.l",
+        "Anterior ethmoidal artery.r",
+        "Anterior septal branches of anterior ethmoidal artery.l",
+        "Anterior septal branches of anterior ethmoidal artery.r",
+        "Posterior ethmoidal artery.l",
+        "Posterior ethmoidal artery.r",
+        "Septal branches of posterior ethmoidal artery.l",
+        "Septal branches of posterior ethmoidal artery.r",
+        "Long posterior ciliary arteries.l",
+        "Long posterior ciliary arteries.r",
+        "Short posterior ciliary arteries.l",
+        "Short posterior ciliary arteries.r"
+      ],
+      "summary": "The ophthalmic artery is the first large branch of the internal carotid artery inside the skull. It enters the orbit with the optic nerve and branches to the eye, the orbit, the forehead and the nose.",
+      "function": "Supplies the eyeball (retina via the central retinal artery, choroid via the ciliary arteries), the tear gland, eye muscles, eyelids, forehead skin (supra-orbital and supratrochlear arteries) and the upper nasal cavity (ethmoidal arteries).",
+      "location": "Arises from the internal carotid artery just as it leaves the cavernous sinus, beside the anterior clinoid process, and passes through the optic canal into the orbit below the optic nerve.",
+      "facts": [
+        "Blockage of its central retinal branch causes sudden, painless loss of vision in one eye and is an eye emergency.",
+        "Its branches join those of the external carotid around the eye and nose, so it can carry collateral blood when the internal carotid is narrowed."
+      ],
+      "sources": [
+        "https://radiopaedia.org/articles/ophthalmic-artery",
+        "https://www.asrs.org/patients/retinal-diseases/32/central-retinal-artery-occlusion"
+      ]
+    },
+    {
+      "id": "external-carotid-artery",
+      "medical": "External carotid artery",
+      "common": "External carotid artery",
+      "category": "Head and neck",
+      "match": [
+        "External carotid artery.l",
+        "External carotid artery.r"
+      ],
+      "summary": "The external carotid artery is the other terminal branch of the common carotid artery. It climbs toward the ear, sending branches to the thyroid, tongue, throat, face and scalp, and ends inside the parotid gland.",
+      "function": "Provides the main blood supply to the face, scalp, jaws and front of the neck; it ends as the maxillary and superficial temporal arteries.",
+      "location": "Rises from the carotid bifurcation at about the upper border of the thyroid cartilage and passes up between the angle of the jaw and the ear into the parotid gland.",
+      "facts": [
+        "Textbooks list eight branches (superior thyroid, ascending pharyngeal, lingual, facial, occipital, posterior auricular, maxillary and superficial temporal); this model shows five of them: facial, maxillary, superficial temporal, occipital and ascending pharyngeal.",
+        "Scalp wounds bleed heavily because the rich arterial network is held open by dense connective tissue and cannot constrict easily."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/vessels/arterial/external-carotid-artery/",
+        "https://teachmeanatomy.info/neck/vessels/arterial-supply/",
+        "https://teachmeanatomy.info/head/areas/scalp/"
+      ]
+    },
+    {
+      "id": "facial-artery",
+      "medical": "Facial artery",
+      "common": "Facial artery",
+      "category": "Head and neck",
+      "match": [
+        "Facial artery.l",
+        "Facial artery.r",
+        "Submental artery.l",
+        "Submental artery.r",
+        "Inferior labial artery.l",
+        "Inferior labial artery.r",
+        "Superior labial artery.l",
+        "Superior labial artery.r",
+        "Angular artery.l",
+        "Angular artery.r"
+      ],
+      "summary": "The facial artery is a branch of the external carotid artery that hooks over the lower jaw and winds up across the face toward the inner corner of the eye.",
+      "function": "Supplies the submandibular gland, the chin (submental artery), the lips (superior and inferior labial arteries), the side of the nose and the cheek, ending as the angular artery.",
+      "location": "Passes deep to the digastric and stylohyoid muscles, curves over the body of the mandible at the front edge of the masseter, then runs up beside the mouth and nose to the medial corner of the eye.",
+      "facts": [
+        "Its pulse can be felt where it crosses the lower border of the jaw, just in front of the masseter muscle.",
+        "The labial arteries of both sides join to form a ring of arteries around the mouth, which is why lip cuts bleed so briskly."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/vessels/arterial/external-carotid-artery/",
+        "https://www.kenhub.com/en/library/anatomy/facial-artery"
+      ]
+    },
+    {
+      "id": "superficial-temporal-artery",
+      "medical": "Superficial temporal artery",
+      "common": "Temple artery",
+      "category": "Head and neck",
+      "match": [
+        "Superficial temporal artery.l",
+        "Superficial temporal artery.r",
+        "Frontal branch of superficial temporal artery.l",
+        "Frontal branch of superficial temporal artery.r",
+        "Transverse facial artery.l",
+        "Transverse facial artery.r"
+      ],
+      "summary": "The superficial temporal artery is the smaller terminal branch of the external carotid artery. It rises in front of the ear and splits into frontal and parietal branches over the side of the head.",
+      "function": "Supplies the parotid region, the side of the face (transverse facial artery), the outer ear, the forehead and the side of the scalp.",
+      "location": "Begins inside the parotid gland behind the neck of the mandible, crosses the zygomatic arch just in front of the ear and ends in the temple.",
+      "facts": [
+        "Its pulse is easy to feel just in front of the ear, above the jaw joint.",
+        "It is often inflamed in giant cell (temporal) arteritis, and a biopsy of it helps confirm this cause of headache and vision loss in older adults."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/vessels/arterial/external-carotid-artery/",
+        "https://www.kenhub.com/en/library/anatomy/superficial-temporal-artery"
+      ]
+    },
+    {
+      "id": "maxillary-artery",
+      "medical": "Maxillary artery",
+      "common": "Maxillary (deep face) artery",
+      "category": "Head and neck",
+      "match": [
+        "Maxillary artery.l",
+        "Maxillary artery.r",
+        "Inferior alveolar artery.l",
+        "Inferior alveolar artery.r",
+        "Mental branch of inferior alveolar artery.l",
+        "Mental branch of inferior alveolar artery.r",
+        "Mylohyoid branch of inferior alveolar artery.l",
+        "Mylohyoid branch of inferior alveolar artery.r",
+        "Anterior deep temporal artery.l",
+        "Anterior deep temporal artery.r",
+        "Posterior deep temporal artery.l",
+        "Posterior deep temporal artery.r",
+        "Buccal artery.l",
+        "Buccal artery.r",
+        "Posterior superior alveolar artery.l",
+        "Posterior superior alveolar artery.r",
+        "Infra-orbital artery.l",
+        "Infra-orbital artery.r",
+        "Descending palatine artery.l",
+        "Descending palatine artery.r",
+        "Greater palatine artery.l",
+        "Greater palatine artery.r",
+        "Artery of pterygoid canal.l",
+        "Artery of pterygoid canal.r",
+        "?x.l",
+        "?x.r",
+        "Posterior lateral nasal branches of sphenopalatine artery..l",
+        "Posterior lateral nasal branches of sphenopalatine artery..r",
+        "Posterior septal branches of sphenopalatine artery.l",
+        "Posterior septal branches of sphenopalatine artery.r"
+      ],
+      "summary": "The maxillary artery is the larger terminal branch of the external carotid artery. It runs forward deep to the jaw into the infratemporal and pterygopalatine fossae, giving many branches to the deep face.",
+      "function": "Supplies the teeth and jaws (alveolar arteries), the chewing muscles (deep temporal and buccal branches), the palate (descending and greater palatine arteries), the cheek below the eye (infra-orbital artery) and the nasal cavity (sphenopalatine branches); its middle meningeal branch supplies the dura and skull.",
+      "location": "Starts behind the neck of the mandible inside the parotid gland, passes forward past the lateral pterygoid muscle and ends in the pterygopalatine fossa behind the maxilla. The two unnamed small segments near the artery of the pterygoid canal in this model are shown as part of this artery.",
+      "facts": [
+        "Its sphenopalatine branches are the usual source of severe bleeding from the back of the nose (posterior epistaxis).",
+        "The inferior alveolar artery runs through the mandible with the nerve of the same name, supplying the lower teeth and emerging on the chin as the mental branch."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/vessels/arterial/external-carotid-artery/",
+        "https://www.kenhub.com/en/library/anatomy/maxillary-artery",
+        "https://pubmed.ncbi.nlm.nih.gov/30969580/"
+      ]
+    },
+    {
+      "id": "middle-meningeal-artery",
+      "medical": "Middle meningeal artery",
+      "common": "Middle meningeal artery",
+      "category": "Head and neck",
+      "match": [
+        "Middle meningeal artery.l",
+        "Middle meningeal artery.r",
+        "Accessory branch of middle meningeal artery.l",
+        "Accessory branch of middle meningeal artery.r"
+      ],
+      "summary": "The middle meningeal artery is a branch of the maxillary artery that enters the skull through the foramen spinosum. It runs between the skull bone and the dura mater, the outer covering of the brain.",
+      "function": "Supplies most of the dura mater and the inner surface of the skull bones; its accessory branch helps supply the trigeminal ganglion region and nearby dura.",
+      "location": "Rises from the maxillary artery behind the jaw, passes up through the foramen spinosum and divides into frontal and parietal branches that groove the inside of the skull; the frontal branch runs deep to the pterion on the side of the head.",
+      "facts": [
+        "A blow to the thin pterion region of the skull can tear it, causing an extradural (epidural) haematoma, a surgical emergency.",
+        "Blocking it with a catheter (embolisation) is now used to help treat recurring chronic subdural haematomas."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/encyclopaedia/m/middle-meningeal-artery/",
+        "https://radiopaedia.org/articles/middle-meningeal-artery"
+      ]
+    },
+    {
+      "id": "occipital-artery",
+      "medical": "Occipital artery",
+      "common": "Occipital (back-of-head) artery",
+      "category": "Head and neck",
+      "match": [
+        "Occipital artery.l",
+        "Occipital artery.r"
+      ],
+      "summary": "The occipital artery is a branch of the back of the external carotid artery. It runs up and back to the base of the skull and becomes superficial in the scalp at the back of the head.",
+      "function": "Supplies the back of the neck, the sternocleidomastoid muscle, the posterior scalp, the back of the ear and part of the dura.",
+      "location": "Leaves the external carotid about 2 cm above the bifurcation, runs deep to the posterior belly of the digastric, grooves the mastoid part of the temporal bone and emerges in the scalp near the greater occipital nerve.",
+      "facts": [
+        "It travels with the greater occipital nerve in the back of the scalp, an area targeted by nerve blocks for some headaches.",
+        "Neurosurgeons sometimes use it as a donor vessel to bypass blocked arteries at the back of the brain."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/vessels/arterial/external-carotid-artery/",
+        "https://www.kenhub.com/en/library/anatomy/occipital-artery"
+      ]
+    },
+    {
+      "id": "ascending-pharyngeal-artery",
+      "medical": "Ascending pharyngeal artery",
+      "common": "Ascending pharyngeal (throat) artery",
+      "category": "Head and neck",
+      "match": [
+        "Ascending pharyngeal artery.l",
+        "Ascending pharyngeal artery.r"
+      ],
+      "summary": "The ascending pharyngeal artery is the smallest branch of the external carotid artery. It climbs straight up beside the throat toward the skull base.",
+      "function": "Supplies the muscles of the pharynx, the soft palate, the tonsils, the auditory tube, the middle ear and part of the dura.",
+      "location": "Arises from the inner side of the external carotid near its start and ascends between the internal carotid artery and the side of the pharynx.",
+      "facts": [
+        "It is usually the first branch that comes off the inner (medial) side of the external carotid.",
+        "It can feed some tumours at the skull base, such as paragangliomas, so it is often studied before surgery or embolisation."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/vessels/arterial/external-carotid-artery/",
+        "https://www.kenhub.com/en/library/anatomy/ascending-pharyngeal-artery"
+      ]
+    },
+    {
+      "id": "subclavian-artery",
+      "medical": "Subclavian artery",
+      "common": "Subclavian artery",
+      "category": "Upper limb",
+      "match": [
+        "Left subclavian artery",
+        "Right subclavian artery"
+      ],
+      "summary": "The subclavian arteries run beneath the collarbones and are the main source of blood for the arms. The left arises directly from the aortic arch and the right from the brachiocephalic trunk.",
+      "function": "Supply the upper limbs and send branches to the brain (vertebral artery), front of the chest wall (internal thoracic artery), and neck and shoulder (thyrocervical and costocervical trunks); these branches have their own entries.",
+      "location": "Arch over the top of the lung behind the clavicle, passing behind the anterior scalene muscle; each becomes the axillary artery at the outer border of the first rib.",
+      "facts": [
+        "It is described in three parts: before, behind and beyond the anterior scalene muscle.",
+        "Its branches are often remembered as 'VIT C and D': vertebral, internal thoracic, thyrocervical, costocervical and dorsal scapular."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-subclavian-artery",
+        "https://teachmeanatomy.info/upper-limb/vessels/arteries/"
+      ]
+    },
+    {
+      "id": "internal-thoracic-artery",
+      "medical": "Internal thoracic artery",
+      "common": "Internal mammary artery",
+      "category": "Chest wall",
+      "match": [
+        "Internal thoracic artery.l",
+        "Internal thoracic artery.r",
+        "Superior epigastric artery.l",
+        "Superior epigastric artery.r",
+        "Musculophrenic artery.l",
+        "Musculophrenic artery.r"
+      ],
+      "summary": "The internal thoracic artery is a branch of the first part of the subclavian artery that runs down the inside of the front chest wall, about 1 cm from the edge of the sternum.",
+      "function": "Supplies the front chest wall, the breast and the anterior intercostal spaces; it ends by splitting into the superior epigastric artery (to the upper rectus abdominis) and the musculophrenic artery (to the lower ribs and diaphragm).",
+      "location": "Runs behind the upper six costal cartilages just beside the sternum and divides at about the sixth intercostal space.",
+      "facts": [
+        "It is the preferred graft in coronary artery bypass surgery (CABG), usually joined to the LAD, because it stays open for many years.",
+        "Its superior epigastric branch joins the inferior epigastric artery inside the rectus sheath, linking the subclavian and external iliac arteries."
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK537337/",
+        "https://radiopaedia.org/articles/internal-thoracic-artery"
+      ]
+    },
+    {
+      "id": "thyrocervical-trunk",
+      "medical": "Thyrocervical trunk",
+      "common": "Thyrocervical trunk",
+      "category": "Head and neck",
+      "match": [
+        "Thyrocervical trunk.l",
+        "Thyrocervical trunk.r",
+        "Inferior thyroid artery.l",
+        "Inferior thyroid artery.r",
+        "Suprascapular artery.l",
+        "Suprascapular artery.r",
+        "Transverse cervical artery.l",
+        "Transverse cervical artery.r",
+        "(Superficial branch of transverse cervical artery).l",
+        "(Superficial branch of transverse cervical artery).r",
+        "(Deep branch of transverse cervical artery).l",
+        "(Deep branch of transverse cervical artery).r"
+      ],
+      "summary": "The thyrocervical trunk is a short, wide branch of the first part of the subclavian artery. It quickly divides into the inferior thyroid, suprascapular and transverse cervical arteries.",
+      "function": "Supplies the thyroid and parathyroid glands, larynx, trachea and oesophagus (inferior thyroid artery), the muscles on the back of the scapula (suprascapular artery) and the trapezius and muscles around the scapula (transverse cervical artery).",
+      "location": "Arises from the subclavian artery near the inner edge of the anterior scalene muscle, between the vertebral artery and the costocervical trunk.",
+      "facts": [
+        "The inferior thyroid artery lies close to the recurrent laryngeal nerve, which surgeons must protect during thyroid operations.",
+        "The transverse cervical artery comes straight off the subclavian artery instead of this trunk in about a third of people."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/thyrocervical-trunk",
+        "https://teachmeanatomy.info/neck/vessels/arterial-supply/"
+      ]
+    },
+    {
+      "id": "costocervical-trunk",
+      "medical": "Costocervical trunk",
+      "common": "Costocervical trunk",
+      "category": "Head and neck",
+      "match": [
+        "Costocervical trunk.l",
+        "Costocervical trunk.r",
+        "Deep cervical artery.l",
+        "Deep cervical artery.r",
+        "Supreme intercostal artery.l",
+        "Supreme intercostal artery.r"
+      ],
+      "summary": "The costocervical trunk is a short branch from the back of the subclavian artery. It arches back over the top of the lung and divides into the deep cervical and supreme intercostal arteries.",
+      "function": "Supplies the deep muscles at the back of the neck (deep cervical artery) and the first two intercostal spaces (supreme intercostal artery, which gives the first and second posterior intercostal arteries).",
+      "location": "Arises behind the anterior scalene muscle (from the second part of the subclavian on the right, usually the first part on the left) and passes back over the dome of the pleura to the neck of the first rib.",
+      "facts": [
+        "The supreme intercostal artery exists because the thoracic aorta starts too low to send arteries to the top two rib spaces.",
+        "The deep cervical artery joins branches of the occipital artery, one of many collateral routes around the neck."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/costocervical-trunk",
+        "https://teachmeanatomy.info/neck/vessels/arterial-supply/"
+      ]
+    },
+    {
+      "id": "vertebral-artery",
+      "medical": "Vertebral artery",
+      "common": "Vertebral artery",
+      "category": "Head and neck",
+      "match": [
+        "Vertebral artery.l",
+        "Vertebral artery.r"
+      ],
+      "summary": "The vertebral arteries are the first branches of the subclavian arteries and climb the neck through holes in the cervical vertebrae. Inside the skull the two join to form the basilar artery.",
+      "function": "Supply the upper spinal cord, brainstem, cerebellum and back of the brain, forming the posterior part of the brain's blood supply.",
+      "location": "Run up through the transverse foramina of the cervical vertebrae (normally from C6 upward), curve over the atlas and enter the skull through the foramen magnum.",
+      "facts": [
+        "Just before joining its partner, each vertebral artery gives a small branch that unites with the other side's to form the anterior spinal artery.",
+        "Its branch, the posterior inferior cerebellar artery (PICA), is involved in lateral medullary (Wallenberg) syndrome strokes."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/vertebral-artery",
+        "https://teachmeanatomy.info/neck/vessels/arterial-supply/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532963/"
+      ]
+    },
+    {
+      "id": "axillary-artery",
+      "medical": "Axillary artery",
+      "common": "Axillary (armpit) artery",
+      "category": "Upper limb",
+      "match": [
+        "Axillary artery.l",
+        "Axillary artery.r",
+        "Thoraco-acromial artery.l",
+        "Thoraco-acromial artery.r",
+        "Pectoral branches of thoraco-acromial artery.l",
+        "Pectoral branches of thoraco-acromial artery.r",
+        "Lateral thoracic artery.l",
+        "Lateral thoracic artery.r",
+        "Anterior circumflex humeral artery.l",
+        "Anterior circumflex humeral artery.r",
+        "Posterior circumflex humeral artery.l",
+        "Posterior circumflex humeral artery.r"
+      ],
+      "summary": "The axillary artery is the continuation of the subclavian artery through the armpit. The pectoralis minor muscle divides it into three parts, which give off one, two and three branches respectively.",
+      "function": "Supplies the shoulder region, the muscles around the scapula and the upper side wall of the chest, and continues as the main artery of the arm.",
+      "location": "Runs through the axilla (armpit) from the outer border of the first rib to the lower border of the teres major muscle, where it becomes the brachial artery.",
+      "facts": [
+        "Its six branches are superior thoracic, thoraco-acromial, lateral thoracic, subscapular, and anterior and posterior circumflex humeral arteries.",
+        "The posterior circumflex humeral artery winds around the surgical neck of the humerus with the axillary nerve, so both can be injured in fractures there."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-axillary-artery",
+        "https://teachmeanatomy.info/upper-limb/vessels/arteries/"
+      ]
+    },
+    {
+      "id": "subscapular-artery",
+      "medical": "Subscapular artery",
+      "common": "Subscapular artery",
+      "category": "Upper limb",
+      "match": [
+        "Subscapular artery.l",
+        "Subscapular artery.r",
+        "Thoracodorsal artery.l",
+        "Thoracodorsal artery.r",
+        "Circumflex scapular artery.l",
+        "Circumflex scapular artery.r"
+      ],
+      "summary": "The subscapular artery is the largest branch of the axillary artery. It runs down along the edge of the scapula and divides into the circumflex scapular and thoracodorsal arteries.",
+      "function": "Supplies the subscapularis and the muscles on the back of the scapula (circumflex scapular artery) and the latissimus dorsi (thoracodorsal artery).",
+      "location": "Arises from the third part of the axillary artery at the lower border of subscapularis and follows the lateral border of the scapula.",
+      "facts": [
+        "The circumflex scapular artery takes part in the scapular anastomosis, which can keep the arm supplied if the axillary artery is blocked.",
+        "The thoracodorsal artery is the pedicle of the latissimus dorsi flap, a common reconstructive flap after breast surgery."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-axillary-artery",
+        "https://teachmeanatomy.info/upper-limb/vessels/arteries/"
+      ]
+    },
+    {
+      "id": "brachial-artery",
+      "medical": "Brachial artery",
+      "common": "Brachial (upper arm) artery",
+      "category": "Upper limb",
+      "match": [
+        "Brachial artery.l",
+        "Brachial artery.r",
+        "Superior ulnar collateral artery.l",
+        "Superior ulnar collateral artery.r",
+        "Inferior ulnar collateral artery.l",
+        "Inferior ulnar collateral artery.r"
+      ],
+      "summary": "The brachial artery is the main artery of the upper arm, continuing from the axillary artery. It runs down the inner side of the arm and splits into the radial and ulnar arteries just below the elbow.",
+      "function": "Supplies the muscles and bone of the arm (partly via the deep brachial artery) and delivers blood onward to the forearm and hand.",
+      "location": "Runs along the medial side of the arm beside the biceps into the front of the elbow (cubital fossa), dividing about 1 cm below the elbow joint at the level of the neck of the radius.",
+      "facts": [
+        "It is the artery squeezed by the cuff when blood pressure is measured on the upper arm.",
+        "Its pulse can be felt just medial to the biceps brachii."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/brachial-artery",
+        "https://teachmeanatomy.info/upper-limb/vessels/arteries/"
+      ]
+    },
+    {
+      "id": "deep-brachial-artery",
+      "medical": "Deep brachial artery",
+      "common": "Profunda brachii artery",
+      "category": "Upper limb",
+      "match": [
+        "Deep brachial artery.l",
+        "Deep brachial artery.r",
+        "Radial collateral artery.l",
+        "Radial collateral artery.r",
+        "Middle collateral artery.l",
+        "Middle collateral artery.r"
+      ],
+      "summary": "The deep brachial artery (profunda brachii) is the largest branch of the brachial artery. It runs down the back of the arm with the radial nerve.",
+      "function": "Supplies the triceps and the humerus, and ends as the middle and radial collateral arteries, which join the network of arteries around the elbow.",
+      "location": "Arises from the brachial artery just below teres major and winds around the back of the humerus in the radial groove with the radial nerve.",
+      "facts": [
+        "A fracture of the middle of the humerus can injure it together with the radial nerve.",
+        "Its collateral branches link with recurrent branches from the forearm, so blood can bypass a blocked brachial artery at the elbow."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/vessels/arteries/",
+        "https://www.kenhub.com/en/library/anatomy/brachial-artery"
+      ]
+    },
+    {
+      "id": "radial-artery",
+      "medical": "Radial artery",
+      "common": "Radial artery (wrist pulse)",
+      "category": "Upper limb",
+      "match": [
+        "Radial artery.l",
+        "Radial artery.r",
+        "Palmar carpal branch of radial artery.l",
+        "Palmar carpal branch of radial artery.r",
+        "Dorsal carpal anastomosis.l",
+        "Dorsal carpal anastomosis.r",
+        "Dorsal metacarpal arteries.l",
+        "Dorsal metacarpal arteries.r",
+        "Dorsal digital arteries of hand.l",
+        "Dorsal digital arteries of hand.r"
+      ],
+      "summary": "The radial artery is one of the two terminal branches of the brachial artery and runs down the thumb side of the forearm. Near the wrist it is covered only by skin and fascia, which makes it the usual place to take a pulse.",
+      "function": "Supplies the lateral forearm, wrist and thumb side of the hand, forms most of the deep palmar arch and feeds the network on the back of the wrist (dorsal carpal arch) that gives the dorsal metacarpal and digital arteries.",
+      "location": "Runs from the cubital fossa down the lateral forearm between the brachioradialis and flexor carpi radialis tendons, then curves around the wrist into the hand.",
+      "facts": [
+        "The pulse felt on the thumb side of the wrist is the radial pulse.",
+        "It can be harvested as a coronary bypass graft, after Allen's test confirms the hand is also well supplied by the ulnar artery."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/radial-artery",
+        "https://teachmeanatomy.info/upper-limb/vessels/arteries/"
+      ]
+    },
+    {
+      "id": "ulnar-artery",
+      "medical": "Ulnar artery",
+      "common": "Ulnar artery",
+      "category": "Upper limb",
+      "match": [
+        "Ulnar artery.l",
+        "Ulnar artery.r",
+        "(Ulnar recurrent artery).l",
+        "(Ulnar recurrent artery).r",
+        "Common interosseous artery.l",
+        "Common interosseous artery.r",
+        "Posterior interosseous artery.l",
+        "Posterior interosseous artery.r",
+        "Recurrent interosseous artery.l",
+        "Recurrent interosseous artery.r",
+        "Dorsal carpal branch of ulnar artery.l",
+        "Dorsal carpal branch of ulnar artery.r"
+      ],
+      "summary": "The ulnar artery is the larger terminal branch of the brachial artery and runs down the little-finger side of the forearm. It enters the hand through Guyon's canal next to the ulnar nerve.",
+      "function": "Supplies the medial forearm and the elbow network (via its recurrent branches), the deep forearm muscles (via the common interosseous artery and its interosseous branches) and the hand, ending mainly as the superficial palmar arch.",
+      "location": "Runs from the cubital fossa beneath the forearm flexor muscles, then down the medial forearm under flexor carpi ulnaris to the wrist.",
+      "facts": [
+        "It passes into the hand through Guyon's (ulnar) canal together with the ulnar nerve.",
+        "Repeated use of the palm as a hammer can injure it at the wrist, a condition called hypothenar hammer syndrome."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/vessels/arteries/",
+        "https://www.kenhub.com/en/library/anatomy/the-ulnar-artery"
+      ]
+    },
+    {
+      "id": "palmar-arches",
+      "medical": "Superficial and deep palmar arches",
+      "common": "Palm arteries",
+      "category": "Upper limb",
+      "match": [
+        "Superficial palmar arch.l",
+        "Superficial palmar arch.r",
+        "Deep palmar arch.l",
+        "Deep palmar arch.r",
+        "Common palmar digital arteries.l",
+        "Common palmar digital arteries.r",
+        "Proper palmar digital arteries.l",
+        "Proper palmar digital arteries.r",
+        "Palmar metacarpal arteries.l",
+        "Palmar metacarpal arteries.r"
+      ],
+      "summary": "The palmar arches are two arterial loops in the palm that join the ulnar and radial arteries. The superficial arch is formed mainly by the ulnar artery and the deep arch mainly by the radial artery.",
+      "function": "Supply the palm and fingers: the superficial arch gives the common and proper palmar digital arteries, and the deep arch gives the palmar metacarpal arteries, which join them.",
+      "location": "The superficial arch lies just under the palmar aponeurosis in front of the flexor tendons, about level with the outstretched thumb; the deep arch lies about 1 cm nearer the wrist, deep to the flexor tendons on the metacarpal bases.",
+      "facts": [
+        "Because the arches join the two forearm arteries, the hand usually survives if one of them is blocked; Allen's test checks this.",
+        "Each finger has two proper palmar digital arteries running along its sides beside the digital nerves."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/vessels/arteries/",
+        "https://www.kenhub.com/en/library/anatomy/superficial-palmar-arch"
+      ]
+    },
+    {
+      "id": "basilar-artery",
+      "medical": "Basilar artery",
+      "common": "Basilar artery",
+      "category": "Brain",
+      "match": [
+        "Basilar artery",
+        "Medial pontine branches of basilar artery.l",
+        "Medial pontine branches of basilar artery.r",
+        "Lateral pontine branches of basilar artery.l",
+        "Lateral pontine branches of basilar artery.r"
+      ],
+      "summary": "The basilar artery is a single midline vessel formed where the two vertebral arteries join at the junction of the medulla and pons. It runs up the front of the brainstem and splits into the two posterior cerebral arteries.",
+      "function": "Supplies the pons, cerebellum and inner ear through its branches (including the anterior inferior and superior cerebellar arteries) and feeds the back of the circle of Willis.",
+      "location": "Lies in a shallow groove on the front (ventral) surface of the pons, at the base of the skull just behind the dorsum sellae.",
+      "facts": [
+        "Its anterior inferior cerebellar branch usually gives the labyrinthine artery to the inner ear, so strokes here can cause sudden deafness and vertigo.",
+        "A blockage of the basilar artery is a serious stroke that can cause double vision, slurred speech, vertigo and reduced consciousness."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/basilar-artery",
+        "https://teachmeanatomy.info/neuroanatomy/vessels/arterial-supply/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK448167/"
+      ]
+    },
+    {
+      "id": "cerebellar-arteries",
+      "medical": "Cerebellar arteries (PICA, AICA, SCA)",
+      "common": "Cerebellar arteries",
+      "category": "Brain",
+      "match": [
+        "Posterior inferior cerebellar artery.l",
+        "Posterior inferior cerebellar artery.r",
+        "Anterior inferior cerebellar artery.l",
+        "Anterior inferior cerebellar artery.r",
+        "Superior cerebellar artery.l",
+        "Superior cerebellar artery.r"
+      ],
+      "summary": "Three pairs of arteries supply the cerebellum: the posterior inferior cerebellar artery (PICA) from the vertebral artery, and the anterior inferior (AICA) and superior cerebellar arteries (SCA) from the basilar artery.",
+      "function": "Together they supply the whole cerebellum and parts of the brainstem: PICA the lower back of the cerebellum and the side of the medulla, AICA the front lower cerebellum and pons (and usually the inner ear), and SCA the upper cerebellum and upper brainstem.",
+      "location": "PICA arises from the upper vertebral artery beside the medulla, AICA from the lower basilar artery, and SCA from the top of the basilar artery just below the posterior cerebral artery.",
+      "facts": [
+        "A PICA stroke causes lateral medullary (Wallenberg) syndrome, with vertigo, swallowing difficulty and crossed loss of pain and temperature sense.",
+        "The sizes of PICA and AICA balance each other: when one is small, the other usually covers a bigger area."
+      ],
+      "sources": [
+        "https://radiopaedia.org/articles/posterior-inferior-cerebellar-artery",
+        "https://www.ncbi.nlm.nih.gov/books/NBK448167/",
+        "https://teachmeanatomy.info/neuroanatomy/vessels/arterial-supply/"
+      ]
+    },
+    {
+      "id": "anterior-spinal-artery",
+      "medical": "Anterior spinal artery",
+      "common": "Anterior spinal artery",
+      "category": "Brain",
+      "match": [
+        "Anterior spinal artery.l",
+        "Anterior spinal artery.r"
+      ],
+      "summary": "The anterior spinal artery is formed near the foramen magnum by a small branch from each vertebral artery. It runs down the front of the spinal cord in the anterior median fissure.",
+      "function": "Supplies the front two-thirds of the spinal cord and the lower medulla, including the motor pathways; it is reinforced along the way by segmental arteries from the aorta.",
+      "location": "Begins at the base of the skull where the two vertebral branches join, then runs the length of the cord in the midline groove on its front surface.",
+      "facts": [
+        "Blockage causes anterior spinal artery syndrome: weakness and loss of pain and temperature sense below the level, with touch and position sense spared.",
+        "It is the most common vessel involved in spinal cord infarction."
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK532963/",
+        "https://teachmeanatomy.info/neuroanatomy/vessels/arterial-supply/"
+      ]
+    },
+    {
+      "id": "anterior-cerebral-artery",
+      "medical": "Anterior cerebral artery",
+      "common": "Anterior cerebral artery",
+      "category": "Brain",
+      "match": [
+        "Anterior cerebral artery.l",
+        "Anterior cerebral artery.r",
+        "Pericallosal artery.l",
+        "Pericallosal artery.r",
+        "Callosomarginal artery.l",
+        "Callosomarginal artery.r",
+        "Frontal branches of callosomarginal artery.l",
+        "Frontal branches of callosomarginal artery.r",
+        "Orbitofrontal branches of anterior cerebral artery.l",
+        "Orbitofrontal branches of anterior cerebral artery.r"
+      ],
+      "summary": "The anterior cerebral artery is the smaller terminal branch of the internal carotid artery. The left and right vessels run forward and then arch backward over the corpus callosum in the deep groove between the two hemispheres, linked near their start by the anterior communicating artery.",
+      "function": "Supplies the inner (medial) surfaces of the frontal and parietal lobes and most of the corpus callosum, including the brain area that controls the leg.",
+      "location": "Begins beneath the frontal lobe at the end of the internal carotid artery and travels in the longitudinal fissure between the hemispheres, curving around the front of the corpus callosum.",
+      "facts": [
+        "A stroke in this artery typically weakens the opposite leg more than the arm or face.",
+        "Its main distal branches are the pericallosal and callosomarginal arteries."
+      ],
+      "sources": [
+        "https://radiopaedia.org/articles/anterior-cerebral-artery",
+        "https://teachmeanatomy.info/neuroanatomy/vessels/arterial-supply/"
+      ]
+    },
+    {
+      "id": "middle-cerebral-artery",
+      "medical": "Middle cerebral artery",
+      "common": "Middle cerebral artery",
+      "category": "Brain",
+      "match": [
+        "Middle cerebral artery (M1-segment).l",
+        "Middle cerebral artery (M1-segment).r",
+        "Insular branches of middle cerebral artery (M2-segment).l",
+        "Insular branches of middle cerebral artery (M2).r",
+        "Middle cerebral artery (M3 segment).l",
+        "Middle cerebral artery (M3-segment).r",
+        "Proximal lateral striate branches.l",
+        "Proximal lateral striate branches.r",
+        "Distal lateral striate branches.l",
+        "Distal lateral striate branches.r",
+        "Prefrontal artery.l",
+        "Prefrontal artery.r",
+        "Lateral frontobasal artery.l",
+        "Lateral frontobasal artery.r",
+        "Artery of precentral sulcus.l",
+        "Artery of precentral sulcus.r",
+        "Artery of central sulcus.l",
+        "Artery of central sulcus.r",
+        "Postcentral arterial branch.l",
+        "Postcentral arterial branch.r",
+        "Posterior parietal artery.l",
+        "Posterior parietal artery.r",
+        "Parietal branches of middle cerebral artery.l",
+        "Parietal branches of middle cerebral artery.r",
+        "Branch to angular gyrus.l",
+        "Branch to angular gyrus.r",
+        "Temporo-occipital branch.l",
+        "Temporo-occipital branch.r",
+        "Temporal branches of middle cerebral artery.l",
+        "Temporal branches of middle cerebral artery.r",
+        "Anterior temporal branch.l",
+        "Anterior temporal branch.r",
+        "Posterior temporal branch.l",
+        "Posterior temporal branch.r"
+      ],
+      "summary": "The middle cerebral artery is the larger terminal branch of the internal carotid artery and has the largest territory of any brain artery. It runs sideways into the lateral (Sylvian) fissure, over the insula, and fans out across the outer surface of the hemisphere; it is described in segments M1 to M4.",
+      "function": "Supplies most of the lateral surface of each cerebral hemisphere, including the motor and sensory areas for the face and arm and, on the dominant side, key language areas; its small lenticulostriate branches feed deep structures such as the basal ganglia.",
+      "location": "Starts at the base of the brain beside the optic chiasm, passes laterally in the lateral sulcus between the frontal and temporal lobes, then spreads over the outer brain surface.",
+      "facts": [
+        "Rupture of its small lenticulostriate (lateral striate) branches is a classic cause of hypertensive brain haemorrhage.",
+        "Its segments are named sphenoidal (M1), insular (M2), opercular (M3) and cortical (M4)."
+      ],
+      "sources": [
+        "https://radiopaedia.org/articles/middle-cerebral-artery",
+        "https://teachmeanatomy.info/neuroanatomy/vessels/arterial-supply/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK553028/"
+      ]
+    },
+    {
+      "id": "posterior-cerebral-artery",
+      "medical": "Posterior cerebral artery",
+      "common": "Posterior cerebral artery",
+      "category": "Brain",
+      "match": [
+        "Posterior cerebral artery.l",
+        "Posterior cerebral artery.r",
+        "Medial occipital artery.l",
+        "Medial occipital artery.r",
+        "Lateral occipital artery.l",
+        "Lateral occipital artery.r",
+        "Parieto-occipital artery.l",
+        "Parieto-occipital artery.r"
+      ],
+      "summary": "The posterior cerebral arteries are the two terminal branches of the basilar artery. Each curves backward around the midbrain to reach the underside and inner surface of the occipital and temporal lobes.",
+      "function": "Supplies the occipital lobe, including the primary visual cortex, the lower and inner parts of the temporal lobe and parts of the thalamus and midbrain.",
+      "location": "Arises at the top of the basilar artery in front of the brainstem and wraps around the cerebral peduncle toward the back of the brain.",
+      "facts": [
+        "Blockage typically causes loss of vision in the opposite half of the visual field, sometimes with central (macular) vision spared.",
+        "In roughly 10-30% of people, one posterior cerebral artery is fed mainly by the internal carotid (a fetal-type PCA)."
+      ],
+      "sources": [
+        "https://radiopaedia.org/articles/posterior-cerebral-artery",
+        "https://teachmeanatomy.info/neuroanatomy/vessels/arterial-supply/"
+      ]
+    },
+    {
+      "id": "cerebral-arterial-circle",
+      "medical": "Cerebral arterial circle (communicating arteries)",
+      "common": "Circle of Willis",
+      "category": "Brain",
+      "match": [
+        "Anterior communicating artery",
+        "Posterior communicating artery.l",
+        "Posterior communicating artery.r"
+      ],
+      "summary": "The circle of Willis is a ring of connected arteries at the base of the brain that joins the internal carotid and vertebrobasilar systems. The highlighted anterior communicating artery links the two anterior cerebral arteries, and the paired posterior communicating arteries link each internal carotid to the posterior cerebral artery.",
+      "function": "Provides alternative routes for blood so that brain tissue can still be supplied if one feeding artery narrows or is blocked.",
+      "location": "Sits on the underside of the brain around the optic chiasm and pituitary stalk, just above the sella turcica of the skull.",
+      "facts": [
+        "A complete, textbook circle without any missing or underdeveloped segment is found in fewer than half of people, and in some large imaging studies in as few as 10-25%.",
+        "Its vessels are a common site for brain aneurysms, which need urgent treatment if they rupture."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/circle-of-willis",
+        "https://radiopaedia.org/articles/circle-of-willis",
+        "https://teachmeanatomy.info/neuroanatomy/vessels/arterial-supply/"
+      ]
+    },
+    {
+      "id": "left-coronary-artery",
+      "medical": "Left coronary artery",
+      "common": "Left main coronary artery",
+      "category": "Heart",
+      "match": [
+        "Left coronary artery"
+      ],
+      "summary": "The left coronary artery (left main) arises from the left aortic sinus just above the aortic valve. It is a short trunk, about 5-10 mm long, that passes behind the pulmonary trunk before dividing.",
+      "function": "Carries blood to most of the left side of the heart by splitting into the left anterior descending (anterior interventricular) and circumflex arteries.",
+      "location": "Starts at the root of the ascending aorta and runs to the left between the pulmonary trunk and the left atrial appendage.",
+      "facts": [
+        "In about 20-25% of people it divides into three branches instead of two, the extra one being the ramus intermedius.",
+        "The main coronary arteries are only about 3-4 mm wide."
+      ],
+      "sources": [
+        "https://radiopaedia.org/articles/left-main-coronary-artery",
+        "https://my.clevelandclinic.org/health/body/22973-coronary-arteries"
+      ]
+    },
+    {
+      "id": "anterior-interventricular-artery",
+      "medical": "Anterior interventricular branch of left coronary artery",
+      "common": "Left anterior descending artery (LAD)",
+      "category": "Heart",
+      "match": [
+        "Anterior interventricular artery",
+        "Septal branches of anterior interventricular artery"
+      ],
+      "summary": "The anterior interventricular artery, better known as the LAD, is one of the two main branches of the left coronary artery. It runs down the front of the heart in the groove between the ventricles toward the apex, giving off diagonal and septal branches.",
+      "function": "Supplies the front and apex of the left ventricle and the front two-thirds of the interventricular septum, carrying a large share of the heart's blood supply.",
+      "location": "Runs in the anterior interventricular groove on the front surface of the heart, from the left main coronary artery to the apex.",
+      "facts": [
+        "It is the most commonly blocked coronary artery, and a blockage near its origin is nicknamed the 'widowmaker'.",
+        "It usually supplies the largest share of the left ventricle, roughly half of the left ventricular muscle."
+      ],
+      "sources": [
+        "https://radiopaedia.org/articles/left-anterior-descending-artery",
+        "https://my.clevelandclinic.org/health/body/23985-left-anterior-descending-artery"
+      ]
+    },
+    {
+      "id": "circumflex-artery",
+      "medical": "Circumflex branch of left coronary artery",
+      "common": "Left circumflex artery (LCx)",
+      "category": "Heart",
+      "match": [
+        "Circumflex artery of heart"
+      ],
+      "summary": "The circumflex artery is one of the two main branches of the left main coronary artery and one of the three main coronary arteries. It curves to the left and around to the back of the heart.",
+      "function": "Supplies the lateral and posterior walls of the left ventricle and the left atrium, mainly through its obtuse marginal branches.",
+      "location": "Runs in the left atrioventricular groove (between the left atrium and left ventricle), around the left border of the heart toward the back.",
+      "facts": [
+        "In about 8-10% of people (left-dominant hearts) it also gives the posterior descending artery.",
+        "It supplies the sinoatrial node in roughly 40% of people."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/circumflex-artery",
+        "https://my.clevelandclinic.org/health/body/22973-coronary-arteries"
+      ]
+    },
+    {
+      "id": "right-coronary-artery",
+      "medical": "Right coronary artery",
+      "common": "Right coronary artery",
+      "category": "Heart",
+      "match": [
+        "Right coronary artery",
+        "Right inferolateral branch of right coronary artery"
+      ],
+      "summary": "The right coronary artery arises from the right aortic sinus and runs in the groove between the right atrium and right ventricle around to the back of the heart. In most people it also gives rise to the posterior descending artery.",
+      "function": "Supplies the right atrium and right ventricle, part of the underside of the left ventricle, the back third of the septum and, in most people, the sinoatrial and atrioventricular nodes that control heart rhythm.",
+      "location": "Starts at the root of the aorta, passes under the right atrial appendage and follows the right atrioventricular groove to the back (crux) of the heart.",
+      "facts": [
+        "About 70% of people are 'right dominant', meaning the posterior descending artery comes from the right coronary artery.",
+        "It supplies the sinoatrial node in about 60% of people."
+      ],
+      "sources": [
+        "https://radiopaedia.org/articles/right-coronary-artery",
+        "https://my.clevelandclinic.org/health/body/22973-coronary-arteries"
+      ]
+    },
+    {
+      "id": "coeliac-trunk",
+      "medical": "Coeliac trunk",
+      "common": "Celiac artery",
+      "category": "Abdomen",
+      "match": [
+        "Coeliac trunk"
+      ],
+      "summary": "The coeliac trunk is the first large unpaired branch of the abdominal aorta. It is a very short vessel, only about 1-2 cm long, that almost immediately divides into three arteries.",
+      "function": "Supplies the foregut organs, including the lower oesophagus, stomach, liver, gallbladder, spleen, part of the pancreas and upper duodenum, via the left gastric, splenic and common hepatic arteries (each has its own entry).",
+      "location": "Arises from the front of the aorta just below the diaphragm's aortic hiatus, at about the level of the T12 vertebra, behind the stomach.",
+      "facts": [
+        "Its three branches can be recalled as 'Left Hand Side': left gastric, hepatic and splenic.",
+        "The stomach receives blood from all three of its branches."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/vasculature/arteries/coeliac-trunk/",
+        "https://www.kenhub.com/en/library/anatomy/celiac-trunk"
+      ]
+    },
+    {
+      "id": "left-gastric-artery",
+      "medical": "Left gastric artery",
+      "common": "Left gastric artery",
+      "category": "Abdomen",
+      "match": [
+        "Left gastric artery"
+      ],
+      "summary": "The left gastric artery is the smallest branch of the coeliac trunk. It rises toward the oesophagus and then runs along the lesser curvature of the stomach.",
+      "function": "Supplies the lower oesophagus and the upper lesser curvature of the stomach, and joins the right gastric artery.",
+      "location": "Runs up and to the left behind the lesser sac to the gastro-oesophageal junction, then turns down along the lesser curvature between the layers of the lesser omentum.",
+      "facts": [
+        "A peptic ulcer on the lesser curvature can erode into it and cause severe bleeding.",
+        "Its oesophageal branches join oesophageal branches of the thoracic aorta, linking the chest and abdominal blood supplies."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/vasculature/arteries/coeliac-trunk/",
+        "https://www.kenhub.com/en/library/anatomy/celiac-trunk"
+      ]
+    },
+    {
+      "id": "splenic-artery",
+      "medical": "Splenic artery",
+      "common": "Splenic (spleen) artery",
+      "category": "Abdomen",
+      "match": [
+        "Splenic artery"
+      ],
+      "summary": "The splenic artery is the largest branch of the coeliac trunk. It follows a winding (tortuous) course to the left along the upper border of the pancreas to reach the spleen.",
+      "function": "Supplies the spleen, the body and tail of the pancreas (pancreatic branches), the fundus of the stomach (short gastric arteries) and the greater curvature (left gastro-omental artery).",
+      "location": "Runs behind the stomach along the upper border of the pancreas, then through the splenorenal ligament to the hilum of the spleen.",
+      "facts": [
+        "It is the most common site of aneurysms in the arteries of the gut.",
+        "Its looping course lets it adjust as the stomach fills and the spleen moves with breathing."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/vasculature/arteries/coeliac-trunk/",
+        "https://radiopaedia.org/articles/splenic-artery"
+      ]
+    },
+    {
+      "id": "hepatic-arteries",
+      "medical": "Common hepatic, proper hepatic and gastroduodenal arteries",
+      "common": "Liver arteries",
+      "category": "Abdomen",
+      "match": [
+        "Common hepatic artery",
+        "Proper hepatic artery",
+        "Gastroduodenal artery"
+      ],
+      "summary": "The common hepatic artery is the branch of the coeliac trunk that goes to the right. Near the duodenum it divides into the proper hepatic artery, which rises to the liver, and the gastroduodenal artery, which runs down behind the duodenum.",
+      "function": "The proper hepatic artery supplies the liver, gallbladder (cystic artery) and pylorus (right gastric artery); the gastroduodenal artery supplies the pylorus, the first part of the duodenum, the head of the pancreas and the greater curvature of the stomach.",
+      "location": "The common hepatic runs to the right along the upper border of the pancreas; the proper hepatic ascends in the free edge of the lesser omentum with the portal vein and bile duct; the gastroduodenal passes behind the first part of the duodenum.",
+      "facts": [
+        "A posterior duodenal ulcer can erode into the gastroduodenal artery, a classic cause of major upper GI bleeding.",
+        "The hepatic artery brings only about a quarter of the liver's blood; the rest comes from the portal vein."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/vasculature/arteries/coeliac-trunk/",
+        "https://www.kenhub.com/en/library/anatomy/celiac-trunk"
+      ]
+    },
+    {
+      "id": "superior-mesenteric-artery",
+      "medical": "Superior mesenteric artery",
+      "common": "Superior mesenteric artery",
+      "category": "Abdomen",
+      "match": [
+        "Superior mesenteric artery",
+        "Inferior pancreaticoduodenal artery",
+        "Anterior inferior pancreaticoduodenal artery",
+        "Middle colic artery",
+        "Right colic artery",
+        "Ileocolic artery",
+        "Colic branch of ileocolic artery",
+        "Ileal branch of ileocolic artery"
+      ],
+      "summary": "The superior mesenteric artery (SMA) arises from the front of the aorta about 1 cm below the coeliac trunk. It descends behind the neck of the pancreas, then crosses in front of the uncinate process and the third part of the duodenum into the root of the mesentery.",
+      "function": "Supplies the midgut: the lower duodenum, the whole jejunum and ileum, the caecum and appendix, the ascending colon and roughly the first two-thirds of the transverse colon.",
+      "location": "Leaves the aorta at about the L1 vertebra, passing behind the pancreas and in front of the left renal vein and third part of the duodenum.",
+      "facts": [
+        "Its colic branches can be remembered as 'MRI': middle colic, right colic and ileocolic.",
+        "A clot lodging in it causes acute mesenteric ischaemia, a surgical emergency often linked to atrial fibrillation."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/vasculature/arteries/superior-mesenteric/",
+        "https://www.kenhub.com/en/library/anatomy/superior-mesenteric-artery"
+      ]
+    },
+    {
+      "id": "appendicular-artery",
+      "medical": "Appendicular artery",
+      "common": "Appendix artery",
+      "category": "Abdomen",
+      "match": [
+        "Appendicular artery"
+      ],
+      "summary": "The appendicular artery is a small branch of the ileocolic artery (from the SMA) that runs to the appendix in the mesoappendix.",
+      "function": "It is the only artery supplying the appendix.",
+      "location": "Passes behind the end of the ileum and runs along the free edge of the mesoappendix to the tip of the appendix, in the right lower abdomen.",
+      "facts": [
+        "It is an end artery with no backup supply, so clotting in acute appendicitis can make the appendix become gangrenous and burst.",
+        "Surgeons tie it off during an appendicectomy."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/vasculature/arteries/superior-mesenteric/",
+        "https://www.kenhub.com/en/library/anatomy/superior-mesenteric-artery"
+      ]
+    },
+    {
+      "id": "inferior-mesenteric-artery",
+      "medical": "Inferior mesenteric artery",
+      "common": "Inferior mesenteric artery",
+      "category": "Abdomen",
+      "match": [
+        "Inferior mesenteric artery",
+        "Left colic artery",
+        "Ascending branch of left colic artery",
+        "Descending branch of left colic artery",
+        "Sigmoid arteries",
+        "Superior anorectal artery"
+      ],
+      "summary": "The inferior mesenteric artery (IMA) is the third unpaired gut branch of the abdominal aorta. It runs down and to the left behind the peritoneum to supply the last part of the large bowel.",
+      "function": "Supplies the hindgut: the final third of the transverse colon, the descending and sigmoid colon, the rectum and upper anal canal via the left colic, sigmoid and superior rectal (anorectal) arteries.",
+      "location": "Arises from the front of the aorta at about the L3 vertebra, a few centimetres above the aortic bifurcation.",
+      "facts": [
+        "It connects with the SMA through the marginal artery of Drummond, which runs along the inner border of the colon.",
+        "The splenic flexure, where the two systems meet, is a watershed area prone to ischaemic colitis."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/inferior-mesenteric-artery",
+        "https://teachmeanatomy.info/abdomen/gi-tract/colon/"
+      ]
+    },
+    {
+      "id": "marginal-artery",
+      "medical": "Marginal artery of the colon",
+      "common": "Marginal artery (of Drummond)",
+      "category": "Abdomen",
+      "match": [
+        "Marginal artery"
+      ],
+      "summary": "The marginal artery is a continuous chain of linked arteries running along the inner border of the colon. It joins the colic branches of the superior and inferior mesenteric arteries.",
+      "function": "Links the SMA and IMA territories so that blood can flow around a narrowed or blocked vessel; short straight vessels (vasa recta) from it supply the colon wall.",
+      "location": "Runs close to the inner (mesenteric) border of the colon from the ileocolic region around to the sigmoid colon.",
+      "facts": [
+        "The link is often weak at the splenic flexure, which is why that part of the colon is prone to ischaemia.",
+        "It lets surgeons divide the IMA during bowel surgery while the left colon still receives blood."
+      ],
+      "sources": [
+        "https://radiopaedia.org/articles/marginal-artery-of-drummond",
+        "https://teachmeanatomy.info/abdomen/gi-tract/colon/"
+      ]
+    },
+    {
+      "id": "renal-artery",
+      "medical": "Renal artery",
+      "common": "Renal (kidney) artery",
+      "category": "Abdomen",
+      "match": [
+        "Left renal artery",
+        "Right renal artery",
+        "Anterior branch of renal artery.l",
+        "Anterior branch of renal artery.r",
+        "Posterior branch of renal artery.l",
+        "Posterior branch of renal artery.r",
+        "Inferior suprarenal artery.l",
+        "Inferior suprarenal artery.r",
+        "Intrarenal arteries of left kidney",
+        "Intrarenal arteries of right kidney"
+      ],
+      "summary": "The renal arteries are paired branches of the abdominal aorta that carry blood to the kidneys. Because the aorta lies left of the midline, the right renal artery is longer and passes behind the inferior vena cava.",
+      "function": "Deliver the large blood flow the kidneys need to filter the blood; each gives an inferior suprarenal branch to the adrenal gland and, near the hilum, anterior and posterior branches that divide into segmental and smaller intrarenal arteries.",
+      "location": "Arise from the sides of the aorta just below the superior mesenteric artery, around the L1-L2 disc, and enter each kidney at its hilum.",
+      "facts": [
+        "About 30% of people have one or more extra (accessory) renal arteries.",
+        "Their segmental branches are end arteries that do not interconnect, so blocking one starves that kidney segment."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/renal-artery",
+        "https://teachmeanatomy.info/abdomen/viscera/kidney/"
+      ]
+    },
+    {
+      "id": "common-iliac-artery",
+      "medical": "Common iliac artery",
+      "common": "Common iliac artery (main pelvic artery)",
+      "category": "Pelvis",
+      "match": [
+        "Common iliac artery.l",
+        "Common iliac artery.r"
+      ],
+      "summary": "The common iliac arteries are the two terminal branches of the abdominal aorta. Each runs down and outward toward the pelvis and divides into the internal and external iliac arteries.",
+      "function": "Carry blood from the aorta toward the pelvis (via the internal iliac artery) and the leg (via the external iliac artery).",
+      "location": "Begin at the aortic bifurcation at L4 and run along the psoas major muscle to divide in front of the sacroiliac joint at about the L5-S1 level.",
+      "facts": [
+        "The right common iliac artery is about 1 cm longer than the left.",
+        "The ureter crosses in front of it near the point where it divides."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/common-iliac-artery",
+        "https://teachmeanatomy.info/pelvis/vasculature/arterial-supply/"
+      ]
+    },
+    {
+      "id": "internal-iliac-artery",
+      "medical": "Internal iliac artery",
+      "common": "Internal iliac (pelvic) artery",
+      "category": "Pelvis",
+      "match": [
+        "Internal iliac artery.l",
+        "Internal iliac artery.r",
+        "Anterior division of internal iliac artery.l",
+        "Anterior division of internal iliac artery.r",
+        "Posterior division of internal iliac artery.l",
+        "Posterior division of internal iliac artery.r",
+        "Superior gluteal artery.l",
+        "Superior gluteal artery.r",
+        "Inferior gluteal artery.l",
+        "Inferior gluteal artery.r",
+        "Obturator artery.l",
+        "Obturator artery.r",
+        "Internal pudendal artery.l",
+        "Internal pudendal artery.r",
+        "Iliolumbar artery.l",
+        "Iliolumbar artery.r",
+        "Iliacus branch of iliolumbar artery.l",
+        "Iliacus branch of iliolumbar artery.r",
+        "Lumbar branch of iliolumbar artery.l",
+        "Lumbar branch of iliolumbar artery.r",
+        "Spinal branch of iliolumbar artery.l",
+        "Spinal branch of iliolumbar artery.r"
+      ],
+      "summary": "The internal iliac artery is the smaller terminal branch of the common iliac artery and the main artery of the pelvis. It dives into the pelvis and splits into anterior and posterior divisions.",
+      "function": "Supplies the pelvic walls and organs, the perineum, the buttock and the medial thigh: the posterior division gives the iliolumbar and superior gluteal arteries, and the anterior division gives the obturator, internal pudendal and inferior gluteal arteries, among others.",
+      "location": "Arises in front of the sacroiliac joint at about L5-S1 and runs down into the pelvis to the upper edge of the greater sciatic foramen, where it divides.",
+      "facts": [
+        "The superior gluteal artery leaves the pelvis above the piriformis muscle and the inferior gluteal artery below it.",
+        "The obturator artery passes through the obturator canal to supply the adductor muscles of the thigh."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/pelvis/vasculature/arterial-supply/",
+        "https://radiopaedia.org/articles/internal-iliac-artery"
+      ]
+    },
+    {
+      "id": "external-iliac-artery",
+      "medical": "External iliac artery",
+      "common": "External iliac artery",
+      "category": "Pelvis",
+      "match": [
+        "External iliac artery.l",
+        "External iliac artery.r",
+        "Inferior epigastric artery.l",
+        "Inferior epigastric artery.r"
+      ],
+      "summary": "The external iliac artery is the larger terminal branch of the common iliac artery and the main supply route to the leg. It runs along the pelvic brim and becomes the femoral artery once it passes under the inguinal ligament.",
+      "function": "Carries blood to the lower limb and gives off the inferior epigastric and deep circumflex iliac arteries to the lower abdominal wall.",
+      "location": "Runs along the medial border of the psoas major muscle from the sacroiliac joint to the mid-inguinal point (halfway between the anterior superior iliac spine and the pubic symphysis).",
+      "facts": [
+        "It changes its name to the femoral artery at the inguinal ligament.",
+        "Endurance cyclists can develop external iliac artery endofibrosis, a thickening of the wall that limits blood flow during hard exercise."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/vessels/arterial-supply/",
+        "https://www.kenhub.com/en/library/anatomy/external-iliac-artery"
+      ]
+    },
+    {
+      "id": "femoral-artery",
+      "medical": "Femoral artery",
+      "common": "Femoral artery (main thigh artery)",
+      "category": "Lower limb",
+      "match": [
+        "Femoral artery.l",
+        "Femoral artery.r",
+        "Superficial epigastric artery.l",
+        "Superficial epigastric artery.r"
+      ],
+      "summary": "The femoral artery is the main artery of the thigh, continuing from the external iliac artery below the inguinal ligament. It passes through the femoral triangle and adductor canal and becomes the popliteal artery behind the knee.",
+      "function": "Supplies the thigh (largely through its biggest branch, the deep femoral artery) and carries blood onward to the leg and foot.",
+      "location": "Enters the thigh at the groin midway between the anterior superior iliac spine and pubic symphysis, then runs down the front and inner thigh to the adductor hiatus above the knee.",
+      "facts": [
+        "Its pulse is felt in the groin, and it is a common entry point for catheters used in angiography and heart procedures.",
+        "Its largest branch is the deep femoral artery (profunda femoris)."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/femoral-artery",
+        "https://teachmeanatomy.info/lower-limb/vessels/arterial-supply/"
+      ]
+    },
+    {
+      "id": "deep-femoral-artery",
+      "medical": "Deep femoral artery",
+      "common": "Profunda femoris artery",
+      "category": "Lower limb",
+      "match": [
+        "Deep femoral artery.l",
+        "Deep femoral artery.r",
+        "Medial circumflex femoral artery.l",
+        "Medial circumflex femoral artery.r",
+        "Lateral circumflex femoral artery.l",
+        "Lateral circumflex femoral artery.r",
+        "Descending branch of lateral circumflex femoral artery",
+        "Descending branch of lateral circumflex femoral artery.l",
+        "Perforating femoral arteries.l",
+        "Perforating femoral arteries.r"
+      ],
+      "summary": "The deep femoral artery (profunda femoris) is the largest branch of the femoral artery. It runs deep into the thigh, behind the femoral artery, close to the femur.",
+      "function": "Is the main supply to the thigh muscles and femur: its medial and lateral circumflex femoral branches wrap around the top of the femur, and its perforating branches pierce adductor magnus to reach the back of the thigh.",
+      "location": "Leaves the back and outer side of the femoral artery about 3-4 cm below the inguinal ligament and descends between the adductor muscles.",
+      "facts": [
+        "The medial circumflex femoral artery is the main supply to the femoral head, so a displaced hip (femoral neck) fracture can cause avascular necrosis.",
+        "The descending branch of the lateral circumflex femoral artery supplies the anterolateral thigh flap, widely used in reconstructive surgery."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/vessels/arterial-supply/",
+        "https://www.kenhub.com/en/library/anatomy/femoral-artery"
+      ]
+    },
+    {
+      "id": "popliteal-artery",
+      "medical": "Popliteal artery",
+      "common": "Popliteal (back-of-knee) artery",
+      "category": "Lower limb",
+      "match": [
+        "Popliteal artery.l",
+        "Popliteal artery.r",
+        "Superior medial genicular artery.l",
+        "Superior medial genicular artery.r",
+        "Superior lateral genicular artery.l",
+        "Superior lateral genicular artery.r",
+        "Middle genicular artery.l",
+        "Middle genicular artery.r",
+        "Inferior medial genicular artery.l",
+        "Inferior medial genicular artery.r",
+        "Inferior lateral genicular artery.l",
+        "Inferior lateral genicular artery.r",
+        "Patellar anastomosis.l",
+        "Patellar anastomosis.r"
+      ],
+      "summary": "The popliteal artery is the continuation of the femoral artery behind the knee. It is the deepest structure in the popliteal fossa, lying close against the knee joint capsule.",
+      "function": "Supplies the knee joint through its genicular branches, which join around the kneecap as the patellar anastomosis, and the calf muscles, then divides into the anterior and posterior tibial arteries.",
+      "location": "Runs through the popliteal fossa behind the knee, from the adductor hiatus to the lower border of the popliteus muscle.",
+      "facts": [
+        "Because it lies so close to the joint, a knee dislocation can tear it and threaten the limb.",
+        "Its pulse is felt deep in the middle of the back of the knee with the knee slightly bent, and it is often hard to feel."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/popliteal-artery",
+        "https://teachmeanatomy.info/lower-limb/vessels/arterial-supply/"
+      ]
+    },
+    {
+      "id": "anterior-tibial-artery",
+      "medical": "Anterior tibial artery",
+      "common": "Anterior tibial (front-of-leg) artery",
+      "category": "Lower limb",
+      "match": [
+        "Anterior tibial artery.l",
+        "Anterior tibial artery.r"
+      ],
+      "summary": "The anterior tibial artery is one of the two terminal branches of the popliteal artery. It passes forward through the gap above the upper edge of the interosseous membrane and runs down the front of the leg.",
+      "function": "Supplies the muscles and skin of the anterior compartment of the leg and contributes to the knee and ankle; at the ankle it continues as the dorsalis pedis artery.",
+      "location": "Starts below the knee at the lower border of popliteus, passes forward through the gap above the upper edge of the interosseous membrane between tibia and fibula, and descends on the front of the membrane to the ankle.",
+      "facts": [
+        "It becomes the dorsalis pedis artery as it crosses in front of the ankle joint.",
+        "Swelling in the anterior compartment can compress it (anterior compartment syndrome)."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/anterior-tibial-artery",
+        "https://teachmeanatomy.info/lower-limb/vessels/arterial-supply/"
+      ]
+    },
+    {
+      "id": "posterior-tibial-artery",
+      "medical": "Posterior tibial artery",
+      "common": "Posterior tibial (calf) artery",
+      "category": "Lower limb",
+      "match": [
+        "Posterior tibial artery.l",
+        "Posterior tibial artery.r",
+        "Calcaneal branches of posterior tibial artery.l",
+        "Calcaneal branches of posterior tibial artery.r"
+      ],
+      "summary": "The posterior tibial artery is one of the two terminal branches of the popliteal artery. It descends through the deep calf with the tibial nerve and enters the sole of the foot behind the inner ankle.",
+      "function": "Supplies the posterior (flexor) compartment of the leg and, through its medial and lateral plantar branches, the sole of the foot.",
+      "location": "Runs from below the knee down the back of the leg deep to the calf muscles, passing behind the medial malleolus through the tarsal tunnel.",
+      "facts": [
+        "Its pulse is felt behind the inner ankle bone, midway between the medial malleolus and the Achilles tendon.",
+        "Near its start it gives off its largest branch, the fibular (peroneal) artery, and it ends by dividing into the medial and lateral plantar arteries."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/posterior-tibial-artery",
+        "https://teachmeanatomy.info/lower-limb/vessels/arterial-supply/"
+      ]
+    },
+    {
+      "id": "fibular-artery",
+      "medical": "Fibular artery",
+      "common": "Peroneal artery",
+      "category": "Lower limb",
+      "match": [
+        "Fibular artery.l",
+        "Fibular artery.r",
+        "Calcaneal branches of fibular artery.l",
+        "Calcaneal branches of fibular artery.r"
+      ],
+      "summary": "The fibular (peroneal) artery is the largest branch of the posterior tibial artery. It runs down the back of the leg close to the fibula.",
+      "function": "Supplies the fibula (through its nutrient artery), the deep calf muscles and, through perforating branches, the lateral compartment muscles, ending in branches to the heel and outer ankle.",
+      "location": "Arises a few centimetres below the popliteus muscle and descends in the posterior compartment along the back of the fibula to the outer side of the heel.",
+      "facts": [
+        "The fibula free flap, used to rebuild the jaw after cancer surgery, is based on this artery.",
+        "In leg artery disease it is often the last calf artery to stay open."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/vessels/arterial-supply/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK563283/"
+      ]
+    },
+    {
+      "id": "plantar-arteries",
+      "medical": "Plantar arteries and plantar arch",
+      "common": "Sole-of-foot arteries",
+      "category": "Lower limb",
+      "match": [
+        "Medial plantar artery.l",
+        "Medial plantar artery.r",
+        "Superficial branch of medial plantar artery.l",
+        "Superficial branch of medial plantar artery.r",
+        "Lateral plantar artery.l",
+        "Lateral plantar artery.r",
+        "Plantar arch.l",
+        "Plantar arch.r",
+        "Plantar metatarsal arteries.l",
+        "Plantar metatarsal arteries.r",
+        "Perforating branches of plantar metatarsal arteries.l",
+        "Perforating branches of plantar metatarsal arteries.r",
+        "Common plantar digital arteries.l",
+        "Common plantar digital arteries.r",
+        "Proper plantar digital arteries.l",
+        "Proper plantar digital arteries.r"
+      ],
+      "summary": "The medial and lateral plantar arteries are the terminal branches of the posterior tibial artery in the sole. The larger lateral plantar artery curves across the foot to form the deep plantar arch.",
+      "function": "Supply the muscles, skin and joints of the sole and toes; the plantar arch gives plantar metatarsal arteries that become the common and proper plantar digital arteries of the toes.",
+      "location": "They begin under the flexor retinaculum below the medial malleolus; the plantar arch lies deep in the sole across the bases of the metatarsals, where it joins the deep plantar branch of the dorsalis pedis.",
+      "facts": [
+        "The plantar arch links the posterior tibial and dorsalis pedis systems, so the foot has two supply routes.",
+        "Perforating branches of the plantar metatarsal arteries connect the sole with the arteries on top of the foot."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/vessels/arterial-supply/",
+        "https://www.kenhub.com/en/library/anatomy/posterior-tibial-artery"
+      ]
+    },
+    {
+      "id": "dorsalis-pedis-artery",
+      "medical": "Dorsalis pedis artery",
+      "common": "Dorsal foot (pedal pulse) artery",
+      "category": "Lower limb",
+      "match": [
+        "Dorsalis pedis artery.l",
+        "Dorsalis pedis artery.r",
+        "Lateral tarsal artery.l",
+        "Lateral tarsal artery.r",
+        "Arcuate artery.l",
+        "Arcuate artery.r",
+        "Deep plantar artery.l",
+        "Deep plantar artery.r",
+        "Dorsal metatarsal arteries.l",
+        "Dorsal metatarsal arteries.r",
+        "Dorsal digital arteries of foot.l",
+        "Dorsal digital arteries of foot.r"
+      ],
+      "summary": "The dorsalis pedis artery is the continuation of the anterior tibial artery on the top of the foot. It runs toward the gap between the first and second metatarsals, where it dives into the sole.",
+      "function": "Supplies the upper surface of the foot and toes through the tarsal, arcuate and dorsal metatarsal arteries and joins the plantar arch through its deep plantar branch.",
+      "location": "Runs across the top of the foot from the front of the ankle to the base of the first intermetatarsal space, just lateral to the extensor hallucis longus tendon.",
+      "facts": [
+        "Its pulse is checked on top of the foot near the bases of the first and second metatarsals.",
+        "A weak pulse can signal peripheral arterial disease, but in a few healthy people this pulse is naturally absent, so it is checked together with the posterior tibial pulse."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/dorsalis-pedis-artery",
+        "https://teachmeanatomy.info/lower-limb/vessels/arterial-supply/",
+        "https://www.annalsofvascularsurgery.com/article/S0890-5096(17)31095-6/fulltext"
+      ]
+    },
+    {
+      "id": "pulmonary-trunk",
+      "medical": "Pulmonary trunk",
+      "common": "Pulmonary trunk (main pulmonary artery)",
+      "category": "Pulmonary circulation",
+      "match": [
+        "Pulmonary trunk",
+        "Bifurcation of pulmonary trunk"
+      ],
+      "summary": "The pulmonary trunk is the single large artery leaving the right ventricle. Unlike almost all other arteries, it carries oxygen-poor (deoxygenated) blood, which it sends to the lungs; it is about 5 cm long and 3 cm wide.",
+      "function": "Carries all the blood pumped by the right ventricle to the lungs, dividing into the right and left pulmonary arteries.",
+      "location": "Rises from the right ventricle at the front of the heart, ascending up and back alongside the ascending aorta, and divides under the concavity of the aortic arch.",
+      "facts": [
+        "Its valve, the pulmonary valve, has three cusps and stops blood flowing back into the right ventricle between beats.",
+        "It shares a pericardial sheath with the ascending aorta."
+      ],
+      "sources": [
+        "https://radiopaedia.org/articles/pulmonary-trunk",
+        "https://my.clevelandclinic.org/health/body/21486-pulmonary-arteries"
+      ]
+    },
+    {
+      "id": "pulmonary-arteries",
+      "medical": "Right and left pulmonary arteries",
+      "common": "Right and left pulmonary arteries",
+      "category": "Pulmonary circulation",
+      "match": [
+        "Right pulmonary artery",
+        "Left pulmonary artery"
+      ],
+      "summary": "The right and left pulmonary arteries are the two branches of the pulmonary trunk, one for each lung. Like the trunk, they carry deoxygenated blood; the right is longer, passing horizontally beneath the aortic arch, while the shorter left arches over the left main bronchus.",
+      "function": "Bring oxygen-poor blood into each lung, where their lobar and segmental branches follow the airways down to the capillaries around the air sacs for gas exchange.",
+      "location": "Run from the bifurcation under the aortic arch to the hilum of each lung; the right passes behind the ascending aorta and superior vena cava, the left over the left main bronchus.",
+      "facts": [
+        "The left pulmonary artery is tied to the aorta by the ligamentum arteriosum, the remnant of the fetal ductus arteriosus.",
+        "A blood clot lodging in these arteries or their branches is a pulmonary embolism."
+      ],
+      "sources": [
+        "https://radiopaedia.org/articles/right-pulmonary-artery",
+        "https://radiopaedia.org/articles/left-pulmonary-artery",
+        "https://my.clevelandclinic.org/health/body/21486-pulmonary-arteries"
+      ]
+    },
+    {
+      "id": "lobar-segmental-pulmonary-arteries",
+      "medical": "Lobar and segmental pulmonary arteries",
+      "common": "Lung lobe and segment arteries",
+      "category": "Pulmonary circulation",
+      "match": [
+        "Superior lobar artery of right lung",
+        "Middle lobar artery of right lung",
+        "Inferior lobar artery of right lung",
+        "Anterior basal segmental artery of left lung",
+        "Anterior basal segmental artery of right lung",
+        "Anterior segmental artery of left lung",
+        "Anterior segmental artery of right lung",
+        "Apical segmental artery of left lung",
+        "Apical segmental artery of right lung",
+        "Inferior lingular artery of left lung",
+        "Lateral basal segmental artery of left lung",
+        "Lateral basal segmental artery of right lung",
+        "Lateral segmental artery of right lung",
+        "Medial basal segmental artery of left lung",
+        "Medial basal segmental artery of right lung",
+        "Medial segmental artery of right lung",
+        "Posterior basal segmental artery of left lung",
+        "Posterior basal segmental artery of right lung",
+        "Posterior segmental artery of left lung",
+        "Posterior segmental artery of right lung",
+        "Superior lingular artery of left lung",
+        "Superior segmental artery of left lung",
+        "Superior segmental artery of right lung"
+      ],
+      "summary": "Inside each lung the pulmonary artery divides into lobar arteries (three on the right, two on the left) and then segmental arteries, one for each bronchopulmonary segment. The left upper lobe also has superior and inferior lingular arteries.",
+      "function": "Carry oxygen-poor blood to each lobe and segment of the lung, where their smallest branches reach the capillaries around the air sacs.",
+      "location": "Each segmental artery runs alongside the segmental bronchus into the centre of its segment; they are named for their segments, such as apical, anterior, posterior, lateral and medial basal.",
+      "facts": [
+        "Because each segment has its own artery and airway, surgeons can remove a single diseased segment (segmentectomy).",
+        "A pulmonary embolus often lodges where these arteries branch, and CT scans are read segment by segment to find it."
+      ],
+      "sources": [
+        "https://radiopaedia.org/articles/bronchopulmonary-segmental-anatomy-1",
+        "https://my.clevelandclinic.org/health/body/21486-pulmonary-arteries"
+      ]
+    }
+  ],
+  "commonNames": {}
+}

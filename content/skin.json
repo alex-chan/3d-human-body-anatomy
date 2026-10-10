@@ -1,0 +1,772 @@
+{
+  "layer": "skin",
+  "overview": {
+    "title": "Skin & Integument",
+    "summary": "The skin is the body's largest organ, covering the whole outer surface in a sheet that ranges from about 0.5 mm thick on the eyelids to 4 mm or more on the heels and upper back. It has three layers: the epidermis, a surface barrier of constantly renewing cells that also contains pigment-making melanocytes; the dermis, a tough connective-tissue layer holding nerves, blood vessels, hair follicles, and sweat and oil glands; and the hypodermis (subcutis), a deeper fatty layer that cushions and insulates. From deep to surface the epidermis is built of the stratum basale, spinosum, granulosum, lucidum (thick skin only) and corneum. Hair and nails are specialised outgrowths of the skin made mainly of the protein keratin.",
+    "function": "Skin shields the body from germs, injury and ultraviolet light, helps control body temperature through sweating and blood flow, senses touch, heat and pain, stores water and fat, and plays a role in vitamin D and immune defence.",
+    "facts": [
+      "Most skin is thin and hairy, but the palms and soles are covered by thick, hairless skin built to withstand friction.",
+      "The dermis makes up about 90% of the skin's thickness, and according to Cleveland Clinic the body sheds tens of thousands of dead surface cells every day."
+    ],
+    "sources": [
+      "https://my.clevelandclinic.org/health/body/10978-skin",
+      "https://www.ncbi.nlm.nih.gov/books/NBK441980/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK470464/"
+    ]
+  },
+  "structures": [
+    {
+      "id": "fingernails",
+      "medical": "Nail plate of hand",
+      "common": "Fingernails",
+      "category": "Nails",
+      "match": [
+        "Nail plate.l",
+        "Nail plate.r"
+      ],
+      "summary": "The fingernail plate is a hard, slightly curved sheet of tightly packed, dead keratin-filled cells sitting on the back of each fingertip. It is produced by the nail matrix hidden under the proximal nail fold; the pale half-moon (lunula) near the base is the visible edge of that matrix. The plate rests on the nail bed, whose blood vessels give the nail its pink colour.",
+      "function": "Protects the sensitive fingertip, provides counter-pressure that sharpens touch, and lets us pick up, scratch and manipulate small objects.",
+      "location": "On the dorsal (back) surface of the last segment of each finger, framed by the lateral and proximal nail folds.",
+      "facts": [
+        "Fingernails grow roughly 3 to 3.5 mm per month, and a lost fingernail takes around six months to regrow fully.",
+        "The cuticle, a thin layer of dead tissue made by the eponychium (the skin fold at the nail base), seals the gap between nail and skin against infection."
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/nail-anatomy",
+        "https://www.ncbi.nlm.nih.gov/books/NBK441980/"
+      ]
+    },
+    {
+      "id": "toenails",
+      "medical": "Nail plate of foot",
+      "common": "Toenails",
+      "category": "Nails",
+      "match": [
+        "Nail plate (foot).l",
+        "Nail plate (foot).r"
+      ],
+      "summary": "Toenails share the same structure as fingernails: a keratin plate made by a nail matrix and resting on a vascular nail bed. They grow much more slowly than fingernails. Because they are enclosed in shoes and bear pressure, they are a common site for fungal infection and ingrown nails.",
+      "function": "Shields the tips of the toes from injury and supports the soft pad of the toe.",
+      "location": "On the dorsal surface of the tip of each toe, bordered by the nail folds.",
+      "facts": [
+        "Toenails grow only about 1.5 to 1.6 mm per month, roughly half the speed of fingernails.",
+        "A lost toenail can take 12 to 18 months to grow back completely."
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/nail-anatomy",
+        "https://www.ncbi.nlm.nih.gov/books/NBK441980/"
+      ]
+    },
+    {
+      "id": "scalp-hair",
+      "medical": "Hairs of head",
+      "common": "Scalp hair",
+      "category": "Hair",
+      "match": [
+        "Hairs of head"
+      ],
+      "summary": "Scalp hairs are thick terminal hairs, each a shaft of dead keratinised cells growing from a follicle rooted deep in the skin. At the follicle base a bulb of dividing cells, fed by a small blood-rich papilla, continually makes new hair. Follicles cycle independently through growth (anagen), transition (catagen) and rest (telogen), so hair is shed and replaced a little at a time.",
+      "function": "Insulates and protects the scalp from sunlight and minor knocks, and contributes to appearance and social identity.",
+      "location": "Covering the scalp over the frontal, parietal, temporal and occipital regions of the head.",
+      "facts": [
+        "A healthy scalp has about 100,000 hair follicles, and 50 to 100 hairs are normally shed each day.",
+        "Scalp hair grows about 1 cm per month, and a scalp follicle can stay in its growth phase for 2 to 6 years."
+      ],
+      "sources": [
+        "https://dermnetnz.org/topics/hair-shedding",
+        "https://my.clevelandclinic.org/health/body/23140-terminal-hair"
+      ]
+    },
+    {
+      "id": "eyebrows",
+      "medical": "Eyebrow (supercilium)",
+      "common": "Eyebrows",
+      "category": "Hair",
+      "match": [
+        "Eyebrow.l",
+        "Eyebrow.r",
+        "Hairs of eyebrow.l",
+        "Hairs of eyebrow.r"
+      ],
+      "summary": "Each eyebrow is an arched strip of short terminal hairs on skin overlying the brow ridge above the eye. The hairs point outward toward the temples, and the brow is moved by facial muscles such as frontalis (raises it) and corrugator supercilii (draws the brows together in a frown).",
+      "function": "Channels sweat and rain away from the eyes and is a key tool of facial expression and face recognition.",
+      "location": "Above each orbit, along the lower edge of the forehead, following the upper rim of the eye socket.",
+      "facts": [
+        "In a face-recognition study, removing eyebrows from photos hurt recognition more than removing the eyes.",
+        "Raising one eyebrow signals doubt or curiosity, while raising both signals surprise."
+      ],
+      "sources": [
+        "https://www.aao.org/eye-health/tips-prevention/why-do-humans-have-eyebrows-eyelashes",
+        "https://www.kenhub.com/en/library/anatomy/eyelid"
+      ]
+    },
+    {
+      "id": "eyelashes",
+      "medical": "Eyelashes (cilia)",
+      "common": "Eyelashes",
+      "category": "Hair",
+      "match": [
+        "Eyelashes.l",
+        "Eyelashes.r"
+      ],
+      "summary": "Eyelashes are short, curved hairs arranged in rows along the free margin of the upper and lower eyelids. Their follicles are surrounded by dense nerve endings and by two kinds of small glands: the glands of Zeis, which release an oily secretion, and the glands of Moll, which are modified sweat glands. This makes the lid margin one of the most touch-sensitive areas of the body.",
+      "function": "Catch dust and debris, trigger a protective blink when touched, and reduce evaporation of the tear film.",
+      "location": "Along the edges of the upper and lower eyelids of each eye.",
+      "facts": [
+        "Roughly 100 to 150 lashes line each upper lid in two or three rows, and about half as many line the lower lid.",
+        "Eyelashes tend to grey later and less often than scalp hair."
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK537278/",
+        "https://my.clevelandclinic.org/health/body/eyelids",
+        "https://www.aao.org/eye-health/tips-prevention/why-do-humans-have-eyebrows-eyelashes"
+      ]
+    },
+    {
+      "id": "auricle",
+      "medical": "Auricle (pinna)",
+      "common": "Outer ear",
+      "category": "Head",
+      "match": [
+        "Auricular region.l",
+        "Auricular region.r",
+        "Helix.l",
+        "Helix.r",
+        "Antihelix.l",
+        "Antihelix.r",
+        "Crura of antihelix.l",
+        "Crura of antihelix.r",
+        "Tragus.l",
+        "Tragus.r",
+        "Antitragus.l",
+        "Antitragus.r",
+        "Intertragic incisure.l",
+        "Intertragic incisure.r",
+        "Anterior notch of auricle.l",
+        "Anterior notch of auricle.r",
+        "Concha of auricle.l",
+        "Concha of auricle.r",
+        "Cavity of concha.l",
+        "Cavity of concha.r",
+        "Cymba conchae.l",
+        "Cymba conchae.r",
+        "Scapha.l",
+        "Scapha.r",
+        "Triangular fossa.l",
+        "Triangular fossa.r",
+        "Fossa antihelica.l",
+        "Fossa antihelica.r",
+        "Auricular tubercle.l",
+        "Auricular tubercle.r",
+        "Apex of auricle.l",
+        "Apex of auricle.r",
+        "Lobule of auricle.l",
+        "Lobule of auricle.r",
+        "Eminentia conchae.l",
+        "Eminentia conchae.r",
+        "Eminentia fossae triangularis.l",
+        "Eminentia fossae triangularis.r",
+        "Eminentia scaphae.l",
+        "Eminentia scaphae.r",
+        "Posterior auricular groove.l",
+        "Posterior auricular groove.r"
+      ],
+      "summary": "The auricle is the visible part of the external ear: a sheet of flexible cartilage covered tightly by skin and folded into ridges and hollows. Its outer rim is the helix, an inner parallel ridge is the antihelix, and the deep central bowl (concha) leads into the ear canal, guarded in front by the small tragus. The soft earlobe (lobule) at the bottom is the only part with no cartilage.",
+      "function": "Gathers sound waves and funnels them into the external acoustic meatus, its contours beginning to modify the sound on the way in.",
+      "location": "On each side of the head, around the opening of the ear canal, just behind the jaw joint.",
+      "facts": [
+        "The earlobe is made of fibrous and fatty tissue rather than cartilage, which is why it is soft.",
+        "The skin of the auricle receives sensory branches from several nerves, including the great auricular, auriculotemporal, facial and vagus nerves."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/organs/ear/external-ear/",
+        "https://www.kenhub.com/en/library/anatomy/outer-ear"
+      ]
+    },
+    {
+      "id": "scalp",
+      "medical": "Scalp (regions of epicranium)",
+      "common": "Scalp",
+      "category": "Head",
+      "match": [
+        "Frontal region.l",
+        "Frontal region.r",
+        "Parietal region.l",
+        "Parietal region.r",
+        "Occipital region.l",
+        "Occipital region.r",
+        "Temporal region.l",
+        "Temporal region.r",
+        "Mastoid region.l",
+        "Mastoid region.r"
+      ],
+      "summary": "The scalp is the soft tissue covering the top, sides and back of the skull. On the surface it is divided into the frontal region (which includes the forehead) and the parietal, temporal, occipital and mastoid regions. Over the cranial vault it has five layers, remembered as SCALP: skin, dense connective tissue, the epicranial aponeurosis, loose areolar tissue and the pericranium (periosteum of the skull). The loose areolar layer lets the upper layers slide over the skull. Over the temples the layers differ, with temporal fascia and the temporalis muscle lying beneath.",
+      "function": "Protects and cushions the skull, carries the hair follicles of the head, and anchors the frontalis and occipitalis muscles through its aponeurosis.",
+      "location": "Over the cranial vault, from the forehead in front to the back of the head and the mastoid area behind each ear.",
+      "facts": [
+        "Even small scalp cuts can bleed heavily because the vessels are held open by the dense connective tissue and cannot retract or constrict well.",
+        "The loose areolar layer is called the 'danger area' because its emissary veins link the scalp to venous sinuses inside the skull, a route for infection."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/areas/scalp/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK551565/"
+      ]
+    },
+    {
+      "id": "palm",
+      "medical": "Palm of hand (palmar region)",
+      "common": "Palm",
+      "category": "Hand",
+      "match": [
+        "Palm.l",
+        "Palm.r",
+        "Palmar surfaces of digits of hand.l",
+        "Palmar surfaces of digits of hand.r"
+      ],
+      "summary": "The palm and the palmar surfaces of the fingers are covered by thick, hairless (glabrous) skin. Its epidermis has an extra clear layer, the stratum lucidum, and is raised into friction ridges that form fingerprints on the fingertips. This skin has no hair follicles and no oil (sebaceous) glands, but it is packed with sweat glands.",
+      "function": "Gives a durable, grippy, highly sensitive surface for holding and exploring objects, and helps cool the body through dense sweat glands.",
+      "location": "The front (anterior) surface of the hand and fingers, from the wrist to the fingertips.",
+      "facts": [
+        "Palms and soles hold the body's densest sweat glands, about 250 to 500 per square centimetre.",
+        "Friction ridges begin forming at about 10 weeks of fetal life and are fixed by about 17 weeks; the pattern then stays the same for life."
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/eccrine-glands",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5527987/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK470464/"
+      ]
+    },
+    {
+      "id": "sole",
+      "medical": "Sole of foot (plantar region)",
+      "common": "Sole of the foot",
+      "category": "Foot",
+      "match": [
+        "Sole.l",
+        "Sole.r",
+        "Heel region.l",
+        "Heel region.r",
+        "Plantar surfaces of digits of foot.l",
+        "Plantar surfaces of digits of foot.r",
+        "Medial part of longitudinal arch of foot.l",
+        "Medial part of longitudinal arch of foot.r",
+        "Lateral part of longitudinal arch of foot.l",
+        "Lateral part of longitudinal arch of foot.r",
+        "Proximal transverse arch of foot.l",
+        "Proximal transverse arch of foot.r",
+        "Distal transverse arch of foot.l",
+        "Distal transverse arch of foot.r",
+        "Hallucial eminence.l",
+        "Hallucial eminence.r",
+        "Metatarsal region.l",
+        "Metatarsal region.r"
+      ],
+      "summary": "The sole is covered by thick, hairless skin that is especially tough over the heel, ball and outer edge of the foot, where weight is borne. Beneath it lies a cushion of fat divided by fibrous septa, then the strong plantar aponeurosis. The surface outlines the foot's arches: the high medial and lower lateral longitudinal arches and the transverse arch.",
+      "function": "Bears and spreads body weight, absorbs impact during walking and running, and provides grip and protective sensation.",
+      "location": "The underside (plantar surface) of the foot, from the heel to the tips of the toes.",
+      "facts": [
+        "The heel fat pad is normally about 1 to 2 cm thick and acts as a shock absorber.",
+        "The lateral longitudinal arch is flatter than the medial arch and rests on the ground when standing."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/sole-of-foot",
+        "https://my.clevelandclinic.org/health/diseases/23275-heel-fat-pad-syndrome",
+        "https://teachmeanatomy.info/lower-limb/misc/foot-arches/"
+      ]
+    },
+    {
+      "id": "umbilicus",
+      "medical": "Umbilicus",
+      "common": "Belly button",
+      "category": "Abdomen",
+      "match": [
+        "Umbilicus.l",
+        "Umbilicus.r"
+      ],
+      "summary": "The umbilicus is the fibrous scar in the abdominal wall where the umbilical cord was attached before birth. Sealed remnants of the umbilical vein, the two umbilical arteries and the urachus (which becomes the median umbilical ligament) all meet here. On the surface a small raised centre, the mamelon, is ringed by a cushion of skin and a furrow.",
+      "function": "Marks the transumbilical plane used to divide the abdomen into four quadrants, and is a common entry site for laparoscopic surgery.",
+      "location": "In the midline of the front of the abdomen, roughly level with the disc between the L3 and L4 vertebrae.",
+      "facts": [
+        "Its skin lies in the T10 dermatome, supplied by the tenth thoracic spinal nerve.",
+        "Informally, navels are described as 'innies' (hollow indentation) or 'outies' (protruding knob of skin)."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/umbilicus",
+        "https://my.clevelandclinic.org/health/body/navel-belly-button",
+        "https://my.clevelandclinic.org/health/body/24379-dermatomes"
+      ]
+    },
+    {
+      "id": "cubital-fossa",
+      "medical": "Cubital fossa",
+      "common": "Inner elbow",
+      "category": "Upper limb",
+      "match": [
+        "Cubital fossa.l",
+        "Cubital fossa.r"
+      ],
+      "summary": "The cubital fossa is a triangular hollow on the front of the elbow. It is bounded by an imaginary line between the humeral epicondyles above, pronator teres medially and brachioradialis laterally. From lateral to medial it contains the radial nerve, biceps tendon, brachial artery and median nerve, with superficial veins in its roof.",
+      "function": "Acts as a passageway for nerves and vessels between arm and forearm and is a key clinical access point.",
+      "location": "On the anterior surface of the elbow, between the upper arm and forearm.",
+      "facts": [
+        "The median cubital vein here is the most common site for drawing blood.",
+        "The brachial pulse, used when measuring blood pressure, is felt just medial to the biceps tendon in this fossa."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/areas/cubital-fossa/",
+        "https://www.kenhub.com/en/library/anatomy/cubital-fossa"
+      ]
+    },
+    {
+      "id": "popliteal-fossa",
+      "medical": "Popliteal fossa",
+      "common": "Back of the knee",
+      "category": "Lower limb",
+      "match": [
+        "Popliteal fossa.l",
+        "Popliteal fossa.r"
+      ],
+      "summary": "The popliteal fossa is a diamond-shaped hollow behind the knee. The hamstring muscles (semimembranosus and semitendinosus medially, biceps femoris laterally) form its upper borders and the two heads of gastrocnemius its lower borders. It carries the popliteal artery and vein, the tibial and common fibular nerves, the end of the small saphenous vein (which drains into the popliteal vein) and the popliteal lymph nodes.",
+      "function": "Channels the main vessels and nerves between the thigh and the leg across the back of the knee.",
+      "location": "On the posterior aspect of the knee joint, between the lower thigh and upper calf.",
+      "facts": [
+        "The popliteal pulse lies deep and is usually felt with the knee flexed.",
+        "A Baker's cyst is a fluid swelling here, often linked to knee osteoarthritis; if it ruptures it can mimic a deep vein thrombosis."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/areas/popliteal-fossa/",
+        "https://www.kenhub.com/en/library/anatomy/popliteal-fossa"
+      ]
+    },
+    {
+      "id": "femoral-triangle",
+      "medical": "Femoral triangle",
+      "common": "Upper inner thigh",
+      "category": "Lower limb",
+      "match": [
+        "Femoral triangle.l",
+        "Femoral triangle.r"
+      ],
+      "summary": "The femoral triangle is a wedge-shaped area at the top of the front of the thigh, bounded by the inguinal ligament above, sartorius laterally and adductor longus medially. From lateral to medial it contains the femoral nerve, artery, vein, an empty space (femoral canal) and lymphatics, remembered as NAVEL.",
+      "function": "Serves as the main gateway for the nerve, vessels and lymphatics passing between the abdomen and the lower limb.",
+      "location": "On the upper, inner part of the front of the thigh, just below the groin crease.",
+      "facts": [
+        "The femoral pulse is felt at the mid-inguinal point, and the femoral artery here is a traditional and still widely used access route for catheter procedures such as angiography.",
+        "Femoral hernias push through the femoral canal and make up about 2 to 4% of groin hernias; they are about four times more common in women."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/areas/femoral-triangle/",
+        "https://www.kenhub.com/en/library/anatomy/femoral-triangle",
+        "https://www.ncbi.nlm.nih.gov/books/NBK535449/"
+      ]
+    },
+    {
+      "id": "triangle-of-auscultation",
+      "medical": "Triangle of auscultation",
+      "common": "Triangle of auscultation",
+      "category": "Back",
+      "match": [
+        "Triangle of auscultation.l",
+        "Triangle of auscultation.r"
+      ],
+      "summary": "The triangle of auscultation is a small gap between back muscles, bordered by the lower edge of trapezius, the upper edge of latissimus dorsi and the medial border of the scapula (or rhomboid major). Because muscle is thin here, the 6th and 7th ribs and their intercostal spaces lie close to the skin.",
+      "function": "Provides an acoustic window where breath sounds from the back of the lungs are heard more clearly with a stethoscope.",
+      "location": "On the back at the medial border of each shoulder blade, near its lower tip (inferior angle).",
+      "facts": [
+        "It widens when the person folds the arms across the chest and bends forward, drawing the scapulae forward and outward.",
+        "Local anaesthetic can be injected in this area for a rhomboid intercostal block, which eases pain after rib fractures or chest surgery."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/triangle-of-auscultation",
+        "https://www.ncbi.nlm.nih.gov/books/NBK539834/"
+      ]
+    },
+    {
+      "id": "carotid-triangle",
+      "medical": "Carotid triangle",
+      "common": "Carotid pulse area of the neck",
+      "category": "Neck",
+      "match": [
+        "Carotid triangle.l",
+        "Carotid triangle.r"
+      ],
+      "summary": "The carotid triangle is part of the anterior triangle of the neck, bounded by the sternocleidomastoid, the posterior belly of digastric and the superior belly of omohyoid. It contains the common carotid artery, which divides into internal and external carotid arteries here, several external carotid branches, the internal jugular vein, the vagus and hypoglossal nerves and the ansa cervicalis.",
+      "function": "Houses the carotid sinus, whose baroreceptors sense blood pressure, and gives surgeons relatively superficial access to the carotid vessels.",
+      "location": "On the upper front side of the neck, just in front of the sternocleidomastoid below the angle of the jaw.",
+      "facts": [
+        "The carotid pulse is felt here, at the front border of sternocleidomastoid, level with the upper edge of the thyroid cartilage.",
+        "In people with a hypersensitive carotid sinus, pressure here can slow the heart and drop blood pressure enough to cause fainting."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/areas/anterior-triangle/",
+        "https://www.kenhub.com/en/library/anatomy/carotid-triangle"
+      ]
+    },
+    {
+      "id": "eyeball",
+      "medical": "Eyeball (bulbus oculi)",
+      "common": "Eye",
+      "category": "Head",
+      "match": [
+        "Cornea.l",
+        "Cornea.r",
+        "Iris.l",
+        "Iris.r",
+        "Sclera.l",
+        "Sclera.r"
+      ],
+      "summary": "The eyeball is a roughly spherical organ with three coats: the tough white sclera and clear cornea outside, a middle vascular layer that includes the coloured iris, and the light-sensitive retina inside. Behind the iris sits the lens. The front (anterior) segment holds watery aqueous humour in the anterior and posterior chambers; the larger back (posterior) segment is filled with the gel-like vitreous body.",
+      "function": "Focuses light onto the retina, which turns it into nerve signals carried to the brain by the optic nerve.",
+      "location": "Inside the bony orbit on each side of the face, protected in front by the eyelids.",
+      "facts": [
+        "The cornea provides most of the eye's focusing power, while the lens fine-tunes focus for near and far objects.",
+        "The vitreous body is almost all water and fills about 80% of the eye's volume."
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/24611-aqueous-humor-vitreous-humor",
+        "https://www.kenhub.com/en/library/anatomy/structure-of-the-eyeball"
+      ]
+    },
+    {
+      "id": "abdominal-regions",
+      "medical": "Regions of the abdomen (nine-region scheme)",
+      "common": "Abdominal regions",
+      "category": "Abdomen",
+      "match": [
+        "Epigastric region.l",
+        "Epigastric region.r",
+        "Hypochondriac region.l",
+        "Hypochondriac region.r",
+        "Umbilical region.l",
+        "Umbilical region.r",
+        "Lateral region of abdomen.l",
+        "Lateral region of abdomen.r",
+        "Inguinal region.l",
+        "Inguinal region.r",
+        "Hypogastric region.l",
+        "Hypogastric region.r"
+      ],
+      "summary": "The front of the abdomen is split into nine regions by two vertical and two horizontal lines. The vertical lines are the left and right midclavicular lines, running from the middle of each clavicle to the middle of the inguinal ligament. The horizontal lines are the subcostal plane (at the lowest edge of the rib cage, the 10th costal cartilage) and the transtubercular plane (through the tubercles of the iliac crests, level with L5). This gives three rows: right hypochondriac, epigastric and left hypochondriac on top; right lateral (lumbar), umbilical and left lateral in the middle; and right inguinal, hypogastric (suprapubic) and left inguinal below.",
+      "function": "Gives doctors a shared map for describing where pain, swelling or a mass is and for predicting which organ lies beneath.",
+      "location": "On the front of the abdomen, from the lower edge of the ribs down to the groin creases and pubic bone.",
+      "facts": [
+        "Typical organs beneath: liver and gallbladder in the right hypochondrium; stomach and pancreas in the epigastrium; spleen in the left hypochondrium; small intestine in the umbilical region; caecum and appendix in the right inguinal region; the full bladder in the hypogastrium; sigmoid colon in the left inguinal region.",
+        "In plain words: epigastric is the upper middle abdomen, hypochondriac is under the ribs, umbilical is the belly-button area, lateral is the flank, inguinal is the groin and hypogastric is the lower belly."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/regions-of-the-abdomen",
+        "https://www.kenhub.com/en/library/anatomy/midclavicular-line"
+      ]
+    },
+    {
+      "id": "anatomical-snuffbox",
+      "medical": "Radial foveola (anatomical snuffbox)",
+      "common": "Anatomical snuffbox",
+      "category": "Upper limb",
+      "match": [
+        "Radial foveola.l",
+        "Radial foveola.r"
+      ],
+      "summary": "The anatomical snuffbox is a small hollow on the thumb side of the back of the wrist, seen best when the thumb is stretched out. Its inner border is the tendon of extensor pollicis longus, and its outer border the tendons of extensor pollicis brevis and abductor pollicis longus. The scaphoid and trapezium bones form its floor. It contains the radial artery, with the cephalic vein and branches of the superficial radial nerve running over it.",
+      "function": "Serves as a key examination landmark, lying over the scaphoid bone and a pulse point of the radial artery.",
+      "location": "On the back of the wrist at the base of the thumb, just beyond the tip of the radius.",
+      "facts": [
+        "Tenderness here after a fall on an outstretched hand suggests a scaphoid fracture, even when the first X-ray looks normal.",
+        "The radial artery can be felt in the floor of the snuffbox, and the cephalic vein begins nearby."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/areas/anatomical-snuffbox/",
+        "https://www.kenhub.com/en/library/anatomy/anatomical-snuffbox",
+        "https://www.ncbi.nlm.nih.gov/books/NBK482228/"
+      ]
+    },
+    {
+      "id": "supraclavicular-fossae",
+      "medical": "Greater and lesser supraclavicular fossae",
+      "common": "Hollows above the collarbone",
+      "category": "Neck",
+      "match": [
+        "Greater supraclavicular fossa.l",
+        "Greater supraclavicular fossa.r",
+        "Lesser supraclavicular fossa.l",
+        "Lesser supraclavicular fossa.r"
+      ],
+      "summary": "The greater supraclavicular fossa is the larger hollow above the middle third of the clavicle, between sternocleidomastoid and trapezius, over the lower part of the posterior triangle of the neck. Beneath it run the third part of the subclavian artery, the trunks of the brachial plexus and the lower external jugular vein. The lesser supraclavicular fossa is a small dip between the sternal and clavicular heads of sternocleidomastoid, over the internal jugular vein.",
+      "function": "Marks where major vessels and the nerves of the arm pass between the neck and the upper limb, making it an important site for examination and needle procedures.",
+      "location": "Just above each collarbone, at the base of the neck.",
+      "facts": [
+        "An enlarged lymph node above the left collarbone (Virchow's node) can be a sign of cancer in the chest or abdomen.",
+        "The brachial plexus can be numbed from this area (supraclavicular block) for arm surgery."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/areas/posterior-triangle/",
+        "https://www.kenhub.com/en/library/anatomy/triangles-of-the-neck"
+      ]
+    },
+    {
+      "id": "submandibular-submental-triangles",
+      "medical": "Submandibular, submental and muscular triangles",
+      "common": "Under the jaw and front of the neck",
+      "category": "Neck",
+      "match": [
+        "Submandibular triangle.l",
+        "Submandibular triangle.r",
+        "Submental triangle.l",
+        "Submental triangle.r",
+        "Muscular triangle.l",
+        "Muscular triangle.r"
+      ],
+      "summary": "These are subdivisions of the anterior triangle of the neck. The submandibular triangle lies under the body of the mandible between the two bellies of digastric and holds the submandibular gland, lymph nodes and the facial artery and vein. The submental triangle sits in the midline under the chin, between the two anterior bellies of digastric and above the hyoid, and contains small lymph nodes. The muscular triangle lies lower in the front of the neck and covers the infrahyoid (strap) muscles, the thyroid gland, larynx and trachea.",
+      "function": "Divide the upper front neck into areas that are easy to examine, especially for enlarged lymph nodes and salivary gland swellings.",
+      "location": "On the front of the neck: under the jaw (submandibular), under the chin (submental) and in the lower middle neck (muscular).",
+      "facts": [
+        "The submental nodes drain the tip of the tongue, the floor of the mouth and the middle of the lower lip.",
+        "Swelling under the jaw that gets worse at mealtimes can point to a stone blocking the submandibular gland duct."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/areas/anterior-triangle/",
+        "https://www.kenhub.com/en/library/anatomy/triangles-of-the-neck"
+      ]
+    },
+    {
+      "id": "deltopectoral-triangle",
+      "medical": "Deltopectoral triangle and infraclavicular fossa",
+      "common": "Hollow below the collarbone",
+      "category": "Thorax",
+      "match": [
+        "Deltopectoral triangle.l",
+        "Deltopectoral triangle.r",
+        "Infraclavicular fossa.l",
+        "Infraclavicular fossa.r"
+      ],
+      "summary": "The deltopectoral (clavipectoral) triangle is a small hollow just below the outer part of the clavicle, bounded by the clavicle above, deltoid laterally and pectoralis major medially. On the surface it forms the infraclavicular fossa. The cephalic vein climbs in the groove between deltoid and pectoralis major, passes through this triangle and pierces the clavipectoral fascia to join the axillary vein.",
+      "function": "Marks the route by which the cephalic vein reaches the deep veins below the clavicle, and gives surgeons a landmark for the shoulder and upper chest.",
+      "location": "On the upper front chest just below the outer third of each collarbone, between the shoulder and chest muscles.",
+      "facts": [
+        "Surgeons often use the cephalic vein here to pass pacemaker leads into the heart.",
+        "The coracoid process of the scapula can be felt deep in the outer part of this hollow."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/cephalic-vein",
+        "https://www.kenhub.com/en/library/anatomy/the-clavipectoral-fascia"
+      ]
+    },
+    {
+      "id": "medial-retromalleolar-region",
+      "medical": "Medial retromalleolar region",
+      "common": "Behind the inner ankle",
+      "category": "Lower limb",
+      "match": [
+        "Medial retromalleolar region.l",
+        "Medial retromalleolar region.r"
+      ],
+      "summary": "This is the groove between the medial malleolus and the heel, over the tarsal tunnel. From front to back it carries the tibialis posterior tendon, the flexor digitorum longus tendon, the posterior tibial artery with its paired veins, the tibial nerve and the flexor hallucis longus tendon, remembered as 'Tom, Dick And Very Nervous Harry'.",
+      "function": "Channels the main vessels, nerve and deep flexor tendons from the back of the leg into the sole of the foot.",
+      "location": "Just behind and below the inner ankle bone of each leg.",
+      "facts": [
+        "The posterior tibial pulse is felt here, about halfway between the medial malleolus and the Achilles tendon.",
+        "Compression of the tibial nerve in this tunnel (tarsal tunnel syndrome) causes burning pain and tingling in the sole."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/areas/tarsal-tunnel/",
+        "https://www.kenhub.com/en/library/anatomy/tibial-nerve"
+      ]
+    },
+    {
+      "id": "gluteal-region",
+      "medical": "Gluteal region",
+      "common": "Buttock",
+      "category": "Lower limb",
+      "match": [
+        "Gluteal region.l",
+        "Gluteal region.r",
+        "Gluteal fold.l",
+        "Gluteal fold.r"
+      ],
+      "summary": "The gluteal region covers the back of the pelvis, from the iliac crest above to the gluteal fold (buttock crease) below. It is shaped mainly by gluteus maximus, with gluteus medius and minimus deeper and higher up, plus a layer of fat. The sciatic nerve runs through the lower inner part of the region, leaving the pelvis below piriformis on its way to the back of the thigh.",
+      "function": "Carries the hip muscles that extend and steady the hip in walking, running and climbing, and cushions the body when sitting.",
+      "location": "On the back of the pelvis, between the iliac crest above and the gluteal fold below.",
+      "facts": [
+        "Injections into the buttock must avoid the sciatic nerve: the upper outer quadrant is the traditional safe zone, and the ventrogluteal site on the side of the hip is now preferred as safer.",
+        "The gluteal fold does not follow the lower edge of gluteus maximus; it is a skin crease held in place by fibrous bands."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/gluteal-muscles",
+        "https://www.kenhub.com/en/library/anatomy/gluteal-region",
+        "https://www.ncbi.nlm.nih.gov/books/NBK556121/"
+      ]
+    }
+  ],
+  "commonNames": {
+    "Lobule of auricle.l": "Earlobe",
+    "Lobule of auricle.r": "Earlobe",
+    "Frontal region.l": "Forehead",
+    "Frontal region.r": "Forehead",
+    "Temporal region.l": "Temple",
+    "Temporal region.r": "Temple",
+    "Nasal region.l": "Nose",
+    "Nasal region.r": "Nose",
+    "Heel region.l": "Heel",
+    "Heel region.r": "Heel",
+    "Gluteal region.l": "Buttock",
+    "Gluteal region.r": "Buttock",
+    "Inguinal region.l": "Groin",
+    "Inguinal region.r": "Groin",
+    "Lumbar region.l": "Lower back",
+    "Lumbar region.r": "Lower back",
+    "Dorsum of hand.l": "Back of the hand",
+    "Dorsum of hand.r": "Back of the hand",
+    "Dorsum of foot.l": "Top of the foot",
+    "Dorsum of foot.r": "Top of the foot",
+    "Deltoid region.l": "Outer shoulder",
+    "Deltoid region.r": "Outer shoulder",
+    "Posterior region of leg.l": "Calf",
+    "Posterior region of leg.r": "Calf",
+    "Anterior region of knee.l": "Front of the knee",
+    "Anterior region of knee.r": "Front of the knee",
+    "Lateral malleolus.l": "Outer ankle",
+    "Lateral malleolus.r": "Outer ankle",
+    "Medial malleolus.l": "Inner ankle",
+    "Medial malleolus.r": "Inner ankle",
+    "Mammary region.l": "Breast",
+    "Mammary region.r": "Breast",
+    "Posterior region of neck.l": "Back of the neck",
+    "Posterior region of neck.r": "Back of the neck",
+    "Anterior region of thigh.l": "Front of the thigh",
+    "Anterior region of thigh.r": "Front of the thigh",
+    "Posterior region of thigh.l": "Back of the thigh",
+    "Posterior region of thigh.r": "Back of the thigh",
+    "Anterior region of leg.l": "Shin",
+    "Anterior region of leg.r": "Shin",
+    "Posterior region of knee.l": "Back of the knee",
+    "Posterior region of knee.r": "Back of the knee",
+    "Radial foveola.l": "Anatomical snuffbox",
+    "Radial foveola.r": "Anatomical snuffbox",
+    "Orbital region.l": "Eye area",
+    "Orbital region.r": "Eye area",
+    "Sacral region.l": "Base of the spine",
+    "Sacral region.r": "Base of the spine",
+    "Hallucial eminence.l": "Ball of the big toe",
+    "Hallucial eminence.r": "Ball of the big toe",
+    "Metatarsal region.l": "Ball of the foot",
+    "Metatarsal region.r": "Ball of the foot",
+    "Gluteal fold.l": "Buttock crease",
+    "Gluteal fold.r": "Buttock crease",
+    "Scapular region.l": "Shoulder blade area",
+    "Scapular region.r": "Shoulder blade area",
+    "Interscapular region.l": "Between the shoulder blades",
+    "Interscapular region.r": "Between the shoulder blades",
+    "Infrascapular region.l": "Below the shoulder blade",
+    "Infrascapular region.r": "Below the shoulder blade",
+    "Vertebral region.l": "Along the spine",
+    "Vertebral region.r": "Along the spine",
+    "Inframammary region.l": "Below the breast",
+    "Inframammary region.r": "Below the breast",
+    "Posterior region of arm.l": "Back of the upper arm",
+    "Posterior region of arm.r": "Back of the upper arm",
+    "Anterior region of arm.l": "Front of the upper arm",
+    "Anterior region of arm.r": "Front of the upper arm",
+    "Anterior region of forearm.l": "Front of the forearm",
+    "Anterior region of forearm.r": "Front of the forearm",
+    "Posterior region of forearm.l": "Back of the forearm",
+    "Posterior region of forearm.r": "Back of the forearm",
+    "Lateral border of foot.l": "Outer edge of the foot",
+    "Lateral border of foot.r": "Outer edge of the foot",
+    "Medial border of foot.l": "Inner edge of the foot",
+    "Medial border of foot.r": "Inner edge of the foot",
+    "Hip region.l": "Hip",
+    "Hip region.r": "Hip",
+    "Lateral region of thorax.l": "Side of the chest",
+    "Lateral region of thorax.r": "Side of the chest",
+    "Posterior region of wrist.l": "Back of the wrist",
+    "Posterior region of wrist.r": "Back of the wrist",
+    "Anterior region of wrist.l": "Front of the wrist",
+    "Anterior region of wrist.r": "Front of the wrist",
+    "Anterior region of elbow.l": "Front of the elbow",
+    "Anterior region of elbow.r": "Front of the elbow",
+    "Posterior region of elbow.l": "Back of the elbow",
+    "Posterior region of elbow.r": "Back of the elbow",
+    "Anterior region of ankle.l": "Front of the ankle",
+    "Anterior region of ankle.r": "Front of the ankle",
+    "Lateral retromalleolar region.l": "Behind the outer ankle",
+    "Lateral retromalleolar region.r": "Behind the outer ankle",
+    "Medial retromalleolar region.l": "Behind the inner ankle",
+    "Medial retromalleolar region.r": "Behind the inner ankle",
+    "Lateral region of neck.l": "Side of the neck",
+    "Lateral region of neck.r": "Side of the neck",
+    "Sternocleidomastoid region.l": "Side of the neck (over the neck muscle)",
+    "Sternocleidomastoid region.r": "Side of the neck (over the neck muscle)",
+    "Pectoral region.l": "Chest",
+    "Pectoral region.r": "Chest",
+    "Presternal region.l": "Front of the breastbone",
+    "Presternal region.r": "Front of the breastbone",
+    "Lateral bicipital groove.l": "Outer groove of the upper arm",
+    "Lateral bicipital groove.r": "Outer groove of the upper arm",
+    "Medial bicipital groove.l": "Inner groove of the upper arm",
+    "Medial bicipital groove.r": "Inner groove of the upper arm",
+    "Lateral border of forearm.l": "Thumb side of the forearm",
+    "Lateral border of forearm.r": "Thumb side of the forearm",
+    "Dorsal surfaces of digits of hand.l": "Backs of the fingers",
+    "Dorsal surfaces of digits of hand.r": "Backs of the fingers",
+    "Dorsal surfaces of digits of foot.l": "Tops of the toes",
+    "Dorsal surfaces of digits of foot.r": "Tops of the toes",
+    "Epigastric region.l": "Upper middle abdomen",
+    "Epigastric region.r": "Upper middle abdomen",
+    "Hypochondriac region.l": "Under the ribs",
+    "Hypochondriac region.r": "Under the ribs",
+    "Umbilical region.l": "Belly-button area",
+    "Umbilical region.r": "Belly-button area",
+    "Lateral region of abdomen.l": "Flank",
+    "Lateral region of abdomen.r": "Flank",
+    "Hypogastric region.l": "Lower belly",
+    "Hypogastric region.r": "Lower belly",
+    "Anal region.l": "Area around the anus",
+    "Anal region.r": "Area around the anus",
+    "Deltopectoral triangle.l": "Hollow below the collarbone",
+    "Deltopectoral triangle.r": "Hollow below the collarbone",
+    "Infraclavicular fossa.l": "Hollow below the collarbone",
+    "Infraclavicular fossa.r": "Hollow below the collarbone",
+    "Greater supraclavicular fossa.l": "Hollow above the collarbone",
+    "Greater supraclavicular fossa.r": "Hollow above the collarbone",
+    "Lesser supraclavicular fossa.l": "Small hollow above the inner collarbone",
+    "Lesser supraclavicular fossa.r": "Small hollow above the inner collarbone",
+    "Submandibular triangle.l": "Under the jaw",
+    "Submandibular triangle.r": "Under the jaw",
+    "Submental triangle.l": "Under the chin",
+    "Submental triangle.r": "Under the chin",
+    "Muscular triangle.l": "Front of the lower neck",
+    "Muscular triangle.r": "Front of the lower neck",
+    "Palm.l": "Palm",
+    "Palm.r": "Palm",
+    "Sole.l": "Sole of the foot",
+    "Sole.r": "Sole of the foot",
+    "Eyebrow.l": "Eyebrow",
+    "Eyebrow.r": "Eyebrow",
+    "Umbilicus.l": "Belly button",
+    "Umbilicus.r": "Belly button",
+    "Cubital fossa.l": "Inner elbow",
+    "Cubital fossa.r": "Inner elbow",
+    "Popliteal fossa.l": "Back of the knee (hollow)",
+    "Popliteal fossa.r": "Back of the knee (hollow)",
+    "Femoral triangle.l": "Upper inner thigh",
+    "Femoral triangle.r": "Upper inner thigh",
+    "Carotid triangle.l": "Carotid pulse area of the neck",
+    "Carotid triangle.r": "Carotid pulse area of the neck",
+    "Cornea.l": "Cornea (clear front of the eye)",
+    "Cornea.r": "Cornea (clear front of the eye)",
+    "Iris.l": "Iris (coloured part of the eye)",
+    "Iris.r": "Iris (coloured part of the eye)",
+    "Sclera.l": "White of the eye",
+    "Sclera.r": "White of the eye",
+    "Parietal region.l": "Top of the head",
+    "Parietal region.r": "Top of the head",
+    "Occipital region.l": "Back of the head",
+    "Occipital region.r": "Back of the head",
+    "Mastoid region.l": "Behind the ear",
+    "Mastoid region.r": "Behind the ear",
+    "Auricular region.l": "Ear",
+    "Auricular region.r": "Ear",
+    "Perineal region": "Perineum (area between the thighs)",
+    "Hairs of head": "Scalp hair"
+  }
+}

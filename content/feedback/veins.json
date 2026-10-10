@@ -1,0 +1,137 @@
+{
+ "review r1": {
+  "issues": [
+   {
+    "id": "coronary-sinus",
+    "severity": "major",
+    "problem": "An object in the Coronary sinus group has a corrupted name, '????????' (line 48 of names/veins.txt). It is not in any match list, so clicking it shows no content, and its label would appear as question marks. It is most likely the small cardiac vein, the posterior vein of the left ventricle or the oblique vein of the left atrium. The summary also names the small cardiac vein, but no object in the model clearly carries that name.",
+    "fix": "Find the real name of the corrupted object in the GLB/Blender file (likely a Unicode/encoding loss) and rename it, for example 'Small cardiac vein'. Then add it to the coronary-sinus match list. Also mention the 'Inferior vein of left ventricle' (posterior vein of the left ventricle) in the summary, since it is matched but never described."
+   },
+   {
+    "id": "renal-veins",
+    "severity": "major",
+    "problem": "The function says the left renal vein receives the 'left testicular' vein. That is true only for males. In females it is the left ovarian vein. The list also leaves out the left second lumbar / ascending lumbar connection.",
+    "fix": "Reword: 'the left one also receives the left gonadal (testicular or ovarian), left suprarenal and often the left inferior phrenic vein.'"
+   },
+   {
+    "id": "coronary-sinus-55pct",
+    "severity": "minor",
+    "problem": "The fact 'It carries roughly 55% of the heart's venous return' comes from one Wikipedia sentence. Kenhub and standard texts just say it drains most or the majority of myocardial venous blood. The exact figure is weakly supported, and it undersells the sinus.",
+    "fix": "Change to 'It drains the majority of the heart muscle's venous blood; the rest enters the heart chambers directly through anterior cardiac and smallest (Thebesian) veins.'"
+   },
+   {
+    "id": "pulmonary-veins",
+    "severity": "minor",
+    "problem": "'They are the only veins that normally carry oxygen-rich blood' ignores the umbilical vein, which carries oxygenated blood in the fetus.",
+    "fix": "Change to 'After birth, they are the only veins that carry oxygen-rich blood (before birth the umbilical vein also does).'"
+   },
+   {
+    "id": "femoral-vein",
+    "severity": "minor",
+    "problem": "The function says it 'Returns blood from the whole lower limb'. The gluteal region and part of the hip drain through the gluteal veins into the internal iliac vein instead.",
+    "fix": "Change to 'Returns blood from almost all of the lower limb (except the buttock, which drains to the internal iliac vein)...'"
+   },
+   {
+    "id": "superior-sagittal-sinus",
+    "severity": "minor",
+    "problem": "The opening sentence 'The superior sagittal sinus is the largest dural venous sinus' is copied word for word from TeachMeAnatomy. The fact is correct.",
+    "fix": "Rephrase, e.g. 'Running along the top midline of the skull, the superior sagittal sinus is the biggest of the dural venous sinuses...'"
+   },
+   {
+    "id": "cavernous-sinus",
+    "severity": "minor",
+    "problem": "The function says it drains only 'through the petrosal sinuses'. That leaves out its emissary-vein connections to the pterygoid plexus, which are clinically important as a second route for infection.",
+    "fix": "Change to 'then drain through the superior and inferior petrosal sinuses and, via emissary veins, into the pterygoid plexus.'"
+   },
+   {
+    "id": "hepatic-portal-vein",
+    "severity": "minor",
+    "problem": "The location skips the key landmark: the free edge of the lesser omentum (hepatoduodenal ligament), where the vein lies behind the bile duct and hepatic artery. The summary says it drains 'digestive tract and spleen' but leaves out the pancreas and gallbladder.",
+    "fix": "Location: '...rises in the free edge of the lesser omentum, behind the bile duct and hepatic artery, to the porta hepatis.' Summary: '...from the digestive tract, pancreas, gallbladder and spleen...'"
+   },
+   {
+    "id": "superior-mesenteric-vein",
+    "severity": "minor",
+    "problem": "'The first part of the large intestine' and 'proximal colon' are vague. The text also leaves out parts of the stomach and the pancreas/duodenum, which drain through the right gastro-omental and pancreaticoduodenal veins. The right gastro-omental vein is in the model under this group.",
+    "fix": "Function: 'Drains the small intestine, cecum, appendix, ascending colon and most of the transverse colon, plus parts of the stomach, pancreas and duodenum.' Consider adding 'Right colic vein', 'Middle colic vein' and 'Right gastro-omental vein' to match, or giving them entries."
+   },
+   {
+    "id": "brachiocephalic-veins-common",
+    "severity": "minor",
+    "problem": "The common name 'Innominate veins' is an older medical synonym, not a lay name or plain descriptor.",
+    "fix": "Use a plain descriptor such as 'Main head-and-arm veins' and move 'also called the innominate veins' into the summary or facts."
+   },
+   {
+    "id": "common-iliac-veins-common",
+    "severity": "minor",
+    "problem": "The common name 'Main pelvic vein' is confusing. The internal iliac vein is already called 'Pelvic vein', and the common iliac veins lie at the pelvic brim in the lower abdomen rather than in the pelvis. 'Outer pelvic vein' for the external iliac vein is also unclear.",
+    "fix": "Common iliac: 'Main leg-and-pelvis vein'. External iliac: 'Groin-to-pelvis vein' (or 'Outer iliac vein'). Internal iliac: keep 'Pelvic vein'."
+   },
+   {
+    "id": "external-jugular-vein-fact",
+    "severity": "minor",
+    "problem": "The JVD fact suggests the external jugular vein is the standard way to judge right heart pressure. Jugular venous pressure is formally assessed with the internal jugular vein (as the IJV entry says), and the external jugular is less reliable because it has valves and can kink.",
+    "fix": "Change to 'It often visibly bulges when right-heart pressure is high, as in heart failure, though doctors measure jugular venous pressure more reliably using the internal jugular vein.'"
+   },
+   {
+    "id": "sources-wikipedia",
+    "severity": "minor",
+    "problem": "Many entries cite Wikipedia, which is not on the trusted list. The overview does (Median_cubital_vein), and splenic-vein, superior-mesenteric-vein, popliteal-vein, hepatic-veins and pulmonary-veins depend mostly on it. The Radiopaedia links return HTTP 406 to automated checks but are real pages. Every Kenhub and TeachMeAnatomy link loaded correctly (checked by page title).",
+    "fix": "Replace the Wikipedia links with StatPearls (ncbi.nlm.nih.gov/books) or Kenhub pages, e.g. Kenhub 'splenic-vein', 'superior-mesenteric-vein', 'popliteal-vein', 'hepatic-veins', and StatPearls 'Anatomy, Abdomen and Pelvis, Portal Vein'."
+   },
+   {
+    "id": "match-subparts",
+    "severity": "minor",
+    "problem": "Every match name exists in the model (verified with Python), but several closely related sub-objects are left out even though the text describes them. The dorsal venous network of the hand (named as the origin of the cephalic and basilic veins), the median antebrachial vein (named in the median cubital facts), the angular vein (named in the facial vein summary), the retromandibular divisions (named in the facial and external jugular text), the superior and inferior ophthalmic veins (named in the facial and cavernous facts), the dorsal venous arch of the foot (named as the origin of both saphenous veins), and the hemiazygos and accessory hemiazygos veins (named in the azygos function) are all orphaned.",
+    "fix": "Either create entries for them (preferred, see missingImportant) or add them to the parent match lists with both sides, e.g. 'Median antebrachial vein.l', 'Median antebrachial vein.r' under median-cubital-vein; 'Angular vein.l', 'Angular vein.r' under facial-vein; 'Hemi-azygos vein', 'Accessory hemi-azygos vein' under azygos-vein."
+   },
+   {
+    "id": "overview",
+    "severity": "minor",
+    "problem": "'Hold a large share of the blood volume' is too vague for the level of this site.",
+    "fix": "Change to 'hold about two-thirds (roughly 60-70%) of the body's blood at rest'."
+   }
+  ],
+  "missingImportant": [
+   "Inferior mesenteric vein (single object): a major portal tributary draining the left colon and rectum, with the 'Sigmoid veins' in its group. It is also clinically relevant to portosystemic anastomoses and hemorrhoids.",
+   "Hemi-azygos vein and Accessory hemi-azygos vein (plus Left superior intercostal vein, ascending lumbar and subcostal veins): the left side of the azygos system.",
+   "Brachial veins.l/.r, Radial veins.l/.r and Ulnar veins.l/.r: the deep veins of the upper limb. The axillary and basilic entries mention the brachial veins but they have no entry.",
+   "Deep femoral vein.l/.r (with Perforating veins and the Medial/Lateral circumflex femoral veins): the femoral entry mentions it but it has no entry.",
+   "Straight sinus, Inferior sagittal sinus, Occipital sinus and the Confluence of sinuses group: the rest of the dural sinus system.",
+   "Superior petrosal sinus.l/.r and Inferior petrosal sinus.l/.r, plus the Basilar venous plexus: the cavernous entry says it drains into them.",
+   "Superior and inferior ophthalmic veins.l/.r (Orbital veins group): the 'danger triangle' facts depend on them.",
+   "Retromandibular vein.l/.r with its anterior and posterior divisions (plus superficial temporal and maxillary veins).",
+   "Vertebral vein.l/.r (with occipital veins) and Internal thoracic veins.l/.r (with superior epigastric and musculophrenic veins): tributaries of the brachiocephalic veins.",
+   "Anterior jugular vein.l/.r.",
+   "Lumbar veins.l/.r and ascending lumbar veins: IVC tributaries that form an IVC-azygos collateral route.",
+   "Dorsal venous network of hand.l/.r and Dorsal venous arch of foot.l/.r: the starting points of the cephalic, basilic and saphenous veins, often used for IV access.",
+   "Palmar venous arches (superficial and deep), Plantar venous arch and the medial/lateral plantar veins.",
+   "Gluteal veins, Internal pudendal vein and Lateral sacral veins: tributaries of the internal iliac vein.",
+   "Lingual vein and Superior thyroid vein: named in the IJV text but unmatched.",
+   "Left and right gastro-omental veins, and the right and middle colic veins: portal tributaries in the model."
+  ],
+  "notes": "What was checked: all 31 structures in C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\veins.json, compared with C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\names\\veins.txt.\n\nName matching (Python):\n- Every name in every \"match\" list and every commonNames key exists in the model object list.\n- No left/right pairs are missing from any match list.\n- The model has about 150 objects/groups (counting .l/.r separately) that no entry uses; the important ones are listed under missingImportant.\n\nSources:\n- I tested all 59 source URLs with curl.\n- Every Wikipedia, Kenhub and TeachMeAnatomy link returns HTTP 200, and I confirmed the Kenhub and TeachMe pages by their titles.\n- The two Radiopaedia links return 406 to bots only.\n\nAccuracy of the anatomy:\n- Nearly all anatomical claims match Kenhub, TeachMeAnatomy and Gray's, including the vertebral levels (SVC at T4, IVC at L5, caval opening at T8), the vein lengths, the course and relations of each vein, and the clinical facts (May-Thurner, nutcracker, Budd-Chiari, SVC syndrome, cephalic vein pacemaker access, the origin of the word 'cephalic', 'superficial femoral vein' being a misnomer, pulmonary vein ablation for atrial fibrillation).\n- The popliteal vein crossing behind the artery to lie lateral to it is correct.\n- The \"largest dural sinus\" claim is supported by TeachMeAnatomy.\n- The portal vein's 70-75% share of liver blood flow is supported.\n\nCopied text: an 8-word n-gram check against the cited pages found only standard anatomical phrasing, plus one verbatim TeachMeAnatomy sentence (the superior-sagittal-sinus summary, flagged above).\n\nReading level: suitable for medical students. Terms like clavipectoral fascia, bicipital aponeurosis, adductor hiatus and the retromandibular divisions would benefit from short plain-language glosses for general adult readers.\n\nThe biggest fixes are the corrupted '????????' object in the coronary sinus group and the male-only 'testicular' wording in the renal veins entry. The main content gap is missing entries for model structures the text already mentions: the inferior mesenteric vein, the hemiazygos system, the brachial and deep femoral veins, the remaining dural sinuses and the ophthalmic veins."
+ },
+ "score r1": {
+  "score": 7,
+  "accuracy": 8,
+  "modelMatching": 6,
+  "levelAndClarity": 8,
+  "coverage": 6,
+  "sourcing": 6,
+  "mustFix": [
+   "Renal veins function: replace 'left testicular' with 'left gonadal (testicular or ovarian)'. As written it is wrong for females. Kenhub lists the left gonadal (ovarian or testicular), left suprarenal and left inferior phrenic veins.",
+   "Coronary sinus: the object on line 48 of names/veins.txt is named '????????' and belongs to the Coronary sinus group. Recover its real name in the source model (most likely Small cardiac vein or Oblique vein of left atrium), rename it and add it to the coronary-sinus match list. The summary names the small cardiac vein, but no object in the model carries that name.",
+   "Coronary sinus fact: remove or soften 'roughly 55% of the heart's venous return'. Kenhub gives no figure and just says it 'drains most of the cardiac veins'. Say it drains the majority, and that the rest enters the chambers through the anterior cardiac and Thebesian veins.",
+   "Superior sagittal sinus summary: the first sentence is copied word for word from TeachMeAnatomy ('The superior sagittal sinus is the largest dural venous sinus'). Paraphrase it.",
+   "Pulmonary veins fact: qualify 'only veins that carry oxygen-rich blood' with 'after birth', because the fetal umbilical vein also carries oxygenated blood.",
+   "Femoral vein function: 'whole lower limb' should be 'most of the lower limb'. The gluteal region drains to the internal iliac vein.",
+   "Cavernous sinus function: add the emissary-vein connection to the pterygoid plexus as a second drainage route, alongside the superior and inferior petrosal sinuses.",
+   "Add entries (or at least extend match lists) for major model structures the text already mentions but leaves unmatched. The minimum set: Inferior mesenteric vein (with Sigmoid veins), Hemi-azygos and Accessory hemi-azygos veins, Brachial veins.l/.r, Deep femoral vein.l/.r, Straight sinus, Inferior sagittal sinus and Occipital sinus, and the Superior ophthalmic veins. 140 of the 226 model names are currently unused.",
+   "Sourcing: replace Wikipedia as the main source for splenic-vein, superior-mesenteric-vein, popliteal-vein, hepatic-veins, pulmonary-veins, the subclavian vein and the overview. Use Kenhub, TeachMeAnatomy or StatPearls pages instead.",
+   "Common names: replace the synonym 'Innominate veins' with a plain descriptor. Also fix 'Main pelvic vein' / 'Outer pelvic vein' for the common and external iliac veins, which clash with the internal iliac's 'Pelvic vein'.",
+   "Overview: replace 'a large share of the blood volume' with 'about 60-70% of blood volume at rest'."
+  ],
+  "rationale": "I checked the reviewer's findings against both files. In Python, I confirmed three things: all match names and commonNames keys exist in names/veins.txt; exactly one object name is corrupted ('????????', line 48, in the Coronary sinus group); and 140 of the 226 model names are not used by any entry. The unused names include key parents the text refers to: Inferior mesenteric vein, Hemi-azygos vein, Brachial veins, Deep femoral vein, Straight sinus, Superior ophthalmic vein and Retromandibular vein. The file has 30 structures plus an overview; the reviewer said 31.\n\nI spot-checked 9 fact groups against Kenhub and TeachMeAnatomy:\n- Superior vena cava: runs from the 1st to the 3rd right costal cartilage. Confirmed.\n- Brachiocephalic veins: form behind the sternoclavicular joints and unite at the lower border of the 1st right costal cartilage. Confirmed. Lengths: Kenhub gives left 6-8 cm and right about 2 cm, so the file's figures (6 cm, 2-2.5 cm) are acceptable.\n- Renal veins: left about 7 cm, right 2-3 cm. The left crosses in front of the aorta just below the superior mesenteric artery. Confirmed. The left gonadal vein is listed as 'ovarian or testicular', so the male-only 'testicular' wording is incorrect for females.\n- Portal vein: about 8 cm long, formed behind the neck of the pancreas. Confirmed. Kenhub gives 70% of liver blood flow, versus 70-75% in the file. Acceptable.\n- Inferior vena cava: forms at L5, crosses the diaphragm at T8, and its tributaries match. Confirmed.\n- External iliac vein: the inferior epigastric vein joins 1 cm above the inguinal ligament. Confirmed.\n- Coronary sinus: Kenhub lists its tributaries, gives its opening between the IVC and the tricuspid orifice, and says it drains 'most' of the cardiac veins with no percentage. So the 55% figure is unsupported.\n- Dural sinuses: TeachMeAnatomy's sentence on the superior sagittal sinus is verbatim identical to the file's opening sentence (copied text). The cavernous sinus drains via the petrosal sinuses. Confirmed.\n- Popliteal vein: Kenhub confirms it forms from the deep leg veins and ends at the adductor hiatus. It does not state the medial-posterior-lateral relation to the artery; I accepted that from Gray's.\n\nThe rest of the anatomy also holds up from standard knowledge: the carotid sheath relations, the anterior scalene, teres major, the saphenous opening, the sural nerve, the cavernous sinus nerves, and the clinical syndromes named in the facts.\n\nAccuracy: there are no gross errors. The sex-specific renal wording and the weakly supported 55% figure keep accuracy at 8. The other imprecisions are minor: umbilical vein, 'whole lower limb', and cavernous sinus drainage.\n\nThe low scores are for model matching, coverage and sourcing. Model matching is held down by the corrupted object and by large orphaned subparts. Coverage suffers from missing major veins the text itself names. Sourcing relies heavily on Wikipedia and contains the copied sentence.\n\nThe reading level suits medical students. The overall score is 7: fixing the mustFix items (renal wording, the corrupted object, the copied sentence, unsupported numbers, missing core entries and Wikipedia sourcing) would reach 9."
+ }
+}

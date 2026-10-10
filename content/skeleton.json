@@ -1,0 +1,1437 @@
+{
+  "layer": "skeleton",
+  "overview": {
+    "title": "Skeletal system",
+    "summary": "The adult skeleton is a living framework of about 206 bones plus cartilage, ligaments and joints. It is divided into the axial skeleton (skull, spine, ribs and sternum; 80 bones) and the appendicular skeleton (limbs and the girdles that attach them; 126 bones).",
+    "function": "Bones hold the body up and give it shape, shield delicate organs such as the brain, heart and lungs, act as levers that muscles pull on to create movement, store calcium and other minerals, and house the red marrow that makes blood cells.",
+    "facts": [
+      "Bone tissue makes up roughly 12-15 percent of adult body weight; counting cartilage, ligaments and marrow as well, the skeletal system accounts for a somewhat larger share.",
+      "In adults, red marrow that produces blood cells is found mainly in the skull, ribs, sternum, clavicles, vertebrae and pelvis, and the upper ends of the femur and humerus."
+    ],
+    "sources": [
+      "https://training.seer.cancer.gov/anatomy/skeletal/",
+      "https://my.clevelandclinic.org/health/body/21048-skeletal-system"
+    ]
+  },
+  "structures": [
+    {
+      "id": "frontal-bone",
+      "medical": "Frontal bone",
+      "common": "Forehead bone",
+      "category": "Skull",
+      "match": [
+        "Frontal bone"
+      ],
+      "summary": "A single, shell-shaped flat bone that forms the forehead and the front of the braincase. Its vertical squamous part makes the forehead, while its horizontal orbital plates form most of the roofs of the eye sockets and the floor of the anterior cranial fossa.",
+      "function": "Protects the frontal lobes of the brain, shapes the forehead and brow, and forms the upper boundary of each orbit.",
+      "location": "At the front and top of the skull, above the eye sockets and nose, meeting the parietal bones at the coronal suture.",
+      "facts": [
+        "At birth the frontal bone is made of two halves separated by the frontal (metopic) suture, which normally fuses in early childhood.",
+        "The smooth bump between the eyebrows is called the glabella."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-frontal-bone",
+        "https://teachmeanatomy.info/head/osteology/frontal-bone/"
+      ]
+    },
+    {
+      "id": "frontal-sinus",
+      "medical": "Frontal sinus",
+      "common": "Forehead sinus",
+      "category": "Skull",
+      "match": [
+        "Sinus of frontal bone"
+      ],
+      "summary": "An air-filled space lined with mucous membrane inside the frontal bone, behind the brow. It is one of the four pairs of paranasal sinuses; the left and right sides are split by a thin bony wall and are often unequal in size. The maxillary and ethmoidal sinuses are not shown separately in this model.",
+      "function": "Lightens the front of the skull, helps warm and moisten inhaled air, and may add resonance to the voice.",
+      "location": "In the frontal bone above the eye sockets and behind the eyebrows; it drains into the middle meatus of the nose.",
+      "facts": [
+        "It is not present at birth and first becomes visible on X-ray around age 6-8, reaching full size after puberty.",
+        "A blocked sinus opening can trap mucus and lead to sinusitis, felt as pain over the forehead."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/frontal-sinus",
+        "https://www.kenhub.com/en/library/anatomy/the-paranasal-sinuses"
+      ]
+    },
+    {
+      "id": "sphenoidal-sinus",
+      "medical": "Sphenoidal sinus",
+      "common": "Deep skull-base sinus",
+      "category": "Skull",
+      "match": [
+        "Sinus of sphenoid bone"
+      ],
+      "summary": "An air-filled space lined with mucous membrane inside the body of the sphenoid bone, usually divided into left and right parts by a thin septum. It is the deepest of the paranasal sinuses.",
+      "function": "Lightens the skull base and helps warm and moisten inhaled air.",
+      "location": "In the centre of the skull base behind the nasal cavity, directly below the pituitary gland; it drains into the back of the nasal cavity (sphenoethmoidal recess).",
+      "facts": [
+        "It starts to form around age 3 and keeps growing into adolescence.",
+        "Surgeons often reach the pituitary gland through the nose and this sinus (transsphenoidal surgery)."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-paranasal-sinuses",
+        "https://teachmeanatomy.info/head/osteology/sphenoid-bone/"
+      ]
+    },
+    {
+      "id": "parietal-bone",
+      "medical": "Parietal bone",
+      "common": "Top-of-skull bone",
+      "category": "Skull",
+      "match": [
+        "Parietal bone.l",
+        "Parietal bone.r"
+      ],
+      "summary": "A paired, roughly four-sided curved plate of bone. The two parietal bones meet in the midline at the sagittal suture and together form most of the roof and upper sides of the braincase.",
+      "function": "Covers and protects the upper and side parts of the brain and gives attachment to the temporal fascia.",
+      "location": "On the top and sides of the head, behind the frontal bone, above the temporal bones and in front of the occipital bone.",
+      "facts": [
+        "Each parietal bone takes part in four sutures: sagittal, coronal, squamous and lambdoid.",
+        "Grooves on its inner surface carry branches of the middle meningeal artery."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/neurocranium",
+        "https://www.kenhub.com/en/library/anatomy/the-parietal-bone"
+      ]
+    },
+    {
+      "id": "temporal-bone",
+      "medical": "Temporal bone",
+      "common": "Temple bone",
+      "category": "Skull",
+      "match": [
+        "Temporal bone.l",
+        "Temporal bone.r"
+      ],
+      "summary": "A complex paired bone at the side and base of the skull made of squamous, mastoid, petrous and tympanic parts. It contains the ear canal, middle ear and inner ear, and has a socket for the lower jaw.",
+      "function": "Protects the hearing and balance organs, forms the jaw joint with the mandible, and anchors neck muscles such as the sternocleidomastoid on its mastoid process.",
+      "location": "On each side of the skull around and behind the ear, below the parietal bone.",
+      "facts": [
+        "The pterion, where the frontal, parietal, sphenoid and temporal bones meet, is a thin spot; a fracture there can tear the middle meningeal artery.",
+        "Infection of the mastoid air cells (mastoiditis) usually spreads from a middle ear infection."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-temporal-bone",
+        "https://teachmeanatomy.info/head/osteology/temporal-bone/"
+      ]
+    },
+    {
+      "id": "occipital-bone",
+      "medical": "Occipital bone",
+      "common": "Back-of-skull bone",
+      "category": "Skull",
+      "match": [
+        "Occipital bone"
+      ],
+      "summary": "A single, dish-shaped bone that forms the back and much of the base of the skull. It contains the foramen magnum, the large opening through which the brainstem continues as the spinal cord.",
+      "function": "Protects the cerebellum and brainstem and connects the skull to the spine through its occipital condyles, which rest on the atlas.",
+      "location": "At the lower back of the head, behind and below the parietal bones, above the neck.",
+      "facts": [
+        "The bump you can feel at the back of your head is the external occipital protuberance; its highest point is called the inion.",
+        "The joint between the occipital condyles and the atlas is what lets you nod 'yes'."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/neurocranium",
+        "https://www.kenhub.com/en/library/anatomy/the-occipital-bone"
+      ]
+    },
+    {
+      "id": "sphenoid-bone",
+      "medical": "Sphenoid bone",
+      "common": "Butterfly-shaped skull-base bone",
+      "category": "Skull",
+      "match": [
+        "Sphenoid bone"
+      ],
+      "summary": "An unpaired, winged bone at the centre of the skull base, made of a body, greater and lesser wings and downward pterygoid processes. The top of its body forms the sella turcica, a saddle-shaped seat for the pituitary gland.",
+      "function": "Links the braincase to the facial skeleton, forms parts of the orbits and cranial fossae, and provides openings for many nerves and vessels.",
+      "location": "In the middle of the skull base, behind the eyes and nasal cavity; its greater wings appear at the temples.",
+      "facts": [
+        "It articulates with many other skull bones, making it a keystone of the cranial base.",
+        "Its name comes from the Greek sphenoeides, meaning wedge-shaped, because it is wedged between the other bones of the skull base; its outline is often compared to a butterfly or bat."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/osteology/sphenoid-bone/",
+        "https://www.kenhub.com/en/library/anatomy/the-sphenoid-bone"
+      ]
+    },
+    {
+      "id": "ethmoid-bone",
+      "medical": "Ethmoid bone",
+      "common": "Sieve bone (between the eyes)",
+      "category": "Skull",
+      "match": [
+        "Ethmoid bone"
+      ],
+      "summary": "A light, spongy, unpaired bone that separates the nasal cavity from the brain. It has a horizontal cribriform plate, a vertical perpendicular plate and two labyrinths full of air cells.",
+      "function": "Lets smell nerves pass from the nose to the brain, forms the upper nasal septum and the superior and middle nasal conchae, and helps build the inner walls of the orbits.",
+      "location": "Deep in the centre of the face between the two eye sockets, behind the bridge of the nose.",
+      "facts": [
+        "The perforated cribriform plate transmits the olfactory nerve fibres; fracture here can cause loss of smell or leakage of cerebrospinal fluid from the nose.",
+        "Its many tiny air cells (ethmoidal sinuses) make it one of the lightest skull bones."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/neurocranium",
+        "https://teachmeanatomy.info/head/osteology/ethmoid-bone/"
+      ]
+    },
+    {
+      "id": "maxilla",
+      "medical": "Maxilla",
+      "common": "Upper jaw",
+      "category": "Skull",
+      "match": [
+        "Maxilla.l",
+        "Maxilla.r"
+      ],
+      "summary": "A paired, pyramid-shaped bone of the midface; the two maxillae fuse to form the upper jaw. It has a hollow body containing the maxillary sinus and four processes: zygomatic, frontal, palatine and alveolar.",
+      "function": "Holds the upper teeth, forms most of the hard palate, the floor of each orbit and the sides of the nasal cavity.",
+      "location": "In the middle of the face, between the eye sockets and the mouth, on either side of the nose.",
+      "facts": [
+        "The maxillary sinus is the largest paranasal sinus, holding roughly 10-15 ml of air.",
+        "Midface fractures of the maxilla are graded with the Le Fort system (types I-III)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/osteology/maxilla/",
+        "https://my.clevelandclinic.org/health/body/skull-anatomy"
+      ]
+    },
+    {
+      "id": "mandible",
+      "medical": "Mandible",
+      "common": "Lower jaw / jawbone",
+      "category": "Skull",
+      "match": [
+        "Mandible"
+      ],
+      "summary": "The largest and strongest bone of the face, made of a horseshoe-shaped body and two upright rami. It holds the lower teeth and is the only skull bone connected to the rest of the skull by a freely movable joint (the temporomandibular joint).",
+      "function": "Moves at the temporomandibular joints for chewing and speaking, and anchors chewing muscles such as the masseter and temporalis.",
+      "location": "Forms the lower third of the face and chin, hinged to the temporal bones just in front of the ears.",
+      "facts": [
+        "Its alveolar part has sockets for 16 teeth.",
+        "Mandible fractures often occur in pairs, one on each side of the jaw."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/osteology/mandible/",
+        "https://my.clevelandclinic.org/health/body/skull-anatomy"
+      ]
+    },
+    {
+      "id": "zygomatic-bone",
+      "medical": "Zygomatic bone",
+      "common": "Cheekbone",
+      "category": "Skull",
+      "match": [
+        "Zygomatic bone.l",
+        "Zygomatic bone.r"
+      ],
+      "summary": "A paired, irregular bone that forms the prominence of the cheek and the outer rim of the eye socket. Its temporal process joins the temporal bone to form the zygomatic arch.",
+      "function": "Shapes the cheek, protects the side of the orbit, and gives attachment to the masseter and the zygomaticus smile muscles.",
+      "location": "On the upper outer face, below and to the side of each eye.",
+      "facts": [
+        "It articulates with four bones: frontal, sphenoid, temporal and maxilla.",
+        "It is also called the malar bone."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-zygomatic-bone",
+        "https://teachmeanatomy.info/head/osteology/skull/"
+      ]
+    },
+    {
+      "id": "nasal-bone",
+      "medical": "Nasal bone",
+      "common": "Nose bone (bridge of the nose)",
+      "category": "Skull",
+      "match": [
+        "Nasal bone.l",
+        "Nasal bone.r"
+      ],
+      "summary": "Two small oblong bones that meet in the midline to form the bony bridge of the nose. The rest of the external nose is shaped by cartilage attached to their lower edges.",
+      "function": "Supports the upper nose and protects the top of the nasal cavity.",
+      "location": "Between the eyes at the top of the nose, below the frontal bone and between the frontal processes of the maxillae.",
+      "facts": [
+        "Their size and shape vary a lot between people, which partly explains differences in nose profile.",
+        "Each nasal bone articulates with the frontal bone, ethmoid, maxilla and its partner."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/osteology/skull/",
+        "https://www.kenhub.com/en/library/anatomy/the-nasal-bone"
+      ]
+    },
+    {
+      "id": "lacrimal-bone",
+      "medical": "Lacrimal bone",
+      "common": "Tear bone",
+      "category": "Skull",
+      "match": [
+        "Lacrimal bone.l",
+        "Lacrimal bone.r"
+      ],
+      "summary": "A small, thin, fragile paired bone in the inner wall of the eye socket. It holds a groove for the lacrimal sac, part of the tear drainage system.",
+      "function": "Helps form the medial wall of the orbit and the canal through which tears drain into the nose.",
+      "location": "At the front of the inner wall of each orbit, next to the bridge of the nose.",
+      "facts": [
+        "It is the smallest facial bone, roughly the size of a little fingernail.",
+        "Because tears drain through this route into the nose, crying gives you a runny nose."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/osteology/skull/",
+        "https://www.kenhub.com/en/library/anatomy/the-lacrimal-bone"
+      ]
+    },
+    {
+      "id": "palatine-bone",
+      "medical": "Palatine bone",
+      "common": "Back of the hard palate",
+      "category": "Skull",
+      "match": [
+        "Palatine bone.l",
+        "Palatine bone.r"
+      ],
+      "summary": "A paired, L-shaped bone with horizontal and perpendicular plates. The horizontal plates form the back part of the hard palate, behind the maxillae.",
+      "function": "Forms the rear roof of the mouth, part of the floor and side wall of the nasal cavity, and a small part of the orbit floor.",
+      "location": "At the back of the nasal cavity and roof of the mouth, just in front of the soft palate.",
+      "facts": [
+        "The greater palatine foramen in this bone carries the greater palatine nerve and blood vessels to the hard palate.",
+        "Its small pyramidal process fits between the pterygoid plates of the sphenoid, and the lesser palatine foramina behind the greater one carry nerves to the soft palate."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-palatine-bone",
+        "https://teachmeanatomy.info/head/osteology/skull/"
+      ]
+    },
+    {
+      "id": "vomer",
+      "medical": "Vomer",
+      "common": "Nasal septum bone",
+      "category": "Skull",
+      "match": [
+        "Vomer"
+      ],
+      "summary": "A thin, flat, unpaired bone in the midline of the nasal cavity. It forms the lower back part of the nasal septum, while the ethmoid's perpendicular plate and the septal cartilage complete the rest.",
+      "function": "Divides the nasal cavity into left and right passages.",
+      "location": "In the midline of the nose, running from the sphenoid bone down to the hard palate.",
+      "facts": [
+        "Its name is Latin for ploughshare, after its shape.",
+        "It articulates with six bones: sphenoid, ethmoid, both maxillae and both palatine bones."
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/skull-anatomy",
+        "https://www.kenhub.com/en/library/anatomy/vomer"
+      ]
+    },
+    {
+      "id": "inferior-nasal-concha",
+      "medical": "Inferior nasal concha",
+      "common": "Lower turbinate",
+      "category": "Skull",
+      "match": [
+        "Inferior nasal concha bone.l",
+        "Inferior nasal concha bone.r"
+      ],
+      "summary": "A thin, curled, scroll-like bone on the side wall of each nasal cavity. Unlike the superior and middle conchae, which belong to the ethmoid, it is a separate facial bone.",
+      "function": "Its mucosa-covered surface swirls incoming air so it is warmed, moistened and filtered.",
+      "location": "Along the lower part of the lateral wall of each nasal cavity.",
+      "facts": [
+        "It is the largest of the three nasal conchae.",
+        "The nasolacrimal duct, which drains tears, opens beneath it."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/osteology/skull/",
+        "https://www.kenhub.com/en/library/anatomy/inferior-nasal-concha"
+      ]
+    },
+    {
+      "id": "auditory-ossicles",
+      "medical": "Auditory ossicles (malleus, incus, stapes)",
+      "common": "Ear bones (hammer, anvil, stirrup)",
+      "category": "Skull",
+      "match": [
+        "Malleus.l",
+        "Malleus.r",
+        "Incus.l",
+        "Incus.r",
+        "Stapes.l",
+        "Stapes.r"
+      ],
+      "summary": "Three tiny linked bones in each middle ear. The malleus is attached to the eardrum, the incus bridges the gap, and the stapes presses on the oval window of the inner ear.",
+      "function": "Carry sound vibrations from the eardrum to the fluid of the inner ear, boosting the pressure about 20-fold, mainly by focusing force from the large eardrum onto the tiny oval window, helped by a small lever effect.",
+      "location": "Inside the middle ear cavity within the petrous part of each temporal bone.",
+      "facts": [
+        "The stapes is the smallest bone in the human body.",
+        "Two tiny muscles, tensor tympani and stapedius, stiffen the chain to damp very loud sounds."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/organs/ear/middle-ear/",
+        "https://www.kenhub.com/en/library/anatomy/auditory-ossicles"
+      ]
+    },
+    {
+      "id": "hyoid-bone",
+      "medical": "Hyoid bone",
+      "common": "Tongue bone (throat bone)",
+      "category": "Neck",
+      "match": [
+        "Hyoid bone"
+      ],
+      "summary": "A small U-shaped bone in the front of the neck with a body and two pairs of horns. It does not form a joint with any other bone; muscles and ligaments hold it in place.",
+      "function": "Anchors muscles of the tongue, floor of the mouth, pharynx and larynx, helping with swallowing and speech.",
+      "location": "In the front of the neck between the chin and the thyroid cartilage, at about the level of the C3 vertebra.",
+      "facts": [
+        "It is the only bone in the body not connected to another bone.",
+        "A fractured hyoid is an important forensic sign of strangulation."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/bones/hyoid-bone/",
+        "https://www.kenhub.com/en/library/anatomy/hyoid-bone"
+      ]
+    },
+    {
+      "id": "atlas-c1",
+      "medical": "Atlas (first cervical vertebra, C1)",
+      "common": "Atlas / top neck vertebra",
+      "category": "Vertebral column",
+      "match": [
+        "Atlas (C1)"
+      ],
+      "summary": "The first neck vertebra, a ring of bone with front and back arches and two lateral masses but no vertebral body. Its upper surfaces cradle the occipital condyles of the skull.",
+      "function": "Carries the skull; the atlanto-occipital joint lets the head nod forward and back.",
+      "location": "At the very top of the spine, directly under the skull at the level of the earlobes.",
+      "facts": [
+        "It is named after Atlas, the figure from Greek myth who held up the heavens.",
+        "A burst fracture of the atlas ring, usually from a vertical blow to the head, is called a Jefferson fracture."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/bones/cervical-spine/",
+        "https://www.kenhub.com/en/library/anatomy/atlas"
+      ]
+    },
+    {
+      "id": "axis-c2",
+      "medical": "Axis (second cervical vertebra, C2)",
+      "common": "Axis / pivot vertebra",
+      "category": "Vertebral column",
+      "match": [
+        "Axis (C2)"
+      ],
+      "summary": "The second neck vertebra, recognised by a tooth-like upward peg called the dens (odontoid process). The dens sits inside the ring of the atlas, held by the transverse ligament.",
+      "function": "Forms a pivot joint with the atlas that allows the head to turn from side to side.",
+      "location": "Just below the atlas in the upper neck.",
+      "facts": [
+        "The atlanto-occipital and atlanto-axial joints are often called the 'yes' and 'no' joints.",
+        "A break through both sides of the C2 arch (the pars interarticularis), classically from forceful backward bending of the head, is called a hangman's fracture."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/bones/cervical-spine/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK519496/",
+        "https://radiopaedia.org/articles/hangman-fracture"
+      ]
+    },
+    {
+      "id": "cervical-vertebrae-c3-c7",
+      "medical": "Cervical vertebrae C3-C7",
+      "common": "Neck vertebrae",
+      "category": "Vertebral column",
+      "match": [
+        "Vertebra C3",
+        "Vertebra C4",
+        "Vertebra C5",
+        "Vertebra C6",
+        "Vertebra C7"
+      ],
+      "summary": "The lower five of the seven neck vertebrae. They are small, with a triangular vertebral foramen, a hole in each transverse process (transverse foramen) and, in C3-C6, a split (bifid) spinous process.",
+      "function": "Support the head, protect the cervical spinal cord and give the neck its wide range of motion; the transverse foramina of C1-C6 carry the vertebral arteries up toward the brain (C7's small foramina usually carry only veins).",
+      "location": "In the neck, between the axis above and the first thoracic vertebra below.",
+      "facts": [
+        "C7 is called the vertebra prominens because its long spinous process forms the bump you can feel at the base of the neck.",
+        "The anterior tubercle of C6 is known as the carotid tubercle, a landmark near the carotid artery."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/bones/cervical-spine/",
+        "https://www.kenhub.com/en/library/anatomy/cervical-spine"
+      ]
+    },
+    {
+      "id": "thoracic-vertebrae",
+      "medical": "Thoracic vertebrae T1-T12",
+      "common": "Upper and mid-back vertebrae",
+      "category": "Vertebral column",
+      "match": [
+        "Vertebra T1",
+        "Vertebra T2",
+        "Vertebra T3",
+        "Vertebra T4",
+        "Vertebra T5",
+        "Vertebra T6",
+        "Vertebra T7",
+        "Vertebra T8",
+        "Vertebra T9",
+        "Vertebra T10",
+        "Vertebra T11",
+        "Vertebra T12"
+      ],
+      "summary": "Twelve medium-sized vertebrae with heart-shaped bodies, facets on their sides for the heads of the ribs, and long spinous processes that slope steeply downward.",
+      "function": "Anchor the ribs to form the back of the rib cage and protect the thoracic spinal cord; their main movement is rotation.",
+      "location": "In the upper and middle back, from the base of the neck to the bottom of the rib cage.",
+      "facts": [
+        "The spinous processes in the middle thoracic region overlap like roof tiles.",
+        "An exaggerated rounding of the upper back (kyphosis, or a hunchback posture) is often caused by osteoporotic compression fractures in older adults."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/bones/thoracic-spine/",
+        "https://www.kenhub.com/en/library/anatomy/thoracic-vertebrae"
+      ]
+    },
+    {
+      "id": "lumbar-vertebrae",
+      "medical": "Lumbar vertebrae L1-L5",
+      "common": "Lower back vertebrae",
+      "category": "Vertebral column",
+      "match": [
+        "Vertebra L1",
+        "Vertebra L2",
+        "Vertebra L3",
+        "Vertebra L4",
+        "Vertebra L5"
+      ],
+      "summary": "Five large vertebrae with thick, kidney-shaped bodies and short, broad spinous processes. They lack the transverse foramina of neck vertebrae and the rib facets of thoracic vertebrae.",
+      "function": "Carry the weight of the upper body and allow bending forward and backward of the lower back.",
+      "location": "In the lower back, between the rib cage and the pelvis.",
+      "facts": [
+        "They are the largest vertebrae in the spine.",
+        "The spinal cord usually ends near L1; below it the nerve roots form the cauda equina."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/bones/lumbar-spine/",
+        "https://www.kenhub.com/en/library/anatomy/lumbar-vertebrae"
+      ]
+    },
+    {
+      "id": "sacrum",
+      "medical": "Sacrum",
+      "common": "Sacrum (base of the spine)",
+      "category": "Vertebral column",
+      "match": [
+        "Sacrum"
+      ],
+      "summary": "A large triangular bone formed by five fused sacral vertebrae. Its wide upper part joins L5, its sides join the hip bones at the sacroiliac joints, and its tip joins the coccyx.",
+      "function": "Transfers the weight of the upper body to the pelvis and forms the back wall of the pelvis; sacral nerves pass through its canal and foramina.",
+      "location": "At the base of the spine between the two hip bones, below L5.",
+      "facts": [
+        "The sacral vertebrae fuse gradually between about 18 and 30 years of age.",
+        "Its name comes from the Latin os sacrum, meaning 'sacred bone'."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/pelvis/bones/sacrum/",
+        "https://www.kenhub.com/en/library/anatomy/sacrum"
+      ]
+    },
+    {
+      "id": "coccyx",
+      "medical": "Coccyx",
+      "common": "Tailbone",
+      "category": "Vertebral column",
+      "match": [
+        "Coccyx"
+      ],
+      "summary": "The small last segment of the spine, made of three to five (most often four) tiny fused coccygeal vertebrae. It is an evolutionary remnant of a tail.",
+      "function": "Anchors the gluteus maximus and pelvic floor muscles and ligaments, and helps bear weight when sitting.",
+      "location": "At the very bottom of the spine, below the sacrum, in the cleft between the buttocks.",
+      "facts": [
+        "Its name comes from the Greek for cuckoo, because in side view it resembles the bird's beak.",
+        "Pain in the tailbone is called coccydynia."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/coccyx",
+        "https://teachmeanatomy.info/pelvis/bones/coccyx/"
+      ]
+    },
+    {
+      "id": "manubrium-of-sternum",
+      "medical": "Manubrium of sternum",
+      "common": "Top of the breastbone",
+      "category": "Thorax",
+      "match": [
+        "Manubrium of sternum"
+      ],
+      "summary": "The broad upper part of the sternum. Its upper edge forms the jugular (suprasternal) notch, and its sides join the clavicles and the first ribs.",
+      "function": "Connects the shoulder girdle to the axial skeleton via the sternoclavicular joints and anchors the first pair of ribs.",
+      "location": "At the top of the chest in the midline, just below the base of the neck between the collarbones.",
+      "facts": [
+        "Where it meets the body of the sternum it forms the sternal angle, a ridge that marks the level of the second rib and is used for counting ribs.",
+        "The dip you can feel at the base of the throat is its jugular notch."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/bones/sternum/",
+        "https://www.kenhub.com/en/library/anatomy/sternum"
+      ]
+    },
+    {
+      "id": "body-of-sternum",
+      "medical": "Body of sternum",
+      "common": "Main part of the breastbone",
+      "category": "Thorax",
+      "match": [
+        "Body of sternum"
+      ],
+      "summary": "The long, flat middle part of the sternum, also called the gladiolus. Its edges have notches where the costal cartilages of ribs 2 to 7 attach.",
+      "function": "Forms the front of the rib cage, shielding the heart and lungs, and anchors the costal cartilages of ribs 2-7.",
+      "location": "In the centre of the chest between the manubrium above and the xiphoid process below.",
+      "facts": [
+        "Because it contains red marrow, the sternum can be used for bone marrow sampling.",
+        "Its separate segments fuse around puberty, and the sternum is usually fully fused by about age 25."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/bones/sternum/",
+        "https://www.kenhub.com/en/library/anatomy/sternum"
+      ]
+    },
+    {
+      "id": "xiphoid-process",
+      "medical": "Xiphoid process",
+      "common": "Tip of the breastbone",
+      "category": "Thorax",
+      "match": [
+        "Xiphoid process"
+      ],
+      "summary": "The small, pointed lower tip of the sternum. It is mostly cartilage in young people and gradually turns to bone.",
+      "function": "Gives attachment to the diaphragm and the rectus abdominis muscles.",
+      "location": "At the lower end of the breastbone, at the top of the upper abdomen where the rib margins meet.",
+      "facts": [
+        "It usually ossifies around the age of 40.",
+        "Its name comes from the Greek xiphos, a straight sword."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/bones/sternum/",
+        "https://www.kenhub.com/en/library/anatomy/sternum"
+      ]
+    },
+    {
+      "id": "true-ribs",
+      "medical": "True ribs (ribs 1-7)",
+      "common": "Upper ribs",
+      "category": "Thorax",
+      "match": [
+        "First rib.l",
+        "First rib.r",
+        "Second rib.l",
+        "Second rib.r",
+        "Third rib.l",
+        "Third rib.r",
+        "Fourth rib.l",
+        "Fourth rib.r",
+        "Fifth rib.l",
+        "Fifth rib.r",
+        "Sixth rib.l",
+        "Sixth rib.r",
+        "Seventh rib.l",
+        "Seventh rib.r"
+      ],
+      "summary": "The first seven pairs of ribs, each joined directly to the sternum by its own costal cartilage. A typical rib has a head, neck, tubercle and curved body (shaft), with a costal groove underneath for the intercostal nerve and vessels.",
+      "function": "Form the upper and middle rib cage that protects the heart and lungs and moves up and out during breathing.",
+      "location": "Curving from the thoracic vertebrae around the chest to the sternum.",
+      "facts": [
+        "The first rib is the shortest and widest, with grooves for the subclavian vessels.",
+        "About 0.5-1% of people (roughly 1 in 100-200) have an extra cervical rib arising from C7; most never have symptoms."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/bones/ribcage/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK541001/"
+      ]
+    },
+    {
+      "id": "false-ribs",
+      "medical": "Vertebrochondral ribs (ribs 8-10; upper false ribs)",
+      "common": "Lower ribs",
+      "category": "Thorax",
+      "match": [
+        "Eighth rib.l",
+        "Eighth rib.r",
+        "Ninth rib.l",
+        "Ninth rib.r",
+        "Tenth rib.l",
+        "Tenth rib.r"
+      ],
+      "summary": "Ribs 8-12 are called false ribs because they do not reach the sternum by their own cartilage. Ribs 8, 9 and 10 (vertebrochondral ribs) join the cartilage of the rib above, together forming the lower rib margin (costal margin).",
+      "function": "Complete the lower rib cage, protecting upper abdominal organs such as the liver and spleen, and help breathing movements.",
+      "location": "In the lower chest wall, below the seventh rib.",
+      "facts": [
+        "The tenth rib is quite often a floating rib too, with no cartilage link to the rib above; this is a normal variant.",
+        "When three or more neighbouring ribs are each broken in two or more places, the loose segment can move the wrong way during breathing (flail chest)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/bones/ribcage/",
+        "https://www.kenhub.com/en/library/anatomy/false-ribs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534090/"
+      ]
+    },
+    {
+      "id": "floating-ribs",
+      "medical": "Floating ribs (ribs 11-12)",
+      "common": "Floating ribs",
+      "category": "Thorax",
+      "match": [
+        "Eleventh rib.l",
+        "Eleventh rib.r",
+        "Twelfth rib.l",
+        "Twelfth rib.r"
+      ],
+      "summary": "The last two pairs of ribs, which attach only to the vertebrae at the back and end freely in the muscles of the abdominal wall. Ribs 11 and 12 are the lowest of the false ribs. They are short and have no neck or tubercle.",
+      "function": "Protect the back of the kidneys and give attachment to the diaphragm, quadratus lumborum and abdominal wall muscles.",
+      "location": "At the lower back of the rib cage, below the tenth ribs.",
+      "facts": [
+        "They have only a single articular facet on the head.",
+        "The 12th rib lies over the upper pole of the kidney and the lowest part of the pleura, a landmark in kidney surgery."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/bones/ribcage/",
+        "https://www.kenhub.com/en/library/anatomy/floating-ribs"
+      ]
+    },
+    {
+      "id": "costal-cartilages",
+      "medical": "Costal cartilages",
+      "common": "Rib cartilage",
+      "category": "Thorax",
+      "match": [
+        "Costal cartilage of first rib.l",
+        "Costal cartilage of first rib.r",
+        "Costal cartilage of second rib.l",
+        "Costal cartilage of second rib.r",
+        "Costal cartilage of third rib.l",
+        "Costal cartilage of third rib.r",
+        "Costal cartilage of fourth rib.l",
+        "Costal cartilage of fourth rib.r",
+        "Costal cartilage of fifth rib.l",
+        "Costal cartilage of fifth rib.r",
+        "Costal cartilage of sixth rib.l",
+        "Costal cartilage of sixth rib.r",
+        "Costal cartilage of seventh rib.l",
+        "Costal cartilage of seventh rib.r",
+        "Costal cartilage of eighth rib.l",
+        "Costal cartilage of eighth rib.r",
+        "Costal cartilage of ninth rib.l",
+        "Costal cartilage of ninth rib.r",
+        "Costal cartilage of tenth rib.l",
+        "Costal cartilage of tenth rib.r"
+      ],
+      "summary": "Bars of hyaline cartilage that extend the front ends of the ribs. The first seven join the sternum directly, while those of ribs 8-10 join the cartilage above.",
+      "function": "Give the chest wall the flexibility it needs to expand and recoil during breathing.",
+      "location": "At the front of the chest, between the bony ribs and the sternum.",
+      "facts": [
+        "They lengthen from the first to the seventh and then get shorter.",
+        "Inflammation of these cartilages (costochondritis) is a common cause of chest pain."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Costal_cartilage",
+        "https://teachmeanatomy.info/thorax/bones/ribcage/"
+      ]
+    },
+    {
+      "id": "clavicle",
+      "medical": "Clavicle",
+      "common": "Collarbone",
+      "category": "Upper limb",
+      "match": [
+        "Clavicle.l",
+        "Clavicle.r"
+      ],
+      "summary": "A slender S-shaped long bone, about 15 cm long, that lies horizontally at the base of the neck. Its inner end joins the sternum and its outer end joins the acromion of the scapula.",
+      "function": "Acts as a strut holding the shoulder out from the chest so the arm can move freely, transmits forces from the arm to the trunk and shields the nerves and vessels passing to the arm.",
+      "location": "Across the top front of the chest, from the top of the breastbone to the point of the shoulder.",
+      "facts": [
+        "It is the first bone to start ossifying (in weeks 5-6 of gestation) and one of the last to finish, around age 21-25.",
+        "It is the most commonly fractured bone; about 80% of clavicle fractures occur in its middle third."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/bones/clavicle/",
+        "https://www.kenhub.com/en/library/anatomy/the-clavicle"
+      ]
+    },
+    {
+      "id": "scapula",
+      "medical": "Scapula",
+      "common": "Shoulder blade",
+      "category": "Upper limb",
+      "match": [
+        "Scapula.l",
+        "Scapula.r"
+      ],
+      "summary": "A flat, triangular bone on the back of the rib cage. A ridge called the spine crosses its back and ends in the acromion, while the shallow glenoid cavity on its outer angle receives the head of the humerus.",
+      "function": "Forms the socket of the shoulder joint and provides attachment for 17 muscles, including the rotator cuff, that move and steady the arm.",
+      "location": "On the upper back, over the back of the ribs, on each side of the spine.",
+      "facts": [
+        "The hook-like coracoid process projects forward beneath the clavicle.",
+        "A 'winged scapula', where the inner edge sticks out, results from paralysis of the serratus anterior muscle."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/bones/scapula/",
+        "https://www.kenhub.com/en/library/anatomy/scapula"
+      ]
+    },
+    {
+      "id": "humerus",
+      "medical": "Humerus",
+      "common": "Upper arm bone",
+      "category": "Upper limb",
+      "match": [
+        "Humerus.l",
+        "Humerus.r"
+      ],
+      "summary": "The long bone of the upper arm. Its rounded head fits into the scapula's glenoid cavity, and its lower end carries the trochlea and capitulum, which meet the ulna and radius at the elbow.",
+      "function": "Links the shoulder to the elbow and gives attachment to the deltoid, rotator cuff and many arm muscles.",
+      "location": "In the upper arm, running from the shoulder to the elbow.",
+      "facts": [
+        "The 'funny bone' tingle comes from knocking the ulnar nerve where it passes near the lower end of the humerus at the elbow.",
+        "The radial nerve runs in a spiral groove on the shaft, so mid-shaft fractures can cause wrist drop."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/bones/humerus/",
+        "https://www.kenhub.com/en/library/anatomy/the-humerus"
+      ]
+    },
+    {
+      "id": "radius",
+      "medical": "Radius",
+      "common": "Forearm bone (thumb side)",
+      "category": "Upper limb",
+      "match": [
+        "Radius.l",
+        "Radius.r"
+      ],
+      "summary": "The shorter but thicker of the two forearm bones, lying on the thumb side. Its disc-shaped head turns against the ulna at the elbow, and its broad lower end forms most of the wrist joint with the carpal bones.",
+      "function": "Rotates around the ulna to turn the palm up (supination) and down (pronation); the biceps attaches to its radial tuberosity.",
+      "location": "On the lateral (thumb) side of the forearm, from the elbow to the wrist.",
+      "facts": [
+        "A Colles' fracture of the distal radius, usually from falling on an outstretched hand, produces a 'dinner fork' deformity.",
+        "Distal radius fractures are among the most common forearm injuries."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/bones/radius/",
+        "https://en.wikipedia.org/wiki/Radius_(bone)"
+      ]
+    },
+    {
+      "id": "ulna",
+      "medical": "Ulna",
+      "common": "Forearm bone (little-finger side)",
+      "category": "Upper limb",
+      "match": [
+        "Ulna.l",
+        "Ulna.r"
+      ],
+      "summary": "The longer, thinner forearm bone on the little-finger side. Its large upper end, with the olecranon and trochlear notch, grips the humerus to form the hinge of the elbow.",
+      "function": "Provides the stable hinge of the elbow and an axis around which the radius rotates.",
+      "location": "On the medial (little-finger) side of the forearm, from the elbow to the wrist.",
+      "facts": [
+        "The point of your elbow is the ulna's olecranon.",
+        "A Monteggia fracture combines a break of the upper ulna with dislocation of the radial head."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/bones/ulna/",
+        "https://en.wikipedia.org/wiki/Ulna"
+      ]
+    },
+    {
+      "id": "scaphoid",
+      "medical": "Scaphoid bone",
+      "common": "Scaphoid (wrist bone)",
+      "category": "Hand",
+      "match": [
+        "Scaphoid bone.l",
+        "Scaphoid bone.r"
+      ],
+      "summary": "A boat-shaped carpal bone, the largest in the proximal row, on the thumb side of the wrist. It links the two rows of carpal bones.",
+      "function": "Transfers force from the hand to the radius and is key to wrist stability and movement.",
+      "location": "At the base of the thumb side of the wrist, felt in the 'anatomical snuffbox'.",
+      "facts": [
+        "It is the most commonly fractured carpal bone, usually from a fall on an outstretched hand.",
+        "Its blood supply enters from the far end, so fractures can lead to non-union or avascular necrosis."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/bones/hand/",
+        "https://www.kenhub.com/en/library/anatomy/scaphoid-bone"
+      ]
+    },
+    {
+      "id": "other-carpal-bones",
+      "medical": "Carpal bones (lunate, triquetrum, pisiform, trapezium, trapezoid, capitate, hamate)",
+      "common": "Wrist bones",
+      "category": "Hand",
+      "match": [
+        "Lunate bone.l",
+        "Lunate bone.r",
+        "Triquetrum bone.l",
+        "Triquetrum bone.r",
+        "Pisiform bone.l",
+        "Pisiform bone.r",
+        "Trapezium bone.l",
+        "Trapezium bone.r",
+        "Trapezoid bone.l",
+        "Trapezoid bone.r",
+        "Capitate bone.l",
+        "Capitate bone.r",
+        "Hamate bone.l",
+        "Hamate bone.r"
+      ],
+      "summary": "Together with the scaphoid, these seven small bones make up the eight carpals of the wrist, arranged in a proximal row (scaphoid, lunate, triquetrum, pisiform) and a distal row (trapezium, trapezoid, capitate, hamate).",
+      "function": "Give the wrist its flexibility, provide anchor points for hand muscles and form the carpal tunnel, which carries the median nerve and flexor tendons.",
+      "location": "In the wrist, between the lower ends of the radius and ulna and the bases of the metacarpals.",
+      "facts": [
+        "The pisiform is a sesamoid bone that sits inside the tendon of flexor carpi ulnaris.",
+        "The carpals ossify after birth, starting with the capitate and hamate in infancy and ending with the pisiform around age 12."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/bones/hand/",
+        "https://www.kenhub.com/en/library/anatomy/carpal-bones"
+      ]
+    },
+    {
+      "id": "metacarpals",
+      "medical": "Metacarpal bones",
+      "common": "Palm bones",
+      "category": "Hand",
+      "match": [
+        "First metacarpal bone.l",
+        "First metacarpal bone.r",
+        "Second metacarpal bone.l",
+        "Second metacarpal bone.r",
+        "Third metacarpal bone.l",
+        "Third metacarpal bone.r",
+        "Fourth metacarpal bone.l",
+        "Fourth metacarpal bone.r",
+        "Fifth metacarpal bone.l",
+        "Fifth metacarpal bone.r"
+      ],
+      "summary": "Five long bones in the palm, numbered I (thumb) to V (little finger). Each has a base joining the carpals, a shaft, and a head that forms a knuckle.",
+      "function": "Form the skeleton of the palm and connect the wrist to the fingers; the more independent first metacarpal lets the thumb move freely.",
+      "location": "In the palm, between the wrist and the fingers.",
+      "facts": [
+        "A 'boxer's fracture' is a break in the neck of the fifth metacarpal.",
+        "A Bennett's fracture involves the base of the thumb's metacarpal."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Metacarpal_bones",
+        "https://teachmeanatomy.info/upper-limb/bones/hand/"
+      ]
+    },
+    {
+      "id": "phalanges-of-hand",
+      "medical": "Phalanges of hand",
+      "common": "Finger bones",
+      "category": "Hand",
+      "match": [
+        "Proximal phalanx of first finger of hand.l",
+        "Proximal phalanx of first finger of hand.r",
+        "Proximal phalanx of second finger of hand.l",
+        "Proximal phalanx of second finger of hand.r",
+        "Proximal phalanx of third finger of hand.l",
+        "Proximal phalanx of third finger of hand.r",
+        "Proximal phalanx of fourth finger of hand.l",
+        "Proximal phalanx of fourth finger of hand.r",
+        "Proximal phalanx of fifth finger of hand.l",
+        "Proximal phalanx of fifth finger of hand.r",
+        "Middle phalanx of second finger of hand.l",
+        "Middle phalanx of second finger of hand.r",
+        "Middle phalanx of third finger of hand.l",
+        "Middle phalanx of third finger of hand.r",
+        "Middle phalanx of fourth finger of hand.l",
+        "Middle phalanx of fourth finger of hand.r",
+        "Middle phalanx of fifth finger of hand.l",
+        "Middle phalanx of fifth finger of hand.r",
+        "Distal phalanx of first finger of hand.l",
+        "Distal phalanx of first finger of hand.r",
+        "Distal phalanx of second finger of hand.l",
+        "Distal phalanx of second finger of hand.r",
+        "Distal phalanx of third finger of hand.l",
+        "Distal phalanx of third finger of hand.r",
+        "Distal phalanx of fourth finger of hand.l",
+        "Distal phalanx of fourth finger of hand.r",
+        "Distal phalanx of fifth finger of hand.l",
+        "Distal phalanx of fifth finger of hand.r"
+      ],
+      "summary": "Fourteen small long bones in each hand: three (proximal, middle, distal) in each finger and two in the thumb. The distal phalanges end in flattened tufts that support the fingertip pad and nail.",
+      "function": "Form the movable skeleton of the fingers and thumb for gripping and fine manipulation.",
+      "location": "In the fingers and thumb, beyond the metacarpal heads.",
+      "facts": [
+        "The hand as a whole contains 27 bones: 8 carpals, 5 metacarpals and 14 phalanges.",
+        "The name comes from the phalanx, an ancient Greek formation of soldiers standing side by side in rows."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Phalanx_bone",
+        "https://teachmeanatomy.info/upper-limb/bones/hand/"
+      ]
+    },
+    {
+      "id": "hip-bone",
+      "medical": "Hip bone (os coxae)",
+      "common": "Hip bone / pelvic bone",
+      "category": "Pelvis",
+      "match": [
+        "Hip bone.l",
+        "Hip bone.r"
+      ],
+      "summary": "A large, irregular bone formed by three parts, the ilium, ischium and pubis, which fuse at the cup-shaped acetabulum. The two hip bones, with the sacrum and coccyx, make up the bony pelvis.",
+      "function": "Carries body weight from the spine to the legs, forms the socket of the hip joint and protects pelvic organs.",
+      "location": "At each side of the lower trunk; the iliac crest is the ridge you rest your hands on, and the two pubic bones meet at the front at the pubic symphysis.",
+      "facts": [
+        "The ischial tuberosities are the 'sitting bones' that bear weight when you sit.",
+        "The three parts are separated by Y-shaped (triradiate) cartilage until they begin to fuse at about 15-17 years."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/pelvis/bones/hip-bone/",
+        "https://www.kenhub.com/en/library/anatomy/hip-bone"
+      ]
+    },
+    {
+      "id": "femur",
+      "medical": "Femur",
+      "common": "Thigh bone",
+      "category": "Lower limb",
+      "match": [
+        "Femur.l",
+        "Femur.r"
+      ],
+      "summary": "The only bone of the thigh and the longest and strongest bone in the body. Its ball-shaped head fits into the acetabulum at the hip, and its two rounded condyles form the upper half of the knee joint.",
+      "function": "Carries body weight from the hip to the knee and anchors 23 muscles that cross the hip or knee.",
+      "location": "In the thigh, running from the hip joint to the knee.",
+      "facts": [
+        "On average its length is about 26.7% of a person's height.",
+        "Its neck meets the shaft at roughly 125-135 degrees in adults (it is wider in children); neck fractures, common in older people after falls, can cut off blood supply to the head."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/bones/femur/",
+        "https://www.kenhub.com/en/library/anatomy/femur"
+      ]
+    },
+    {
+      "id": "patella",
+      "medical": "Patella",
+      "common": "Kneecap",
+      "category": "Lower limb",
+      "match": [
+        "Patella.l",
+        "Patella.r"
+      ],
+      "summary": "A flat, rounded triangular bone set inside the quadriceps tendon at the front of the knee. Its back surface is covered with thick cartilage where it glides on the femur.",
+      "function": "Increases the leverage of the quadriceps when straightening the knee and protects the front of the joint.",
+      "location": "At the front of the knee, in front of the lower end of the femur.",
+      "facts": [
+        "It is the largest sesamoid bone in the body.",
+        "It starts as cartilage and begins to turn to bone around age 3."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/bones/patella/",
+        "https://www.kenhub.com/en/library/anatomy/patella"
+      ]
+    },
+    {
+      "id": "tibia",
+      "medical": "Tibia",
+      "common": "Shinbone",
+      "category": "Lower limb",
+      "match": [
+        "Tibia.l",
+        "Tibia.r"
+      ],
+      "summary": "The larger, stronger inner bone of the lower leg. Its flat upper surface (tibial plateau) meets the femur at the knee, and its lower end forms the medial malleolus at the ankle.",
+      "function": "Is the main weight-bearing bone of the lower leg, carrying load from the knee to the ankle.",
+      "location": "On the inner (medial) front side of the lower leg; its front edge is the shin, felt just under the skin.",
+      "facts": [
+        "It is the second largest bone in the body after the femur.",
+        "The tibial shaft is the most common site of stress fractures in athletes."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/bones/tibia/",
+        "https://www.kenhub.com/en/library/anatomy/tibia"
+      ]
+    },
+    {
+      "id": "fibula",
+      "medical": "Fibula",
+      "common": "Calf bone (outer leg bone)",
+      "category": "Lower limb",
+      "match": [
+        "Fibula.l",
+        "Fibula.r"
+      ],
+      "summary": "The thin outer bone of the lower leg, running beside the tibia. It carries little body weight, but its lower end, the lateral malleolus, forms the outer side of the ankle joint.",
+      "function": "Stabilises the ankle and gives attachment to leg muscles.",
+      "location": "On the outer (lateral) side of the lower leg, from just below the knee to the ankle.",
+      "facts": [
+        "The common fibular nerve wraps around its neck just below the knee and can be injured there.",
+        "Its name is Latin for a clasp or brooch; a middle segment can be harvested for grafts, for example to rebuild the jaw."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/bones/the-fibula/",
+        "https://www.kenhub.com/en/library/anatomy/fibula"
+      ]
+    },
+    {
+      "id": "talus",
+      "medical": "Talus",
+      "common": "Ankle bone",
+      "category": "Foot",
+      "match": [
+        "Talus.l",
+        "Talus.r"
+      ],
+      "summary": "The tarsal bone at the top of the foot skeleton, gripped between the tibia and fibula at the ankle joint and resting on the calcaneus. Much of its surface is covered in joint cartilage.",
+      "function": "Transmits the entire body weight from the leg to the foot and forms the ankle and subtalar joints.",
+      "location": "At the ankle, above the heel bone and behind the navicular.",
+      "facts": [
+        "No muscles attach to it.",
+        "It is the second largest tarsal bone, and its unusual blood supply makes fractures slow to heal."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/bones/bones-of-the-foot-tarsals-metatarsals-and-phalanges/",
+        "https://www.kenhub.com/en/library/anatomy/talus"
+      ]
+    },
+    {
+      "id": "calcaneus",
+      "medical": "Calcaneus",
+      "common": "Heel bone",
+      "category": "Foot",
+      "match": [
+        "Calcaneus.l",
+        "Calcaneus.r"
+      ],
+      "summary": "The largest tarsal bone, forming the heel. Its back part, the calcaneal tuberosity, receives the Achilles tendon, and a shelf on its inner side (sustentaculum tali) supports the talus.",
+      "function": "Takes the body's weight at heel strike and acts as a lever for the calf muscles to point the foot (plantarflexion).",
+      "location": "At the back of the foot, under the talus.",
+      "facts": [
+        "The gastrocnemius, soleus and plantaris all insert into it via the Achilles tendon.",
+        "It is commonly fractured in falls from a height."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/bones/bones-of-the-foot-tarsals-metatarsals-and-phalanges/",
+        "https://www.kenhub.com/en/library/anatomy/calcaneus"
+      ]
+    },
+    {
+      "id": "midfoot-tarsals",
+      "medical": "Navicular, cuboid and cuneiform bones",
+      "common": "Midfoot bones",
+      "category": "Foot",
+      "match": [
+        "Navicular bone.l",
+        "Navicular bone.r",
+        "Cuboid bone.l",
+        "Cuboid bone.r",
+        "Medial cuneiform bone.l",
+        "Medial cuneiform bone.r",
+        "Intermediate cuneiform bone.l",
+        "Intermediate cuneiform bone.r",
+        "Lateral cuneiform bone.l",
+        "Lateral cuneiform bone.r"
+      ],
+      "summary": "The five tarsal bones of the midfoot: the boat-shaped navicular on the inner side, the cuboid on the outer side and three wedge-shaped cuneiforms (medial, intermediate, lateral) in front of the navicular.",
+      "function": "Form the arches of the foot, which act as shock absorbers, and connect the hindfoot to the metatarsals.",
+      "location": "In the middle of the foot, between the talus and calcaneus behind and the metatarsals in front.",
+      "facts": [
+        "With the talus and calcaneus they make up the 7 tarsal bones of each foot.",
+        "The navicular's tuberosity is an attachment for the tibialis posterior tendon."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/bones/bones-of-the-foot-tarsals-metatarsals-and-phalanges/",
+        "https://www.kenhub.com/en/library/anatomy/tarsal-bones"
+      ]
+    },
+    {
+      "id": "metatarsals",
+      "medical": "Metatarsal bones",
+      "common": "Long bones of the foot",
+      "category": "Foot",
+      "match": [
+        "First metatarsal bone.l",
+        "First metatarsal bone.r",
+        "Second metatarsal bone.l",
+        "Second metatarsal bone.r",
+        "Third metatarsal bone.l",
+        "Third metatarsal bone.r",
+        "Fourth metatarsal bone.l",
+        "Fourth metatarsal bone.r",
+        "Fifth metatarsal bone.l",
+        "Fifth metatarsal bone.r"
+      ],
+      "summary": "Five long bones numbered I to V from the big-toe side. Each has a base joining the tarsals, a shaft, and a head that meets a toe.",
+      "function": "Form the forefoot and carry weight to the ball of the foot during standing and push-off.",
+      "location": "In the front half of the foot, between the midfoot tarsals and the toes.",
+      "facts": [
+        "In length order they run second, third, fourth, fifth, then first, which is the shortest.",
+        "'March fractures' are metatarsal stress fractures first seen in military recruits after long marches; a Jones fracture affects the fifth."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/bones/bones-of-the-foot-tarsals-metatarsals-and-phalanges/",
+        "https://www.kenhub.com/en/library/anatomy/metatarsal-bones"
+      ]
+    },
+    {
+      "id": "phalanges-of-foot",
+      "medical": "Phalanges of foot",
+      "common": "Toe bones",
+      "category": "Foot",
+      "match": [
+        "Proximal phalanx of first finger of foot.l",
+        "Proximal phalanx of first finger of foot.r",
+        "Proximal phalanx of second finger of foot.l",
+        "Proximal phalanx of second finger of foot.r",
+        "Proximal phalanx of third finger of foot.l",
+        "Proximal phalanx of third finger of foot.r",
+        "Proximal phalanx of fourth finger of foot.l",
+        "Proximal phalanx of fourth finger of foot.r",
+        "Proximal phalanx of fifth finger of foot.l",
+        "Proximal phalanx of fifth finger of foot.r",
+        "Middle phalanx of second finger of foot.l",
+        "Middle phalanx of second finger of foot.r",
+        "Middle phalanx of third finger of foot.l",
+        "Middle phalanx of third finger of foot.r",
+        "Middle phalanx of fourth finger of foot.l",
+        "Middle phalanx of fourth finger of foot.r",
+        "Middle phalanx of fifth finger of foot.l",
+        "Middle phalanx of fifth finger of foot.r",
+        "Distal phalanx of first finger of foot.l",
+        "Distal phalanx of first finger of foot.r",
+        "Distal phalanx of second finger of foot.l",
+        "Distal phalanx of second finger of foot.r",
+        "Distal phalanx of third finger of foot.l",
+        "Distal phalanx of third finger of foot.r",
+        "Distal phalanx of fourth finger of foot.l",
+        "Distal phalanx of fourth finger of foot.r",
+        "Distal phalanx of fifth finger of foot.l",
+        "Distal phalanx of fifth finger of foot.r"
+      ],
+      "summary": "Fourteen small bones in each foot: three in each of the lesser toes and two (proximal and distal) in the big toe.",
+      "function": "Form the toes, which help with balance and push-off when walking.",
+      "location": "In the toes, beyond the metatarsal heads.",
+      "facts": [
+        "Adults have 56 phalanges in total, 14 in each hand and each foot.",
+        "The big toe, like the thumb, has no middle phalanx."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/bones/bones-of-the-foot-tarsals-metatarsals-and-phalanges/",
+        "https://www.kenhub.com/en/library/anatomy/phalanges-of-the-foot"
+      ]
+    },
+    {
+      "id": "sesamoid-bones-of-foot",
+      "medical": "Sesamoid bones of foot",
+      "common": "Big-toe sesamoids",
+      "category": "Foot",
+      "match": [
+        "Sesamoid bones of foot.l",
+        "Sesamoid bones of foot.r"
+      ],
+      "summary": "Small pea-like bones embedded in tendons. In the foot there are usually two under the head of the first metatarsal, inside the tendons of flexor hallucis brevis.",
+      "function": "Act like pulleys that let tendons glide smoothly over the joint and increase the force they can transmit.",
+      "location": "On the sole under the ball of the big toe.",
+      "facts": [
+        "Their name comes from the Greek for sesame seed, after their small size.",
+        "Inflammation of these bones, sesamoiditis, is a common problem in dancers."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sesamoid_bone",
+        "https://teachmeanatomy.info/lower-limb/bones/bones-of-the-foot-tarsals-metatarsals-and-phalanges/"
+      ]
+    },
+    {
+      "id": "incisors",
+      "medical": "Incisor teeth",
+      "common": "Front teeth",
+      "category": "Teeth",
+      "match": [
+        "Upper medial incisor.l",
+        "Upper medial incisor.r",
+        "Upper lateral incisor.l",
+        "Upper lateral incisor.r",
+        "Lower medial incisor.l",
+        "Lower medial incisor.r",
+        "Lower lateral incisor.l",
+        "Lower lateral incisor.r"
+      ],
+      "summary": "The eight flat, chisel-edged teeth at the front of the mouth, four in each jaw: a central and a lateral incisor on each side. Each has a single root.",
+      "function": "Cut and bite off pieces of food and help shape sounds during speech.",
+      "location": "At the front of the upper and lower dental arches, between the left and right canines.",
+      "facts": [
+        "Lower central incisors and the first molars are the first permanent teeth to come in, at around 6 to 7 years of age.",
+        "Some people have 'shovel-shaped' upper incisors, with raised ridges on the tongue-side surface."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-teeth",
+        "https://en.wikipedia.org/wiki/Incisor",
+        "https://en.wikipedia.org/wiki/Human_tooth"
+      ]
+    },
+    {
+      "id": "canines",
+      "medical": "Canine teeth",
+      "common": "Canines (eye teeth)",
+      "category": "Teeth",
+      "match": [
+        "Upper canine.l",
+        "Upper canine.r",
+        "Lower canine.l",
+        "Lower canine.r"
+      ],
+      "summary": "Four pointed, cone-shaped teeth, one at each corner of the dental arches. Each has a single, very long root anchored deep in the jaw.",
+      "function": "Grip and tear food, and help guide the jaws as they close.",
+      "location": "At the corners of the mouth, between the lateral incisors and the first premolars.",
+      "facts": [
+        "The root of the upper canine is the longest of any human tooth.",
+        "Upper canines are popularly called 'eye teeth' because they sit below the eyes."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-teeth",
+        "https://en.wikipedia.org/wiki/Canine_tooth"
+      ]
+    },
+    {
+      "id": "premolars",
+      "medical": "Premolar teeth",
+      "common": "Premolars (bicuspids)",
+      "category": "Teeth",
+      "match": [
+        "Upper first premolar.l",
+        "Upper first premolar.r",
+        "Upper second premolar.l",
+        "Upper second premolar.r",
+        "Lower first premolar.l",
+        "Lower first premolar.r",
+        "Lower second premolar.l",
+        "Lower second premolar.r"
+      ],
+      "summary": "Eight transitional teeth, two on each side of each jaw, with at least two cusps on the chewing surface. Most have one root, though the upper first premolar usually has two.",
+      "function": "Crush and grind food, bridging the tearing role of the canines and the grinding role of the molars.",
+      "location": "Between the canines and the molars in both jaws.",
+      "facts": [
+        "Premolars exist only in the adult set; baby teeth have molars in their place.",
+        "First premolars are the teeth most often removed to make space during orthodontic treatment."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Premolar",
+        "https://www.kenhub.com/en/library/anatomy/the-teeth"
+      ]
+    },
+    {
+      "id": "molars",
+      "medical": "Molar teeth",
+      "common": "Molars (back teeth)",
+      "category": "Teeth",
+      "match": [
+        "Upper first molar tooth.l",
+        "Upper first molar tooth.r",
+        "Upper second molar tooth.l",
+        "Upper second molar tooth.r",
+        "Lower first molar tooth.l",
+        "Lower first molar tooth.r",
+        "Lower second molar tooth.l",
+        "Lower second molar tooth.r"
+      ],
+      "summary": "The large, broad teeth at the back of the mouth, with several cusps and multiple roots: usually three in upper molars and two in lower molars. Adults normally have 12 molars including the wisdom teeth; this model shows the first and second molars.",
+      "function": "Do the heavy grinding and crushing of food during chewing.",
+      "location": "At the back of the upper and lower dental arches, behind the premolars.",
+      "facts": [
+        "First molars appear around age 6 and are nicknamed 'six-year molars'; second molars follow around age 12.",
+        "Third molars (wisdom teeth) usually emerge between about 17 and 25 years of age, and sometimes never erupt."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Molar_(tooth)",
+        "https://en.wikipedia.org/wiki/Human_tooth",
+        "https://www.kenhub.com/en/library/anatomy/the-teeth"
+      ]
+    },
+    {
+      "id": "thyroid-cartilage",
+      "medical": "Thyroid cartilage",
+      "common": "Voice box shield (Adam's apple)",
+      "category": "Larynx",
+      "match": [
+        "Thyroid cartilage"
+      ],
+      "summary": "The largest cartilage of the larynx, made of two plates that join at the front in a ridge called the laryngeal prominence. The prominence is more pronounced in men because the larynx enlarges under testosterone at puberty.",
+      "function": "Forms most of the front wall of the voice box and shields the vocal folds behind it; changing its angle against the cricoid alters voice pitch.",
+      "location": "In the front of the neck at about the level of the C4-C5 vertebrae, above the thyroid gland.",
+      "facts": [
+        "Its bulging front ridge is the 'Adam's apple' visible in many men.",
+        "It connects to the cricoid cartilage below through the paired cricothyroid joints."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/larynx",
+        "https://teachmeanatomy.info/neck/viscera/larynx/",
+        "https://www.kenhub.com/en/library/anatomy/thyroid-cartilage"
+      ]
+    },
+    {
+      "id": "cricoid-cartilage",
+      "medical": "Cricoid cartilage",
+      "common": "Cricoid ring",
+      "category": "Larynx",
+      "match": [
+        "Cricoid cartilage"
+      ],
+      "summary": "A signet-ring-shaped cartilage forming the base of the larynx, with a narrow arch at the front and a broad plate (lamina) at the back. It is the only complete ring of cartilage around the airway.",
+      "function": "Holds the airway open, links the larynx to the trachea, and provides joints for the thyroid and arytenoid cartilages.",
+      "location": "Just below the thyroid cartilage at about the level of the C6 vertebra, directly above the trachea.",
+      "facts": [
+        "In an emergency, the membrane between the thyroid and cricoid cartilages is the site for a cricothyrotomy to open an airway.",
+        "Pressing on it during anaesthesia (the Sellick manoeuvre) is intended to squeeze the oesophagus and reduce reflux, though its benefit is debated."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/larynx",
+        "https://teachmeanatomy.info/neck/viscera/larynx/"
+      ]
+    },
+    {
+      "id": "arytenoid-cartilages",
+      "medical": "Arytenoid and corniculate cartilages",
+      "common": "Vocal cord cartilages",
+      "category": "Larynx",
+      "match": [
+        "Arytenoid cartilage.l",
+        "Arytenoid cartilage.r",
+        "Corniculate cartilage.l",
+        "Corniculate cartilage.r"
+      ],
+      "summary": "A pair of small, three-sided pyramid-shaped cartilages sitting on the back of the cricoid, each capped by a tiny horn-like corniculate cartilage. The vocal cords attach to their forward-pointing vocal processes.",
+      "function": "By rotating, tilting and sliding on the cricoid, they open, close, tighten and relax the vocal folds for breathing and speech.",
+      "location": "At the back of the larynx, on the upper border of the cricoid lamina.",
+      "facts": [
+        "Each arytenoid has a vocal process for the vocal ligament and a muscular process for the muscles that move it.",
+        "They can rarely be dislocated during insertion of a breathing tube."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/larynx",
+        "https://teachmeanatomy.info/neck/viscera/larynx/",
+        "https://www.kenhub.com/en/library/anatomy/arytenoid-cartilage"
+      ]
+    },
+    {
+      "id": "nasal-cartilages",
+      "medical": "Cartilages of nose",
+      "common": "Nose cartilage",
+      "category": "Nose",
+      "match": [
+        "Nasal septal cartilage",
+        "Lateral process of nasal septal cartilage.l",
+        "Lateral process of nasal septal cartilage.r",
+        "Major alar cartilage.l",
+        "Major alar cartilage.r"
+      ],
+      "summary": "The flexible cartilage framework of the lower external nose. The roughly four-sided septal cartilage divides the nostrils, its lateral processes (commonly called the upper lateral cartilages) form the sides of the middle part of the nose below the nasal bones, and the curved major alar cartilages form the tip and nostril rims.",
+      "function": "Gives the nose its shape while keeping it flexible and holding the nostrils open for breathing.",
+      "location": "Below and in front of the nasal bones, forming the lower external nose and the front of the nasal septum.",
+      "facts": [
+        "The septal cartilage joins the bony septum formed by the ethmoid's perpendicular plate and the vomer.",
+        "Each major alar cartilage has a medial and a lateral crus that bend around a nostril."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/nasal-septum",
+        "https://www.kenhub.com/en/library/anatomy/nasal-cavity",
+        "https://en.wikipedia.org/wiki/Major_alar_cartilage"
+      ]
+    }
+  ],
+  "commonNames": {}
+}

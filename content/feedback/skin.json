@@ -1,0 +1,142 @@
+{
+ "review r1": {
+  "issues": [
+   {
+    "id": "(layer) eyeball objects",
+    "severity": "major",
+    "problem": "skin.txt contains 18 eye objects with no entry or commonName: Cornea.l/.r, Iris.l/.r, Lens.l/.r, Retina.l/.r, Sclera.l/.r, Vitreous body.l/.r, Anterior chamber of eyeball.l/.r, Anterior/Posterior segment of eyeball.l/.r. They also appear in names/organs.txt, but there is no organs.json yet, so clicking the eye in the skin layer shows nothing.",
+    "fix": "Either add an 'eyeball' entry (medical 'Eyeball (bulbus oculi)', common 'Eye', matching all 18 objects), or add separate cornea, iris, lens, retina, sclera and vitreous entries. Or confirm these objects will be covered by organs.json and hidden or deferred in the skin layer."
+   },
+   {
+    "id": "(layer) abdominal regions",
+    "severity": "major",
+    "problem": "The nine abdominal regions are in the model but have no content: Epigastric, Hypochondriac, Umbilical, Lateral region of abdomen (lumbar), Inguinal (only a commonName) and Hypogastric, each .l/.r. Medical students need these for surface anatomy and clinical examination.",
+    "fix": "Add an 'abdominal-regions' entry, or one entry per region. Explain the nine-region grid (midclavicular lines plus the subcostal and transtubercular planes), the main organs under each region, and common names (upper middle abdomen, under the ribs, belly-button area, flank, groin, lower belly). Sources: Kenhub 'Regions of the abdomen', TeachMeAnatomy abdominal regions."
+   },
+   {
+    "id": "(layer) other clinically important regions",
+    "severity": "major",
+    "problem": "Clinically important model objects have no content: Radial foveola (anatomical snuffbox: scaphoid tenderness, radial pulse), Greater and Lesser supraclavicular fossa, Submandibular, Submental and Muscular triangles, Deltopectoral triangle / Infraclavicular fossa (cephalic vein), Medial retromalleolar region (posterior tibial pulse, tibial nerve), Gluteal region / Gluteal fold (safe intramuscular injection quadrant; only a commonName now), Perineal and Anal region, Orbital region, Nasal region, Hallucial eminence, and the Back regions (scapular, interscapular, infrascapular, vertebral, sacral).",
+    "fix": "Add entries at least for the anatomical snuffbox (radial foveola), the supraclavicular fossae, the submandibular/submental triangles, the deltopectoral triangle, the medial retromalleolar region and the gluteal region. Add commonNames for the rest, e.g. Radial foveola 'Anatomical snuffbox', Orbital region 'Eye area', Sacral region 'Base of the spine', Hallucial eminence 'Ball of the big toe', Gluteal fold 'Buttock crease', Scapular region 'Shoulder blade area'."
+   },
+   {
+    "id": "sole",
+    "severity": "minor",
+    "problem": "Hallucial eminence.l/.r (the ball of the big toe, on the sole) and Metatarsal region are not in the match list, although the summary names the 'ball' of the foot as a weight-bearing area.",
+    "fix": "Add 'Hallucial eminence.l' and 'Hallucial eminence.r' to the sole match, or give them a commonName of 'Ball of the big toe'."
+   },
+   {
+    "id": "umbilicus",
+    "severity": "minor",
+    "problem": "The summary is incomplete: the umbilical scar also contains the remnant of the urachus (median umbilical ligament), not only the three vessels. Its function says only 'no active function' and leaves out that it is the standard entry port for laparoscopy. The claim that it divides the abdomen into 'quadrants and regions' is imprecise: the transumbilical plane defines the quadrants, but the nine regions use the subcostal and transtubercular planes. That phrase also closely copies Kenhub ('separate the abdomen into quadrants and regions').",
+    "fix": "Add the urachal remnant. Reword the function to: 'Marks the transumbilical plane used to divide the abdomen into four quadrants, and is a common entry site for laparoscopic surgery.' Rephrase the Kenhub wording."
+   },
+   {
+    "id": "femoral-triangle",
+    "severity": "minor",
+    "problem": "'Femoral hernias ... make up about 2 to 4% of hernias' is wrong as written: the figure is 2 to 4% of groin hernias. Also, the radial artery is now the preferred route for coronary angiography in many centres, so calling the femoral artery 'a common entry route' needs qualifying.",
+    "fix": "Change to 'about 2 to 4% of groin hernias'. Change the angiography phrase to 'a traditional and still widely used access route for catheter procedures such as angiography'."
+   },
+   {
+    "id": "palm",
+    "severity": "minor",
+    "problem": "The fact 'Friction ridges form around the 15th week of fetal life' is imprecise: volar ridges start forming at about 10 to 11 weeks and are complete by about 16 to 17 weeks. The summary also does not mention that glabrous skin has no sebaceous glands. The sweat-gland density of 250 to 500 per cm\u00b2 does match the Cleveland Clinic eccrine-glands page. The Kenhub thick-skin source does not cover sweat-gland density or fingerprints.",
+    "fix": "Reword to 'Friction ridges begin forming at about 10 weeks of fetal life and are fixed by about 17 weeks.' Add 'and no oil (sebaceous) glands'. Replace the Wikipedia fingerprint source with a StatPearls or Kenhub dermatoglyphics source."
+   },
+   {
+    "id": "eyelashes",
+    "severity": "minor",
+    "problem": "'Eyelashes rarely turn grey, unlike scalp hair' overstates it: lashes can grey with age and in poliosis (e.g. vitiligo, Vogt-Koyanagi-Harada). They grey later and less often. Also, the cited Cleveland Clinic eyelids page does not mention the glands of Zeis and Moll, and the lash-count sentence copies Cleveland Clinic almost word for word ('about 100 to 150 eyelashes on your upper eyelid (usually in two or three rows) and about 50 to 75 on your lower lid').",
+    "fix": "Change to 'Eyelashes tend to grey later and less often than scalp hair.' Rephrase the lash-count sentence, e.g. 'Roughly 100-150 lashes line each upper lid in 2-3 rows, and about half as many line the lower lid.' Add a source that covers Zeis and Moll, such as Kenhub 'Eyelids' or StatPearls 'Anatomy, Head and Neck, Eyelash'."
+   },
+   {
+    "id": "scalp",
+    "severity": "minor",
+    "problem": "The match includes the Temporal and Mastoid regions, but the five-layer SCALP description applies to the cranial vault. Over the temporal region the aponeurosis layer is replaced by the temporoparietal fascia, and temporalis fascia lies deep to it. Also, commonNames maps Frontal region to 'Forehead' while this entry treats it as scalp, which is slightly contradictory.",
+    "fix": "Add a sentence: 'Over the temples the layers differ, with temporal fascia and temporalis muscle lying beneath.' Say that the frontal region includes the forehead."
+   },
+   {
+    "id": "fingernails",
+    "severity": "minor",
+    "problem": "'The cuticle (eponychium)' treats two different structures as one. Strictly, the eponychium is the living skin fold and the cuticle is the dead keratin layer it sheds onto the nail plate. Cleveland Clinic makes the same simplification, but a medical-student site should separate them. The growth rate '3 to 3.5 mm per month' is fine (Cleveland Clinic gives ~3 mm).",
+    "fix": "Reword to 'The cuticle, a thin layer of dead tissue made by the eponychium (the skin fold at the nail base), seals the gap between nail and skin against infection.'"
+   },
+   {
+    "id": "carotid-triangle",
+    "severity": "minor",
+    "problem": "The same point, that the carotid vessels are relatively superficial and accessible to surgeons, is made in both 'function' and 'facts', so one fact slot is wasted. The common name 'Side of the neck (carotid pulse area)' is clunky. The contents list also leaves out the ansa cervicalis and the external carotid branches.",
+    "fix": "Replace the duplicate fact with: 'The carotid pulse is felt here, at the front border of sternocleidomastoid, level with the upper edge of the thyroid cartilage.' Shorten the common name to 'Carotid pulse area of the neck'."
+   },
+   {
+    "id": "triangle-of-auscultation",
+    "severity": "minor",
+    "problem": "The common name 'Listening triangle of the back' is not an established term. The nerve-block claim is not supported by either cited source: Kenhub does not mention it, and the only other source is Wikipedia. Location: the triangle lies at the medial border of the scapula near its inferior angle, overlying the scapula-spine gap only partly.",
+    "fix": "Use 'Area beside the lower shoulder blade' or keep 'Triangle of auscultation' as the common name. Cite StatPearls or a regional-anaesthesia source for the rhomboid intercostal / TAP-style block, or remove the claim."
+   },
+   {
+    "id": "popliteal-fossa",
+    "severity": "minor",
+    "problem": "The match includes 'Posterior region of knee.l/.r', which is the parent region, not the fossa, so the highlight covers more than the popliteal fossa. The contents list also leaves out the small saphenous vein and the popliteal lymph nodes.",
+    "fix": "Remove 'Posterior region of knee.l/.r' from the match and give it a commonName ('Back of the knee'). Mention the small saphenous vein ending in the popliteal vein, and the popliteal lymph nodes."
+   },
+   {
+    "id": "commonNames",
+    "severity": "minor",
+    "problem": "'Mammary region' maps to 'Chest (nipple area)', but the plain term is 'Breast'. 'Deltoid region' maps to 'Shoulder', which is ambiguous; 'Outer shoulder' or 'Shoulder cap' is clearer. 'Lateral/Medial malleolus' maps to 'Outer/Inner ankle bone', but these are skin objects, so 'Outer/Inner ankle' fits better. Inframammary region, Lateral border of foot, Medial border of foot, Posterior region of arm and similar objects have no common names.",
+    "fix": "Set Mammary region to 'Breast', Deltoid region to 'Outer shoulder', and the malleoli to 'Outer ankle' / 'Inner ankle'. Add commonNames for the remaining objects, e.g. Inframammary region 'Below the breast', Posterior region of arm 'Back of the upper arm', Anterior region of forearm 'Front of the forearm', Lateral border of foot 'Outer edge of the foot', Hip region 'Hip', Lateral region of thorax 'Side of the chest', Posterior region of wrist 'Back of the wrist'."
+   },
+   {
+    "id": "overview",
+    "severity": "minor",
+    "problem": "'About 2 mm thick on average' is not supported by the cited sources, and it hides the wide range, from about 0.5 mm on the eyelids to about 4 mm or more on the heels and back. The '40,000 cells per day' figure matches Cleveland Clinic but is widely disputed (other estimates are in the millions per day). The summary also leaves out the epidermis's four or five sublayers.",
+    "fix": "Reword to 'from about 0.5 mm on the eyelids to 4 mm or more on the heels and upper back'. Soften the shedding fact to 'tens of thousands of dead surface cells every day, according to Cleveland Clinic', or drop the number. Optionally add one line naming the strata (basale, spinosum, granulosum, lucidum in thick skin, corneum)."
+   },
+   {
+    "id": "sources (multiple)",
+    "severity": "minor",
+    "problem": "Wikipedia is used as a source in fingernails, toenails, eyebrows, eyelashes, palm, scalp and triangle-of-auscultation, and Healthline in eyebrows. Neither is on the trusted list. The Kenhub thick-skin page does not support the palm facts it is cited for. The Cleveland eyelids page does not mention the glands of Zeis and Moll. All other checked URLs load and support their claims: Cleveland skin, eccrine glands, nail anatomy, terminal hair and heel fat pad; DermNet hair shedding; Kenhub umbilicus, sole and auscultation; TeachMeAnatomy anterior triangle.",
+    "fix": "Replace the Wikipedia and Healthline URLs with StatPearls, Kenhub or TeachMeAnatomy equivalents. Suggested replacements: StatPearls 'Anatomy, Skin (Integument), Nail', Kenhub 'Eyelids', StatPearls 'Anatomy, Head and Neck, Scalp', StatPearls 'Anatomy, Back, Triangle of Auscultation'. Keep the AAO source for eyebrows."
+   }
+  ],
+  "missingImportant": [
+   "Eyeball structures in the model (Cornea, Iris, Lens, Retina, Sclera, Vitreous body, Anterior chamber, Anterior/Posterior segment; each .l/.r) have no content anywhere yet (there is no organs.json)",
+   "The nine abdominal regions (epigastric, hypochondriac, umbilical, lateral/lumbar, inguinal, hypogastric)",
+   "Anatomical snuffbox (Radial foveola.l/.r)",
+   "Greater and lesser supraclavicular fossae",
+   "Submandibular, submental and muscular triangles of the neck",
+   "Deltopectoral triangle / infraclavicular fossa",
+   "Gluteal region / gluteal fold (intramuscular injection site)",
+   "Medial retromalleolar region (posterior tibial pulse)",
+   "Perineal and anal regions",
+   "Back regions (scapular, interscapular, infrascapular, vertebral, sacral)",
+   "Orbital and nasal regions of the face",
+   "Hallucial eminence (ball of the big toe)"
+  ],
+  "notes": "I checked all 16 structure entries, the overview and commonNames in C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\skin.json against C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\names\\skin.txt using Python. Every 'match' and 'commonNames' key exists in the model, and left/right pairs are complete. No object is mapped to the wrong structure. The one mapping problem is that popliteal-fossa also highlights the parent Posterior region of knee. 115 of the 242 model objects have no content at all.\n\nI checked the key facts against the cited pages with WebFetch, and most are accurate and well sourced:\n- Cleveland Clinic: 40,000 cells shed per day, dermis 90% of skin thickness, nail growth and regrowth times, eccrine glands 250 to 500 per cm\u00b2, heel pad 1 to 2 cm, hair growth 1 cm per month.\n- DermNet: 100,000 follicles, 50 to 100 hairs shed per day, anagen 2 to 6 years.\n- Kenhub: umbilicus at the L3/L4 disc; borders of the triangle of auscultation.\n- TeachMeAnatomy: carotid triangle borders and contents.\n- Standard anatomy for the remaining facts: cubital fossa contents and borders, femoral triangle NAVEL order, popliteal fossa borders, SCALP layers.\n\nCurl could not reach the network from the sandbox, so I checked the URLs with WebFetch; every page fetched loaded.\n\nI found no major factual errors. The main problem is coverage: the eye objects, the abdominal regions, and several clinically important surface regions have no content. Next come imprecise statements (femoral hernia percentage, cuticle vs eponychium, fingerprint timing, greying of lashes), Wikipedia and Healthline as sources, and near-verbatim copying from Cleveland Clinic (lash counts) and Kenhub (umbilicus). Overall the writing is pitched at the right level for an educated adult."
+ },
+ "score r1": {
+  "score": 6,
+  "accuracy": 7,
+  "modelMatching": 8,
+  "levelAndClarity": 8,
+  "coverage": 4,
+  "sourcing": 6,
+  "mustFix": [
+   "Femoral triangle: change 'about 2 to 4% of hernias' to 'about 2 to 4% of groin hernias' (StatPearls gives about 3% of groin hernias, and says they are 4 times more common in women). Qualify the femoral route for coronary angiography as traditional and still widely used, since radial access is now often preferred.",
+   "Palm: replace 'Friction ridges form around the 15th week' with 'primary ridges begin forming at about 10-11 weeks; the pattern is fixed by about 16-17 weeks'. Replace the Wikipedia fingerprint source with a trusted one (for example DermNet 'Fingerprints' or StatPearls). Note that the Kenhub thick-skin page does not support the sweat-gland or fingerprint facts; cite Cleveland eccrine glands for the density.",
+   "Eyelashes: change 'rarely turn grey' to 'tend to grey later and less often than scalp hair'. Rephrase the lash-count sentence, which closely copies Cleveland Clinic. Add a source that covers the glands of Zeis and Moll (Kenhub 'Eyelids' or StatPearls).",
+   "Fingernails: separate the cuticle (dead keratin layer) from the eponychium (the living proximal skin fold that produces it) instead of treating them as the same thing.",
+   "Umbilicus: mention the urachal remnant (median umbilical ligament). Say that the transumbilical plane defines the four quadrants but not the nine regions, which use the subcostal and transtubercular planes. Rephrase the wording that mirrors Kenhub. Consider adding its use as a laparoscopic port site.",
+   "Triangle of auscultation: the nerve-block claim is supported only by Wikipedia (the Kenhub page does not mention it). Either cite StatPearls or a regional-anaesthesia source for the rhomboid intercostal block, or remove the claim. Replace the made-up common name 'Listening triangle of the back'.",
+   "Popliteal fossa: remove 'Posterior region of knee.l/.r' from match, because it is the parent region and over-highlights. Give it the commonName 'Back of the knee'. Add the small saphenous vein and the popliteal lymph nodes to the contents.",
+   "Coverage: 115 of the 242 model objects have neither an entry nor a commonName. At minimum add entries for the eyeball objects (18 of them, with no organs.json fallback), the nine abdominal regions, the anatomical snuffbox (Radial foveola), the supraclavicular fossae, the submandibular and submental triangles, the deltopectoral triangle, the medial retromalleolar region (posterior tibial pulse) and the gluteal region (IM injection). Add commonNames for the remaining back, limb, trunk and face regions.",
+   "Sole: add Hallucial eminence.l/.r (and Metatarsal region if appropriate) to the match, since the summary mentions the ball of the foot.",
+   "Overview: replace 'about 2 mm thick on average' (not in the cited sources) with the range, about 0.5 mm on the eyelids to 4 mm or more on the heels and back. Soften or attribute the disputed figure of 40,000 cells shed per day.",
+   "Sourcing: replace the Wikipedia sources (nails, eyebrows, eyelashes, palm, scalp, triangle of auscultation) and Healthline (eyebrows) with StatPearls, Kenhub or TeachMeAnatomy equivalents.",
+   "Scalp: say that over the temporal region the layers differ (temporoparietal fascia and temporalis fascia and muscle), because the entry matches Temporal and Mastoid regions. Reconcile Frontal region 'Forehead' with it being treated as scalp.",
+   "Carotid triangle: remove the duplicated 'superficial vessels / surgical access' point from facts, for example by replacing it with where the carotid pulse is palpated. Shorten the common name.",
+   "commonNames: use 'Breast' for Mammary region, 'Outer shoulder' for Deltoid region and 'Outer/Inner ankle' for the malleoli."
+  ],
+  "rationale": "I checked every match and commonNames key in skin.json against the object names in names/skin.txt with Python (the names file has one tab-separated object name per line, with CRLF endings). All 15 structure entries and all commonNames keys exist in the model, and left/right pairs are complete. The only mapping problem is that popliteal-fossa also matches its parent, Posterior region of knee. 115 of the 242 objects have no content at all, including all 18 eyeball objects, the abdominal regions, the anatomical snuffbox, the neck triangles other than the carotid triangle, and the back regions. This confirms the reviewer's coverage findings.\\n\\nFacts I checked against the web:\\n- Cleveland Clinic nail anatomy: fingernails grow about 3 mm per month and take at least 6 months to regrow; toenails grow about 1.5 mm per month and take 12 to 18 months. The page itself treats cuticle and eponychium as one structure, so the JSON copies a simplification.\\n- Kenhub triangle of auscultation: the borders and the 6th/7th-rib floor match, and so does widening when the arms are folded. There is no nerve-block mention, so that claim rests only on Wikipedia.\\n- Kenhub umbilicus: the L3/L4 level, the three vessel openings and the mamelon/cushion/furrows are all correct. The 'quadrants and regions' phrasing is lifted from Kenhub, and the urachal remnant is left out.\\n- TeachMeAnatomy femoral triangle: the borders and NAVEL order match, and the page mentions coronary angiography. StatPearls says femoral hernias are about 3% of groin hernias, so '2 to 4% of hernias' is imprecise.\\n- TeachMeAnatomy cubital fossa: the borders and the lateral-to-medial contents are correct, as are the median cubital vein for venepuncture and the brachial pulse medial to the biceps tendon.\\n- TeachMeAnatomy carotid triangle: the borders, contents and carotid sinus are correct.\\n- Cleveland Clinic skin: the 40,000 cells per day and the dermis at 90% of thickness are confirmed. The '2 mm average' thickness is not on the page.\\n- Fingerprint embryology: primary ridges start at about 10 to 11 weeks and secondary ridges at 15 to 17 weeks, so 'form around the 15th week' is imprecise.\\n\\nFrom my own knowledge, these facts are correct: the scalp bleeding mechanism and the danger area, the nerve supply of the auricle, the earlobe having no cartilage, Baker's cyst mimicking a DVT, carotid sinus hypersensitivity, the eyebrow face-recognition study (Sadr et al.), and the umbilicus in the T10 dermatome.\\n\\nNo entry is outright false. However, several statements are imprecise or overstated and a medical student would find them misleading: the femoral hernia denominator, the fingerprint timing, the claim that lashes 'rarely grey', and treating the cuticle and eponychium as one. Together these hold accuracy at 7.\\n\\nOther scores:\\n- Level and clarity: good; the writing is concise and pitched for an educated adult.\\n- Sourcing: pulled down by Wikipedia and Healthline, sources that do not support the claims they are cited for, and near-verbatim copying from Cleveland Clinic and Kenhub.\\n- Coverage: the weakest area, with about half the model objects unassigned.\\n\\nThe content is not yet publishable at 9 or above."
+ }
+}

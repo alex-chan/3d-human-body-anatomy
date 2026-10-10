@@ -1,0 +1,1128 @@
+{
+  "layer": "veins",
+  "overview": {
+    "title": "Veins",
+    "summary": "Veins are the low-pressure vessels that carry blood back toward the heart. Systemic veins return oxygen-poor blood from the body to the right atrium through the superior and inferior venae cavae, while the pulmonary veins bring freshly oxygenated blood from the lungs to the left atrium.",
+    "function": "Return blood to the heart, hold about two-thirds (roughly 60-70%) of the body's blood at rest, and (via the portal system) route blood from the gut through the liver before it reaches the general circulation.",
+    "facts": [
+      "The inferior vena cava is the largest vein in the body.",
+      "The median cubital vein at the front of the elbow is the usual site for routine blood draws."
+    ],
+    "sources": [
+      "https://www.kenhub.com/en/library/anatomy/inferior-vena-cava",
+      "https://teachmeanatomy.info/abdomen/vasculature/venous-drainage/",
+      "https://www.kenhub.com/en/library/anatomy/median-cubital-vein",
+      "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/classification.html"
+    ]
+  },
+  "structures": [
+    {
+      "id": "superior-vena-cava",
+      "medical": "Superior vena cava",
+      "common": "Upper main vein to the heart",
+      "category": "Great veins",
+      "match": [
+        "Superior vena cava"
+      ],
+      "summary": "The superior vena cava is a short, wide, valveless vein in the upper right part of the chest. It is formed by the joining of the left and right brachiocephalic veins and empties into the right atrium. It collects nearly all venous blood from above the diaphragm.",
+      "function": "Returns oxygen-poor blood from the head, neck, upper limbs and upper chest to the right atrium.",
+      "location": "In the right side of the superior mediastinum, starting behind the first right costal cartilage and entering the right atrium at the level of the third right costal cartilage.",
+      "facts": [
+        "It is only about 7 cm long but roughly 2 cm wide.",
+        "Blockage, most often by lung cancer or lymphoma, causes superior vena cava syndrome with swelling of the face and neck."
+      ],
+      "sources": [
+        "https://radiopaedia.org/articles/superior-vena-cava",
+        "https://www.kenhub.com/en/library/anatomy/superior-vena-cava"
+      ]
+    },
+    {
+      "id": "inferior-vena-cava",
+      "medical": "Inferior vena cava",
+      "common": "Lower main vein to the heart",
+      "category": "Great veins",
+      "match": [
+        "Inferior vena cava (abdominal part)",
+        "Inferior vena cava (thoracic part)"
+      ],
+      "summary": "The inferior vena cava is the largest vein in the body. It begins at about the fifth lumbar vertebra where the two common iliac veins meet, climbs to the right of the aorta behind the liver, and passes through the diaphragm to reach the right atrium.",
+      "function": "Carries oxygen-poor blood from the legs, pelvis and abdomen back to the right atrium.",
+      "location": "Along the back wall of the abdomen on the right side of the vertebral column, crossing the diaphragm at the caval opening at about T8.",
+      "facts": [
+        "It passes through the diaphragm at the level of the eighth thoracic vertebra.",
+        "Its main direct tributaries include the common iliac, lumbar, renal, right suprarenal, inferior phrenic and hepatic veins."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/inferior-vena-cava",
+        "https://teachmeanatomy.info/abdomen/vasculature/venous-drainage/"
+      ]
+    },
+    {
+      "id": "brachiocephalic-veins",
+      "medical": "Brachiocephalic veins",
+      "common": "Main head-and-arm veins",
+      "category": "Great veins",
+      "match": [
+        "Left brachiocephalic vein",
+        "Right brachiocephalic vein"
+      ],
+      "summary": "Each brachiocephalic vein forms behind the sternoclavicular joint where the internal jugular and subclavian veins meet. The two veins then join to form the superior vena cava. The left one is much longer because it must cross the midline to reach the right-sided superior vena cava.",
+      "function": "Collect venous blood from the head, neck, upper limbs and upper chest and deliver it to the superior vena cava.",
+      "location": "Behind the sternoclavicular joints in the upper chest; they unite behind the lower border of the first right costal cartilage.",
+      "facts": [
+        "The left vein is roughly 6 cm long, while the right is only about 2 to 2.5 cm.",
+        "The left brachiocephalic vein runs obliquely downward and to the right across the upper chest.",
+        "They are also called the innominate veins."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/brachiocephalic-veins",
+        "https://teachmeanatomy.info/neck/vessels/venous-drainage/"
+      ]
+    },
+    {
+      "id": "internal-jugular-vein",
+      "medical": "Internal jugular vein",
+      "common": "Deep neck vein",
+      "category": "Head and neck",
+      "match": [
+        "Internal jugular vein.l",
+        "Internal jugular vein.r",
+        "Lingual vein.l",
+        "Lingual vein.r",
+        "Superior thyroid vein.l",
+        "Superior thyroid vein.r"
+      ],
+      "summary": "The internal jugular vein is the main vein draining the brain. It begins at the jugular foramen of the skull as the continuation of the sigmoid sinus, runs down the neck inside the carotid sheath beside the carotid artery, and joins the subclavian vein to form the brachiocephalic vein.",
+      "function": "Drains blood from the brain, the inside of the skull and much of the face and neck.",
+      "location": "Deep to the sternocleidomastoid muscle in the neck, lying lateral to the common carotid artery within the carotid sheath.",
+      "facts": [
+        "Its pulsation is used to estimate jugular venous pressure, a bedside clue to right heart pressure.",
+        "It receives tributaries such as the common facial, lingual and superior thyroid veins on its way down the neck."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/internal-jugular-vein",
+        "https://teachmeanatomy.info/neck/vessels/venous-drainage/"
+      ]
+    },
+    {
+      "id": "external-jugular-vein",
+      "medical": "External jugular vein",
+      "common": "Visible neck vein",
+      "category": "Head and neck",
+      "match": [
+        "External jugular vein.l",
+        "External jugular vein.r",
+        "Posterior auricular vein.l",
+        "Posterior auricular vein.r",
+        "Suprascapular vein.l",
+        "Suprascapular vein.r"
+      ],
+      "summary": "The external jugular vein is a superficial vein of the neck. It forms near the angle of the jaw from the posterior division of the retromandibular vein and the posterior auricular vein, then runs down across the sternocleidomastoid muscle to empty into the subclavian vein.",
+      "function": "Drains blood from the scalp and the superficial parts of the face and neck.",
+      "location": "Just under the skin and platysma on the side of the neck, crossing obliquely over the sternocleidomastoid muscle.",
+      "facts": [
+        "It often visibly bulges when right-heart pressure is high, as in heart failure, though doctors measure jugular venous pressure more reliably using the internal jugular vein.",
+        "It pierces the deep cervical fascia just above the clavicle before ending in the subclavian vein."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/external-jugular-vein",
+        "https://teachmeanatomy.info/neck/vessels/venous-drainage/"
+      ]
+    },
+    {
+      "id": "subclavian-vein",
+      "medical": "Subclavian vein",
+      "common": "Collarbone vein",
+      "category": "Upper limb",
+      "match": [
+        "Left subclavian vein",
+        "Right subclavian vein"
+      ],
+      "summary": "The subclavian vein continues the axillary vein from the outer border of the first rib and passes beneath the clavicle. At the medial edge of the anterior scalene muscle it joins the internal jugular vein to form the brachiocephalic vein.",
+      "function": "Carries venous blood from the upper limb (and, via the external jugular, part of the head) toward the heart; on the left it also receives lymph from the thoracic duct near its junction.",
+      "location": "Behind the clavicle, lying over the first rib in front of the anterior scalene muscle.",
+      "facts": [
+        "It is about 1 to 2 cm in diameter and is widely used for central venous lines.",
+        "The thoracic duct empties lymph into the veins near the junction of the left subclavian and left internal jugular veins."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/vessels/veins/",
+        "https://teachmeanatomy.info/neck/vessels/venous-drainage/",
+        "https://www.kenhub.com/en/library/anatomy/brachiocephalic-veins"
+      ]
+    },
+    {
+      "id": "axillary-vein",
+      "medical": "Axillary vein",
+      "common": "Armpit vein",
+      "category": "Upper limb",
+      "match": [
+        "Axillary vein.l",
+        "Axillary vein.r",
+        "Subscapular vein.l",
+        "Subscapular vein.r",
+        "Lateral thoracic vein.l",
+        "Lateral thoracic vein.r",
+        "Anterior circumflex humeral vein.l",
+        "Anterior circumflex humeral vein.r",
+        "Posterior circumflex humeral vein.l",
+        "Posterior circumflex humeral vein.r",
+        "Thoracodorsal vein.l",
+        "Thoracodorsal vein.r",
+        "Circumflex scapular vein.l",
+        "Circumflex scapular vein.r"
+      ],
+      "summary": "The axillary vein is the large deep vein of the armpit. It begins where the basilic vein joins the brachial veins near the lower border of teres major and becomes the subclavian vein at the outer border of the first rib.",
+      "function": "Collects blood from the upper limb, armpit and side of the chest wall.",
+      "location": "In the armpit, running alongside and on the inner side of the axillary artery.",
+      "facts": [
+        "The cephalic vein joins it near its upper end.",
+        "Most of its tributaries match the branches of the axillary artery, such as the subscapular and lateral thoracic veins."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/axillary-vein",
+        "https://teachmeanatomy.info/upper-limb/vessels/veins/"
+      ]
+    },
+    {
+      "id": "cephalic-vein",
+      "medical": "Cephalic vein",
+      "common": "Thumb-side arm vein",
+      "category": "Upper limb",
+      "match": [
+        "Cephalic vein.l",
+        "Cephalic vein.r"
+      ],
+      "summary": "The cephalic vein is a superficial vein that starts on the thumb side of the dorsal venous network of the hand. It climbs the outer side of the forearm and arm, runs in the groove between the deltoid and pectoralis major, and pierces the clavipectoral fascia to join the axillary vein.",
+      "function": "Drains the skin and superficial tissues of the thumb side of the hand, forearm and arm.",
+      "location": "Under the skin along the lateral (thumb) side of the upper limb, ending in the deltopectoral groove below the clavicle.",
+      "facts": [
+        "It is often used to insert permanent pacemaker leads.",
+        "Despite its name, it has nothing to do with the head: the term came from a medieval mistranslation of an Arabic word."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/cephalic-vein",
+        "https://teachmeanatomy.info/upper-limb/vessels/veins/"
+      ]
+    },
+    {
+      "id": "basilic-vein",
+      "medical": "Basilic vein",
+      "common": "Pinky-side arm vein",
+      "category": "Upper limb",
+      "match": [
+        "Basilic vein.l",
+        "Basilic vein.r"
+      ],
+      "summary": "The basilic vein is a superficial vein that begins on the little-finger side of the dorsal venous network of the hand. It runs up the inner side of the forearm and arm, dives through the deep fascia partway up the arm, and joins the brachial veins to form the axillary vein.",
+      "function": "Drains the skin and superficial tissues of the little-finger side of the hand and forearm.",
+      "location": "Along the medial (little-finger) side of the forearm and lower arm, becoming deep partway up the arm beside the brachial artery.",
+      "facts": [
+        "Surgeons often use it to create arteriovenous fistulas or grafts for kidney dialysis.",
+        "It is linked to the cephalic vein at the elbow by the median cubital vein."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-basilic-vein",
+        "https://teachmeanatomy.info/upper-limb/vessels/veins/"
+      ]
+    },
+    {
+      "id": "median-cubital-vein",
+      "medical": "Median cubital vein",
+      "common": "Blood-draw vein (inner elbow)",
+      "category": "Upper limb",
+      "match": [
+        "Median cubital vein.l",
+        "Median cubital vein.r",
+        "Median antebrachial vein.l",
+        "Median antebrachial vein.r"
+      ],
+      "summary": "The median cubital vein is a short superficial vein that crosses the front of the elbow obliquely, linking the cephalic vein to the basilic vein. It lies on top of the bicipital aponeurosis, a flat sheet of tendon from the biceps that shields the brachial artery and median nerve beneath it.",
+      "function": "Connects the two main superficial veins of the arm and communicates with the deep veins through a perforating branch.",
+      "location": "In the cubital fossa at the front of the elbow, just under the skin.",
+      "facts": [
+        "It is the usual site for venipuncture because it is wide, superficial and tends not to move when the needle goes in.",
+        "Its pattern varies; in some people it is absent and a large median antebrachial vein takes its place."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/median-cubital-vein",
+        "https://teachmeanatomy.info/upper-limb/vessels/veins/"
+      ]
+    },
+    {
+      "id": "azygos-vein",
+      "medical": "Azygos vein",
+      "common": "Unpaired back-of-chest vein",
+      "category": "Thorax",
+      "match": [
+        "Azygos vein",
+        "Right ascending lumbar vein",
+        "Right subcostal vein",
+        "Right superior intercostal vein",
+        "Right superior phrenic vein"
+      ],
+      "summary": "The azygos vein forms in the upper abdomen from the right ascending lumbar and right subcostal veins, runs up the right side of the thoracic vertebral column, arches over the root of the right lung, and empties into the superior vena cava at about T4. It collects blood from the posterior chest wall and links the inferior and superior venae cavae.",
+      "function": "Drains the right posterior intercostal spaces, bronchial and esophageal veins and the left-sided hemiazygos system; it offers a bypass route to the heart if the inferior vena cava is blocked.",
+      "location": "In the posterior mediastinum, just right of the midline in front of the thoracic vertebral bodies.",
+      "facts": [
+        "Its name comes from Greek meaning 'unpaired'.",
+        "It joins the superior vena cava at about the level of the fourth thoracic vertebra."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/azygos-vein",
+        "https://www.kenhub.com/en/library/anatomy/hemiazygos-vein"
+      ]
+    },
+    {
+      "id": "hepatic-portal-vein",
+      "medical": "Hepatic portal vein",
+      "common": "Portal vein",
+      "category": "Abdomen",
+      "match": [
+        "Hepatic portal vein"
+      ],
+      "summary": "The hepatic portal vein is a short, thick vein about 8 cm long that forms behind the neck of the pancreas when the superior mesenteric and splenic veins merge. It carries blood from the digestive tract, pancreas, gallbladder and spleen to the liver, where it divides into right and left branches.",
+      "function": "Delivers nutrient-rich blood from the gut to the liver for processing and detoxification before it reaches the rest of the body.",
+      "location": "In the upper right abdomen: it forms behind the neck of the pancreas, then rises in the free edge of the lesser omentum (hepatoduodenal ligament), behind the bile duct and hepatic artery, to the porta hepatis of the liver.",
+      "facts": [
+        "It supplies roughly 70-75% of the liver's blood flow; the hepatic artery supplies the rest.",
+        "Raised pressure in it (portal hypertension, often from cirrhosis) can cause esophageal varices and ascites."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/hepatic-portal-vein",
+        "https://teachmeanatomy.info/abdomen/vasculature/venous-drainage/"
+      ]
+    },
+    {
+      "id": "splenic-vein",
+      "medical": "Splenic vein",
+      "common": "Spleen vein",
+      "category": "Abdomen",
+      "match": [
+        "Splenic vein",
+        "Left gastro-omental vein"
+      ],
+      "summary": "The splenic vein leaves the spleen and runs to the right along the pancreas beside the splenic artery. Behind the neck of the pancreas it joins the superior mesenteric vein to form the hepatic portal vein.",
+      "function": "Drains the spleen, part of the stomach (including the left gastro-omental vein along its greater curvature) and the pancreas, and usually receives the inferior mesenteric vein.",
+      "location": "Along the posterior aspect of the body and tail of the pancreas in the upper abdomen.",
+      "facts": [
+        "Pancreatitis is the most common cause of splenic vein thrombosis.",
+        "Blockage of this vein can lead to varices in the stomach."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/splenic-vein",
+        "https://teachmeanatomy.info/abdomen/vasculature/venous-drainage/"
+      ]
+    },
+    {
+      "id": "superior-mesenteric-vein",
+      "medical": "Superior mesenteric vein",
+      "common": "Main intestinal vein",
+      "category": "Abdomen",
+      "match": [
+        "Superior mesenteric vein",
+        "Right colic vein",
+        "Middle colic vein",
+        "Right gastro-omental vein"
+      ],
+      "summary": "The superior mesenteric vein collects blood from the small intestine and the right half of the large intestine. It runs to the right of the superior mesenteric artery and unites with the splenic vein behind the pancreas to form the portal vein.",
+      "function": "Drains the small intestine, cecum, appendix, ascending colon and most of the transverse colon, plus parts of the stomach, pancreas and duodenum (via the right gastro-omental and pancreaticoduodenal veins).",
+      "location": "In the root of the small-intestine mesentery, to the right of the superior mesenteric artery.",
+      "facts": [
+        "Its tributaries include the jejunal, ileal, ileocolic, right colic, middle colic, right gastro-omental and pancreaticoduodenal veins.",
+        "Thrombosis of this vein is uncommon but can cause intestinal ischemia."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/superior-mesenteric-vein",
+        "https://teachmeanatomy.info/abdomen/vasculature/venous-drainage/"
+      ]
+    },
+    {
+      "id": "hepatic-veins",
+      "medical": "Hepatic veins",
+      "common": "Liver veins",
+      "category": "Abdomen",
+      "match": [
+        "Hepatic veins"
+      ],
+      "summary": "The hepatic veins carry blood out of the liver into the inferior vena cava just below the diaphragm. There are three main ones (right, middle and left) plus several small veins from the caudate lobe, and none of them have valves.",
+      "function": "Drain blood that has passed through the liver, having arrived via the portal vein and hepatic artery, into the inferior vena cava.",
+      "location": "Within the liver, converging on the inferior vena cava at the back of the liver's upper part.",
+      "facts": [
+        "The three main hepatic veins mark the boundaries between surgical liver segments.",
+        "Blockage of the hepatic veins causes Budd-Chiari syndrome."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/hepatic-veins",
+        "https://radiopaedia.org/articles/hepatic-veins"
+      ]
+    },
+    {
+      "id": "renal-veins",
+      "medical": "Renal veins",
+      "common": "Kidney veins",
+      "category": "Abdomen",
+      "match": [
+        "Left renal vein",
+        "Right renal vein",
+        "Intrarenal veins of left kidney",
+        "Intrarenal veins of right kidney"
+      ],
+      "summary": "The renal veins drain each kidney into the inferior vena cava. Because the inferior vena cava lies to the right, the left renal vein is about three times longer and crosses in front of the aorta, just below the origin of the superior mesenteric artery.",
+      "function": "Return blood from the kidneys to the inferior vena cava; the left one also receives the left suprarenal and often the left inferior phrenic vein, and it is often linked to the left ascending lumbar vein.",
+      "location": "Running from the hilum of each kidney medially to the inferior vena cava on the posterior abdominal wall.",
+      "facts": [
+        "The left renal vein is about 7.5 cm long versus about 2.5 cm on the right.",
+        "Squeezing of the left renal vein between the aorta and superior mesenteric artery is called nutcracker syndrome."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/renal-vein",
+        "https://teachmeanatomy.info/abdomen/vasculature/venous-drainage/"
+      ]
+    },
+    {
+      "id": "internal-iliac-vein",
+      "medical": "Internal iliac vein",
+      "common": "Pelvic vein",
+      "category": "Pelvis",
+      "match": [
+        "Internal iliac vein.l",
+        "Internal iliac vein.r",
+        "Superior gluteal veins.l",
+        "Superior gluteal veins.r",
+        "Inferior gluteal veins.l",
+        "Inferior gluteal veins.r",
+        "Lateral sacral veins.l",
+        "Lateral sacral veins.r"
+      ],
+      "summary": "The internal iliac vein is a short, wide vein on each side of the pelvis that collects blood from the pelvic organs, the buttock and the perineum. It forms just above the greater sciatic foramen from several smaller veins, such as the superior and inferior gluteal and lateral sacral veins, and climbs a short way up the pelvic side wall.",
+      "function": "Returns venous blood from the pelvic walls and organs, the buttock (gluteal region) and the perineum toward the common iliac vein.",
+      "location": "On the side wall of the pelvis, behind and slightly medial to the internal iliac artery, rising from the greater sciatic foramen to the pelvic brim in front of the sacroiliac joint.",
+      "facts": [
+        "It unites with the external iliac vein in front of the sacroiliac joint to form the common iliac vein.",
+        "Its tributaries can serve as a detour for blood from the leg when the external iliac vein is blocked."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/internal-iliac-vein",
+        "https://teachmeanatomy.info/pelvis/vasculature/venous-drainage/"
+      ]
+    },
+    {
+      "id": "common-iliac-veins",
+      "medical": "Common iliac vein",
+      "common": "Main leg-and-pelvis vein",
+      "category": "Pelvis",
+      "match": [
+        "Common iliac vein.l",
+        "Common iliac vein.r",
+        "Iliolumbar vein.l",
+        "Iliolumbar vein.r"
+      ],
+      "summary": "Each common iliac vein forms near the sacroiliac joint where the external and internal iliac veins meet. The two common iliac veins join slightly to the right of the midline at about L5 to form the inferior vena cava; the left is longer and more oblique.",
+      "function": "Carry blood from the lower limbs and pelvis to the inferior vena cava.",
+      "location": "In the lower abdomen at the pelvic brim, beside and partly behind the common iliac arteries.",
+      "facts": [
+        "In May-Thurner syndrome the right common iliac artery compresses the left common iliac vein against the spine, raising the risk of clots in the left leg.",
+        "Both receive the iliolumbar veins; the left also receives the median sacral vein."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/iliac-vein",
+        "https://teachmeanatomy.info/pelvis/vasculature/venous-drainage/"
+      ]
+    },
+    {
+      "id": "external-iliac-vein",
+      "medical": "External iliac vein",
+      "common": "Groin-to-pelvis vein",
+      "category": "Pelvis",
+      "match": [
+        "External iliac vein.l",
+        "External iliac vein.r",
+        "Inferior epigastric vein.l",
+        "Inferior epigastric vein.r"
+      ],
+      "summary": "The external iliac vein is the upward continuation of the femoral vein, starting behind the inguinal ligament. It runs along the pelvic brim beside the external iliac artery and joins the internal iliac vein to form the common iliac vein.",
+      "function": "Drains the lower limb, lower anterior abdominal wall and pubic region.",
+      "location": "Along the brim of the pelvis, from behind the inguinal ligament to in front of the sacroiliac joint.",
+      "facts": [
+        "It receives the inferior epigastric vein about 1 cm above the inguinal ligament.",
+        "It also receives the deep circumflex iliac vein from the region of the hip bone."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/external-iliac-vein",
+        "https://teachmeanatomy.info/pelvis/vasculature/venous-drainage/"
+      ]
+    },
+    {
+      "id": "femoral-vein",
+      "medical": "Femoral vein",
+      "common": "Thigh vein",
+      "category": "Lower limb",
+      "match": [
+        "Femoral vein.l",
+        "Femoral vein.r"
+      ],
+      "summary": "The femoral vein is the main deep vein of the thigh. It continues the popliteal vein from the adductor hiatus, runs up the thigh with the femoral artery, receives the deep femoral and great saphenous veins near the groin, and becomes the external iliac vein behind the inguinal ligament.",
+      "function": "Returns blood from almost all of the lower limb (except the buttock, which drains to the internal iliac vein) toward the pelvis and inferior vena cava.",
+      "location": "Deep in the thigh beside the femoral artery; in the groin it lies just medial to the artery within the femoral triangle.",
+      "facts": [
+        "It is a common site of deep vein thrombosis and is also used for central venous catheters.",
+        "The old term 'superficial femoral vein' is discouraged because this is a deep vein, and the name led to missed diagnoses of DVT."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/femoral-vein",
+        "https://teachmeanatomy.info/lower-limb/vessels/venous-drainage/",
+        "https://www.kenhub.com/en/library/anatomy/veins-of-the-lower-limb"
+      ]
+    },
+    {
+      "id": "great-saphenous-vein",
+      "medical": "Great saphenous vein",
+      "common": "Long saphenous vein",
+      "category": "Lower limb",
+      "match": [
+        "Great saphenous vein.l",
+        "Great saphenous vein.r",
+        "Superficial epigastric vein.l",
+        "Superficial epigastric vein.r"
+      ],
+      "summary": "The great saphenous vein is the long superficial vein of the leg. It starts at the inner end of the dorsal venous arch of the foot, passes in front of the medial malleolus, climbs the inner leg and thigh, and joins the femoral vein through the saphenous opening just below the inguinal ligament.",
+      "function": "Drains skin and superficial tissues of the foot, inner leg and thigh into the deep venous system; many one-way valves keep blood moving upward.",
+      "location": "Just under the skin along the medial side of the ankle, leg, knee and thigh, ending in the groin.",
+      "facts": [
+        "It is the longest vein in the body.",
+        "It is often harvested as a graft for coronary artery bypass surgery, and faulty valves in it are a classic cause of varicose veins."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/great-saphenous-vein",
+        "https://teachmeanatomy.info/lower-limb/vessels/venous-drainage/"
+      ]
+    },
+    {
+      "id": "small-saphenous-vein",
+      "medical": "Small saphenous vein",
+      "common": "Short saphenous vein",
+      "category": "Lower limb",
+      "match": [
+        "Small saphenous vein.l",
+        "Small saphenous vein.r"
+      ],
+      "summary": "The small saphenous vein begins at the outer side of the foot, passes behind the lateral malleolus, and runs up the back of the calf. Near the knee it passes between the two heads of gastrocnemius and usually drains into the popliteal vein.",
+      "function": "Drains the outer foot and the skin of the back of the leg into the deep venous system.",
+      "location": "Under the skin on the back of the calf, from behind the outer ankle to the popliteal fossa.",
+      "facts": [
+        "It travels alongside the sural nerve, which can be injured during vein treatments.",
+        "Like the great saphenous vein, it can become varicose and may be used as a bypass graft."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/small-saphenous-vein",
+        "https://teachmeanatomy.info/lower-limb/vessels/venous-drainage/"
+      ]
+    },
+    {
+      "id": "popliteal-vein",
+      "medical": "Popliteal vein",
+      "common": "Back-of-knee vein",
+      "category": "Lower limb",
+      "match": [
+        "Popliteal vein.l",
+        "Popliteal vein.r",
+        "Genicular veins.l",
+        "Genicular veins.r"
+      ],
+      "summary": "The popliteal vein forms below the knee where the anterior and posterior tibial veins meet. It rises through the back of the knee alongside the popliteal artery and passes through the adductor hiatus to become the femoral vein.",
+      "function": "Collects blood from the deep veins of the leg and from the small saphenous vein.",
+      "location": "In the popliteal fossa behind the knee, next to the popliteal artery.",
+      "facts": [
+        "It receives the small saphenous vein, which enters between the heads of gastrocnemius.",
+        "As it rises through the fossa it crosses behind the popliteal artery to lie on its lateral side."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/popliteal-vein",
+        "https://teachmeanatomy.info/lower-limb/vessels/venous-drainage/"
+      ]
+    },
+    {
+      "id": "deep-veins-of-leg",
+      "medical": "Anterior tibial, posterior tibial and fibular veins",
+      "common": "Deep calf veins",
+      "category": "Lower limb",
+      "match": [
+        "Anterior tibial veins.l",
+        "Anterior tibial veins.r",
+        "Posterior tibial veins.l",
+        "Posterior tibial veins.r",
+        "Fibular veins.l",
+        "Fibular veins.r"
+      ],
+      "summary": "The deep veins of the leg run in pairs beside the arteries of the same name. The anterior tibial, posterior tibial and fibular veins drain the leg and foot and converge to form the popliteal vein.",
+      "function": "Drain the muscles of the calf and front of the leg and the sole of the foot; squeezed by the calf muscles, they pump blood upward.",
+      "location": "Deep within the leg: the anterior tibial veins in the front compartment, the posterior tibial and fibular veins in the back of the calf.",
+      "facts": [
+        "They are paired veins that accompany an artery, known as venae comitantes.",
+        "Immobility weakens the calf muscle pump and raises the risk of deep vein thrombosis in these veins."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/vessels/venous-drainage/",
+        "https://www.kenhub.com/en/library/anatomy/veins-of-the-lower-limb"
+      ]
+    },
+    {
+      "id": "pulmonary-veins",
+      "medical": "Pulmonary veins",
+      "common": "Lung veins",
+      "category": "Heart and lungs",
+      "match": [
+        "Inferior basal vein of left lung",
+        "Superior basal vein of left lung",
+        "Superior vein of left lung",
+        "Anterior vein of left lung",
+        "Apicoposterior vein of left lung",
+        "Lingular vein of left lung",
+        "Inferior lingular vein of left lung",
+        "Superior lingular vein of left lung",
+        "Left inferior pulmonary vein",
+        "Left superior pulmonary vein",
+        "Right inferior pulmonary vein",
+        "Right superior pulmonary vein",
+        "Inferior basal vein of right lung",
+        "Superior basal vein of right lung",
+        "Superior vein of right lung",
+        "Anterior vein of right lung",
+        "Apical vein of right lung",
+        "Lateral vein of right lung",
+        "Medial vein of right lung",
+        "Posterior vein of right lung"
+      ],
+      "summary": "The pulmonary veins return blood from the lungs to the heart. Usually there are four, a superior and an inferior vein from each lung, formed from smaller segmental and lobar veins, and they open into the back wall of the left atrium.",
+      "function": "Carry freshly oxygenated blood from the lungs to the left atrium.",
+      "location": "Running from the hilum of each lung medially to the posterior wall of the left atrium.",
+      "facts": [
+        "After birth, they are the only veins that carry oxygen-rich blood (before birth the umbilical vein also does).",
+        "They are the main trigger site of atrial fibrillation, which is why pulmonary vein isolation by catheter ablation is used to treat it."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/pulmonary-veins",
+        "https://radiopaedia.org/articles/pulmonary-veins"
+      ]
+    },
+    {
+      "id": "coronary-sinus",
+      "medical": "Coronary sinus and cardiac veins",
+      "common": "Heart's own veins",
+      "category": "Heart and lungs",
+      "match": [
+        "Coronary sinus",
+        "Great cardiac vein",
+        "Inferior vein of left ventricle",
+        "Inferior vein of left ventricle (//Posterior '')",
+        "Middle cardiac vein",
+        "Small cardiac vein"
+      ],
+      "summary": "The coronary sinus is a short, wide venous channel in the groove between the left atrium and left ventricle on the back of the heart. It is fed by the great, middle and small cardiac veins and the posterior (inferior) vein of the left ventricle, and empties into the right atrium.",
+      "function": "Drains most of the venous blood from the heart muscle back into the right atrium.",
+      "location": "On the posterior surface of the heart in the atrioventricular groove, opening into the right atrium near the inferior vena cava.",
+      "facts": [
+        "It drains the majority of the heart muscle's venous blood; the rest enters the heart chambers directly through anterior cardiac and smallest (Thebesian) veins.",
+        "Cardiologists thread pacing leads through it for cardiac resynchronization therapy."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/coronary-sinus",
+        "https://www.kenhub.com/en/library/anatomy/great-cardiac-vein",
+        "https://teachmeanatomy.info/thorax/organs/heart/heart-vasculature/"
+      ]
+    },
+    {
+      "id": "facial-vein",
+      "medical": "Facial vein",
+      "common": "Face vein",
+      "category": "Head and neck",
+      "match": [
+        "Facial vein.l",
+        "Facial vein.r",
+        "Common facial vein.l",
+        "Common facial vein.r",
+        "Angular vein.l",
+        "Angular vein.r",
+        "Superior labial vein.l",
+        "Superior labial vein.r",
+        "Inferior labial veins.l",
+        "Inferior labial veins.r",
+        "Submental vein.l",
+        "Submental vein.r"
+      ],
+      "summary": "The facial vein begins near the inner corner of the eye as the continuation of the angular vein and runs down and back across the face to the jaw. Below the mandible it joins the anterior division of the retromandibular vein to form the common facial vein, which empties into the internal jugular vein.",
+      "function": "Drains the superficial front of the face, including the forehead, nose, lips and chin.",
+      "location": "Along the side of the nose and cheek, crossing the lower border of the mandible in front of the masseter.",
+      "facts": [
+        "It connects with the cavernous sinus through the ophthalmic veins, so infections in the 'danger triangle' around the nose and mouth can spread inside the skull.",
+        "It follows a less winding path than the facial artery that travels with it."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/facial-vein",
+        "https://teachmeanatomy.info/neck/vessels/venous-drainage/"
+      ]
+    },
+    {
+      "id": "superior-sagittal-sinus",
+      "medical": "Superior sagittal sinus",
+      "common": "Top brain drainage channel",
+      "category": "Dural venous sinuses",
+      "match": [
+        "Superior sagittal sinus"
+      ],
+      "summary": "Running along the top midline of the skull, the superior sagittal sinus is one of the largest dural venous sinuses. It travels from front to back in the upper edge of the falx cerebri, getting wider as it goes, and ends at the confluence of sinuses near the internal occipital protuberance.",
+      "function": "Collects blood from the superficial cerebral veins and receives cerebrospinal fluid through arachnoid granulations.",
+      "location": "In the midline under the top of the skull, from the foramen cecum of the frontal bone to the back of the head.",
+      "facts": [
+        "Like all dural sinuses, it has no valves and is walled by dura mater rather than muscle.",
+        "Near its end it usually turns to the right to continue as the right transverse sinus."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/superior-sagittal-sinus",
+        "https://teachmeanatomy.info/neuroanatomy/vessels/dural-venous-sinuses/",
+        "https://www.kenhub.com/en/library/anatomy/dural-sinuses"
+      ]
+    },
+    {
+      "id": "transverse-sigmoid-sinuses",
+      "medical": "Transverse and sigmoid sinuses",
+      "common": "Back-of-skull drainage channels",
+      "category": "Dural venous sinuses",
+      "match": [
+        "Transverse sinus.l",
+        "Transverse sinus.r",
+        "Sigmoid sinus.l",
+        "Sigmoid sinus.r"
+      ],
+      "summary": "The paired transverse sinuses run sideways from the confluence of sinuses along the attached edge of the tentorium cerebelli. Each continues as an S-shaped sigmoid sinus that curves down through the posterior cranial fossa to the jugular foramen, where it becomes the internal jugular vein.",
+      "function": "Carry most venous blood from the brain toward the internal jugular veins.",
+      "location": "Inside the back and base of the skull, in grooves on the occipital and temporal bones.",
+      "facts": [
+        "The right transverse sinus is usually larger because it directly continues the superior sagittal sinus.",
+        "The sigmoid sinus ends at the jugular bulb in the jugular foramen."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neuroanatomy/vessels/dural-venous-sinuses/",
+        "https://www.kenhub.com/en/library/anatomy/dural-sinuses"
+      ]
+    },
+    {
+      "id": "cavernous-sinus",
+      "medical": "Cavernous sinus",
+      "common": "Sinus beside the pituitary",
+      "category": "Dural venous sinuses",
+      "match": [
+        "Cavernous sinus.l",
+        "Cavernous sinus.r",
+        "Anterior intercavernous sinus",
+        "Posterior intercavernous sinus"
+      ],
+      "summary": "The cavernous sinuses are paired venous spaces on each side of the sella turcica and pituitary gland, joined across the midline by intercavernous sinuses. The internal carotid artery and several cranial nerves pass through or along them.",
+      "function": "Receive blood from the ophthalmic veins and nearby brain, then drain through the superior and inferior petrosal sinuses and, via emissary veins, into the pterygoid plexus.",
+      "location": "At the middle of the skull base on either side of the sella turcica of the sphenoid bone.",
+      "facts": [
+        "Cranial nerves III, IV, V1, V2 and VI and the internal carotid artery pass through or in the wall of each cavernous sinus.",
+        "Infection spreading from the face via the ophthalmic veins can cause cavernous sinus thrombosis."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neuroanatomy/vessels/dural-venous-sinuses/",
+        "https://www.kenhub.com/en/library/anatomy/dural-sinuses",
+        "https://www.kenhub.com/en/library/anatomy/ophthalmic-veins"
+      ]
+    },
+    {
+      "id": "inferior-mesenteric-vein",
+      "medical": "Inferior mesenteric vein",
+      "common": "Lower intestinal vein",
+      "category": "Abdomen",
+      "match": [
+        "Inferior mesenteric vein",
+        "Sigmoid veins"
+      ],
+      "summary": "The inferior mesenteric vein begins as the continuation of the superior rectal vein and climbs up the left side of the back of the abdomen. It receives the sigmoid and left colic veins, then passes behind the pancreas to end, usually, in the splenic vein.",
+      "function": "Drains the rectum, sigmoid colon, descending colon and the last part of the transverse colon into the portal system.",
+      "location": "Behind the peritoneum on the left side of the posterior abdominal wall, crossing the left psoas major and ureter, to the left of the duodenojejunal flexure.",
+      "facts": [
+        "Its rectal tributaries connect with veins that drain to the inferior vena cava, one of the portal-systemic links that can swell in portal hypertension.",
+        "It sometimes joins the superior mesenteric vein or the junction of the splenic and superior mesenteric veins instead of the splenic vein."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/inferior-mesenteric-vein",
+        "https://teachmeanatomy.info/abdomen/vasculature/venous-drainage/"
+      ]
+    },
+    {
+      "id": "hemiazygos-veins",
+      "medical": "Hemiazygos and accessory hemiazygos veins",
+      "common": "Left back-of-chest veins",
+      "category": "Thorax",
+      "match": [
+        "Hemi-azygos vein",
+        "Accessory hemi-azygos vein",
+        "Left ascending lumbar vein",
+        "Left subcostal vein",
+        "Left superior intercostal vein"
+      ],
+      "summary": "The hemiazygos and accessory hemiazygos veins are the left-sided partners of the azygos vein. The hemiazygos forms from the left ascending lumbar and left subcostal veins and crosses behind the aorta at about T8 to join the azygos; the accessory hemiazygos runs down from the middle left intercostal spaces and crosses at about T7.",
+      "function": "Drain the lower and middle left posterior intercostal spaces, and parts of the esophagus and mediastinum, into the azygos vein. The left superior intercostal vein drains the upper left spaces into the left brachiocephalic vein.",
+      "location": "In the posterior mediastinum, on the left side of the thoracic vertebral bodies.",
+      "facts": [
+        "The hemiazygos vein is often connected to the left renal vein.",
+        "Together with the ascending lumbar veins, this system is a detour for blood if the inferior vena cava is blocked."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/hemiazygos-vein",
+        "https://www.kenhub.com/en/library/anatomy/azygos-vein",
+        "https://www.kenhub.com/en/library/anatomy/lumbar-veins"
+      ]
+    },
+    {
+      "id": "lumbar-veins",
+      "medical": "Lumbar veins",
+      "common": "Lower back veins",
+      "category": "Abdomen",
+      "match": [
+        "Lumbar veins.l",
+        "Lumbar veins.r"
+      ],
+      "summary": "The lumbar veins are four pairs of veins that run with the lumbar arteries along the lumbar vertebrae. The lower ones empty straight into the inferior vena cava, and all are linked up and down by the ascending lumbar veins.",
+      "function": "Drain the muscles and skin of the lower back and the back of the abdominal wall.",
+      "location": "On the posterior abdominal wall beside the lumbar vertebral bodies, behind the psoas major; the left ones pass behind the aorta.",
+      "facts": [
+        "The ascending lumbar veins they connect to join the subcostal veins to form the azygos (right) and hemiazygos (left) veins.",
+        "The first and second lumbar veins vary a lot and may drain into the ascending lumbar or renal veins instead."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/lumbar-veins",
+        "https://www.kenhub.com/en/library/anatomy/inferior-vena-cava"
+      ]
+    },
+    {
+      "id": "deep-veins-of-arm",
+      "medical": "Brachial, radial and ulnar veins",
+      "common": "Deep arm and forearm veins",
+      "category": "Upper limb",
+      "match": [
+        "Brachial veins.l",
+        "Brachial veins.r",
+        "Radial veins.l",
+        "Radial veins.r",
+        "Ulnar veins.l",
+        "Ulnar veins.r"
+      ],
+      "summary": "The radial and ulnar veins are paired veins that travel with the arteries of the same name in the forearm. They unite in the elbow region to form the paired brachial veins, which run up the arm beside the brachial artery and join the basilic vein at the lower border of teres major to form the axillary vein.",
+      "function": "Drain the deep tissues and muscles of the hand, forearm and arm; they are linked to the superficial veins by perforating veins.",
+      "location": "Deep in the forearm and arm, wrapped around the radial, ulnar and brachial arteries.",
+      "facts": [
+        "Like the deep veins of the leg, they are venae comitantes: pairs of veins hugging an artery, whose pulse helps push blood along.",
+        "Deep vein thrombosis here is less common than in the leg and is often linked to central venous catheters."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/veins-of-the-upper-limb",
+        "https://teachmeanatomy.info/upper-limb/vessels/veins/"
+      ]
+    },
+    {
+      "id": "palmar-venous-arches",
+      "medical": "Palmar venous arches",
+      "common": "Palm vein arches",
+      "category": "Upper limb",
+      "match": [
+        "Superficial venous palmar arch.l",
+        "Superficial venous palmar arch.r",
+        "Deep venous palmar arch.l",
+        "Deep venous palmar arch.r",
+        "Palmar digital veins.l",
+        "Palmar digital veins.r"
+      ],
+      "summary": "The superficial and deep palmar venous arches lie in the palm beside the arterial arches of the same name. The superficial arch collects the palmar digital veins from the fingers; the deep arch gathers the palmar metacarpal veins.",
+      "function": "Collect blood from the fingers and palm; the deep arch drains mainly into the radial and ulnar veins, while the superficial arch sends most of its blood to the back of the hand through intercapitular veins and some into the median antebrachial vein.",
+      "location": "In the palm of the hand, the superficial arch just under the palmar aponeurosis and the deep arch on the bases of the metacarpal bones.",
+      "facts": [
+        "Much of the blood from the palm is sent to the back of the hand through intercapitular veins between the knuckles, so gripping does not block drainage."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/veins-of-the-upper-limb",
+        "https://teachmeanatomy.info/upper-limb/vessels/veins/"
+      ]
+    },
+    {
+      "id": "dorsal-venous-network-of-hand",
+      "medical": "Dorsal venous network of the hand",
+      "common": "Back-of-hand veins",
+      "category": "Upper limb",
+      "match": [
+        "Dorsal venous network of hand.l",
+        "Dorsal venous network of hand.r",
+        "Dorsal digital veins of hand.l",
+        "Dorsal digital veins of hand.r"
+      ],
+      "summary": "The dorsal venous network is a web of superficial veins on the back of the hand, fed by the dorsal digital and metacarpal veins of the fingers. Its thumb side gives rise to the cephalic vein and its little-finger side to the basilic vein.",
+      "function": "Collects superficial blood from the fingers and back of the hand and passes it to the cephalic and basilic veins.",
+      "location": "Just under the thin skin on the back of the hand, over the metacarpal bones.",
+      "facts": [
+        "It is a common site for placing IV cannulas because the veins are easy to see and feel."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/veins-of-the-upper-limb",
+        "https://teachmeanatomy.info/upper-limb/vessels/veins/"
+      ]
+    },
+    {
+      "id": "deep-femoral-vein",
+      "medical": "Deep femoral vein",
+      "common": "Deep thigh vein",
+      "category": "Lower limb",
+      "match": [
+        "Deep femoral vein.l",
+        "Deep femoral vein.r",
+        "Perforating veins.l",
+        "Perforating veins.r",
+        "Medial circumflex femoral veins.l",
+        "Medial circumflex femoral veins.r",
+        "Lateral circumflex femoral veins.l",
+        "Lateral circumflex femoral veins.r"
+      ],
+      "summary": "The deep femoral vein (profunda femoris vein) runs in front of the deep femoral artery in the upper thigh. It collects the perforating veins from the back of the thigh and often the medial and lateral circumflex femoral veins from around the hip, then joins the femoral vein a few centimetres below the inguinal ligament.",
+      "function": "Drains the deep muscles of the thigh, especially the hamstrings and adductors, into the femoral vein.",
+      "location": "Deep in the upper and middle thigh, between the adductor muscles, in front of the deep femoral artery.",
+      "facts": [
+        "The perforating veins wind around the femur from back to front to reach it.",
+        "It links with the popliteal vein and gluteal veins, so it can act as a bypass if the femoral vein is blocked."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/femoral-vein",
+        "https://teachmeanatomy.info/lower-limb/vessels/venous-drainage/",
+        "https://www.kenhub.com/en/library/anatomy/veins-of-the-lower-limb"
+      ]
+    },
+    {
+      "id": "dorsal-venous-arch-of-foot",
+      "medical": "Dorsal venous arch of the foot",
+      "common": "Top-of-foot vein arch",
+      "category": "Lower limb",
+      "match": [
+        "Dorsal venous arch of foot.l",
+        "Dorsal venous arch of foot.r",
+        "Dorsal metatarsal veins.l",
+        "Dorsal metatarsal veins.r",
+        "Dorsal digital veins of foot.l",
+        "Dorsal digital veins of foot.r",
+        "Intercapitular veins of foot.l",
+        "Intercapitular veins of foot.r"
+      ],
+      "summary": "The dorsal venous arch is a curved superficial vein across the top of the foot, formed by the dorsal metatarsal veins from the toes. Its inner end continues as the great saphenous vein and its outer end as the small saphenous vein.",
+      "function": "Collects superficial blood from the toes and top of the foot and starts both saphenous veins; intercapitular veins between the metatarsal heads bring in blood from the sole.",
+      "location": "Just under the skin on the top of the foot, over the shafts of the metatarsal bones, roughly midway between the ankle and the toes.",
+      "facts": [
+        "It is easy to see on the top of the foot and can be used for IV access when arm veins are hard to find."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/vessels/venous-drainage/",
+        "https://www.kenhub.com/en/library/anatomy/great-saphenous-vein",
+        "https://www.kenhub.com/en/library/anatomy/veins-of-the-lower-limb"
+      ]
+    },
+    {
+      "id": "plantar-veins",
+      "medical": "Plantar veins and plantar venous arch",
+      "common": "Sole-of-foot veins",
+      "category": "Lower limb",
+      "match": [
+        "Plantar venous arch.l",
+        "Plantar venous arch.r",
+        "Medial plantar veins.l",
+        "Medial plantar veins.r",
+        "Lateral plantar veins.l",
+        "Lateral plantar veins.r",
+        "Plantar metatarsal veins.l",
+        "Plantar metatarsal veins.r",
+        "Plantar digital veins.l",
+        "Plantar digital veins.r"
+      ],
+      "summary": "The deep veins of the sole start as plantar digital veins from the toes, which join into plantar metatarsal veins and the deep plantar venous arch. The arch continues as the lateral plantar veins, which join the medial plantar veins behind the inner ankle to form the posterior tibial veins.",
+      "function": "Drain the sole of the foot into the deep veins of the leg.",
+      "location": "Deep in the sole of the foot, running with the plantar arteries.",
+      "facts": [
+        "Each step squeezes the plantar veins, giving a 'foot pump' that pushes blood up into the leg."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/vessels/venous-drainage/",
+        "https://www.kenhub.com/en/library/anatomy/veins-of-the-lower-limb"
+      ]
+    },
+    {
+      "id": "deep-dural-sinuses",
+      "medical": "Straight, inferior sagittal and occipital sinuses",
+      "common": "Deep and back brain drainage channels",
+      "category": "Dural venous sinuses",
+      "match": [
+        "Straight sinus",
+        "Inferior sagittal sinus",
+        "Occipital sinus"
+      ],
+      "summary": "The inferior sagittal sinus runs in the lower free edge of the falx cerebri and joins the great cerebral vein to form the straight sinus. The straight sinus runs back where the falx meets the tentorium cerebelli to the confluence of sinuses. The small occipital sinus runs up from the edge of the foramen magnum in the falx cerebelli to the same confluence.",
+      "function": "Drain the deep parts of the brain, the inner (medial) surfaces of the cerebral hemispheres and part of the cerebellum toward the confluence of sinuses and the transverse sinuses.",
+      "location": "Inside the skull in the midline: along the lower edge of the falx cerebri, along the top of the tentorium, and on the inner surface of the occipital bone.",
+      "facts": [
+        "The confluence of sinuses, near the internal occipital protuberance, is where the superior sagittal, straight and occipital sinuses meet and the transverse sinuses begin.",
+        "The occipital sinus is the smallest dural venous sinus."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neuroanatomy/vessels/dural-venous-sinuses/",
+        "https://www.kenhub.com/en/library/anatomy/inferior-sagittal-sinus",
+        "https://www.kenhub.com/en/library/anatomy/straight-sinus",
+        "https://www.kenhub.com/en/library/anatomy/occipital-sinus"
+      ]
+    },
+    {
+      "id": "petrosal-sinuses",
+      "medical": "Petrosal sinuses and basilar venous plexus",
+      "common": "Skull-base drainage channels",
+      "category": "Dural venous sinuses",
+      "match": [
+        "Superior petrosal sinus.l",
+        "Superior petrosal sinus.r",
+        "Inferior petrosal sinus.l",
+        "Inferior petrosal sinus.r",
+        "Basilar venous plexus"
+      ],
+      "summary": "The superior petrosal sinus runs along the upper ridge of the petrous temporal bone from the cavernous sinus to the transverse sinus. The inferior petrosal sinus runs in a groove lower down, from the cavernous sinus to the internal jugular vein at the jugular foramen. The basilar venous plexus lies over the clivus and links the two inferior petrosal sinuses.",
+      "function": "Carry blood out of the cavernous sinuses toward the transverse sinuses and internal jugular veins; the basilar plexus also connects to the vertebral venous plexus.",
+      "location": "At the base of the skull, on the petrous parts of the temporal bones and the clivus behind the sella turcica.",
+      "facts": [
+        "The basilar venous plexus connects the veins inside the skull with the vertebral venous plexus around the spinal cord."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neuroanatomy/vessels/dural-venous-sinuses/",
+        "https://www.kenhub.com/en/library/anatomy/superior-petrosal-sinus",
+        "https://www.kenhub.com/en/library/anatomy/inferior-petrosal-sinus"
+      ]
+    },
+    {
+      "id": "ophthalmic-veins",
+      "medical": "Ophthalmic veins",
+      "common": "Eye socket veins",
+      "category": "Head and neck",
+      "match": [
+        "Superior ophthalmic vein.l",
+        "Superior ophthalmic vein.r",
+        "Inferior ophthalmic vein.l",
+        "Inferior ophthalmic vein.r"
+      ],
+      "summary": "The superior ophthalmic vein forms at the upper inner corner of the orbit from branches of the facial (angular) and supraorbital veins, runs back through the orbit and leaves through the superior orbital fissure to reach the cavernous sinus. The smaller inferior ophthalmic vein begins on the orbital floor and ends in the cavernous sinus or the superior ophthalmic vein.",
+      "function": "Drain the eyeball, eye muscles and other contents of the orbit into the cavernous sinus; the inferior vein also connects to the pterygoid plexus.",
+      "location": "Inside the orbit (eye socket), above and below the eyeball.",
+      "facts": [
+        "They have no effective valves, so facial infections can travel through them to the cavernous sinus.",
+        "The central retinal vein, which drains the retina, empties either into the superior ophthalmic vein or straight into the cavernous sinus."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/ophthalmic-veins",
+        "https://teachmeanatomy.info/neuroanatomy/vessels/dural-venous-sinuses/"
+      ]
+    },
+    {
+      "id": "retromandibular-vein",
+      "medical": "Retromandibular vein",
+      "common": "Behind-the-jaw vein",
+      "category": "Head and neck",
+      "match": [
+        "Retromandibular vein.l",
+        "Retromandibular vein.r",
+        "Anterior division of retromandibular vein.l",
+        "Anterior division of retromandibular vein.r",
+        "Posterior division of retromandibular vein.l",
+        "Posterior division of retromandibular vein.r",
+        "Superficial temporal veins.l",
+        "Superficial temporal veins.r",
+        "Maxillary veins.l",
+        "Maxillary veins.r"
+      ],
+      "summary": "The retromandibular vein forms inside the parotid gland, just behind the neck of the jaw, where the superficial temporal and maxillary veins join. It then splits: the anterior division joins the facial vein to form the common facial vein, and the posterior division joins the posterior auricular vein to form the external jugular vein.",
+      "function": "Drains the side of the scalp, the temple and the deep face (via the maxillary veins from the pterygoid plexus).",
+      "location": "Behind the ramus of the mandible, running down through the parotid gland.",
+      "facts": [
+        "It passes through the parotid gland close to the facial nerve, an important landmark in parotid surgery."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/retromandibular-vein",
+        "https://teachmeanatomy.info/neck/vessels/venous-drainage/"
+      ]
+    },
+    {
+      "id": "vertebral-vein",
+      "medical": "Vertebral vein",
+      "common": "Neck-bone vein",
+      "category": "Head and neck",
+      "match": [
+        "Vertebral vein.l",
+        "Vertebral vein.r",
+        "Occipital vein.l",
+        "Occipital vein.r"
+      ],
+      "summary": "The vertebral vein forms from small veins near the base of the skull, including links with the occipital veins, and runs down through the holes in the side of the cervical vertebrae with the vertebral artery. It leaves at the sixth cervical vertebra and ends in the brachiocephalic vein.",
+      "function": "Drains the back of the neck, the deep muscles of the neck and the cervical spinal canal.",
+      "location": "In the neck, inside the transverse foramina of the upper six cervical vertebrae, then in front of the subclavian artery.",
+      "facts": [
+        "Unlike the vertebral artery, it does not arise inside the skull; it forms in the suboccipital region from small veins and the suboccipital venous plexus."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/vertebral-vein",
+        "https://teachmeanatomy.info/neck/vessels/venous-drainage/"
+      ]
+    },
+    {
+      "id": "anterior-jugular-vein",
+      "medical": "Anterior jugular vein",
+      "common": "Front neck vein",
+      "category": "Head and neck",
+      "match": [
+        "Anterior jugular vein.l",
+        "Anterior jugular vein.r"
+      ],
+      "summary": "The anterior jugular vein starts near the hyoid bone from small veins below the chin and runs down the front of the neck close to the midline. Near the sternum it turns sideways behind the sternocleidomastoid to end in the external jugular or subclavian vein.",
+      "function": "Drains the skin and superficial tissues of the front of the neck.",
+      "location": "Just under the skin on the front of the neck, near the midline.",
+      "facts": [
+        "The two anterior jugular veins are often joined above the sternum by a jugular venous arch, which can bleed during a tracheostomy."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/anterior-jugular-vein",
+        "https://teachmeanatomy.info/neck/vessels/venous-drainage/"
+      ]
+    },
+    {
+      "id": "internal-thoracic-veins",
+      "medical": "Internal thoracic veins",
+      "common": "Inner chest wall veins",
+      "category": "Thorax",
+      "match": [
+        "Internal thoracic veins.l",
+        "Internal thoracic veins.r",
+        "Superior epigastric veins.l",
+        "Superior epigastric veins.r",
+        "Musculophrenic veins.l",
+        "Musculophrenic veins.r"
+      ],
+      "summary": "The internal thoracic veins run up the inside of the front chest wall beside the internal thoracic artery, just lateral to the sternum. They are formed by the superior epigastric and musculophrenic veins and end in the brachiocephalic veins.",
+      "function": "Drain the front of the chest wall, the anterior intercostal spaces and the upper front abdominal wall.",
+      "location": "Behind the costal cartilages, about 1 cm from the edge of the sternum.",
+      "facts": [
+        "Through the superior and inferior epigastric veins they link the superior and inferior venae cavae, a detour route if either is blocked."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/brachiocephalic-veins",
+        "https://www.kenhub.com/en/library/anatomy/superior-vena-cava"
+      ]
+    }
+  ],
+  "commonNames": {
+    "Great saphenous vein.l": "Long saphenous vein",
+    "Great saphenous vein.r": "Long saphenous vein",
+    "Small saphenous vein.l": "Short saphenous vein",
+    "Small saphenous vein.r": "Short saphenous vein",
+    "Hepatic portal vein": "Portal vein"
+  }
+}

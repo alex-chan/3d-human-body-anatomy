@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Human Anatomy 3D</title>
+  <meta name="description" content="Explore an interactive 3D atlas of the human body: bones, muscles, organs, blood vessels, nerves and skin, with researched descriptions and Dr. Buddy, an animated doctor who answers your questions." />
+  <meta name="theme-color" content="#05070f" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Human Anatomy 3D" />
+  <meta property="og:description" content="An interactive 3D atlas of the human body with researched descriptions and an animated doctor guide." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&family=Baloo+2:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <canvas id="scene"></canvas>
+  <div id="labels"></div>
+  <canvas id="doctor-canvas"></canvas>
+  <div class="fx-scanlines"></div>
+  <div class="fx-vignette"></div>
+
+  <!-- Landing page: the live 3D body is visible behind this overlay (see intro.js) -->
+  <div id="boot">
+    <div class="boot-inner">
+      <div class="boot-top">
+        <div class="boot-logo"><span class="plus">✚</span> HUMAN ANATOMY <b>3D</b></div>
+        <div class="lang-pick" role="group" aria-label="Language">
+          <button data-lang="en" class="active">EN</button><button data-lang="hi">हिंदी</button>
+        </div>
+      </div>
+      <h1 class="boot-head" data-i18n-html="landing.head">See inside the<br><em>human body.</em></h1>
+      <p class="boot-lead" data-i18n="landing.lead">An interactive 3D atlas you can peel layer by layer, with a friendly guide who explains every part.</p>
+      <ul class="boot-feats">
+        <li><span class="fi">❤</span><span data-i18n="landing.f1">Live heartbeat, blood flow &amp; nerve signals</span></li>
+        <li><span class="fi">🧭</span><span data-i18n="landing.f2">Guided tours narrated by Dr. Buddy</span></li>
+        <li><span class="fi">🩺</span><span data-i18n="landing.f3">Ask questions by typing or speaking</span></li>
+        <li><span class="fi">अ</span><span data-i18n="landing.f4">In English and हिंदी</span></li>
+      </ul>
+      <div class="boot-stats">
+        <div><b id="stat-parts">0</b><span data-i18n="landing.sParts">3D parts</span></div>
+        <div><b id="stat-entries">0</b><span data-i18n="landing.sEntries">researched structures</span></div>
+        <div><b id="stat-layers">7</b><span data-i18n="landing.sLayers">body layers</span></div>
+        <div><b id="stat-tours">5</b><span data-i18n="landing.sTours">guided tours</span></div>
+      </div>
+      <div class="boot-scan"><span class="dot"></span><span id="boot-stage">INITIALIZING SCAN</span></div>
+      <div class="boot-bar"><i id="boot-fill"></i></div>
+      <div id="boot-log" class="boot-log"></div>
+      <div class="boot-actions">
+        <button id="boot-start" class="btn-neon big" disabled>INITIALIZING…</button>
+        <button id="boot-tour" class="btn-ghost big" disabled data-i18n="landing.tour">🧭 Take a tour</button>
+      </div>
+      <p class="boot-note" data-i18n="landing.note">For learning only, not medical advice.</p>
+    </div>
+  </div>
+
+  <header class="hud-top">
+    <div class="brand cut">
+      <span class="plus">✚</span>
+      <div><div class="brand-title">HUMAN ANATOMY <b>3D</b></div><div class="brand-sub">MED-SCAN · ADULT MALE</div></div>
+    </div>
+    <div class="search cut">
+      <svg viewBox="0 0 24 24" class="ico"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <input id="search" type="search" placeholder="Search body part… femur, heart, biceps" data-i18n-ph="ui.search" autocomplete="off" />
+      <ul id="search-results"></ul>
+    </div>
+    <div class="seg cut name-seg" role="group" aria-label="Name style">
+      <button data-names="medical" class="active" data-i18n="ui.medical">MEDICAL</button>
+      <button data-names="medical_hi" class="only-hi" data-i18n="ui.medicalHi">MEDICAL (HI)</button>
+      <button data-names="common" data-i18n="ui.common">COMMON</button>
+    </div>
+    <div class="seg cut lang-seg" role="group" aria-label="Language">
+      <button data-lang="en" class="active">EN</button>
+      <button data-lang="hi">हिंदी</button>
+    </div>
+  </header>
+
+  <aside class="hud-panel layers-panel cut">
+    <div class="ph"><span data-i18n="panel.layers">BODY LAYERS</span><i class="blink"></i></div>
+    <div id="layer-list"></div>
+    <div class="ph"><span data-i18n="panel.quick">QUICK VIEWS</span></div>
+    <div id="presets" class="presets"></div>
+    <div class="ph"><span data-i18n="panel.tours">GUIDED TOURS</span></div>
+    <div id="tours" class="tours"></div>
+    <div id="loading" class="loading"></div>
+  </aside>
+
+  <aside class="hud-panel info-panel cut hidden" id="info">
+    <span class="br tl"></span><span class="br tr"></span><span class="br bl"></span><span class="br br2"></span>
+    <button class="close" id="info-close" aria-label="Close">✕</button>
+    <div class="target" data-i18n="info.target">◉ TARGET ACQUIRED</div>
+    <div class="info-layer" id="info-layer"></div>
+    <h3 id="info-title"></h3>
+    <div class="info-alt" id="info-alt"></div>
+    <div id="info-body"></div>
+    <div class="info-actions">
+      <button id="info-explain" class="btn-neon" data-i18n="info.explain">🩺 DOCTOR, EXPLAIN!</button>
+      <button id="info-isolate" class="btn-ghost">ISOLATE</button>
+    </div>
+  </aside>
+
+  <nav class="dock cut">
+    <div class="dock-group">
+      <span class="dock-label" data-i18n="dock.render">RENDER</span>
+      <div class="seg small" id="render-mode">
+        <button data-mode="realistic" class="active" data-i18n="dock.real">REAL</button>
+        <button data-mode="hologram" data-i18n="dock.holo">HOLO</button>
+        <button data-mode="xray" data-i18n="dock.xray">X-RAY</button>
+      </div>
+    </div>
+    <div class="dock-group">
+      <span class="dock-label" data-i18n="dock.quality">QUALITY</span>
+      <div class="seg small" id="quality">
+        <button data-q="ultra" class="active" data-i18n="dock.ultra">ULTRA</button>
+        <button data-q="high" data-i18n="dock.high">HIGH</button>
+        <button data-q="performance" data-i18n="dock.fast">FAST</button>
+      </div>
+    </div>
+    <div class="dock-group icons">
+      <button class="ibtn" id="toggle-labels" title="Show labels" data-i18n-title="dock.labelsTip"><svg viewBox="0 0 24 24"><path d="M3 12l7-7h9v9l-7 7z"/><circle cx="15" cy="9" r="1.6"/></svg><span data-i18n="dock.labels">LABELS</span></button>
+      <button class="ibtn on" id="toggle-live" title="Live body: blood flow, heartbeat, breathing, nerve signals" data-i18n-title="dock.liveTip"><svg viewBox="0 0 24 24"><path d="M2 12h4l2.5-6 4 12 2.5-6h7"/></svg><span data-i18n="dock.live">LIVE</span></button>
+      <button class="ibtn on" id="toggle-scan" title="Body scanner" data-i18n-title="dock.scanTip"><svg viewBox="0 0 24 24"><path d="M4 8V5h3M20 8V5h-3M4 16v3h3M20 16v3h-3M3 12h18"/></svg><span data-i18n="dock.scan">SCAN</span></button>
+      <button class="ibtn" id="toggle-rotate" title="Auto-rotate" data-i18n-title="dock.spinTip"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-3-6.2"/><path d="M20 4v5h-5"/></svg><span data-i18n="dock.spin">SPIN</span></button>
+      <button class="ibtn" id="reset-view" title="Reset view" data-i18n-title="dock.resetTip"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg><span data-i18n="dock.reset">RESET</span></button>
+      <button class="ibtn on" id="toggle-sfx" title="Sound effects" data-i18n-title="dock.sfxTip"><svg viewBox="0 0 24 24"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M17 9a4 4 0 0 1 0 6"/></svg><span data-i18n="dock.sfx">SFX</span></button>
+    </div>
+  </nav>
+
+  <div id="tooltip" class="tooltip hidden"></div>
+
+  <div id="bubble" class="bubble hidden">
+    <div class="bubble-head"><span>🩺 Dr. Buddy</span><button id="bubble-close" class="mini" aria-label="Close">✕</button></div>
+    <div id="bubble-text"></div>
+    <div id="bubble-suggest" class="suggest"></div>
+    <form id="ask-form" class="ask hidden">
+      <input id="ask-input" placeholder="Ask me anything about the body…" data-i18n-ph="ui.askPh" autocomplete="off" />
+      <button type="button" id="mic" title="Speak your question" data-i18n-title="ui.micTip">🎤</button>
+      <button type="submit" data-i18n="ui.ask">ASK</button>
+    </form>
+    <div class="bubble-foot"><button id="mute" class="mini" title="Voice on/off">🔊 Voice on</button></div>
+  </div>
+
+  <footer class="credits">
+    Models: <a href="https://www.z-anatomy.com/" target="_blank" rel="noopener">Z-Anatomy</a> (CC BY-SA 4.0) ·
+    <a href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/" target="_blank" rel="noopener">BodyParts3D</a> © DBCLS (CC BY-SA 2.1 JP) ·
+    <span data-i18n="ui.footer">Educational use only. Not medical advice.</span> <button id="about-btn" class="linkbtn" data-i18n="ui.about">About &amp; sources</button>
+  </footer>
+
+  <dialog id="about" class="cut">
+    <h2 data-i18n="about.title">ABOUT THIS ATLAS</h2>
+    <div id="about-body"></div>
+    <form method="dialog"><button class="btn-neon" data-i18n="ui.close">CLOSE</button></form>
+  </dialog>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

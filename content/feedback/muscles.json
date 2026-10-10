@@ -1,0 +1,172 @@
+{
+ "review r1": {
+  "issues": [
+   {
+    "id": "deltoid",
+    "severity": "critical",
+    "problem": "The fact 'injections are given into its lower half to avoid that nerve' is wrong and could cause harm. The axillary nerve and posterior circumflex humeral vessels wind horizontally around the surgical neck of the humerus deep to the deltoid, about 5-7 cm below the acromion, so the lower half is where the nerve runs. CDC and nursing guidance put the injection in the thick central/upper part of the muscle, about 2-3 finger-breadths (around 5 cm) below the acromion and above the armpit fold.",
+    "fix": "Replace with: 'It is supplied by the axillary nerve (C5-C6), which winds around the back of the humerus beneath the muscle about 5-7 cm below the acromion. Intramuscular injections are therefore given into the thick central part of the muscle, about 2-3 finger-breadths below the acromion.' Add a StatPearls or CDC source for injection technique."
+   },
+   {
+    "id": "biceps-brachii",
+    "severity": "major",
+    "problem": "The fact says rupture of the long-head tendon makes 'a bulge in the lower arm'. To most readers 'lower arm' means the forearm, but the Popeye bulge is in the lower part of the upper arm, where the retracted muscle belly sits.",
+    "fix": "Change to: 'Rupture of the long head tendon lets the muscle belly slip down, producing a bulge in the lower half of the upper arm known as the Popeye sign.'"
+   },
+   {
+    "id": "palmaris-longus",
+    "severity": "major",
+    "problem": "Location says the tendon shows 'when the thumb and ring finger are pressed together'. The standard clinical test (Schaeffer's test) is opposing the thumb to the LITTLE finger with the wrist flexed.",
+    "fix": "Change to: 'visible when the thumb and little finger are pressed together and the wrist is slightly flexed (Schaeffer's test).'"
+   },
+   {
+    "id": "soleus / tibialis-posterior",
+    "severity": "major",
+    "problem": "Both have the common name 'Deep calf muscle'. For soleus this is also misleading: soleus is in the SUPERFICIAL posterior compartment. Only tibialis posterior (with FHL/FDL) is in the deep compartment.",
+    "fix": "Soleus common name: 'Lower calf muscle' or 'Soleus (flat calf muscle)'. Keep 'Deep calf muscle' only for tibialis posterior, or use 'Deep calf muscle (arch support)'."
+   },
+   {
+    "id": "semitendinosus / semimembranosus",
+    "severity": "minor",
+    "problem": "Both use the same common name 'Inner hamstring', so the viewer cannot tell them apart when they are highlighted.",
+    "fix": "Use 'Inner hamstring (superficial, cord-like)' for semitendinosus and 'Inner hamstring (deep, broad)' for semimembranosus."
+   },
+   {
+    "id": "fibularis-longus",
+    "severity": "minor",
+    "problem": "The common name 'Peroneus longus' is an older medical synonym, not a common name or plain descriptor.",
+    "fix": "Common: 'Outer shin muscle (peroneal)'. Keep 'peroneus longus' as an alias in the summary, which already has it."
+   },
+   {
+    "id": "piriformis / teres-major / brachialis / pronator-teres / palmaris-longus / levator-scapulae",
+    "severity": "minor",
+    "problem": "The common name just repeats the medical name, which breaks the rule that the common name must be a widely used term or a plain descriptor.",
+    "fix": "Piriformis: 'Deep buttock rotator'. Teres major: 'Lat helper (lower shoulder-blade muscle)'. Brachialis: 'Deep elbow flexor'. Pronator teres: 'Palm-down forearm muscle'. Palmaris longus: 'Wrist tendon muscle (often absent)'. Levator scapulae: 'Shoulder-blade lifter (neck)'."
+   },
+   {
+    "id": "erector-spinae (match)",
+    "severity": "minor",
+    "problem": "The match contains 'Iliocostalis colli muscle' without the '.l' suffix. It does resolve, because the model object really is named that way (names file line 159), unlike every other left-side object. This is an asset naming defect: any code that pairs or mirrors objects by '.l'/'.r' will miss it.",
+    "fix": "Keep the match as it is, but flag the model object for renaming to 'Iliocostalis colli muscle.l'. If it is renamed, update the match to the new name."
+   },
+   {
+    "id": "overview",
+    "severity": "minor",
+    "problem": "'Men carry about 61% more skeletal muscle than women' comes only from Wikipedia and traces to an evolutionary-biology paper about fat-free mass. The standard MRI study (Janssen et al. 2000, J Appl Physiol, 468 adults) found 33.0 vs 21.0 kg, about 57% more, and 38.4% vs 30.6% of body mass.",
+    "fix": "Replace with: 'In a large MRI study, men averaged about 33 kg of skeletal muscle and women about 21 kg (roughly 38% vs 31% of body mass).' Cite https://journals.physiology.org/doi/full/10.1152/jappl.2000.89.1.81."
+   },
+   {
+    "id": "piriformis",
+    "severity": "minor",
+    "problem": "'In about 80% of people the sciatic nerve passes below the piriformis' is slightly low. Recent meta-analyses give pooled prevalences of about 85-90% (Cureus 2020, 85.2%; Tomaszewski 2016, about 90%).",
+    "fix": "Change to 'In roughly 85-90% of people...'."
+   },
+   {
+    "id": "intercostal-muscles",
+    "severity": "minor",
+    "problem": "Function limits the external intercostals to forced inspiration. TeachMeAnatomy (the cited source) says they stabilise the ribs in quiet breathing and lift them in forced inspiration. Physiology texts also credit them with some role in quiet inspiration, so the wording is too narrow.",
+    "fix": "'...they stiffen the chest wall in quiet breathing; the external layer lifts the ribs to help breathe in, especially in deep breathing, and the internal layers lower them in forced breathing out.'"
+   },
+   {
+    "id": "pectoralis-major",
+    "severity": "minor",
+    "problem": "The match includes the '(Abdominal part of pectoralis major muscle)' objects, but the summary names only the clavicular and sternocostal heads. The Poland syndrome fact ('the muscle is absent on one side') is also overstated: usually only the sternocostal part is missing.",
+    "fix": "Add to the summary: 'a small abdominal part arises from the rectus sheath.' Change the fact to '...in the rare Poland syndrome part or all of the muscle, usually the sternocostal head, is missing on one side.'"
+   },
+   {
+    "id": "tensor-fasciae-latae",
+    "severity": "minor",
+    "problem": "Location says it lies 'just below and behind the front of the iliac crest (anterior superior iliac spine)'. TFL arises from the ASIS and the anterior outer iliac crest and lies below and slightly lateral to the ASIS, not behind it.",
+    "fix": "'It arises from the anterior superior iliac spine and front of the iliac crest and lies on the front-outer side of the upper thigh, just below the hip bone.'"
+   },
+   {
+    "id": "iliotibial-tract",
+    "severity": "minor",
+    "problem": "Both sources are Wikipedia, which is not a trusted source. The fact 'It inserts on ... Gerdy's tubercle' repeats the location text.",
+    "fix": "Add Kenhub (https://www.kenhub.com/en/library/anatomy/iliotibial-tract) or Radiopaedia. Replace the duplicate fact with, for example: 'Along its length it attaches to the femur through the lateral intermuscular septum.'"
+   },
+   {
+    "id": "brachioradialis / vastus-intermedius / brachialis",
+    "severity": "minor",
+    "problem": "These facts repeat the function or location text instead of adding information. Brachioradialis: 'greatest force in the neutral position' duplicates its function. Vastus intermedius: 'cannot be seen because rectus femoris covers it' duplicates its location. Brachialis: 'plays no part in turning the forearm' duplicates its function.",
+    "fix": "Replace with new facts. Brachioradialis: 'Tapping its tendon near the wrist tests the brachioradialis reflex (C5-C6).' Vastus intermedius: 'A few deep fibres, the articularis genus, pull the knee joint capsule upward.' Brachialis: 'It can form a painful bony mass (myositis ossificans) after elbow injury.'"
+   },
+   {
+    "id": "quadratus-lumborum",
+    "severity": "minor",
+    "problem": "'Overuse, for example from long periods of sitting, makes it a common source of low back pain' is a popular claim with weak evidence, which does not suit a medical-student audience.",
+    "fix": "Soften to: 'It is often implicated in muscular low back pain and is a target in some trunk-stability exercises.' Or replace it with its role as a landmark for the quadratus lumborum nerve block."
+   },
+   {
+    "id": "levator-ani",
+    "severity": "minor",
+    "problem": "The summary lists puborectalis, but the model has no puborectalis object. It has 'Pubo-analis muscle' (the TA2 puboanal part of the pubovisceral/pubococcygeus complex) and 'Tendinous arch of levator ani' (a fascial thickening, not muscle). The summary also leaves out coccygeus, which completes the pelvic diaphragm and is present in the model.",
+    "fix": "Add: 'The model shows its pubococcygeus (including the puboanal fibres) and iliococcygeus parts; puborectalis is not shown separately.' Add a new structure for coccygeus ('Coccygeus muscle.l/.r') or mention it in levator-ani as the other half of the pelvic diaphragm, without adding it to the match."
+   },
+   {
+    "id": "all (sources)",
+    "severity": "minor",
+    "problem": "Every structure except those using Kenhub pairs its TeachMeAnatomy link with a Wikipedia article, and the overview cites Wikipedia too. Wikipedia is not on the trusted list. I could not check the links with a live status check (the sandbox had no network). The pages I fetched (teachmeanatomy abdomen/muscles/posterior-wall, thorax/muscles/thoracic-cage, upper-limb/muscles/upper-arm, the SEER muscular page, the Kenhub occipitofrontalis page) all loaded and support the text.",
+    "fix": "Replace each Wikipedia link with the matching Kenhub library page or StatPearls chapter (NCBI Bookshelf 'Anatomy, Bony Pelvis and Lower Limb, ... Muscle'). For the overview, use Cleveland Clinic plus SEER."
+   },
+   {
+    "id": "model coverage",
+    "severity": "major",
+    "problem": "Many clinically important muscles in the model have no entry (listed under missingImportant). In the lower limb, key compartment muscles with high exam and clinical weight are missing, for example gluteus minimus, pectineus, popliteus, fibularis brevis, and the long toe flexors and extensors.",
+    "fix": "Add structures for at least the missingImportant list. Match the existing object names exactly, for example 'Gluteus minimus muscle.l/.r', 'Pectineus muscle.l/.r', 'Fibularis brevis muscle.l/.r', and for extensor digitorum longus both the belly and 'Tendon of extensor digitorum longus.l/.r'. Split FCU and ECU entries need both heads per side (humeral head and ulnar head). Group the deep gluteal rotators, the suboccipital muscles, the extraocular muscles (plus 'Common tendinous ring' and 'Trochlea of superior oblique muscle') and the scalenes as group entries. Note that the buccinator object is misspelled 'Bucinator.l/.r' in the model."
+   }
+  ],
+  "missingImportant": [
+   "Gluteus minimus (Gluteus minimus muscle.l/.r)",
+   "Deep hip rotators: Obturator internus, Superior/Inferior gemellus, Quadratus femoris, Obturator externus",
+   "Pectineus and Adductor brevis",
+   "Fibularis brevis and Fibularis tertius",
+   "Extensor digitorum longus (+ Tendon of extensor digitorum longus) and Extensor hallucis longus",
+   "Flexor hallucis longus, Flexor digitorum longus (deep posterior leg)",
+   "Popliteus and Plantaris",
+   "Coracobrachialis, Anconeus, Supinator",
+   "Flexor carpi radialis, Flexor carpi ulnaris (humeral + ulnar heads), Flexor pollicis longus, Pronator quadratus",
+   "Extensor carpi radialis longus/brevis, Extensor carpi ulnaris (both heads), Extensor digiti minimi, Extensor indicis",
+   "Thumb outcropping muscles: Abductor pollicis longus, Extensor pollicis brevis/longus",
+   "Thenar/hypothenar and hand intrinsics: Abductor/Flexor/Opponens pollicis, Adductor pollicis (oblique+transverse heads), lumbricals, palmar/dorsal interossei, hypothenar group",
+   "Foot intrinsics: Abductor hallucis, Flexor digitorum brevis, Quadratus plantae, Extensor digitorum brevis, Extensor hallucis brevis",
+   "Subclavius, Serratus posterior superior/inferior",
+   "Scalenus anterior/medius/posterior",
+   "Splenius capitis/colli, Semispinalis, Multifidus, Rotatores, Suboccipital muscles",
+   "Platysma, Buccinator (model spells 'Bucinator'), Zygomaticus major/minor, Levator labii superioris, Depressor anguli oris, Mentalis, Nasalis, Corrugator supercilii, Procerus, Risorius",
+   "Medial and Lateral pterygoid (superior/inferior heads) to complete muscles of mastication",
+   "Extraocular muscles (four recti, two obliques, Levator palpebrae superioris, Common tendinous ring, Trochlea)",
+   "Suprahyoid (Digastric both bellies, Mylohyoid, Geniohyoid, Stylohyoid) and Infrahyoid (Omohyoid, Sternohyoid, Sternothyroid, Thyrohyoid)",
+   "Longus colli / Longus capitis",
+   "Pharyngeal constrictors, tongue muscles (Genioglossus, Hyoglossus), laryngeal muscles (Posterior crico-arytenoid especially)",
+   "Coccygeus and External anal sphincter",
+   "Pyramidalis, Transversus thoracis, Levatores costarum"
+  ],
+  "notes": "What I checked: C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\muscles.json (overview plus 57 structures) against C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\names\\muscles.txt (476 objects), using Python. Every match name exists in the model and every muscle has both .l and .r. The one anomaly is the left iliocostalis colli, whose model object has no '.l' suffix. The sub-parts are complete wherever the model splits a muscle: deltoid (3 parts), trapezius (3), pectoralis major (3, including the abdominal part), triceps (3), biceps (2), biceps femoris (2), gastrocnemius (2), masseter (2), pronator teres (2), FDS (2), orbicularis oculi (2; the model has no lacrimal part), adductor magnus with adductor minimus, iliopsoas (psoas plus iliacus), erector spinae (all 9 sub-muscles per side), levator ani (3 objects per side) and epicranius. The epicranius group also contains Temporoparietalis, which could optionally be added to occipitofrontalis or given its own entry. About 290 model objects are not used by any entry. Web checks (WebSearch/WebFetch): SEER '85% of heat' (verified, verbatim); deltoid injection site (the text is wrong; see the deltoid issue); Schaeffer's palmaris test (thumb to little finger); piriformis/sciatic variation rates (85-90%); the 61% sex difference (weakly sourced); TeachMe on external intercostal action and brachialis innervation (the brachialis text is correct); Kenhub on occipitofrontalis innervation and origin (the text is correct); the TeachMe posterior-wall URL (it exists). Checked from anatomy knowledge and found correct: nerve roots (femoral L2-L4, inferior gluteal L5-S2, phrenic C3-C5, obturator L2-L4, QL T12-L4, rectus abdominis T7-T11), diaphragm openings T8/T10/T12, rhomboid levels C7-T1 and T2-T5, levator scapulae C1-C4, pectoralis minor ribs 3-5, rectus abdominis costal cartilages 5-7, external oblique ribs 5-12, all attachments and actions, the Trendelenburg description, SITS and 'I Love Spine'. No copied text found beyond the attributed SEER sentence; the rest is paraphrased. Depth suits educated adults, with Latin terms mostly glossed. A few items still need a plain gloss, for example 'thoracoabdominal nerves' and 'modiolus'."
+ },
+ "score r1": {
+  "score": 6,
+  "accuracy": 6,
+  "modelMatching": 9,
+  "levelAndClarity": 8,
+  "coverage": 5,
+  "sourcing": 5,
+  "mustFix": [
+   "deltoid fact: 'injections are given into its lower half to avoid that nerve' is wrong and could cause harm. The axillary nerve and posterior circumflex humeral vessels run horizontally deep to the lower/middle deltoid. CDC puts the site in the thick central part, about 2-3 finger-breadths (about 5 cm) below the acromion and above the armpit fold. Rewrite it that way and cite CDC or StatPearls.",
+   "biceps-brachii fact: the Popeye bulge is in the lower part of the UPPER arm, not the 'lower arm' (forearm). Reword to say the retracted belly bulges in the lower half of the upper arm.",
+   "palmaris-longus location: Schaeffer's test opposes the thumb to the LITTLE finger with the wrist flexed, not the ring finger.",
+   "soleus common name 'Deep calf muscle' is wrong because soleus is in the SUPERFICIAL posterior compartment (TeachMeAnatomy), and it duplicates tibialis-posterior's common name. Rename soleus (for example 'Flat calf muscle (under the gastrocnemius)').",
+   "piriformis fact: change 'about 80%' to 'roughly 85-90%' (meta-analyses: Cureus 2020 pooled 85.2%, Tomaszewski 2016 about 90%).",
+   "overview fact 'men carry about 61% more skeletal muscle' is sourced only to Wikipedia. Replace it with Janssen et al. 2000 (about 33 kg vs 21 kg; 38% vs 31% of body mass) and cite that paper.",
+   "intercostal-muscles function: TeachMeAnatomy (the cited source) says all layers stabilise the ribs in quiet breathing and the external layer elevates the ribs in inspiration. Do not limit the external layer to forced inspiration only.",
+   "pectoralis-major: the Poland syndrome fact overstates the deficit. It is usually a partial absence, mainly the sternocostal head. Also mention the abdominal part in the summary, since the match includes it.",
+   "tensor-fasciae-latae location: it arises from the ASIS and anterior iliac crest and lies below and lateral to them, not 'behind'.",
+   "Give semitendinosus and semimembranosus, and piriformis, teres major, brachialis, pronator teres, palmaris longus, levator scapulae and fibularis longus, distinct common names or plain descriptors instead of duplicated or medical-name labels.",
+   "Sourcing: replace the Wikipedia second source on every structure and on the overview with Kenhub, StatPearls or Radiopaedia. iliotibial-tract currently has only Wikipedia sources.",
+   "Replace the redundant facts that just repeat function or location (iliotibial-tract Gerdy's tubercle, vastus-intermedius, brachialis, brachioradialis) with new facts. Soften the weakly evidenced quadratus lumborum 'long sitting' back-pain claim.",
+   "levator-ani summary: say that puborectalis is not a separate object in the model (the model has pubococcygeus, puboanal fibres and iliococcygeus), and mention coccygeus as the other part of the pelvic diaphragm.",
+   "Coverage: add at least the major missing clinically important muscles that are present in the model (gluteus minimus, the deep hip rotators, pectineus and adductor brevis, fibularis brevis, the long toe flexors and extensors, popliteus, coracobrachialis, supinator, FCR, FCU and ECU (both heads), the ECRL/ECRB wrist extensors, the thumb muscles of the forearm, the thenar and hypothenar groups, the scalenes, platysma, buccinator ('Bucinator' in the model), the pterygoids, the supra- and infrahyoid groups, the extraocular muscles). Only about 185 of the 476 model objects are used now."
+  ],
+  "rationale": "I checked the reviewer's findings myself. Python: every match name in all 60 structures (the reviewer said 57) resolves against names/muscles.txt once the tab-separated group/material fields are stripped. Every muscle has both sides. The only naming anomaly is 'Iliocostalis colli muscle' with no '.l' suffix (line 159), which is a defect in the model asset, not the content. 'Bucinator.l/.r' and 'Coccygeus muscle.l/.r' exist but are unused. The entries use about 185 of the 476 objects.\n\nWeb spot-checks:\n1. CDC deltoid injection site: 2-3 finger-breadths below the acromion. This confirms the deltoid 'lower half' fact is a real, potentially harmful error.\n2. Schaeffer's test: thumb to little finger. Confirms the palmaris error.\n3. TeachMeAnatomy posterior leg: soleus is superficial. Confirms the soleus 'Deep calf muscle' label is misleading. Tibialis posterior is supplied by the tibial nerve (correct).\n4. TeachMeAnatomy upper arm: supports the biceps actions and Popeye sign and the brachialis dual supply. The content's 'lower arm' wording is wrong.\n5. TeachMeAnatomy thoracic cage: the external intercostals stabilise the ribs in normal breathing and elevate them in forced inspiration. T1-T11 and the neurovascular bundle between the internal and innermost layers are correct, so the content's function text is somewhat narrow.\n6. Piriformis meta-analyses: 85.2% and 90%. The content's 80% is low.\n7. SEER: the 85% heat figure is correct and quoted accurately.\n8. TeachMeAnatomy gluteal region: the inferior gluteal nerve for gluteus maximus and the sciatic nerve below piriformis are correct. TFL arises from the ASIS and anterior iliac crest, so 'behind' is imprecise.\n\nFrom anatomy knowledge, the nerve roots, attachments, diaphragm openings and mnemonics are correct. Accuracy is capped because of the critical deltoid injection error and the clear Popeye and Schaeffer errors, so the overall score cannot exceed 7. I scored it 6 given the harm potential and several smaller inaccuracies.\n\nModel matching is strong: the sub-parts are complete and every name resolves. The level and clarity suit medical students. Coverage is only moderate: 60 entries, with many high-yield forearm, hand, leg, neck and face muscles missing even though they are in the model. Sourcing leans heavily on Wikipedia. The reviewer's findings are essentially correct, apart from the structure count (60, not 57)."
+ }
+}

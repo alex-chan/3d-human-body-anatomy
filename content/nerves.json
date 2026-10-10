@@ -1,0 +1,1064 @@
+{
+  "layer": "nerves",
+  "overview": {
+    "title": "Nervous system: nerves",
+    "summary": "Nerves are cable-like bundles of nerve fibres that link the brain and spinal cord to the rest of the body. Twelve pairs of cranial nerves leave the brain and 31 pairs of spinal nerves leave the spinal cord, branching and regrouping into networks called plexuses (cervical, brachial, lumbar and sacral) before reaching muscles, skin and organs. Note: the 3D model has no separate object for the hypoglossal nerve (CN XII, the tongue-moving nerve), so 11 of the 12 cranial nerves can be selected.",
+    "function": "Nerves carry motor commands out to muscles and glands, bring sensory information such as touch, pain, position, taste, sight and hearing back to the central nervous system, and (through the autonomic fibres) regulate organs automatically.",
+    "facts": [
+      "There are 31 pairs of spinal nerves: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal.",
+      "The lumbar plexus (L1-L4) mainly supplies the front and inner thigh and the groin; the sacral plexus (L4-S4) supplies the buttock, back of the thigh, leg and foot."
+    ],
+    "sources": [
+      "https://www.kenhub.com/en/library/anatomy/spinal-nerves",
+      "https://teachmeanatomy.info/head/cranial-nerves/",
+      "https://teachmeanatomy.info/lower-limb/nerves/sciatic-nerve/",
+      "https://teachmeanatomy.info/lower-limb/nerves/lumbar-plexus/",
+      "https://teachmeanatomy.info/lower-limb/nerves/sacral-plexus/"
+    ]
+  },
+  "structures": [
+    {
+      "id": "olfactory-nerve",
+      "medical": "Olfactory nerve (CN I)",
+      "common": "Smell nerve",
+      "category": "Cranial nerves",
+      "match": [
+        "Olfactory nerve (I).l",
+        "Olfactory nerve (I).r"
+      ],
+      "summary": "The first cranial nerve is made of many tiny bundles of sensory fibres that start in the lining of the upper nasal cavity. They pass up through small holes in the cribriform plate of the ethmoid bone and end in the olfactory bulb under the frontal lobe.",
+      "function": "Carries the sense of smell from odour receptors in the nose to the brain.",
+      "location": "Roof of the nasal cavity, crossing the cribriform plate to the olfactory bulb on the floor of the anterior cranial fossa.",
+      "facts": [
+        "Olfactory receptor cells are continually replaced from basal stem cells in the nasal lining; each one lives only about 30-60 days.",
+        "A head injury can permanently damage these fibres and cause loss of smell (anosmia)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/cranial-nerves/olfactory-cni/",
+        "https://www.kenhub.com/en/library/anatomy/the-olfactory-nerve",
+        "https://www.kenhub.com/en/library/anatomy/the-olfactory-pathway"
+      ]
+    },
+    {
+      "id": "optic-nerve",
+      "medical": "Optic nerve (CN II), optic chiasm and optic tract",
+      "common": "Eye nerve",
+      "category": "Cranial nerves",
+      "match": [
+        "Optic nerve (II).l",
+        "Optic nerve (II).r",
+        "Optic chiasm.l",
+        "Optic chiasm.r",
+        "Optic tract.l",
+        "Optic tract.r"
+      ],
+      "summary": "The optic nerve is formed by the axons of retinal ganglion cells and leaves the orbit through the optic canal. Both optic nerves meet at the optic chiasm near the pituitary gland, where fibres from the nasal half of each retina cross, and continue backwards as the optic tracts. Strictly, the optic tract is a brain pathway rather than part of the cranial nerve itself.",
+      "function": "Transmits visual information from the retina to the brain; the crossing at the chiasm means each side of the brain receives the opposite half of the visual field.",
+      "location": "Runs from the back of the eyeball through the optic canal of the sphenoid bone to the chiasm just above the pituitary gland.",
+      "facts": [
+        "Each optic nerve contains roughly 1 million nerve fibres and is about 35-55 mm long.",
+        "A pituitary tumour pressing on the chiasm classically causes loss of the outer halves of vision in both eyes (bitemporal hemianopia)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/cranial-nerves/optic-cnii/",
+        "https://www.kenhub.com/en/library/anatomy/the-optic-nerve"
+      ]
+    },
+    {
+      "id": "oculomotor-nerve",
+      "medical": "Oculomotor nerve (CN III)",
+      "common": "Main eye-movement nerve",
+      "category": "Cranial nerves",
+      "match": [
+        "Oculomotor nerve (III).l",
+        "Oculomotor nerve (III).r"
+      ],
+      "summary": "The third cranial nerve leaves the front of the midbrain, runs in the wall of the cavernous sinus and enters the orbit through the superior orbital fissure. It moves most of the eye's external muscles and also carries parasympathetic fibres to the inside of the eye.",
+      "function": "Supplies the superior, inferior and medial rectus, inferior oblique and levator palpebrae superioris; its parasympathetic fibres constrict the pupil and adjust the lens for near vision.",
+      "location": "From the midbrain, forwards through the lateral wall of the cavernous sinus into the orbit.",
+      "facts": [
+        "Damage produces a drooping eyelid, a dilated pupil and an eye that rests 'down and out'.",
+        "Compression by an aneurysm tends to affect the pupil fibres, while diabetic nerve damage often spares the pupil."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/cranial-nerves/oculomotor/",
+        "https://www.kenhub.com/en/library/anatomy/the-oculomotor-nerve"
+      ]
+    },
+    {
+      "id": "trochlear-nerve",
+      "medical": "Trochlear nerve (CN IV)",
+      "common": "Eye-rotating nerve",
+      "category": "Cranial nerves",
+      "match": [
+        "Trochlear nerve (IV).l",
+        "Trochlear nerve (IV).r"
+      ],
+      "summary": "The fourth cranial nerve is a slender, purely motor nerve that controls a single eye muscle, the superior oblique. It is the only cranial nerve that exits from the back of the brainstem, and its fibres cross to the opposite side before leaving.",
+      "function": "Supplies the superior oblique muscle, which rotates the top of the eye toward the nose (intorsion) and lowers the gaze, most strongly when the eye is already turned toward the nose, as when reading or walking downstairs.",
+      "location": "Emerges just below the inferior colliculus on the back of the midbrain, curves around the brainstem and passes through the cavernous sinus into the orbit.",
+      "facts": [
+        "It is the thinnest cranial nerve (fewest axons) yet has the longest course inside the skull.",
+        "Injury causes vertical double vision that is worst when looking down and toward the nose (e.g. going downstairs); patients tilt the head away from the affected side to compensate."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/cranial-nerves/trochlear-nerve/",
+        "https://radiopaedia.org/articles/trochlear-nerve?lang=us"
+      ]
+    },
+    {
+      "id": "trigeminal-nerve",
+      "medical": "Trigeminal nerve (CN V)",
+      "common": "Face sensation nerve",
+      "category": "Cranial nerves",
+      "match": [
+        "Trigeminal nerve (V).l",
+        "Trigeminal nerve (V).r",
+        "Ophthalmic nerve.l",
+        "Ophthalmic nerve.r",
+        "Maxillary nerve.l",
+        "Maxillary nerve.r",
+        "Meningeal branch of maxillary nerve.l",
+        "Meningeal branch of maxillary nerve.r",
+        "Motor root of trigeminal nerve.l",
+        "Motor root of trigeminal nerve.r",
+        "Anterior division of mandibular nerve.l",
+        "Anterior division of mandibular nerve.r",
+        "Posterior division of mandibular nerve.l",
+        "Posterior division of mandibular nerve.r",
+        "Buccal nerve.l",
+        "Buccal nerve.r"
+      ],
+      "summary": "The fifth cranial nerve is the main sensory nerve of the face and also moves the jaw. Its sensory root swells into the trigeminal ganglion in a pocket of the middle cranial fossa and then splits into three divisions: ophthalmic (V1), maxillary (V2) and mandibular (V3).",
+      "function": "Carries touch, pain and temperature from the face, front of the scalp, eye, nose, mouth and teeth; the mandibular division (V3) also drives the chewing muscles (masseter, temporalis and the pterygoids) plus mylohyoid, the anterior belly of digastric, tensor tympani and tensor veli palatini.",
+      "location": "Leaves the side of the pons; V1 exits via the superior orbital fissure, V2 via the foramen rotundum and V3 via the foramen ovale. In the model the V3 trunk is shown through its anterior and posterior divisions.",
+      "facts": [
+        "Only the mandibular division carries motor fibres; the ophthalmic and maxillary divisions are purely sensory.",
+        "Its ganglion sits in a shallow depression called Meckel's (trigeminal) cave, beside the cavernous sinus."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/cranial-nerves/trigeminal-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/the-trigeminal-nerve"
+      ]
+    },
+    {
+      "id": "inferior-alveolar-nerve",
+      "medical": "Inferior alveolar nerve",
+      "common": "Lower teeth nerve",
+      "category": "Cranial nerves",
+      "match": [
+        "Inferior alveolar nerve.l",
+        "Inferior alveolar nerve.r",
+        "Mental nerve.l",
+        "Mental nerve.r",
+        "Nerve to mylohyoid muscle.l",
+        "Nerve to mylohyoid muscle.r"
+      ],
+      "summary": "A large branch of the mandibular nerve (V3) that enters the lower jaw at the mandibular foramen and runs through the mandibular canal. Near the front of the jaw it gives off the mental nerve, which emerges through the mental foramen.",
+      "function": "Supplies sensation to the lower teeth and jawbone; through the mental nerve it supplies the chin and lower lip. Its branch, the nerve to mylohyoid, is motor to the mylohyoid and anterior digastric.",
+      "location": "Inside the body of the mandible, running from the mandibular foramen on the inner surface of the ramus to the mental foramen on the outer surface of the jaw.",
+      "facts": [
+        "An inferior alveolar nerve block is the injection dentists use to numb the lower teeth.",
+        "Because the lingual nerve runs close by, the same injection often numbs part of the tongue too."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/inferior-alveolar-nerve",
+        "https://teachmeanatomy.info/head/cranial-nerves/trigeminal-nerve/"
+      ]
+    },
+    {
+      "id": "lingual-nerve",
+      "medical": "Lingual nerve",
+      "common": "Tongue nerve",
+      "category": "Cranial nerves",
+      "match": [
+        "Lingual nerve.l",
+        "Lingual nerve.r"
+      ],
+      "summary": "A branch of the posterior division of the mandibular nerve (V3) that curves forwards into the floor of the mouth. Shortly after it arises it is joined by the chorda tympani from the facial nerve, so it carries fibres from two different cranial nerves.",
+      "function": "Provides general sensation to the front two-thirds of the tongue, the floor of the mouth and the inner gums, and carries the chorda tympani's taste and salivary fibres.",
+      "location": "Starts deep to the lateral pterygoid muscle in the infratemporal fossa and runs down and forwards to the side of the tongue.",
+      "facts": [
+        "Taste from the front of the tongue travels in the lingual nerve but actually belongs to the facial nerve via the chorda tympani."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/lingual-nerve",
+        "https://teachmeanatomy.info/head/cranial-nerves/trigeminal-nerve/"
+      ]
+    },
+    {
+      "id": "abducens-nerve",
+      "medical": "Abducens nerve (CN VI)",
+      "common": "Sideways-gaze nerve",
+      "category": "Cranial nerves",
+      "match": [
+        "Abducens nerve (VI).l",
+        "Abducens nerve (VI).r"
+      ],
+      "summary": "The sixth cranial nerve is a purely motor nerve that leaves the brainstem at the junction of the pons and medulla and makes a long journey over the petrous temporal bone and through the cavernous sinus into the orbit. It controls just one muscle, the lateral rectus.",
+      "function": "Supplies the lateral rectus, which turns the eye outward, away from the nose.",
+      "location": "From the pontomedullary junction, up over the tip of the petrous temporal bone (through Dorello's canal, a small bony-ligament tunnel), through the middle of the cavernous sinus beside the internal carotid artery, then via the superior orbital fissure into the orbit.",
+      "facts": [
+        "Its long course inside the skull makes it vulnerable to stretching when pressure inside the head rises.",
+        "In a palsy the eye drifts toward the nose and the person sees double when looking to the affected side.",
+        "Because it runs inside the cavernous sinus next to the carotid artery (the other eye nerves lie in the sinus wall), it is often the first nerve affected by lesions there."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/cranial-nerves/abducens-nerve/",
+        "https://my.clevelandclinic.org/health/body/abducens-nerve"
+      ]
+    },
+    {
+      "id": "facial-nerve",
+      "medical": "Facial nerve (CN VII)",
+      "common": "Facial expression nerve",
+      "category": "Cranial nerves",
+      "match": [
+        "Facial nerve (VII).l",
+        "Facial nerve (VII).r",
+        "Chorda tympani.l",
+        "Chorda tympani.r"
+      ],
+      "summary": "The seventh cranial nerve emerges at the cerebellopontine angle (the pons-medulla junction, where the pons, medulla and cerebellum meet) together with CN VIII, enters the internal acoustic meatus and winds through the Z-shaped facial canal in the temporal bone. It exits at the stylomastoid foramen and divides inside the parotid gland into five branches to the face; an inner branch, the chorda tympani, carries taste fibres.",
+      "function": "Moves the muscles of facial expression plus stapedius, stylohyoid and the posterior belly of digastric; carries taste from the front two-thirds of the tongue (via the chorda tympani); drives the lacrimal, submandibular and sublingual glands (not the parotid, which is supplied by CN IX).",
+      "location": "Passes through the temporal bone behind the ear, then forwards through the parotid gland in front of the ear to the face.",
+      "facts": [
+        "Its five facial branches are the temporal, zygomatic, buccal, marginal mandibular and cervical.",
+        "Bell's palsy is a sudden one-sided facial paralysis with no identifiable cause and is the commonest facial nerve disorder."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/cranial-nerves/facial-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/the-facial-nerve"
+      ]
+    },
+    {
+      "id": "vestibulocochlear-nerve",
+      "medical": "Vestibulocochlear nerve (CN VIII)",
+      "common": "Hearing and balance nerve",
+      "category": "Cranial nerves",
+      "match": [
+        "Vestibulocochlear nerve (VIII).l",
+        "Vestibulocochlear nerve (VIII).r",
+        "Cochlear nerve.l",
+        "Cochlear nerve",
+        "Vestibular nerve.l",
+        "Vestibular nerve.r"
+      ],
+      "summary": "The eighth cranial nerve is purely sensory and has two parts: the cochlear nerve for hearing and the vestibular nerve for balance. It leaves the brainstem at the cerebellopontine angle and enters the internal acoustic meatus alongside the facial nerve.",
+      "function": "The cochlear part carries sound information from the cochlea; the vestibular part carries head position and movement signals from the semicircular canals, utricle and saccule.",
+      "location": "Between the brainstem and the inner ear, running through the internal acoustic meatus of the petrous temporal bone.",
+      "facts": [
+        "Its hearing neurons have their cell bodies in the spiral ganglion inside the cochlea; balance neurons sit in the vestibular (Scarpa's) ganglion.",
+        "A fracture of the skull base can injure it in the internal acoustic meatus, causing hearing loss and balance problems."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/cranial-nerves/vestibulocochlear/",
+        "https://www.kenhub.com/en/library/anatomy/the-vestibulocochlear-nerve"
+      ]
+    },
+    {
+      "id": "glossopharyngeal-nerve",
+      "medical": "Glossopharyngeal nerve (CN IX)",
+      "common": "Throat and tongue nerve",
+      "category": "Cranial nerves",
+      "match": [
+        "Glossopharyngeal nerve (IX).l",
+        "Glossopharyngeal nerve (IX).r"
+      ],
+      "summary": "The ninth cranial nerve is a mixed nerve arising from the medulla and leaving the skull through the jugular foramen. It serves the back of the tongue and throat, one swallowing muscle, the parotid gland and pressure and oxygen sensors at the carotid artery.",
+      "function": "Carries taste and general sensation from the back third of the tongue and the oropharynx, moves the stylopharyngeus, drives parotid saliva and relays signals from the carotid sinus and carotid body.",
+      "location": "From the medulla through the jugular foramen, then down and forwards through the upper neck to the back of the tongue and pharynx.",
+      "facts": [
+        "It provides the sensory half of the gag reflex; the vagus nerve provides the motor response."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/cranial-nerves/glossopharyngeal-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/the-glossopharyngeal-nerve"
+      ]
+    },
+    {
+      "id": "vagus-nerve",
+      "medical": "Vagus nerve (CN X)",
+      "common": "Vagus nerve",
+      "category": "Cranial nerves",
+      "match": [
+        "Vagus nerve (X).l",
+        "Vagus nerve (X).r"
+      ],
+      "summary": "The tenth cranial nerve is the longest and most complex cranial nerve, running from the medulla through the neck and chest into the abdomen. It is the main parasympathetic ('rest and digest') nerve of the body and also controls the muscles of the throat and voice box.",
+      "function": "Slows the heart, stimulates digestion and gut secretions, supplies the larynx and pharynx for speech and swallowing, and carries sensory signals back from the internal organs.",
+      "location": "Exits the skull at the jugular foramen and descends in the carotid sheath with the internal jugular vein and carotid artery, then continues through the chest along the oesophagus into the abdomen.",
+      "facts": [
+        "'Vagus' is Latin for 'wandering', describing its long winding course to the gut.",
+        "Its recurrent laryngeal branch hooks under the aortic arch on the left and the subclavian artery on the right before climbing back to the larynx.",
+        "Its parasympathetic supply reaches the gut as far as about two-thirds of the way along the transverse colon; beyond that the pelvic splanchnic nerves (S2-S4) take over."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/cranial-nerves/vagus-nerve-cn-x/",
+        "https://www.kenhub.com/en/library/anatomy/the-vagus-nerve",
+        "https://my.clevelandclinic.org/health/body/22279-vagus-nerve",
+        "https://teachmeanatomy.info/the-basics/systems/parasympathetic-nervous-system/"
+      ]
+    },
+    {
+      "id": "accessory-nerve",
+      "medical": "Accessory nerve (CN XI)",
+      "common": "Shoulder-shrug nerve",
+      "category": "Cranial nerves",
+      "match": [
+        "Accessory nerve (XI).l",
+        "Accessory nerve (XI).r"
+      ],
+      "summary": "The spinal accessory nerve is a motor nerve whose fibres arise from the upper cervical spinal cord, climb into the skull through the foramen magnum and leave again through the jugular foramen. It then crosses the posterior triangle of the neck.",
+      "function": "Supplies the sternocleidomastoid (turning and tilting the head) and the trapezius (shrugging and moving the shoulder blade).",
+      "location": "Runs through the upper neck to the sternocleidomastoid, then across the posterior triangle of the neck to the trapezius.",
+      "facts": [
+        "It can be injured during lymph node biopsy in the neck, causing weakness of shoulder shrugging and a drooping shoulder."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/cranial-nerves/accessory/",
+        "https://www.kenhub.com/en/library/anatomy/the-accessory-nerve"
+      ]
+    },
+    {
+      "id": "brachial-plexus",
+      "medical": "Brachial plexus",
+      "common": "Arm nerve network",
+      "category": "Upper limb",
+      "match": [
+        "Roots of brachial plexus.l",
+        "Roots of brachial plexus.r",
+        "Superior trunk of brachial plexus.l",
+        "Superior trunk of brachial plexus.r",
+        "Middle trunk of brachial plexus.l",
+        "Middle trunk of brachial plexus.r",
+        "Inferior trunk of brachial plexus.l",
+        "Inferior trunk of brachial plexus.r",
+        "Anterior division of superior trunk of brachial plexus.l",
+        "Anterior division of superior trunk of brachial plexus.r",
+        "Posterior division of superior trunk of brachial plexus.l",
+        "Posterior division of superior trunk of brachial plexus.r",
+        "Anterior division of middle trunk of brachial plexus.l",
+        "Anterior division of middle trunk of brachial plexus.r",
+        "Posterior division of middle trunk of brachial plexus.l",
+        "Posterior division of middle trunk of brachial plexus.r",
+        "Anterior division of inferior trunk of brachial plexus.l",
+        "Anterior division of inferior trunk of brachial plexus.r",
+        "Posterior division of inferior trunk of brachial plexus.l",
+        "Posterior division of inferior trunk of brachial plexus.r",
+        "Posterior cord of brachial plexus.l",
+        "Posterior cord of brachial plexus.r"
+      ],
+      "summary": "The brachial plexus is a network formed by the anterior rami of spinal nerves C5 to T1 that supplies the whole upper limb. Its fibres are sorted in stages - roots, trunks, divisions, cords and branches - so that each final nerve carries fibres from several spinal levels.",
+      "function": "Distributes motor and sensory fibres to the shoulder, arm, forearm and hand. Besides five major terminal nerves (musculocutaneous, axillary, radial, median and ulnar) it gives smaller branches to the shoulder-blade and chest muscles, each described separately.",
+      "location": "Runs from the side of the neck between the anterior and middle scalene muscles, over the first rib and behind the clavicle into the armpit (axilla).",
+      "facts": [
+        "The three trunks are superior (C5-C6), middle (C7) and inferior (C8-T1); the cords are named for their position around the axillary artery.",
+        "Upper plexus injury (Erb's palsy, C5-C6) gives the 'waiter's tip' arm; lower injury (Klumpke's palsy, C8-T1) causes a clawed hand."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/nerves/brachial-plexus/",
+        "https://www.kenhub.com/en/library/anatomy/brachial-plexus"
+      ]
+    },
+    {
+      "id": "long-thoracic-nerve",
+      "medical": "Long thoracic nerve",
+      "common": "Winged-scapula nerve",
+      "category": "Upper limb",
+      "match": [
+        "Long thoracic nerve.l",
+        "Long thoracic nerve.r"
+      ],
+      "summary": "A motor nerve that arises directly from the C5, C6 and C7 roots of the brachial plexus and runs down the side of the chest wall. It is the only nerve supply of the serratus anterior muscle.",
+      "function": "Activates serratus anterior, which holds the shoulder blade against the rib cage and rotates it so the arm can be raised above the head.",
+      "location": "Descends behind the brachial plexus and along the side of the chest roughly in the mid-axillary line, on the surface of serratus anterior.",
+      "facts": [
+        "Damage (for example during breast or chest surgery) causes a 'winged scapula', most obvious when pushing against a wall.",
+        "Its superficial course on the chest wall leaves it relatively exposed to injury."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/long-thoracic-nerve",
+        "https://teachmeanatomy.info/encyclopaedia/l/long-thoracic-nerve/"
+      ]
+    },
+    {
+      "id": "dorsal-scapular-nerve",
+      "medical": "Dorsal scapular nerve",
+      "common": "Rhomboid nerve",
+      "category": "Upper limb",
+      "match": [
+        "Dorsal scapular nerve.l",
+        "Dorsal scapular nerve.r"
+      ],
+      "summary": "A small motor nerve that comes straight off the C5 root of the brachial plexus, pierces the middle scalene muscle and runs down the inner edge of the shoulder blade.",
+      "function": "Supplies the rhomboid major, rhomboid minor and levator scapulae, which pull the shoulder blade toward the spine and lift it.",
+      "location": "Side of the neck, then deep to levator scapulae and the rhomboids along the medial border of the scapula.",
+      "facts": [
+        "Compression where it passes through the middle scalene can cause aching between the shoulder blade and the spine."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/dorsal-scapular-nerve",
+        "https://www.ncbi.nlm.nih.gov/books/NBK459343/"
+      ]
+    },
+    {
+      "id": "suprascapular-nerve",
+      "medical": "Suprascapular nerve",
+      "common": "Shoulder-blade top nerve",
+      "category": "Upper limb",
+      "match": [
+        "Suprascapular nerve.l",
+        "Suprascapular nerve.r"
+      ],
+      "summary": "A branch of the superior trunk of the brachial plexus (C5-C6) that crosses the base of the neck to the top of the shoulder blade and passes through the suprascapular notch, under the superior transverse scapular ligament.",
+      "function": "Supplies two rotator cuff muscles, supraspinatus (starts lifting the arm out to the side) and infraspinatus (turns the arm outward), and carries sensation from the shoulder and acromioclavicular joints.",
+      "location": "Posterior triangle of the neck, then through the suprascapular notch into the fossae above and below the spine of the scapula.",
+      "facts": [
+        "Entrapment at the notch causes deep shoulder pain and weakness raising and outwardly rotating the arm."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/suprascapular-nerve",
+        "https://teachmeanatomy.info/upper-limb/nerves/brachial-plexus/"
+      ]
+    },
+    {
+      "id": "subclavian-nerve",
+      "medical": "Nerve to subclavius (subclavian nerve)",
+      "common": "Subclavius nerve",
+      "category": "Upper limb",
+      "match": [
+        "Subclavian nerve.l",
+        "Subclavian nerve.r"
+      ],
+      "summary": "A tiny branch of the superior trunk of the brachial plexus (C5-C6) that runs down in front of the plexus to the underside of the collarbone.",
+      "function": "Supplies subclavius, a small muscle that steadies the collarbone against the breastbone during shoulder movement.",
+      "location": "In front of the brachial plexus and subclavian artery, behind the clavicle.",
+      "facts": [
+        "It sometimes gives a small branch to the phrenic nerve (an accessory phrenic nerve)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/nerves/brachial-plexus/",
+        "https://www.kenhub.com/en/library/anatomy/brachial-plexus"
+      ]
+    },
+    {
+      "id": "pectoral-nerves",
+      "medical": "Lateral and medial pectoral nerves",
+      "common": "Chest muscle nerves",
+      "category": "Upper limb",
+      "match": [
+        "Lateral pectoral nerve.l",
+        "Lateral pectoral nerve.r",
+        "Medial pectoral nerve.l",
+        "Medial pectoral nerve.r"
+      ],
+      "summary": "Two motor nerves to the chest muscles. The lateral pectoral nerve comes from the lateral cord (C5-C7) and the medial pectoral nerve from the medial cord (C8-T1); they are named after their cords, so the 'medial' one actually lies more laterally.",
+      "function": "Together they supply pectoralis major; the medial pectoral nerve also supplies pectoralis minor, which it usually pierces on its way to pectoralis major.",
+      "location": "Front of the armpit, passing forward to the deep surface of the pectoral muscles.",
+      "facts": [
+        "The two nerves are usually joined by a small nerve loop, the ansa pectoralis."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/lateral-pectoral-nerve",
+        "https://www.kenhub.com/en/library/anatomy/medial-pectoral-nerve",
+        "https://teachmeanatomy.info/encyclopaedia/m/medial-pectoral-nerve/"
+      ]
+    },
+    {
+      "id": "subscapular-nerves",
+      "medical": "Superior and inferior subscapular nerves",
+      "common": "Upper and lower subscapular nerves",
+      "category": "Upper limb",
+      "match": [
+        "Superior subscapular nerve.l",
+        "Superior subscapular nerve.r",
+        "Inferior subscapular nerve.l",
+        "Inferior subscapular nerve.r"
+      ],
+      "summary": "Two short motor branches of the posterior cord of the brachial plexus (mainly C5-C6) that run onto the front surface of the shoulder blade.",
+      "function": "The superior nerve supplies the upper part of subscapularis; the inferior nerve supplies the lower part of subscapularis and teres major. Both muscles turn the arm inward.",
+      "location": "Back wall of the armpit, on the front (rib-facing) surface of the scapula.",
+      "facts": [
+        "Subscapularis is the largest of the four rotator cuff muscles."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/brachial-plexus",
+        "https://teachmeanatomy.info/upper-limb/nerves/brachial-plexus/"
+      ]
+    },
+    {
+      "id": "thoracodorsal-nerve",
+      "medical": "Thoracodorsal nerve",
+      "common": "Latissimus dorsi nerve",
+      "category": "Upper limb",
+      "match": [
+        "Thoracodorsal nerve.l",
+        "Thoracodorsal nerve.r"
+      ],
+      "summary": "A branch of the posterior cord of the brachial plexus (C6-C8, mainly C7) that runs down the back wall of the armpit with the thoracodorsal artery.",
+      "function": "The only nerve supply of latissimus dorsi, which pulls the arm down, back and inward, as in climbing or swimming.",
+      "location": "Back wall of the axilla, entering the deep surface of latissimus dorsi.",
+      "facts": [
+        "Latissimus dorsi, with this nerve and its artery, is often moved as a flap to rebuild the chest wall after cancer surgery."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/thoracodorsal-nerve",
+        "https://www.ncbi.nlm.nih.gov/books/NBK539761/"
+      ]
+    },
+    {
+      "id": "medial-cutaneous-nerves-arm-forearm",
+      "medical": "Medial brachial and medial antebrachial cutaneous nerves",
+      "common": "Inner arm skin nerves",
+      "category": "Upper limb",
+      "match": [
+        "Medial brachial cutaneous nerve.l",
+        "Medial brachial cutaneous nerve.r",
+        "Medial antebrachial cutaneous nerve.l",
+        "Medial antebrachial cutaneous nerve.r",
+        "Anterior branch of medial antebrachial cutaneous nerve.l",
+        "Anterior branch of medial antebrachial cutaneous nerve.r",
+        "Posterior branch of medial antebrachial cutaneous nerve.l",
+        "Posterior branch of medial antebrachial cutaneous nerve.r"
+      ],
+      "summary": "Two purely sensory branches of the medial cord of the brachial plexus (C8-T1). The medial cutaneous nerve of the forearm divides into anterior and posterior branches.",
+      "function": "Carry sensation from the skin of the inner side of the arm and the inner side of the forearm down to the wrist.",
+      "location": "Inner side of the arm next to the brachial artery and basilic vein, then the skin of the inner forearm.",
+      "facts": [
+        "The forearm nerve runs close to the basilic vein, so it can be irritated when blood is taken from the inner elbow."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/brachial-plexus",
+        "https://teachmeanatomy.info/upper-limb/nerves/brachial-plexus/"
+      ]
+    },
+    {
+      "id": "musculocutaneous-nerve",
+      "medical": "Musculocutaneous nerve",
+      "common": "Front-of-arm nerve",
+      "category": "Upper limb",
+      "match": [
+        "Musculocutaneous nerve.l",
+        "Musculocutaneous nerve.r",
+        "Lateral antebrachial cutaneous nerve.l",
+        "Lateral antebrachial cutaneous nerve.r"
+      ],
+      "summary": "A terminal branch of the lateral cord of the brachial plexus (C5-C7) that pierces the coracobrachialis and runs between biceps and brachialis. Below the elbow it continues as the lateral cutaneous nerve of the forearm.",
+      "function": "Supplies the front-of-arm muscles (coracobrachialis, biceps brachii, brachialis) that flex the elbow and help supinate the forearm, and carries sensation from the outer forearm skin.",
+      "location": "Front compartment of the upper arm, then the skin of the lateral forearm.",
+      "facts": [
+        "Its name reflects its two jobs: 'musculo' for muscles and 'cutaneous' for skin.",
+        "If it is cut, elbow bending weakens but is not lost, because brachioradialis (supplied by the radial nerve) and part of brachialis (which often gets a small radial twig) can still flex the elbow."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/nerves/musculocutaneous-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/the-musculocutaneous-nerve"
+      ]
+    },
+    {
+      "id": "axillary-nerve",
+      "medical": "Axillary nerve",
+      "common": "Shoulder (deltoid) nerve",
+      "category": "Upper limb",
+      "match": [
+        "Axillary nerve.l",
+        "Axillary nerve.r",
+        "Muscular branches of axillary nerve.l",
+        "Muscular branches of axillary nerve.r",
+        "Superior lateral brachial cutaneous nerve.l",
+        "Superior lateral brachial cutaneous nerve.r"
+      ],
+      "summary": "A branch of the posterior cord of the brachial plexus (C5-C6) that leaves the armpit through the quadrangular space and wraps around the surgical neck of the humerus. It is the main nerve of the rounded shoulder muscle.",
+      "function": "Supplies the deltoid (lifting the arm out to the side) and teres minor (external rotation), and carries sensation from the skin over the lower deltoid.",
+      "location": "Behind the upper humerus, curving around its surgical neck just below the shoulder joint.",
+      "facts": [
+        "It is often injured in shoulder dislocations and fractures of the humeral surgical neck.",
+        "The patch of skin it supplies over the deltoid is called the 'regimental badge' area and is tested after shoulder injuries."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/nerves/axillary-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/axillary-nerve"
+      ]
+    },
+    {
+      "id": "radial-nerve",
+      "medical": "Radial nerve",
+      "common": "Back-of-arm nerve",
+      "category": "Upper limb",
+      "match": [
+        "Radial nerve.l",
+        "Radial nerve.r",
+        "Muscular branches of radial nerve.l",
+        "Muscular branches of radial nerve.r",
+        "Inferior lateral brachial cutaneous nerve.l",
+        "Inferior lateral brachial cutaneous nerve.r",
+        "Posterior antebrachial cutaneous nerve.l",
+        "Posterior antebrachial cutaneous nerve.r",
+        "Deep branch of radial nerve.l",
+        "Deep branch of radial nerve.r",
+        "Superficial branch of radial nerve.l",
+        "Superficial branch of radial nerve.r",
+        "Posterior interosseous nerve of forearm.l",
+        "Posterior interosseous nerve of forearm.r",
+        "Dorsal digital branches of radial nerve.l",
+        "Dorsal digital branches of radial nerve.r"
+      ],
+      "summary": "The largest terminal branch of the brachial plexus, continuing from the posterior cord with fibres from C5 to T1. It spirals around the back of the humerus in the radial groove and at the elbow splits into a deep motor branch (becoming the posterior interosseous nerve) and a superficial sensory branch.",
+      "function": "Supplies triceps, anconeus, brachioradialis, supinator and all the wrist and finger extensors at the back of the forearm, and carries sensation from the back of the arm, forearm and thumb side of the back of the hand.",
+      "location": "Winds around the back of the humerus, passes in front of the lateral elbow and runs through the back of the forearm.",
+      "facts": [
+        "Fractures of the humeral shaft can injure it in the radial groove, causing 'wrist drop'.",
+        "'Saturday night palsy' is radial nerve compression from sleeping with the arm draped over a chair back."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/nerves/radial-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/radial-nerve"
+      ]
+    },
+    {
+      "id": "median-nerve",
+      "medical": "Median nerve",
+      "common": "Carpal tunnel nerve",
+      "category": "Upper limb",
+      "match": [
+        "Median nerve.l",
+        "Median nerve.r",
+        "Muscular branches of median nerve.l",
+        "Muscular branches of median nerve.r",
+        "Anterior interosseous nerve of forearm.l",
+        "Anterior interosseous nerve of forearm.r",
+        "Palmar branch of median nerve.l",
+        "Palmar branch of median nerve.r",
+        "Common palmar digital branches of median nerve.l",
+        "Common palmar digital branches of median nerve.r",
+        "Proper palmar digital branches of median nerve.l",
+        "Proper palmar digital branches of median nerve.r",
+        "(Communicating branch of median nerve with ulnar nerve).l",
+        "(Communicating branch of median nerve with ulnar nerve).r"
+      ],
+      "summary": "Formed by the union of the lateral and medial cords of the brachial plexus (C5-T1, mainly C6-T1), the median nerve runs down the middle of the arm with the brachial artery, through the cubital fossa and down the forearm. It enters the hand through the carpal tunnel under the flexor retinaculum.",
+      "function": "Supplies most forearm flexors, the thenar muscles that let the thumb oppose and the first two (lateral) lumbricals; carries sensation from the lateral palm (via its palmar branch) and the palmar side of the thumb, index, middle and half the ring finger, including their nail beds.",
+      "location": "Middle of the front of the arm and forearm, passing through the carpal tunnel at the wrist.",
+      "facts": [
+        "Compression in the carpal tunnel causes carpal tunnel syndrome, with tingling in the thumb and first fingers but usually sparing the palm.",
+        "The palm is spared because the palmar cutaneous branch leaves before the tunnel and runs over it."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/nerves/median-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/the-median-nerve"
+      ]
+    },
+    {
+      "id": "ulnar-nerve",
+      "medical": "Ulnar nerve",
+      "common": "Funny bone nerve",
+      "category": "Upper limb",
+      "match": [
+        "Ulnar nerve.l",
+        "Ulnar nerve.r",
+        "Muscular branches of ulnar nerve.l",
+        "Muscular branches of ulnar nerve.r",
+        "Dorsal branch of ulnar nerve.l",
+        "Dorsal branch of ulnar nerve.r",
+        "Palmar branch of ulnar nerve.l",
+        "Palmar branch of ulnar nerve.r",
+        "Superficial branch of ulnar nerve.l",
+        "Superficial branch of ulnar nerve.r",
+        "Deep branch of ulnar nerve.l",
+        "Deep branch of ulnar nerve.r",
+        "Common palmar digital branches of ulnar nerve.l",
+        "Common palmar digital branches of ulnar nerve.r",
+        "Proper palmar digital branches of ulnar nerve.l",
+        "Proper palmar digital branches of ulnar nerve.r",
+        "Dorsal digital branches of ulnar nerve.l",
+        "Dorsal digital branches of ulnar nerve.r"
+      ],
+      "summary": "The continuation of the medial cord of the brachial plexus (C8-T1) that runs down the inner arm and passes behind the medial epicondyle of the humerus. It then travels along the ulnar side of the forearm and enters the hand through Guyon's canal.",
+      "function": "Supplies flexor carpi ulnaris, half of flexor digitorum profundus and most of the small muscles of the hand used for fine finger movements, plus sensation to the little finger and half the ring finger.",
+      "location": "Inner side of the arm, behind the inner elbow bump (medial epicondyle), then along the little-finger side of the forearm to the hand.",
+      "facts": [
+        "Hitting the 'funny bone' is actually striking the ulnar nerve where it lies exposed behind the medial epicondyle.",
+        "Ulnar nerve damage can produce a 'claw hand' of the ring and little fingers."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/nerves/ulnar-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/the-ulnar-nerve"
+      ]
+    },
+    {
+      "id": "intercostal-nerves",
+      "medical": "Intercostal nerves",
+      "common": "Rib nerves",
+      "category": "Trunk",
+      "match": [
+        "Intercostal nerves.l",
+        "Intercostal nerves.r"
+      ],
+      "summary": "The anterior rami of thoracic spinal nerves T1 to T11 run in the spaces between the ribs; the twelfth, below the last rib, is called the subcostal nerve. Each runs in the costal groove under its rib with the intercostal vein and artery above it. Most of T1 joins the brachial plexus.",
+      "function": "Supply the intercostal muscles and the skin of the chest wall; the lower ones (T7-T11) also supply the muscles, skin and lining of the abdominal wall.",
+      "location": "In each intercostal space, between the internal and innermost intercostal muscles along the lower border of the rib above.",
+      "facts": [
+        "Top to bottom in the costal groove the order is Vein, Artery, Nerve (VAN), so the nerve is the least protected by the rib.",
+        "The lower nerves (T7-T11) continue forward into the abdominal wall as the thoracoabdominal nerves; T10 supplies the skin around the navel. Shingles often follows the strip of skin supplied by one intercostal nerve."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/intercostal-nerves",
+        "https://radiopaedia.org/articles/intercostal-nerves"
+      ]
+    },
+    {
+      "id": "sympathetic-trunk",
+      "medical": "Sympathetic trunk",
+      "common": "Sympathetic chain",
+      "category": "Autonomic",
+      "match": [
+        "Sympathetic trunk.l",
+        "Sympathetic trunk.r",
+        "Ganglia of sympathetic trunk.l",
+        "Ganglia of sympathetic trunk.r",
+        "Sympathetic nerves.l",
+        "Sympathetic nerves.r"
+      ],
+      "summary": "A pair of beaded nerve chains running beside the vertebral column from the base of the skull to the coccyx. Each bead is a ganglion where sympathetic nerve cells relay; the two chains join in front of the coccyx at the single ganglion impar. Branches leaving the chain (sympathetic and splanchnic nerves) travel to the organs and blood vessels.",
+      "function": "Relays the 'fight or flight' outflow from spinal segments T1 to about L2 to the whole body, raising heart rate and blood pressure, dilating pupils and redirecting blood flow.",
+      "location": "Along each side of the vertebral bodies, from the neck down through the chest and abdomen to the pelvis.",
+      "facts": [
+        "The neck has three sympathetic ganglia; the lowest often fuses with the first thoracic ganglion to form the stellate ganglion.",
+        "Fibres enter the chain through white rami communicantes and return to the spinal nerves through grey rami communicantes."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/sympathetic-nervous-system",
+        "https://radiopaedia.org/articles/sympathetic-trunk"
+      ]
+    },
+    {
+      "id": "spinal-nerve-roots",
+      "medical": "Roots of spinal nerve and spinal ganglion",
+      "common": "Spinal nerve roots",
+      "category": "Spinal nerves",
+      "match": [
+        "Anterior root of spinal nerve.l",
+        "Anterior root of spinal nerve.r",
+        "Posterior root of spinal nerve.l",
+        "Posterior root of spinal nerve.r",
+        "Spinal ganglion.l",
+        "Spinal ganglion.r"
+      ],
+      "summary": "Each spinal cord segment gives off an anterior (ventral) root and a posterior (dorsal) root, which unite near the intervertebral foramen to form a spinal nerve. The posterior root bears a swelling, the spinal (dorsal root) ganglion, containing the cell bodies of sensory neurons.",
+      "function": "The anterior root carries motor and autonomic fibres out of the cord (sympathetic from T1-L2, parasympathetic from S2-S4); the posterior root carries sensory signals in from skin, muscles and joints.",
+      "location": "Inside the vertebral canal and intervertebral foramina, on each side of the spinal cord.",
+      "facts": [
+        "Spinal nerves C1-C7 exit above the vertebra of the same number, C8 exits below C7, and from T1 downward each nerve exits below its own vertebra.",
+        "Each spinal nerve's sensory fibres supply a strip of skin called a dermatome, which doctors use to locate spinal problems."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/spinal-nerves",
+        "https://teachmeanatomy.info/back/nerves/spinal-cord/"
+      ]
+    },
+    {
+      "id": "cauda-equina",
+      "medical": "Cauda equina",
+      "common": "Horse's tail nerve roots",
+      "category": "Spinal nerves",
+      "match": [
+        "Cauda equina"
+      ],
+      "summary": "A bundle of long lumbar, sacral and coccygeal nerve roots (L2 to Co1) that descends in the lower vertebral canal after the spinal cord ends at about L1-L2. It forms because the vertebral column grows longer than the spinal cord during development.",
+      "function": "Carries motor and sensory fibres for the legs, bladder, bowel and pelvic floor down to their exit points in the lower spine.",
+      "location": "Inside the lumbar cistern (the fluid-filled space below the end of the spinal cord) of the lower vertebral canal, from about the L2 vertebra down to the sacrum.",
+      "facts": [
+        "Its name is Latin for 'horse's tail', which the fanned-out roots resemble.",
+        "Compression of these roots (cauda equina syndrome) is a surgical emergency: warning signs are numbness of the saddle area (buttocks and inner thighs), leg weakness, and loss of bladder or bowel control."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/conus-medullaris-medullary-cone-and-cauda-equina",
+        "https://teachmeanatomy.info/back/nerves/spinal-cord/"
+      ]
+    },
+    {
+      "id": "femoral-nerve",
+      "medical": "Femoral nerve",
+      "common": "Front thigh nerve",
+      "category": "Lower limb",
+      "match": [
+        "Femoral nerve.l",
+        "Femoral nerve.r",
+        "Anterior cutaneous branches of femoral nerve.l",
+        "Anterior cutaneous branches of femoral nerve.r",
+        "Saphenous nerve.l",
+        "Saphenous nerve.r",
+        "Infrapatellar branch of saphenous nerve.l",
+        "Infrapatellar branch of saphenous nerve.r",
+        "Medial crural cutaneous branches of saphenous nerve.l",
+        "Medial crural cutaneous branches of saphenous nerve.r"
+      ],
+      "summary": "The largest branch of the lumbar plexus, formed from L2 to L4. It runs through psoas major, passes under the inguinal ligament into the femoral triangle and soon splits into many branches to the front of the thigh. Its longest branch, the purely sensory saphenous nerve, continues through the adductor canal and down the inner leg to the foot.",
+      "function": "Supplies the hip flexors iliacus, pectineus and sartorius and the quadriceps that straighten the knee, and carries sensation from the front and inner thigh and, via the saphenous nerve, the inner leg and foot.",
+      "location": "Front of the hip and thigh, lying lateral to the femoral artery and vein in the femoral triangle just below the groin crease.",
+      "facts": [
+        "Its fibres mediate the knee-jerk reflex tested by tapping below the kneecap.",
+        "Femoral nerve blocks are used for pain relief in hip and knee surgery."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/nerves/femoral-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/femoral-nerve",
+        "https://www.kenhub.com/en/library/anatomy/saphenous-nerve"
+      ]
+    },
+    {
+      "id": "groin-nerves",
+      "medical": "Iliohypogastric, ilio-inguinal and genitofemoral nerves",
+      "common": "Groin nerves",
+      "category": "Lower limb",
+      "match": [
+        "Iliohypogastric nerve.l",
+        "Iliohypogastric nerve.r",
+        "Ilio-inguinal nerve.l",
+        "Ilio-inguinal nerve.r",
+        "Genitofemoral nerve.l",
+        "Genitofemoral nerve.r",
+        "Femoral branch of genitofemoral nerve.l",
+        "Femoral branch of genitofemoral nerve.r"
+      ],
+      "summary": "Three small nerves from the upper lumbar plexus. The iliohypogastric (L1, with T12) and ilio-inguinal (L1) nerves run forward through the lower abdominal wall; the genitofemoral nerve (L1-L2) runs down on the front of psoas major and splits into two branches, one of which, the femoral branch, passes under the inguinal ligament.",
+      "function": "The iliohypogastric and ilio-inguinal nerves supply the lowest parts of internal oblique and transversus abdominis and the skin over the hip, lower belly and upper inner thigh; the femoral branch of the genitofemoral nerve supplies skin of the upper front thigh.",
+      "location": "Lower abdominal wall and groin, around the inguinal canal and just below the inguinal ligament.",
+      "facts": [
+        "The ilio-inguinal and iliohypogastric nerves can be caught or stretched during hernia repair or lower abdominal incisions, causing lasting groin pain or numbness."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/nerves/lumbar-plexus/",
+        "https://www.kenhub.com/en/library/anatomy/lumbar-plexus"
+      ]
+    },
+    {
+      "id": "lateral-femoral-cutaneous-nerve",
+      "medical": "Lateral femoral cutaneous nerve",
+      "common": "Outer thigh skin nerve",
+      "category": "Lower limb",
+      "match": [
+        "Lateral femoral cutaneous nerve.l",
+        "Lateral femoral cutaneous nerve.r"
+      ],
+      "summary": "A purely sensory branch of the lumbar plexus (L2-L3) that crosses the iliacus muscle and leaves the pelvis under or through the inguinal ligament, close to the front bony point of the hip (anterior superior iliac spine).",
+      "function": "Carries sensation from the skin of the front and outer thigh down to about the knee.",
+      "location": "Inside the pelvis on iliacus, then under the lateral end of the inguinal ligament into the outer thigh.",
+      "facts": [
+        "Compression under the inguinal ligament causes meralgia paresthetica: burning, tingling or numbness over the outer thigh, linked to tight belts or trousers and obesity."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/nerves/lumbar-plexus/",
+        "https://www.kenhub.com/en/library/anatomy/lateral-femoral-cutaneous-nerve"
+      ]
+    },
+    {
+      "id": "obturator-nerve",
+      "medical": "Obturator nerve",
+      "common": "Inner thigh nerve",
+      "category": "Lower limb",
+      "match": [
+        "Obturator nerve.l",
+        "Obturator nerve.r",
+        "Anterior branch of obturator nerve.l",
+        "Anterior branch of obturator nerve.r",
+        "Posterior branch of obturator nerve.l",
+        "Posterior branch of obturator nerve.r"
+      ],
+      "summary": "A lumbar plexus nerve (L2-L4) that runs down the side wall of the pelvis and passes through the obturator canal into the inner thigh. There it splits into an anterior branch and a posterior branch around adductor brevis.",
+      "function": "Supplies the hip adductors (adductor longus, brevis, the adductor part of magnus, gracilis) and obturator externus, and carries sensation from a patch of skin on the inner thigh.",
+      "location": "Pelvic side wall, then the medial compartment of the thigh after leaving the obturator foramen.",
+      "facts": [
+        "Adductor magnus has a double supply: its adductor part from the obturator nerve and its hamstring part from the sciatic nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/nerves/obturator-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/obturator-nerve"
+      ]
+    },
+    {
+      "id": "sciatic-nerve",
+      "medical": "Sciatic nerve",
+      "common": "Sciatic nerve",
+      "category": "Lower limb",
+      "match": [
+        "Sciatic nerve.l",
+        "Sciatic nerve.r"
+      ],
+      "summary": "The largest nerve in the body, formed from L4 to S3 in the sacral plexus. It leaves the pelvis through the greater sciatic foramen below piriformis, runs down the back of the thigh and usually divides near the top of the popliteal fossa into the tibial and common fibular nerves.",
+      "function": "Supplies the hamstrings and the hamstring part of adductor magnus (the short head of biceps femoris via its common fibular part) and, through its two terminal branches, every muscle below the knee and most of the skin of the leg and foot.",
+      "location": "Deep in the buttock, then down the middle of the back of the thigh to just above the back of the knee.",
+      "facts": [
+        "In about 1 in 8 people it splits into its two branches high up, sometimes even inside the pelvis.",
+        "Injections into the buttock are given in the upper outer quadrant to avoid hitting this nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/nerves/sciatic-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/the-sciatic-nerve"
+      ]
+    },
+    {
+      "id": "tibial-nerve",
+      "medical": "Tibial nerve",
+      "common": "Calf and sole nerve",
+      "category": "Lower limb",
+      "match": [
+        "Tibial nerve.l",
+        "Tibial nerve.r",
+        "Medial sural cutaneous nerve.l",
+        "Medial sural cutaneous nerve.r",
+        "Medial plantar nerve.l",
+        "Medial plantar nerve.r",
+        "Lateral plantar nerve.l",
+        "Lateral plantar nerve.r",
+        "Common plantar digital branches of medial plantar nerve.l",
+        "Common plantar digital branches of medial plantar nerve",
+        "Common plantar digital branches of lateral plantar nerve.l",
+        "Common plantar digital branches of lateral plantar nerve.r",
+        "Proper plantar digital branches of medial plantar nerve.l",
+        "Proper plantar digital branches of medial plantar nerve.r",
+        "Proper plantar digital branches of lateral plantar nerve.l",
+        "Proper plantar digital branches of lateral plantar nerve.r",
+        "Sural nerve.l",
+        "Sural nerve.r"
+      ],
+      "summary": "The larger terminal branch of the sciatic nerve (L4-S3). It runs straight down through the popliteal fossa and the deep calf, then passes behind the medial malleolus through the tarsal tunnel, where it divides into the medial and lateral plantar nerves of the sole.",
+      "function": "Supplies all the calf muscles that point the foot and curl the toes, most of the small muscles of the foot, and the skin of the sole.",
+      "location": "Back of the knee, deep in the calf, behind the inner ankle bone and into the sole of the foot.",
+      "facts": [
+        "Compression under the flexor retinaculum at the ankle causes tarsal tunnel syndrome, with pain and tingling in the sole.",
+        "Its medial sural cutaneous branch joins a branch of the common fibular nerve to form the sural nerve, a purely sensory nerve to the outer ankle and edge of the foot."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/nerves/tibial-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/tibial-nerve",
+        "https://www.kenhub.com/en/library/anatomy/sural-nerve"
+      ]
+    },
+    {
+      "id": "common-fibular-nerve",
+      "medical": "Common fibular nerve",
+      "common": "Peroneal (foot-drop) nerve",
+      "category": "Lower limb",
+      "match": [
+        "Common fibular nerve.l",
+        "Common fibular nerve.r",
+        "Sural communicating branch of common fibular nerve.l",
+        "Sural communicating branch of common fibular nerve.r",
+        "Superficial fibular nerve.l",
+        "Superficial fibular nerve.r",
+        "Deep fibular nerve.l",
+        "Deep fibular nerve.r",
+        "Muscular branches of deep fibular nerve.l",
+        "Muscular branches of deep fibular nerve.r",
+        "Dorsal digital branches of deep fibular nerve.l",
+        "Dorsal digital branches of deep fibular nerve.r",
+        "Medial dorsal cutaneous nerve of foot.l",
+        "Medial dorsal cutaneous nerve of foot.r",
+        "Intermediate dorsal cutaneous nerve of foot.l",
+        "Intermediate dorsal cutaneous nerve of foot.r",
+        "Dorsal digital branches of superficial fibular nerve.l",
+        "Dorsal digital branches of superficial fibular nerve.r"
+      ],
+      "summary": "The smaller terminal branch of the sciatic nerve (L4-S2), also called the common peroneal nerve. It follows biceps femoris to the outer knee, wraps around the neck of the fibula and divides into the superficial and deep fibular nerves.",
+      "function": "Before dividing it supplies the short head of biceps femoris. The deep fibular nerve lifts the foot and toes (dorsiflexion) via the front-of-leg muscles and also supplies the small toe-extensor muscles on the top of the foot (extensor digitorum brevis); the superficial fibular nerve turns the foot outward (eversion) and supplies skin of the lower leg and top of the foot.",
+      "location": "Outer side of the knee, winding around the fibular neck just below the knee, then the front and outer compartments of the leg and the top of the foot.",
+      "facts": [
+        "Its exposed position on the fibular neck makes it easily injured by fractures, tight casts or leg crossing, causing 'foot drop'.",
+        "The deep fibular nerve supplies only a small patch of skin, the web between the first and second toes."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/nerves/common-fibular-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/common-fibular-nerve"
+      ]
+    },
+    {
+      "id": "pudendal-nerve",
+      "medical": "Pudendal nerve",
+      "common": "Pelvic floor nerve",
+      "category": "Pelvis",
+      "match": [
+        "Pudendal nerve.l",
+        "Pudendal nerve.r"
+      ],
+      "summary": "A sacral plexus nerve (S2-S4) that leaves the pelvis through the greater sciatic foramen, hooks around the ischial spine and re-enters through the lesser sciatic foramen into the pudendal (Alcock's) canal. It then divides into branches including the inferior rectal nerve and the perineal nerve.",
+      "function": "Gives voluntary control of the external sphincters used to hold in urine and stool and of the pelvic floor muscles, and carries sensation from the perineum and the skin around the anus.",
+      "location": "Deep in the buttock and pelvis, running along the side wall of the ischioanal fossa toward the perineum.",
+      "facts": [
+        "It can be compressed where it runs through the pudendal canal (for example by long-distance cycling), causing burning pain on sitting, a condition called pudendal neuralgia.",
+        "A pudendal nerve block, injected near the ischial spine, numbs the perineum for minor procedures."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/pelvis/other/pudendal-nerve/",
+        "https://www.kenhub.com/en/library/anatomy/pudendal-nerve"
+      ]
+    },
+    {
+      "id": "superior-gluteal-nerve",
+      "medical": "Superior gluteal nerve",
+      "common": "Hip-stabiliser nerve",
+      "category": "Lower limb",
+      "match": [
+        "Superior gluteal nerve.l",
+        "Superior gluteal nerve.r"
+      ],
+      "summary": "A motor branch of the sacral plexus (L4-S1) that leaves the pelvis through the greater sciatic foramen above piriformis, with the superior gluteal artery and vein.",
+      "function": "Supplies gluteus medius, gluteus minimus and tensor fasciae latae, which keep the pelvis level when standing on one leg and help move the thigh out to the side.",
+      "location": "Upper buttock, running between gluteus medius and gluteus minimus.",
+      "facts": [
+        "Injury gives a positive Trendelenburg sign: when standing on the affected leg, the pelvis drops on the opposite side, producing a waddling gait."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/nerves/sacral-plexus/",
+        "https://www.kenhub.com/en/library/anatomy/superior-gluteal-nerve"
+      ]
+    },
+    {
+      "id": "posterior-femoral-cutaneous-nerve",
+      "medical": "Posterior femoral cutaneous nerve",
+      "common": "Back of thigh skin nerve",
+      "category": "Lower limb",
+      "match": [
+        "Posterior femoral cutaneous nerve.l",
+        "Posterior femoral cutaneous nerve.r",
+        "Anterior root of posterior femoral cutaneous nerve.l",
+        "Anterior root of posterior femoral cutaneous nerve.r",
+        "Posterior root of posterior femoral cutaneous nerve.l",
+        "Posterior root of posterior femoral cutaneous nerve.r"
+      ],
+      "summary": "A purely sensory branch of the sacral plexus (S1-S3), built from anterior and posterior root contributions, that leaves the pelvis below piriformis beside the sciatic nerve.",
+      "function": "Carries sensation from the skin of the lower buttock and buttock fold, the back of the thigh and the upper back of the calf.",
+      "location": "Under gluteus maximus, then just under the deep fascia down the middle of the back of the thigh.",
+      "facts": [
+        "Unlike the sciatic nerve beside it, it has no motor fibres at all."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/nerves/sacral-plexus/",
+        "https://www.kenhub.com/en/library/anatomy/sacral-plexus"
+      ]
+    },
+    {
+      "id": "hip-rotator-nerves",
+      "medical": "Nerve to piriformis and nerve to quadratus femoris",
+      "common": "Small hip-rotator nerves",
+      "category": "Lower limb",
+      "match": [
+        "Nerve to piriformis muscle.l",
+        "Nerve to piriformis muscle.r",
+        "Nerve to quadratus femoris muscle.l",
+        "Nerve to quadratus femoris muscle.r"
+      ],
+      "summary": "Two small direct muscular branches of the sacral plexus. The nerve to piriformis comes from S1-S2; the nerve to quadratus femoris comes from L4-S1 and leaves the pelvis below piriformis.",
+      "function": "Supply the deep hip rotators: piriformis, and quadratus femoris together with inferior gemellus. These muscles turn the thigh outward and hold the head of the femur in its socket.",
+      "location": "Deep buttock, under gluteus maximus, around the back of the hip joint.",
+      "facts": [
+        "The nerve to quadratus femoris also sends a small branch to the hip joint."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/nerves/sacral-plexus/",
+        "https://www.kenhub.com/en/library/anatomy/sacral-plexus"
+      ]
+    }
+  ]
+}

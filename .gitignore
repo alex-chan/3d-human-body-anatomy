@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output (recreate with: cd web && npm run build)
+web/dist/
+
+# Vite cache
+.vite/
+
+# Z-Anatomy source download: too large for git (Startup.blend is ~307 MB, the zip ~87 MB;
+# GitHub rejects files over 100 MB). Only needed to re-export the models, see README.md.
+# Download from https://www.z-anatomy.com/ and unzip into source/.
+source/Z-Anatomy.zip
+source/Z-Anatomy/Startup.blend
+
+# Blender autosaves and backups
+*.blend1
+*.blend2
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment and secrets
+.env
+.env.*
+
+# Local Claude Code settings (machine-specific paths)
+.claude/settings.local.json
+.claude/launch.json
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,2781 @@
+{
+  "layer": "muscles",
+  "overview": {
+    "title": "Muscular system (skeletal muscles)",
+    "summary": "Skeletal muscles are the voluntary muscles that attach to bones through tendons and move the skeleton. The human body has more than 600 of them, and in healthy young adults they make up roughly 40% of body weight. Unlike cardiac and smooth muscle, they are consciously controlled.",
+    "function": "Skeletal muscles produce movement by contracting and pulling on bones across joints, maintain posture, stabilise joints, power breathing and facial expression, and generate most of the body's heat.",
+    "facts": [
+      "According to NCI SEER training material, nearly 85 percent of the heat produced in the body comes from muscle contraction.",
+      "In a large MRI study of 468 adults, men averaged about 33 kg of skeletal muscle and women about 21 kg (roughly 38% vs 31% of body mass)."
+    ],
+    "sources": [
+      "https://my.clevelandclinic.org/health/body/21887-muscle",
+      "https://training.seer.cancer.gov/anatomy/muscular/",
+      "https://journals.physiology.org/doi/full/10.1152/jappl.2000.89.1.81"
+    ]
+  },
+  "structures": [
+    {
+      "id": "iliopsoas",
+      "medical": "Iliopsoas muscle",
+      "common": "Hip flexor",
+      "category": "Hip",
+      "match": [
+        "Psoas major.l",
+        "Psoas major.r",
+        "Iliacus muscle.l",
+        "Iliacus muscle.r"
+      ],
+      "summary": "The iliopsoas is a compound muscle made of the psoas major, which arises from the lumbar spine, and the iliacus, which fills the inner bowl of the pelvis. The two bellies run beneath the inguinal ligament and share a tendon that grips the femur.",
+      "function": "It is the strongest flexor of the hip, lifting the thigh forward, and helps keep the trunk upright during standing, walking and running.",
+      "location": "It runs from the sides of the lower spine and the inner surface of the hip bone, down the front of the hip, to the lesser trochanter of the femur.",
+      "facts": [
+        "The psoas major is supplied directly by branches of the lumbar nerves L1-L3, while the iliacus is supplied by the femoral nerve.",
+        "Both parts insert together on the lesser trochanter, a small bony knob on the back-inner side of the upper femur."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/anterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/iliopsoas-muscle"
+      ]
+    },
+    {
+      "id": "gluteus-maximus",
+      "medical": "Gluteus maximus muscle",
+      "common": "Glutes (buttock muscle)",
+      "category": "Hip",
+      "match": [
+        "Gluteus maximus muscle.l",
+        "Gluteus maximus muscle.r"
+      ],
+      "summary": "The gluteus maximus is the thick, superficial muscle that gives the buttock its shape. It arises from the back of the ilium, the sacrum and the coccyx and ends partly on the femur and partly in the iliotibial tract.",
+      "function": "It is the main extensor of the hip, powering actions such as climbing stairs, rising from a chair and running, and it also helps rotate the thigh outward.",
+      "location": "It forms the bulk of the buttock, covering the other gluteal muscles behind the hip joint.",
+      "facts": [
+        "It is usually described as the single largest muscle in the human body.",
+        "It is supplied by the inferior gluteal nerve (L5-S2)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/gluteal-region/",
+        "https://www.kenhub.com/en/library/anatomy/gluteus-maximus-muscle"
+      ]
+    },
+    {
+      "id": "gluteus-medius",
+      "medical": "Gluteus medius muscle",
+      "common": "Side glute",
+      "category": "Hip",
+      "match": [
+        "Gluteus medius muscle.l",
+        "Gluteus medius muscle.r"
+      ],
+      "summary": "The gluteus medius is a broad, fan-shaped muscle on the outer surface of the ilium, partly hidden under the gluteus maximus. Its fibres converge on the outer side of the greater trochanter of the femur.",
+      "function": "It abducts the hip and, most importantly, keeps the pelvis level when the opposite foot is off the ground during walking.",
+      "location": "It lies on the upper outer part of the buttock, between the iliac crest and the greater trochanter; its rear third is covered by gluteus maximus.",
+      "facts": [
+        "Weakness of gluteus medius and minimus, or injury to the superior gluteal nerve, causes a positive Trendelenburg sign: the pelvis drops on the side of the lifted leg.",
+        "Its anterior fibres also rotate the thigh inward, while its posterior fibres help rotate it outward."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/gluteal-region/",
+        "https://www.kenhub.com/en/library/anatomy/gluteus-medius-and-minimus-muscles"
+      ]
+    },
+    {
+      "id": "tensor-fasciae-latae",
+      "medical": "Tensor fasciae latae muscle",
+      "common": "TFL (front-outer hip muscle)",
+      "category": "Hip",
+      "match": [
+        "Tensor fasciae latae.l",
+        "Tensor fasciae latae.r"
+      ],
+      "summary": "The tensor fasciae latae is a small muscle at the front-outer corner of the hip, enclosed within the deep fascia of the thigh. It pulls on the iliotibial tract, which carries its force down to the knee.",
+      "function": "It helps flex, abduct and medially rotate the hip and, by tightening the iliotibial tract, steadies the extended knee during standing and walking.",
+      "location": "It arises from the anterior superior iliac spine and the front of the iliac crest and lies on the front-outer side of the upper thigh, just below the hip bone.",
+      "facts": [
+        "It is supplied by the superior gluteal nerve, the same nerve as gluteus medius and minimus.",
+        "It works together with gluteus maximus to tense the iliotibial tract."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/gluteal-region/",
+        "https://www.kenhub.com/en/library/anatomy/tensor-fasciae-latae-muscle"
+      ]
+    },
+    {
+      "id": "iliotibial-tract",
+      "medical": "Iliotibial tract",
+      "common": "IT band",
+      "category": "Thigh",
+      "match": [
+        "Iliotibial tract.l",
+        "Iliotibial tract.r"
+      ],
+      "summary": "The iliotibial tract is a long, thick band of fibrous tissue that is a reinforced part of the fascia lata, the deep fascia of the thigh. It is not a muscle itself but acts as a tendon for tensor fasciae latae and part of gluteus maximus.",
+      "function": "It transmits pull from these hip muscles to the tibia, helping stabilise the outer side of the knee during walking and running.",
+      "location": "It runs down the outer side of the thigh from the iliac crest to Gerdy's tubercle on the lateral condyle of the tibia.",
+      "facts": [
+        "Iliotibial band syndrome is a common cause of pain on the outer side of the knee in runners.",
+        "Along its length it is anchored to the femur by fibrous strands running to the lateral intermuscular septum."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/iliotibial-band",
+        "https://teachmeanatomy.info/lower-limb/muscles/gluteal-region/"
+      ]
+    },
+    {
+      "id": "piriformis",
+      "medical": "Piriformis muscle",
+      "common": "Deep buttock rotator",
+      "category": "Hip",
+      "match": [
+        "Piriformis muscle.l",
+        "Piriformis muscle.r"
+      ],
+      "summary": "The piriformis is a flat, pear-shaped muscle that runs from the front of the sacrum, through the greater sciatic foramen, to the greater trochanter of the femur. It is one of the small deep rotators of the hip.",
+      "function": "It rotates the extended thigh outward, helps abduct the flexed thigh, and holds the head of the femur in the hip socket.",
+      "location": "It lies deep in the buttock under gluteus maximus, stretching from the sacrum to the top of the greater trochanter.",
+      "facts": [
+        "In roughly 85-90% of people the sciatic nerve passes below the piriformis, but in some it pierces the muscle; irritation of the nerve here is called piriformis syndrome.",
+        "It is a key landmark: vessels and nerves leaving the pelvis are described as passing above or below it."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/gluteal-region/",
+        "https://www.kenhub.com/en/library/anatomy/piriformis-muscle"
+      ]
+    },
+    {
+      "id": "sartorius",
+      "medical": "Sartorius muscle",
+      "common": "Tailor's muscle",
+      "category": "Thigh",
+      "match": [
+        "Sartorius muscle.l",
+        "Sartorius muscle.r"
+      ],
+      "summary": "The sartorius is a thin, strap-like muscle that crosses the front of the thigh diagonally from the hip to the inner side of the knee. It crosses both the hip and the knee joints.",
+      "function": "It flexes, abducts and laterally rotates the hip and flexes the knee - the combination used when sitting cross-legged.",
+      "location": "It runs from the anterior superior iliac spine obliquely across the front of the thigh to the upper medial surface of the tibia.",
+      "facts": [
+        "It is the longest muscle in the human body.",
+        "Its name comes from the Latin sartor, 'tailor', referring to the cross-legged posture tailors once worked in."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/anterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/the-sartorius-muscle"
+      ]
+    },
+    {
+      "id": "rectus-femoris",
+      "medical": "Rectus femoris muscle",
+      "common": "Front thigh muscle (quad)",
+      "category": "Thigh",
+      "match": [
+        "Rectus femoris muscle.l",
+        "Rectus femoris muscle.r"
+      ],
+      "summary": "The rectus femoris is the central, superficial head of the quadriceps femoris. Unlike the three vastus muscles, it starts on the pelvis rather than the femur.",
+      "function": "It extends the knee and, because it crosses the hip, also helps flex the hip - as in kicking a ball.",
+      "location": "It runs straight down the middle of the front of the thigh from the anterior inferior iliac spine to the patella.",
+      "facts": [
+        "It is the only part of the quadriceps that crosses both the hip and the knee joints.",
+        "Like all quadriceps heads, it is supplied by the femoral nerve (L2-L4)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/anterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/the-quadriceps-femoris-muscle"
+      ]
+    },
+    {
+      "id": "vastus-lateralis",
+      "medical": "Vastus lateralis muscle",
+      "common": "Outer quad",
+      "category": "Thigh",
+      "match": [
+        "Vastus lateralis muscle.l",
+        "Vastus lateralis muscle.r"
+      ],
+      "summary": "The vastus lateralis is the outer head of the quadriceps femoris. It arises from a long strip of the femur, including the greater trochanter and the linea aspera, and joins the quadriceps tendon above the patella.",
+      "function": "It extends the knee and helps stabilise the kneecap.",
+      "location": "It forms the bulge on the outer side of the front of the thigh.",
+      "facts": [
+        "It is the largest and most powerful part of the quadriceps.",
+        "It is a recommended intramuscular injection site in infants who are not yet walking."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/anterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/the-quadriceps-femoris-muscle"
+      ]
+    },
+    {
+      "id": "vastus-medialis",
+      "medical": "Vastus medialis muscle",
+      "common": "Inner quad (teardrop muscle)",
+      "category": "Thigh",
+      "match": [
+        "Vastus medialis muscle.l",
+        "Vastus medialis muscle.r"
+      ],
+      "summary": "The vastus medialis is the inner head of the quadriceps femoris, arising from the medial side of the femur. Its lowest, obliquely running fibres form a visible 'teardrop' just above and inside the knee.",
+      "function": "It extends the knee and helps keep the patella tracking correctly in its groove.",
+      "location": "It lies on the front-inner side of the lower thigh, above the medial side of the knee.",
+      "facts": [
+        "Weakness of its lowest fibres (vastus medialis obliquus) is linked to poor patellar tracking and patellofemoral pain.",
+        "It arises from the intertrochanteric line and the medial lip of the linea aspera."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/anterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/the-quadriceps-femoris-muscle"
+      ]
+    },
+    {
+      "id": "vastus-intermedius",
+      "medical": "Vastus intermedius muscle",
+      "common": "Deep quad",
+      "category": "Thigh",
+      "match": [
+        "Vastus intermedius muscle.l",
+        "Vastus intermedius muscle.r"
+      ],
+      "summary": "The vastus intermedius is the deepest head of the quadriceps femoris, lying directly on the front of the femur beneath the rectus femoris. It blends with the other heads into the quadriceps tendon.",
+      "function": "It extends the knee and helps stabilise the patella.",
+      "location": "It lies on the anterior and lateral surfaces of the femoral shaft, hidden under rectus femoris.",
+      "facts": [
+        "A few of its deepest lower fibres form the small articularis genus, which pulls the knee joint capsule upward as the knee straightens.",
+        "All four quadriceps heads attach through the patella and patellar ligament to the tibial tuberosity."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/anterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/the-quadriceps-femoris-muscle"
+      ]
+    },
+    {
+      "id": "adductor-longus",
+      "medical": "Adductor longus muscle",
+      "common": "Groin muscle (inner thigh)",
+      "category": "Thigh",
+      "match": [
+        "Adductor longus.l",
+        "Adductor longus.r"
+      ],
+      "summary": "The adductor longus is a flat, fan-shaped muscle of the inner thigh. It arises from the body of the pubis and spreads out to the middle third of the linea aspera on the back of the femur.",
+      "function": "It draws the thigh toward the midline and assists in flexing the hip.",
+      "location": "It lies on the upper inner thigh, forming the medial border of the femoral triangle.",
+      "facts": [
+        "It is the muscle most often involved in 'groin strain' in sports that need sudden changes of direction.",
+        "It is supplied by the obturator nerve (L2-L4), like the other medial thigh muscles."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/medial-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/adductor-longus-muscle"
+      ]
+    },
+    {
+      "id": "adductor-magnus",
+      "medical": "Adductor magnus muscle",
+      "common": "Large inner thigh muscle",
+      "category": "Thigh",
+      "match": [
+        "Adductor magnus.l",
+        "Adductor magnus.r",
+        "(Adductor minimus).l",
+        "(Adductor minimus).r"
+      ],
+      "summary": "The adductor magnus is the largest muscle of the inner thigh and has two parts: an adductor part from the pubic and ischial rami and a 'hamstring' part from the ischial tuberosity. Its upper fibres are sometimes described separately as adductor minimus.",
+      "function": "It powerfully adducts the thigh; its adductor part helps flex the hip and its hamstring part helps extend it.",
+      "location": "It lies deep in the medial thigh, from the lower pelvis to the linea aspera and the adductor tubercle of the femur.",
+      "facts": [
+        "It has a dual nerve supply: the obturator nerve for the adductor part and the tibial part of the sciatic nerve for the hamstring part.",
+        "The femoral vessels pass through a gap in its tendon, the adductor hiatus, to reach the back of the knee."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/medial-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/adductor-magnus"
+      ]
+    },
+    {
+      "id": "gracilis",
+      "medical": "Gracilis muscle",
+      "common": "Inner thigh muscle",
+      "category": "Thigh",
+      "match": [
+        "Gracilis muscle.l",
+        "Gracilis muscle.r"
+      ],
+      "summary": "The gracilis is a long, slender muscle that is the most superficial and medial of the thigh adductors. It runs from the pubis to the upper medial tibia.",
+      "function": "It adducts the hip and, because it also crosses the knee, helps flex the knee.",
+      "location": "It runs down the inner edge of the thigh to the medial side of the knee.",
+      "facts": [
+        "Its name is Latin for 'slender'.",
+        "It is frequently harvested as a tendon or muscle graft, for example in knee ligament reconstruction or facial reanimation surgery."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/medial-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/gracilis-muscle"
+      ]
+    },
+    {
+      "id": "biceps-femoris",
+      "medical": "Biceps femoris muscle",
+      "common": "Outer hamstring",
+      "category": "Thigh",
+      "match": [
+        "Long head of biceps femoris.l",
+        "Long head of biceps femoris.r",
+        "Short head of biceps femoris.l",
+        "Short head of biceps femoris.r"
+      ],
+      "summary": "The biceps femoris is the lateral hamstring muscle. Its long head arises from the ischial tuberosity and its short head from the linea aspera of the femur; both join to insert on the head of the fibula.",
+      "function": "It flexes the knee, and its long head also extends the hip; with the knee bent it rotates the leg outward.",
+      "location": "It runs down the back-outer side of the thigh; its tendon can be felt on the outer side of the back of the knee.",
+      "facts": [
+        "The long head is supplied by the tibial nerve and the short head by the common fibular nerve.",
+        "It is the hamstring muscle most commonly injured in sport."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/hamstrings/",
+        "https://www.kenhub.com/en/library/anatomy/biceps-femoris-muscle"
+      ]
+    },
+    {
+      "id": "semitendinosus",
+      "medical": "Semitendinosus muscle",
+      "common": "Inner hamstring (superficial, cord-like)",
+      "category": "Thigh",
+      "match": [
+        "Semitendinosus muscle.l",
+        "Semitendinosus muscle.r"
+      ],
+      "summary": "The semitendinosus is a medial hamstring that is fleshy above and continues as a long, cord-like tendon below. It runs from the ischial tuberosity to the upper medial surface of the tibia.",
+      "function": "It flexes the knee, extends the hip and rotates the bent knee inward.",
+      "location": "It lies superficially on the back-inner side of the thigh, on top of the semimembranosus.",
+      "facts": [
+        "Its name refers to its very long tendon of insertion.",
+        "Its tendon, often together with gracilis, is commonly used as a graft to reconstruct the anterior cruciate ligament."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/hamstrings/",
+        "https://www.kenhub.com/en/library/anatomy/semitendinosus-muscle"
+      ]
+    },
+    {
+      "id": "semimembranosus",
+      "medical": "Semimembranosus muscle",
+      "common": "Inner hamstring (deep, broad)",
+      "category": "Thigh",
+      "match": [
+        "Semimembranosus muscle.l",
+        "Semimembranosus muscle.r"
+      ],
+      "summary": "The semimembranosus is a broad, flat hamstring muscle named for its flat, membrane-like tendon of origin. It runs from the ischial tuberosity to the back of the medial tibial condyle.",
+      "function": "It flexes the knee, extends the hip and rotates the bent knee inward.",
+      "location": "It lies on the back-inner side of the thigh, deep to semitendinosus.",
+      "facts": [
+        "It is the most medial of the three hamstrings.",
+        "All hamstrings except the short head of biceps femoris are supplied by the tibial part of the sciatic nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/hamstrings/",
+        "https://www.kenhub.com/en/library/anatomy/semimembranosus-muscle"
+      ]
+    },
+    {
+      "id": "gastrocnemius",
+      "medical": "Gastrocnemius muscle",
+      "common": "Calf muscle",
+      "category": "Leg",
+      "match": [
+        "Medial head of gastrocnemius.l",
+        "Medial head of gastrocnemius.r",
+        "Lateral head of gastrocnemius.l",
+        "Lateral head of gastrocnemius.r"
+      ],
+      "summary": "The gastrocnemius is the superficial two-headed muscle that forms the visible bulge of the calf. Its heads arise from the femoral condyles and join the soleus to form the calcaneal (Achilles) tendon.",
+      "function": "It plantarflexes the ankle (points the foot) and flexes the knee; it is especially active in running and jumping.",
+      "location": "It lies at the back of the leg, from just above the knee to the middle of the calf.",
+      "facts": [
+        "Its name comes from Greek words meaning 'belly of the leg'.",
+        "It has a high proportion of fast-twitch fibres, unlike the soleus beneath it."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/posterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/gastrocnemius-muscle"
+      ]
+    },
+    {
+      "id": "soleus",
+      "medical": "Soleus muscle",
+      "common": "Flat calf muscle (under the gastrocnemius)",
+      "category": "Leg",
+      "match": [
+        "Soleus muscle.l",
+        "Soleus muscle.r"
+      ],
+      "summary": "The soleus is a broad, flat calf muscle lying beneath the gastrocnemius; together they form the superficial layer of the back of the leg. It arises from the back of the upper tibia (soleal line) and fibula and joins the calcaneal tendon.",
+      "function": "It plantarflexes the ankle and constantly adjusts to keep the body from falling forward when standing.",
+      "location": "It lies deep to the gastrocnemius in the back of the leg, extending lower toward the heel.",
+      "facts": [
+        "It is rich in fatigue-resistant slow-twitch fibres, suiting it to posture and walking.",
+        "Its contractions squeeze leg veins and help return blood to the heart, the so-called soleus or calf muscle pump."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/posterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/soleus-muscle"
+      ]
+    },
+    {
+      "id": "calcaneal-tendon",
+      "medical": "Calcaneal tendon",
+      "common": "Achilles tendon",
+      "category": "Leg",
+      "match": [
+        "Calcaneal tendon.l",
+        "Calcaneal tendon.r"
+      ],
+      "summary": "The calcaneal tendon is the shared tendon of the gastrocnemius and soleus (the triceps surae). It attaches to the back of the heel bone (calcaneus).",
+      "function": "It transmits the pull of the calf muscles to the heel, allowing push-off in walking, running and jumping.",
+      "location": "It runs down the back of the lower leg, just behind the ankle, to the calcaneus.",
+      "facts": [
+        "It is the thickest tendon in the human body, about 15 cm long.",
+        "It can carry loads of several times body weight during running."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/achilles-tendon",
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/posterior-compartment/"
+      ]
+    },
+    {
+      "id": "tibialis-anterior",
+      "medical": "Tibialis anterior muscle",
+      "common": "Shin muscle",
+      "category": "Leg",
+      "match": [
+        "Tibialis anterior muscle.l",
+        "Tibialis anterior muscle.r"
+      ],
+      "summary": "The tibialis anterior is the main muscle at the front of the leg, lying just lateral to the shin bone. It is fleshy above and becomes a strong tendon that crosses the front of the ankle.",
+      "function": "It dorsiflexes the ankle (lifts the foot) and inverts the foot; it keeps the toes clear of the ground during walking.",
+      "location": "It runs from the lateral surface of the tibia to the medial cuneiform and base of the first metatarsal.",
+      "facts": [
+        "It is the largest dorsiflexor of the foot and is supplied by the deep fibular nerve.",
+        "Paralysis of this muscle, usually from common fibular nerve injury, causes foot drop."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/anterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/tibialis-anterior-muscle"
+      ]
+    },
+    {
+      "id": "fibularis-longus",
+      "medical": "Fibularis longus muscle",
+      "common": "Outer shin muscle (peroneal)",
+      "category": "Leg",
+      "match": [
+        "Fibularis longus muscle.l",
+        "Fibularis longus muscle.r"
+      ],
+      "summary": "The fibularis (peroneus) longus is the superficial muscle of the lateral compartment of the leg. Its tendon passes behind the lateral malleolus and then crosses the sole of the foot.",
+      "function": "It everts the foot, assists plantarflexion and helps support the arches of the foot.",
+      "location": "It runs along the outer side of the leg from the head and upper shaft of the fibula to the medial cuneiform and first metatarsal.",
+      "facts": [
+        "Its tendon runs in a groove on the cuboid bone to cross the sole diagonally, helping to maintain the transverse arch.",
+        "It is supplied by the superficial fibular nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/lateral-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/peroneus-longus-muscle"
+      ]
+    },
+    {
+      "id": "tibialis-posterior",
+      "medical": "Tibialis posterior muscle",
+      "common": "Deep calf muscle (arch support)",
+      "category": "Leg",
+      "match": [
+        "Tibialis posterior muscle.l",
+        "Tibialis posterior muscle.r"
+      ],
+      "summary": "The tibialis posterior is the deepest muscle of the back of the leg, lying on the interosseous membrane between tibia and fibula. Its tendon passes behind the medial malleolus to the navicular and other tarsal bones.",
+      "function": "It inverts and plantarflexes the foot and is a key supporter of the medial longitudinal arch.",
+      "location": "It lies in the centre of the deep posterior leg, with its tendon curving behind the inner ankle bone.",
+      "facts": [
+        "Dysfunction or rupture of its tendon is a common cause of adult-acquired flat foot.",
+        "It is supplied by the tibial nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/posterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/tibialis-posterior-muscle"
+      ]
+    },
+    {
+      "id": "deltoid",
+      "medical": "Deltoid muscle",
+      "common": "Shoulder muscle (delts)",
+      "category": "Shoulder",
+      "match": [
+        "Clavicular part of deltoid muscle.l",
+        "Clavicular part of deltoid muscle.r",
+        "Acromial part of deltoid muscle.l",
+        "Acromial part of deltoid muscle.r",
+        "Scapular spinal part of deltoid muscle.l",
+        "Scapular spinal part of deltoid muscle.r"
+      ],
+      "summary": "The deltoid is the thick, triangular muscle that caps the shoulder and gives it its rounded outline. It has three parts - clavicular (front), acromial (middle) and spinal (back) - that converge on the deltoid tuberosity of the humerus.",
+      "function": "Its middle part is the main abductor of the arm once movement has started; the front part flexes and medially rotates the arm and the back part extends and laterally rotates it.",
+      "location": "It wraps over the shoulder joint from the lateral third of the clavicle, the acromion and the spine of the scapula to the outer side of the upper humerus.",
+      "facts": [
+        "Its name comes from its resemblance to the Greek capital letter delta (Δ).",
+        "It is supplied by the axillary nerve (C5-C6), which winds around the back of the humerus about 5-6 cm below the acromion. Intramuscular injections are therefore given into the thick central part of the muscle, about 2-3 finger-breadths below the acromion."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/shoulder/intrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/the-deltoid-muscle",
+        "https://www.cdc.gov/vaccines/hcp/imz-best-practices/vaccine-administration.html"
+      ]
+    },
+    {
+      "id": "supraspinatus",
+      "medical": "Supraspinatus muscle",
+      "common": "Rotator cuff muscle (top)",
+      "category": "Shoulder",
+      "match": [
+        "Supraspinatus muscle.l",
+        "Supraspinatus muscle.r"
+      ],
+      "summary": "The supraspinatus is a rotator cuff muscle that fills the supraspinous fossa above the spine of the scapula. Its tendon passes under the acromion to the top of the greater tubercle of the humerus.",
+      "function": "It starts abduction of the arm (roughly the first 15 degrees) and, with the other cuff muscles, holds the head of the humerus in the shallow glenoid socket.",
+      "location": "It lies on the upper back of the shoulder blade, deep to the trapezius.",
+      "facts": [
+        "It is the rotator cuff muscle most commonly involved in rotator cuff tears.",
+        "It is supplied by the suprascapular nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/shoulder/intrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/supraspinatus-muscle"
+      ]
+    },
+    {
+      "id": "infraspinatus",
+      "medical": "Infraspinatus muscle",
+      "common": "Rotator cuff muscle (back)",
+      "category": "Shoulder",
+      "match": [
+        "Infraspinatus muscle.l",
+        "Infraspinatus muscle.r"
+      ],
+      "summary": "The infraspinatus is a thick triangular rotator cuff muscle occupying most of the infraspinous fossa below the spine of the scapula. Its tendon attaches to the greater tubercle of the humerus.",
+      "function": "It is a main lateral (external) rotator of the arm and helps stabilise the shoulder joint.",
+      "location": "It lies on the back of the shoulder blade, below the scapular spine.",
+      "facts": [
+        "It is supplied by the suprascapular nerve, like supraspinatus.",
+        "The rotator cuff is remembered by the acronym SITS: supraspinatus, infraspinatus, teres minor, subscapularis."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/shoulder/intrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/infraspinatus-muscle"
+      ]
+    },
+    {
+      "id": "teres-minor",
+      "medical": "Teres minor muscle",
+      "common": "Rotator cuff muscle (small)",
+      "category": "Shoulder",
+      "match": [
+        "Teres minor muscle.l",
+        "Teres minor muscle.r"
+      ],
+      "summary": "The teres minor is a narrow rotator cuff muscle running from the lateral border of the back of the scapula to the greater tubercle of the humerus. It lies just below infraspinatus.",
+      "function": "It rotates the arm laterally and helps hold the humeral head in the glenoid.",
+      "location": "It runs along the outer edge of the back of the shoulder blade toward the back of the upper humerus.",
+      "facts": [
+        "Unlike supraspinatus and infraspinatus, it is supplied by the axillary nerve.",
+        "Despite similar names, teres minor belongs to the rotator cuff while teres major does not."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/shoulder/intrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/teres-minor-muscle"
+      ]
+    },
+    {
+      "id": "subscapularis",
+      "medical": "Subscapularis muscle",
+      "common": "Rotator cuff muscle (front)",
+      "category": "Shoulder",
+      "match": [
+        "Subscapularis muscle.l",
+        "Subscapularis muscle.r"
+      ],
+      "summary": "The subscapularis is the rotator cuff muscle on the front (rib-facing) surface of the scapula. Its tendon crosses in front of the shoulder joint to the lesser tubercle of the humerus.",
+      "function": "It is the main medial (internal) rotator of the arm and helps keep the humeral head centred in the socket.",
+      "location": "It fills the subscapular fossa on the front of the shoulder blade, between the scapula and the rib cage.",
+      "facts": [
+        "It is supplied by the upper and lower subscapular nerves.",
+        "It is the only rotator cuff muscle that attaches to the lesser tubercle."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/shoulder/intrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/subscapularis-muscle"
+      ]
+    },
+    {
+      "id": "teres-major",
+      "medical": "Teres major muscle",
+      "common": "Lat helper (lower shoulder-blade muscle)",
+      "category": "Shoulder",
+      "match": [
+        "Teres major muscle.l",
+        "Teres major muscle.r"
+      ],
+      "summary": "The teres major is a thick, rounded muscle running from the inferior angle of the scapula to the front of the upper humerus. It works closely with latissimus dorsi and is not part of the rotator cuff.",
+      "function": "It adducts, extends and medially rotates the arm, helping pull a raised arm down and back.",
+      "location": "It lies along the lower outer border of the shoulder blade and helps form the back wall of the armpit.",
+      "facts": [
+        "It inserts on the medial lip of the intertubercular groove of the humerus.",
+        "It is supplied by the lower subscapular nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/shoulder/intrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/teres-major-muscle"
+      ]
+    },
+    {
+      "id": "biceps-brachii",
+      "medical": "Biceps brachii muscle",
+      "common": "Biceps",
+      "category": "Upper arm",
+      "match": [
+        "Long head of biceps brachii.l",
+        "Long head of biceps brachii.r",
+        "Short head of biceps brachii.l",
+        "Short head of biceps brachii.r"
+      ],
+      "summary": "The biceps brachii is the two-headed muscle at the front of the upper arm. The long head starts on the supraglenoid tubercle above the shoulder socket and the short head on the coracoid process; they unite and insert on the radial tuberosity.",
+      "function": "It is a powerful supinator of the forearm (turning the palm up) and flexes the elbow; it also weakly flexes the shoulder.",
+      "location": "It lies on the front of the arm, superficial to brachialis, between shoulder and elbow.",
+      "facts": [
+        "Rupture of the long head tendon lets the muscle belly slip down, producing a bulge in the lower half of the upper arm known as the Popeye sign.",
+        "Its name is Latin for 'two-headed muscle of the arm'; it is supplied by the musculocutaneous nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/upper-arm/",
+        "https://www.kenhub.com/en/library/anatomy/biceps-brachii-muscle"
+      ]
+    },
+    {
+      "id": "brachialis",
+      "medical": "Brachialis muscle",
+      "common": "Deep elbow flexor",
+      "category": "Upper arm",
+      "match": [
+        "Brachialis muscle.l",
+        "Brachialis muscle.r"
+      ],
+      "summary": "The brachialis is a broad muscle lying underneath the biceps on the front of the lower humerus. It crosses only the elbow and inserts on the coronoid process and tuberosity of the ulna.",
+      "function": "It is the main flexor of the elbow, working in every forearm position because it does not attach to the radius.",
+      "location": "It lies deep to biceps brachii on the lower front of the humerus and forms the floor of the cubital fossa.",
+      "facts": [
+        "After an elbow injury it can develop a painful bony mass within the muscle (myositis ossificans).",
+        "It is mainly supplied by the musculocutaneous nerve, with a small radial nerve contribution in most people."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/upper-arm/",
+        "https://www.kenhub.com/en/library/anatomy/brachialis-muscle"
+      ]
+    },
+    {
+      "id": "triceps-brachii",
+      "medical": "Triceps brachii muscle",
+      "common": "Triceps",
+      "category": "Upper arm",
+      "match": [
+        "Long head of triceps brachii.l",
+        "Long head of triceps brachii.r",
+        "Lateral head of triceps brachii.l",
+        "Lateral head of triceps brachii.r",
+        "Medial head of triceps brachii.l",
+        "Medial head of triceps brachii.r"
+      ],
+      "summary": "The triceps brachii is the large three-headed muscle on the back of the upper arm. Its long head arises from the infraglenoid tubercle of the scapula and its lateral and medial heads from the humerus; all insert on the olecranon of the ulna.",
+      "function": "It is the main extensor of the elbow; the long head also helps extend and adduct the arm at the shoulder.",
+      "location": "It occupies the back of the upper arm between the shoulder and the point of the elbow.",
+      "facts": [
+        "It is supplied by the radial nerve; tapping its tendon tests the triceps reflex.",
+        "Only the long head crosses the shoulder joint."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/upper-arm/",
+        "https://www.kenhub.com/en/library/anatomy/triceps-brachii-muscle"
+      ]
+    },
+    {
+      "id": "brachioradialis",
+      "medical": "Brachioradialis muscle",
+      "common": "Forearm muscle (thumb side)",
+      "category": "Forearm",
+      "match": [
+        "Brachioradialis muscle.l",
+        "Brachioradialis muscle.r"
+      ],
+      "summary": "The brachioradialis is a superficial muscle on the thumb side of the forearm. It runs from the lateral supracondylar ridge of the humerus to the lower end of the radius near the styloid process.",
+      "function": "It flexes the elbow, most strongly when the forearm is half-way between palm-up and palm-down, as when holding a hammer.",
+      "location": "It forms the fleshy outer border of the forearm and the lateral edge of the cubital fossa.",
+      "facts": [
+        "Although it bends the elbow, it belongs to the posterior (extensor) compartment and is supplied by the radial nerve.",
+        "Tapping its tendon near the wrist tests the brachioradialis reflex (C5-C6)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/posterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/brachioradialis-muscle"
+      ]
+    },
+    {
+      "id": "pronator-teres",
+      "medical": "Pronator teres muscle",
+      "common": "Palm-down forearm muscle",
+      "category": "Forearm",
+      "match": [
+        "Superficial head of pronator teres.l",
+        "Superficial head of pronator teres.r",
+        "Deep head of pronator teres.l",
+        "Deep head of pronator teres.r"
+      ],
+      "summary": "The pronator teres is a two-headed muscle crossing the upper forearm obliquely from the medial epicondyle and the coronoid process of the ulna to the middle of the radius.",
+      "function": "It turns the palm to face downward (pronation) and assists elbow flexion.",
+      "location": "It lies in the upper front of the forearm and forms the medial border of the cubital fossa.",
+      "facts": [
+        "The median nerve enters the forearm between its two heads and can be compressed there (pronator teres syndrome).",
+        "It is supplied by the median nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/anterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/pronator-teres-muscle"
+      ]
+    },
+    {
+      "id": "palmaris-longus",
+      "medical": "Palmaris longus muscle",
+      "common": "Wrist tendon muscle (often absent)",
+      "category": "Forearm",
+      "match": [
+        "Palmaris longus muscle.l",
+        "Palmaris longus muscle.r"
+      ],
+      "summary": "The palmaris longus is a small, slender muscle of the front of the forearm with a long thin tendon. It runs from the medial epicondyle to the flexor retinaculum and palmar aponeurosis.",
+      "function": "It weakly flexes the wrist and tenses the palmar fascia.",
+      "location": "Its tendon runs down the middle of the front of the wrist, visible when the thumb and little finger are pressed together and the wrist is slightly flexed (Schaeffer's test).",
+      "facts": [
+        "It is absent in roughly 10-20% of people, with no loss of grip strength.",
+        "Its tendon is a popular graft for repairing other tendons."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/anterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/palmaris-longus-muscle"
+      ]
+    },
+    {
+      "id": "flexor-digitorum-superficialis",
+      "medical": "Flexor digitorum superficialis muscle",
+      "common": "Finger flexor (superficial)",
+      "category": "Forearm",
+      "match": [
+        "Humero-ulnar head of flexor digitorum superficialis.l",
+        "Humero-ulnar head of flexor digitorum superficialis.r",
+        "Radial head of flexor digitorum superficialis.l",
+        "Radial head of flexor digitorum superficialis.r"
+      ],
+      "summary": "The flexor digitorum superficialis is a broad muscle in the middle layer of the front of the forearm. It has humero-ulnar and radial heads and sends four tendons through the carpal tunnel to the middle phalanges of the fingers.",
+      "function": "It bends the fingers at the middle (proximal interphalangeal) joints and helps flex the knuckles and wrist.",
+      "location": "It lies in the front of the forearm, deep to the superficial wrist flexors and superficial to flexor digitorum profundus.",
+      "facts": [
+        "Each tendon splits near its insertion to let the deeper profundus tendon pass through.",
+        "It is supplied by the median nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/anterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/flexor-digitorum-superficialis-muscle"
+      ]
+    },
+    {
+      "id": "flexor-digitorum-profundus",
+      "medical": "Flexor digitorum profundus muscle",
+      "common": "Deep finger flexor",
+      "category": "Forearm",
+      "match": [
+        "Flexor digitorum profundus.l",
+        "Flexor digitorum profundus.r"
+      ],
+      "summary": "The flexor digitorum profundus is a deep forearm muscle arising from the ulna and interosseous membrane. Its four tendons pass through the carpal tunnel and through the split superficialis tendons to reach the fingertips.",
+      "function": "It is the only muscle that can bend the fingertip joints (distal interphalangeal joints), and it also flexes the other finger joints and the wrist.",
+      "location": "It lies in the deepest layer of the front of the forearm, on the ulna.",
+      "facts": [
+        "It has a dual nerve supply: the ulnar nerve for the ring and little fingers and the anterior interosseous branch of the median nerve for the index and middle fingers.",
+        "The lumbrical muscles of the hand arise from its tendons."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/anterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/flexor-digitorum-profundus-muscle"
+      ]
+    },
+    {
+      "id": "extensor-digitorum",
+      "medical": "Extensor digitorum muscle",
+      "common": "Finger extensor",
+      "category": "Forearm",
+      "match": [
+        "Extensor digitorum.l",
+        "Extensor digitorum.r"
+      ],
+      "summary": "The extensor digitorum is the main finger-straightening muscle on the back of the forearm. It arises from the lateral epicondyle through the common extensor tendon and divides into four tendons to the index to little fingers.",
+      "function": "It extends the fingers, mainly at the knuckles, and helps extend the wrist.",
+      "location": "It lies in the middle of the back of the forearm; its tendons can be seen on the back of the hand when the fingers are straightened.",
+      "facts": [
+        "Its tendons are linked on the back of the hand by bands called juncturae tendinum.",
+        "Repeated strain of the common extensor origin at the lateral epicondyle underlies 'tennis elbow'."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/posterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/extensor-digitorum-muscle"
+      ]
+    },
+    {
+      "id": "trapezius",
+      "medical": "Trapezius muscle",
+      "common": "Traps",
+      "category": "Back",
+      "match": [
+        "Descending part of trapezius muscle.l",
+        "Descending part of trapezius muscle.r",
+        "Transverse part of trapezius muscle.l",
+        "Transverse part of trapezius muscle.r",
+        "Ascending part of trapezius muscle.l",
+        "Ascending part of trapezius muscle.r"
+      ],
+      "summary": "The trapezius is the large, flat, diamond-shaped muscle covering the upper back and the back of the neck. It arises from the skull, the nuchal ligament and the spinous processes of C7-T12 and attaches to the clavicle, acromion and spine of the scapula.",
+      "function": "Its upper (descending) fibres elevate the shoulder, as in shrugging, its middle (transverse) fibres pull the shoulder blades together, and its lower (ascending) fibres depress the scapula; upper and lower parts together rotate the scapula so the arm can be raised overhead.",
+      "location": "It is the most superficial muscle of the upper back, spanning from the base of the skull to the lower thoracic spine and out to the shoulder.",
+      "facts": [
+        "Its motor supply is the accessory nerve (cranial nerve XI), tested clinically by asking the patient to shrug against resistance.",
+        "Left and right muscles together form a trapezium (trapezoid) shape, which gives the muscle its name."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/shoulder/extrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/trapezius-muscle"
+      ]
+    },
+    {
+      "id": "latissimus-dorsi",
+      "medical": "Latissimus dorsi muscle",
+      "common": "Lats",
+      "category": "Back",
+      "match": [
+        "Latissimus dorsi muscle.l",
+        "Latissimus dorsi muscle.r"
+      ],
+      "summary": "The latissimus dorsi is a broad, flat, triangular muscle of the lower and middle back. It arises from the lower thoracic spinous processes, the thoracolumbar fascia, the iliac crest and the lower ribs and narrows to a tendon in the intertubercular groove of the humerus.",
+      "function": "It extends, adducts and medially rotates the arm - the main movements in pull-ups, rowing and swimming strokes.",
+      "location": "It covers the lower back and sides of the trunk and forms the back fold of the armpit.",
+      "facts": [
+        "Its name is Latin for 'broadest (muscle) of the back'.",
+        "It is supplied by the thoracodorsal nerve and is often used as a flap for breast reconstruction."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/shoulder/extrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/latissimus-dorsi-muscle"
+      ]
+    },
+    {
+      "id": "rhomboids",
+      "medical": "Rhomboid major and rhomboid minor muscles",
+      "common": "Rhomboids",
+      "category": "Back",
+      "match": [
+        "Rhomboid major muscle.l",
+        "Rhomboid major muscle.r",
+        "Rhomboid minor muscle.l",
+        "Rhomboid minor muscle.r"
+      ],
+      "summary": "The rhomboids are two flat, parallel muscles between the spine and the shoulder blade. Rhomboid minor arises from C7-T1 and rhomboid major from T2-T5; both attach to the medial border of the scapula.",
+      "function": "They retract the scapula (pull it toward the spine), rotate it downward and hold it firmly against the chest wall.",
+      "location": "They lie in the upper back between the vertebral column and the scapula, deep to the trapezius.",
+      "facts": [
+        "Both are supplied by the dorsal scapular nerve.",
+        "The two rhomboids are sometimes fused into a single muscle."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/shoulder/extrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/rhomboid-muscles"
+      ]
+    },
+    {
+      "id": "levator-scapulae",
+      "medical": "Levator scapulae muscle",
+      "common": "Shoulder-blade lifter (neck)",
+      "category": "Back",
+      "match": [
+        "Levator scapulae.l",
+        "Levator scapulae.r"
+      ],
+      "summary": "The levator scapulae is a strap-like muscle running down the side and back of the neck. It arises from the transverse processes of C1-C4 and attaches to the upper medial border of the scapula.",
+      "function": "As its name says, it elevates the scapula; it also helps rotate it downward and bend the neck to the side.",
+      "location": "It lies at the side of the neck, deep to sternocleidomastoid and trapezius.",
+      "facts": [
+        "It is supplied by the dorsal scapular nerve together with branches of C3-C4.",
+        "Tension in this muscle is a frequent source of neck stiffness."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/shoulder/extrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/levator-scapulae-muscle"
+      ]
+    },
+    {
+      "id": "pectoralis-major",
+      "medical": "Pectoralis major muscle",
+      "common": "Pecs (chest muscle)",
+      "category": "Chest",
+      "match": [
+        "Clavicular head of pectoralis major muscle.l",
+        "Clavicular head of pectoralis major muscle.r",
+        "Sternocostal head of pectoralis major muscle.l",
+        "Sternocostal head of pectoralis major muscle.r",
+        "(Abdominal part of pectoralis major muscle).l",
+        "(Abdominal part of pectoralis major muscle).r"
+      ],
+      "summary": "The pectoralis major is the thick, fan-shaped muscle that forms most of the front of the chest. Its clavicular head comes from the medial clavicle and its sternocostal head from the sternum and upper costal cartilages, and a small abdominal part arises from the rectus sheath; they converge on the humerus.",
+      "function": "It adducts and medially rotates the arm; the clavicular head also flexes the arm, as in pushing or throwing.",
+      "location": "It covers the upper front of the chest, lying beneath the breast tissue, and forms the front fold of the armpit.",
+      "facts": [
+        "It is supplied by the medial and lateral pectoral nerves.",
+        "Tears most often happen during heavy bench pressing; in the rare Poland syndrome part or all of the muscle, usually the sternocostal head, is missing on one side."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/pectoral-region/",
+        "https://www.kenhub.com/en/library/anatomy/major-pectoralis-muscle"
+      ]
+    },
+    {
+      "id": "pectoralis-minor",
+      "medical": "Pectoralis minor muscle",
+      "common": "Pec minor",
+      "category": "Chest",
+      "match": [
+        "Pectoralis minor muscle.l",
+        "Pectoralis minor muscle.r"
+      ],
+      "summary": "The pectoralis minor is a thin triangular muscle lying beneath pectoralis major. It arises from ribs 3-5 and attaches to the coracoid process of the scapula.",
+      "function": "It pulls the scapula forward and downward to steady it against the chest wall, and can help lift the ribs during forced breathing.",
+      "location": "It lies in the upper chest, deep to pectoralis major.",
+      "facts": [
+        "It is an important landmark that divides the axillary artery into three parts and the axillary lymph nodes into three levels.",
+        "It is supplied by the medial pectoral nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/pectoral-region/",
+        "https://www.kenhub.com/en/library/anatomy/pectoralis-minor-muscle"
+      ]
+    },
+    {
+      "id": "serratus-anterior",
+      "medical": "Serratus anterior muscle",
+      "common": "Boxer's muscle",
+      "category": "Chest",
+      "match": [
+        "Serratus anterior muscle.l",
+        "Serratus anterior muscle.r"
+      ],
+      "summary": "The serratus anterior is a broad sheet of muscle wrapping around the side of the rib cage. It arises by finger-like slips from the upper ribs and attaches to the whole medial border of the scapula on its rib-facing side.",
+      "function": "It pulls the scapula forward around the chest wall (as in punching), rotates it upward so the arm can be raised above 90 degrees, and holds it flat against the ribs.",
+      "location": "It lies on the side of the chest below the armpit; its saw-toothed lower slips are visible in lean, muscular people.",
+      "facts": [
+        "Injury to its nerve, the long thoracic nerve, causes a 'winged scapula' that sticks out from the back.",
+        "Its name comes from the Latin serrare, 'to saw', after its serrated edge."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/pectoral-region/",
+        "https://www.kenhub.com/en/library/anatomy/serratus-anterior-muscle"
+      ]
+    },
+    {
+      "id": "erector-spinae",
+      "medical": "Erector spinae muscle",
+      "common": "Back extensor muscles",
+      "category": "Back",
+      "match": [
+        "Iliocostalis colli muscle",
+        "Iliocostalis colli muscle.r",
+        "Iliocostalis thoracis muscle.l",
+        "Iliocostalis thoracis muscle.r",
+        "Iliocostalis lumborum muscle.l",
+        "Iliocostalis lumborum muscle.r",
+        "Longissimus capitis muscle.l",
+        "Longissimus capitis muscle.r",
+        "Longissimus colli muscle.l",
+        "Longissimus colli muscle.r",
+        "Longissimus thoracis muscle.l",
+        "Longissimus thoracis muscle.r",
+        "Spinalis capitis muscle.l",
+        "Spinalis capitis muscle.r",
+        "Spinalis colli muscle.l",
+        "Spinalis colli muscle.r",
+        "Spinalis thoracis muscle.l",
+        "Spinalis thoracis muscle.r"
+      ],
+      "summary": "The erector spinae is a large group of muscles forming a thick column on each side of the spine. It has three columns - iliocostalis (lateral), longissimus (middle) and spinalis (medial) - arising from a common tendon on the sacrum, iliac crest and lumbar spine.",
+      "function": "Acting on both sides it straightens and extends the back and holds the trunk upright; acting on one side it bends the spine sideways.",
+      "location": "It runs along the back from the sacrum and pelvis up to the ribs, neck and skull, beneath the trapezius, latissimus dorsi and rhomboids.",
+      "facts": [
+        "The columns can be remembered from lateral to medial as 'I Love Spine': iliocostalis, longissimus, spinalis.",
+        "All parts are supplied by the posterior rami of spinal nerves."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/back/muscles/intrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/erector-spinae-muscles"
+      ]
+    },
+    {
+      "id": "intercostal-muscles",
+      "medical": "Intercostal muscles",
+      "common": "Rib muscles",
+      "category": "Chest",
+      "match": [
+        "External intercostal muscles.l",
+        "External intercostal muscles.r",
+        "Internal intercostal muscles.l",
+        "Internal intercostal muscles.r",
+        "Innermost intercostal muscles.l",
+        "Innermost intercostal muscles.r"
+      ],
+      "summary": "The intercostal muscles fill the spaces between the ribs in three layers: external, internal and innermost. The external fibres run downward and forward, while the internal and innermost fibres run in roughly the opposite direction.",
+      "function": "They stiffen the chest wall in quiet breathing; the external layer lifts the ribs to help breathe in, especially in deep breathing, and the internal layers lower them in forced breathing out.",
+      "location": "They lie in the 11 intercostal spaces on each side of the rib cage.",
+      "facts": [
+        "The intercostal vein, artery and nerve run between the internal and innermost layers, along the lower edge of each rib.",
+        "They are supplied by the intercostal nerves (T1-T11)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/muscles/thoracic-cage/",
+        "https://www.kenhub.com/en/library/anatomy/intercostal-muscles"
+      ]
+    },
+    {
+      "id": "diaphragm",
+      "medical": "Diaphragm",
+      "common": "Diaphragm",
+      "category": "Chest",
+      "match": [
+        "Diaphragm"
+      ],
+      "summary": "The diaphragm is a double-domed sheet of muscle and tendon that separates the chest cavity from the abdominal cavity. Its muscle fibres arise from the xiphoid process, the lower ribs and the lumbar spine (through the crura) and converge on a central tendon.",
+      "function": "It is the main muscle of breathing: when it contracts it flattens and enlarges the chest, drawing air into the lungs, and when it relaxes air flows out.",
+      "location": "It forms the floor of the thorax and roof of the abdomen, arching up under the lungs and heart; the right dome usually sits higher, above the liver.",
+      "facts": [
+        "It is supplied by the phrenic nerve (C3-C5), which explains the saying 'C3, 4, 5 keeps the diaphragm alive'.",
+        "Its three main openings are at T8 (inferior vena cava), T10 (oesophagus) and T12 (aorta)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/muscles/diaphragm/",
+        "https://www.kenhub.com/en/library/anatomy/diaphragm"
+      ]
+    },
+    {
+      "id": "rectus-abdominis",
+      "medical": "Rectus abdominis muscle",
+      "common": "Abs (six-pack)",
+      "category": "Abdomen",
+      "match": [
+        "Rectus abdominis muscle.l",
+        "Rectus abdominis muscle.r"
+      ],
+      "summary": "The rectus abdominis is a long, paired strap muscle running vertically down the front of the abdomen on either side of the midline. It extends from the pubic crest to the xiphoid process and costal cartilages of ribs 5-7 and is enclosed in the rectus sheath.",
+      "function": "It flexes the trunk (as in a sit-up), compresses the abdominal contents and helps stabilise the pelvis.",
+      "location": "It lies at the front of the abdomen, the two halves separated by the linea alba.",
+      "facts": [
+        "Fibrous tendinous intersections cross the muscle and create the 'six-pack' look in lean people.",
+        "It is supplied by the thoracoabdominal nerves (the lower intercostal nerves T7-T11, which continue forward into the abdominal wall) and the subcostal nerve (T12)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/muscles/abdominal-wall/",
+        "https://www.kenhub.com/en/library/anatomy/rectus-abdominis-muscle"
+      ]
+    },
+    {
+      "id": "external-oblique",
+      "medical": "External oblique muscle",
+      "common": "Obliques (outer)",
+      "category": "Abdomen",
+      "match": [
+        "External abdominal oblique muscle.l",
+        "External abdominal oblique muscle.r"
+      ],
+      "summary": "The external oblique is the largest and most superficial of the three flat muscles of the side of the abdomen. It arises from ribs 5-12 and runs down and forward to the iliac crest, pubic tubercle and linea alba.",
+      "function": "It rotates the trunk to the opposite side, bends it sideways and, with the other abdominal muscles, compresses the abdomen.",
+      "location": "It covers the side and front of the abdomen, from the lower ribs to the pelvis.",
+      "facts": [
+        "Its fibres run in the same direction as hands slipped into front trouser pockets.",
+        "The lower edge of its aponeurosis forms the inguinal ligament."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/muscles/abdominal-wall/",
+        "https://www.kenhub.com/en/library/anatomy/external-abdominal-oblique-muscle"
+      ]
+    },
+    {
+      "id": "internal-oblique",
+      "medical": "Internal oblique muscle",
+      "common": "Obliques (inner)",
+      "category": "Abdomen",
+      "match": [
+        "Internal abdominal oblique muscle.l",
+        "Internal abdominal oblique muscle.r"
+      ],
+      "summary": "The internal oblique is the middle layer of the flat abdominal muscles, lying beneath the external oblique. It arises from the inguinal ligament, iliac crest and thoracolumbar fascia and inserts on the lower ribs and linea alba.",
+      "function": "It compresses the abdomen and rotates the trunk toward the same side, working together with the opposite external oblique.",
+      "location": "It lies on the side of the abdomen, between the external oblique and transversus abdominis.",
+      "facts": [
+        "Its fibres run roughly at right angles to those of the external oblique.",
+        "Its lowest fibres arch over the inguinal canal and, with transversus abdominis, form the conjoint tendon."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/muscles/abdominal-wall/",
+        "https://www.kenhub.com/en/library/anatomy/internal-abdominal-oblique-muscle"
+      ]
+    },
+    {
+      "id": "transversus-abdominis",
+      "medical": "Transversus abdominis muscle",
+      "common": "Deep core muscle",
+      "category": "Abdomen",
+      "match": [
+        "Transversus abdominis muscle.l",
+        "Transversus abdominis muscle.r"
+      ],
+      "summary": "The transversus abdominis is the deepest of the flat abdominal muscles, with fibres running horizontally around the abdomen. It arises from the inguinal ligament, iliac crest, thoracolumbar fascia and lower costal cartilages and ends in the linea alba.",
+      "function": "It compresses the abdominal contents like a corset, raising abdominal pressure for forced breathing out, coughing and lifting, and helps stabilise the trunk.",
+      "location": "It lies deep to the internal oblique, just outside the transversalis fascia and abdominal lining.",
+      "facts": [
+        "It is nicknamed the 'corset muscle' because it draws the abdominal wall inward.",
+        "It is supplied by the thoracoabdominal (lower intercostal) nerves, the subcostal nerve and branches from L1."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/muscles/abdominal-wall/",
+        "https://www.kenhub.com/en/library/anatomy/transversus-abdominis-muscle"
+      ]
+    },
+    {
+      "id": "quadratus-lumborum",
+      "medical": "Quadratus lumborum muscle",
+      "common": "QL (deep lower back muscle)",
+      "category": "Abdomen",
+      "match": [
+        "Quadratus lumborum muscle.l",
+        "Quadratus lumborum muscle.r"
+      ],
+      "summary": "The quadratus lumborum is a thick, four-sided muscle of the posterior abdominal wall. It runs from the iliac crest and iliolumbar ligament up to the 12th rib and the transverse processes of L1-L4.",
+      "function": "It bends the lumbar spine to the side, helps extend it, can hitch the hip upward, and anchors the 12th rib during breathing in.",
+      "location": "It lies deep in the lower back on each side of the lumbar spine, behind the psoas major.",
+      "facts": [
+        "It is supplied by the anterior rami of T12-L4.",
+        "It is often implicated in muscular low back pain and is a landmark for the quadratus lumborum nerve block used for pain relief after abdominal surgery."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/muscles/posterior-wall/",
+        "https://www.kenhub.com/en/library/anatomy/quadratus-lumborum-muscle"
+      ]
+    },
+    {
+      "id": "levator-ani",
+      "medical": "Levator ani muscle",
+      "common": "Pelvic floor muscle",
+      "category": "Pelvis",
+      "match": [
+        "Pubococcygeus muscle.l",
+        "Pubococcygeus muscle.r",
+        "Iliococcygeus muscle.l",
+        "Iliococcygeus muscle.r",
+        "Pubo-analis muscle.l",
+        "Pubo-analis muscle.r",
+        "Tendinous arch of levator ani.l",
+        "Tendinous arch of levator ani.r"
+      ],
+      "summary": "The levator ani is a broad, thin sheet of muscle forming most of the pelvic floor. In classic descriptions it consists of the pubococcygeus, puborectalis and iliococcygeus, anchored to the pelvic side wall along a tendinous arch of the obturator fascia. The model shows its pubococcygeus (including the puboanal fibres) and iliococcygeus parts plus the tendinous arch; puborectalis is not shown separately. With the coccygeus behind it, it forms the pelvic diaphragm.",
+      "function": "It supports the pelvic organs, resists rises in abdominal pressure during coughing or lifting, and helps maintain urinary and faecal continence.",
+      "location": "It stretches like a hammock across the bottom of the pelvis, from the pubis and side walls to the coccyx.",
+      "facts": [
+        "It is supplied by the nerve to levator ani and branches of the pudendal nerve.",
+        "Pelvic floor ('Kegel') exercises are voluntary contractions of this muscle."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/pelvis/muscles/pelvic-floor/",
+        "https://www.kenhub.com/en/library/anatomy/levator-ani"
+      ]
+    },
+    {
+      "id": "sternocleidomastoid",
+      "medical": "Sternocleidomastoid muscle",
+      "common": "SCM (side neck muscle)",
+      "category": "Neck",
+      "match": [
+        "Sternocleidomastoid muscle.l",
+        "Sternocleidomastoid muscle.r"
+      ],
+      "summary": "The sternocleidomastoid is a long, strap-like muscle that crosses the side of the neck diagonally. It starts with two heads, one from the manubrium of the sternum and one from the inner third of the clavicle, which merge and attach to the mastoid process behind the ear.",
+      "function": "Acting on one side it tilts the head toward the same shoulder and turns the face to the opposite side; both sides together flex the neck and can help lift the rib cage during forced breathing.",
+      "location": "It runs from the top of the breastbone and collarbone up and back to the bony bump just behind the ear.",
+      "facts": [
+        "It divides the side of the neck into the anterior and posterior triangles, a key landmark for locating nerves, vessels and lymph nodes.",
+        "Its motor supply comes from the accessory nerve (cranial nerve XI); abnormal contraction or shortening causes torticollis (wry neck)."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/sternocleidomastoid-muscle",
+        "https://teachmeanatomy.info/neck/muscles/anterior-triangle/"
+      ]
+    },
+    {
+      "id": "masseter",
+      "medical": "Masseter muscle",
+      "common": "Jaw muscle",
+      "category": "Head",
+      "match": [
+        "Superficial part of masseter.l",
+        "Superficial part of masseter.r",
+        "Deep part of masseter.l",
+        "Deep part of masseter.r"
+      ],
+      "summary": "The masseter is a thick, rectangular chewing muscle on the side of the face. It has a superficial and a deep part, both arising from the zygomatic bone and arch and attaching to the outer surface of the ramus of the mandible.",
+      "function": "It raises the lower jaw to close the mouth forcefully, supplying much of the power for biting and chewing.",
+      "location": "It lies over the angle and ramus of the lower jaw, below the cheekbone and in front of the ear; it can be felt bulging when the teeth are clenched.",
+      "facts": [
+        "It is considered the most powerful of the muscles of mastication.",
+        "It is supplied by the masseteric nerve, a branch of the mandibular division of the trigeminal nerve (V3)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/mastication/",
+        "https://www.kenhub.com/en/library/anatomy/masseter-muscle"
+      ]
+    },
+    {
+      "id": "temporalis",
+      "medical": "Temporalis muscle",
+      "common": "Temple muscle",
+      "category": "Head",
+      "match": [
+        "Temporalis muscle.l",
+        "Temporalis muscle.r"
+      ],
+      "summary": "The temporalis is a broad, fan-shaped chewing muscle that fills the temporal fossa on the side of the skull. Its fibres converge into a tendon that passes beneath the zygomatic arch to the coronoid process of the mandible.",
+      "function": "Its front fibres lift the mandible to close the mouth, while its back fibres pull the jaw backward (retraction).",
+      "location": "It lies on the side of the head above and in front of the ear, under the temple.",
+      "facts": [
+        "It is supplied by deep temporal branches of the mandibular nerve (V3).",
+        "Its covering fascia can be harvested by surgeons as a graft to repair a perforated eardrum."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/mastication/",
+        "https://www.kenhub.com/en/library/anatomy/temporalis-muscle"
+      ]
+    },
+    {
+      "id": "orbicularis-oculi",
+      "medical": "Orbicularis oculi muscle",
+      "common": "Eyelid-closing muscle",
+      "category": "Face",
+      "match": [
+        "Orbital part of orbicularis oculi.l",
+        "Orbital part of orbicularis oculi.r",
+        "Palpebral part of orbicularis oculi.l",
+        "Palpebral part of orbicularis oculi.r"
+      ],
+      "summary": "The orbicularis oculi is a flat ring of muscle surrounding the eye. Its thin palpebral part lies within the eyelids, its thicker orbital part encircles the bony rim of the orbit, and a small lacrimal part sits near the tear sac.",
+      "function": "It closes the eyelids: the palpebral part produces gentle closing and blinking, while the orbital part squeezes the eye shut tightly; it also helps drain tears.",
+      "location": "It encircles the eye socket and lies within the upper and lower eyelids, just beneath the skin.",
+      "facts": [
+        "It is the only muscle that can close the eye, so facial nerve palsy (e.g. Bell's palsy) can leave the cornea exposed and at risk of damage.",
+        "Repeated contraction of its orbital part produces the radiating wrinkles at the outer eye corner known as crow's feet."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/facial-expression/",
+        "https://www.kenhub.com/en/library/anatomy/orbicularis-oculi"
+      ]
+    },
+    {
+      "id": "orbicularis-oris",
+      "medical": "Orbicularis oris muscle",
+      "common": "Lip muscle",
+      "category": "Face",
+      "match": [
+        "Orbicularis oris muscle.l",
+        "Orbicularis oris muscle.r"
+      ],
+      "summary": "The orbicularis oris is a complex ring of muscle fibres encircling the mouth within the lips. Many fibres come from neighbouring facial muscles, especially the buccinator, meeting at the modiolus (a small knot of crossing muscle fibres) at each corner of the mouth.",
+      "function": "It closes and compresses the lips and shapes them for speech, puckering, whistling and playing wind instruments.",
+      "location": "It lies within the upper and lower lips, surrounding the opening of the mouth.",
+      "facts": [
+        "It is supplied by the buccal and mandibular branches of the facial nerve (CN VII).",
+        "Its action is needed to form lip sounds such as /p/, /b/, /f/ and /v/."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/facial-expression/",
+        "https://www.kenhub.com/en/library/anatomy/orbicularis-oris-muscle"
+      ]
+    },
+    {
+      "id": "occipitofrontalis",
+      "medical": "Occipitofrontalis muscle",
+      "common": "Forehead and scalp muscle",
+      "category": "Face",
+      "match": [
+        "Frontalis muscle.l",
+        "Frontalis muscle.r",
+        "Occipitalis muscle.l",
+        "Occipitalis muscle.r",
+        "Epicranial aponeurosis.l",
+        "Epicranial aponeurosis.r"
+      ],
+      "summary": "The occipitofrontalis is a thin scalp muscle with two bellies: the frontal belly over the forehead and the occipital belly at the back of the skull. The bellies are joined by the epicranial aponeurosis, a tough sheet of connective tissue covering the top of the head.",
+      "function": "The frontal belly raises the eyebrows and wrinkles the forehead, as in surprise, while the occipital belly pulls the scalp backward.",
+      "location": "It covers the forehead and the back of the skull, linked across the crown by the epicranial aponeurosis.",
+      "facts": [
+        "Both bellies are supplied by the facial nerve (CN VII): the frontal belly by temporal branches and the occipital belly by the posterior auricular nerve.",
+        "The occipital belly arises from the superior nuchal line of the occipital bone."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/occipitofrontalis-muscle",
+        "https://teachmeanatomy.info/head/muscles/facial-expression/"
+      ]
+    },
+    {
+      "id": "gluteus-minimus",
+      "medical": "Gluteus minimus muscle",
+      "common": "Small side glute",
+      "category": "Hip",
+      "match": [
+        "Gluteus minimus muscle.l",
+        "Gluteus minimus muscle.r"
+      ],
+      "summary": "The gluteus minimus is the smallest and deepest of the three gluteal muscles. It is a fan-shaped muscle that arises from the outer surface of the ilium, beneath gluteus medius, and attaches to the front of the greater trochanter.",
+      "function": "It abducts the hip and medially rotates the thigh, and with gluteus medius it keeps the pelvis level when standing on one leg.",
+      "location": "It lies deep in the upper outer buttock, directly under gluteus medius and against the hip joint capsule.",
+      "facts": [
+        "It is supplied by the superior gluteal nerve (L4-S1), together with gluteus medius and tensor fasciae latae.",
+        "Tears of the gluteus medius and minimus tendons at the greater trochanter are a common cause of pain on the outer side of the hip in older adults."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/gluteal-region/",
+        "https://www.kenhub.com/en/library/anatomy/gluteus-medius-and-minimus-muscles"
+      ]
+    },
+    {
+      "id": "deep-hip-rotators",
+      "medical": "Deep lateral rotators of the hip (obturator internus, gemelli, quadratus femoris, obturator externus)",
+      "common": "Deep hip rotators",
+      "category": "Hip",
+      "match": [
+        "Superior gemellus muscle.l",
+        "Superior gemellus muscle.r",
+        "Obturator internus.l",
+        "Obturator internus.r",
+        "Inferior gemellus muscle.l",
+        "Inferior gemellus muscle.r",
+        "Quadratus femoris muscle.l",
+        "Quadratus femoris muscle.r",
+        "Obturator externus.l",
+        "Obturator externus.r"
+      ],
+      "summary": "Beneath gluteus maximus lies a set of small, short muscles that run almost horizontally from the pelvis to the back of the greater trochanter. Along with the piriformis above them, they are the superior gemellus, obturator internus, inferior gemellus and quadratus femoris; the obturator externus lies deeper and further forward.",
+      "function": "They rotate the thigh outward and, like a rotator cuff of the hip, press the head of the femur into its socket to steady the joint.",
+      "location": "They lie deep in the buttock, below piriformis, between the sacrum, ischium and obturator foramen and the back of the upper femur.",
+      "facts": [
+        "The tendon of obturator internus bends sharply around the lesser sciatic notch, with the two small gemelli running along its upper and lower edges.",
+        "Unlike the others, obturator externus is supplied by the obturator nerve; the rest receive small branches of the sacral plexus."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/gluteal-region/",
+        "https://www.kenhub.com/en/library/anatomy/obturator-internus-muscle",
+        "https://www.kenhub.com/en/library/anatomy/quadratus-femoris-muscle"
+      ]
+    },
+    {
+      "id": "pectineus",
+      "medical": "Pectineus muscle",
+      "common": "Upper groin muscle",
+      "category": "Thigh",
+      "match": [
+        "Pectineus muscle.l",
+        "Pectineus muscle.r"
+      ],
+      "summary": "The pectineus is a flat, four-sided muscle at the top of the inner thigh. It runs from the pectineal line of the pubis down to the pectineal line on the back of the upper femur, just below the lesser trochanter.",
+      "function": "It adducts the thigh and helps flex the hip.",
+      "location": "It lies in the floor of the femoral triangle, between the iliopsoas on its outer side and adductor longus on its inner side.",
+      "facts": [
+        "It is usually supplied by the femoral nerve and sometimes also receives a branch of the obturator nerve.",
+        "Femoral hernias emerge through the femoral canal, which lies just in front of its upper part."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/medial-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/pectineus-muscle"
+      ]
+    },
+    {
+      "id": "adductor-brevis",
+      "medical": "Adductor brevis muscle",
+      "common": "Short inner thigh muscle",
+      "category": "Thigh",
+      "match": [
+        "Adductor brevis.l",
+        "Adductor brevis.r"
+      ],
+      "summary": "The adductor brevis is a short, triangular adductor that lies behind pectineus and adductor longus. It arises from the body and inferior ramus of the pubis and attaches to the upper part of the linea aspera of the femur.",
+      "function": "It pulls the thigh toward the midline and helps flex the hip.",
+      "location": "It lies in the upper medial thigh, sandwiched between adductor longus in front and adductor magnus behind.",
+      "facts": [
+        "The anterior and posterior branches of the obturator nerve pass in front of and behind it, which makes it a useful landmark.",
+        "It is supplied by the obturator nerve (L2-L4)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/thigh/medial-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/adductor-brevis-muscle"
+      ]
+    },
+    {
+      "id": "fibularis-brevis",
+      "medical": "Fibularis brevis muscle",
+      "common": "Short outer shin muscle (peroneal)",
+      "category": "Leg",
+      "match": [
+        "Fibularis brevis muscle.l",
+        "Fibularis brevis muscle.r"
+      ],
+      "summary": "The fibularis (peroneus) brevis is the shorter of the two lateral compartment muscles of the leg. It arises from the lower two-thirds of the outer fibula and its tendon passes behind the lateral malleolus to the base of the fifth metatarsal.",
+      "function": "It everts the foot and helps plantarflex the ankle, steadying the ankle against rolling inward.",
+      "location": "It lies on the outer side of the lower leg, deep to fibularis longus.",
+      "facts": [
+        "It is supplied by the superficial fibular nerve.",
+        "A sudden inversion injury can pull its tendon off the base of the fifth metatarsal with a flake of bone (an avulsion fracture)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/lateral-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/fibularis-brevis-muscle"
+      ]
+    },
+    {
+      "id": "fibularis-tertius",
+      "medical": "Fibularis tertius muscle",
+      "common": "Third peroneal muscle",
+      "category": "Leg",
+      "match": [
+        "Fibularis tertius muscle.l",
+        "Fibularis tertius muscle.r"
+      ],
+      "summary": "The fibularis tertius is a small muscle of the front of the leg that is usually a separated lower part of extensor digitorum longus. It runs from the lower fibula to the back (dorsal surface) of the base of the fifth metatarsal.",
+      "function": "It dorsiflexes the ankle and everts the foot.",
+      "location": "It lies at the lower outer front of the leg, alongside the lowest part of extensor digitorum longus.",
+      "facts": [
+        "Although named with the fibular muscles, it belongs to the anterior compartment and is supplied by the deep fibular nerve.",
+        "It is absent in a minority of people."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/anterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/fibularis-tertius-muscle"
+      ]
+    },
+    {
+      "id": "extensor-digitorum-longus",
+      "medical": "Extensor digitorum longus muscle",
+      "common": "Long toe extensor",
+      "category": "Leg",
+      "match": [
+        "Extensor digitorum longus.l",
+        "Extensor digitorum longus.r",
+        "Tendon of extensor digitorum longus.l",
+        "Tendon of extensor digitorum longus.r"
+      ],
+      "summary": "The extensor digitorum longus is a feather-shaped muscle on the front-outer side of the leg. It arises from the lateral tibial condyle, the fibula and the interosseous membrane, and its tendon splits into four slips to the second to fifth toes.",
+      "function": "It straightens the four lesser toes and dorsiflexes the ankle.",
+      "location": "It lies in the anterior compartment of the leg, lateral to tibialis anterior; its tendons fan out over the top of the foot.",
+      "facts": [
+        "It is supplied by the deep fibular nerve.",
+        "Its tendons can be seen on the top of the foot when the toes are lifted."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/anterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/extensor-digitorum-longus-muscle"
+      ]
+    },
+    {
+      "id": "extensor-hallucis-longus",
+      "medical": "Extensor hallucis longus muscle",
+      "common": "Big toe lifter",
+      "category": "Leg",
+      "match": [
+        "Extensor hallucis longus.l",
+        "Extensor hallucis longus.r"
+      ],
+      "summary": "The extensor hallucis longus is a thin muscle of the front of the leg, lying between tibialis anterior and extensor digitorum longus. It arises from the middle fibula and interosseous membrane and inserts on the base of the distal phalanx of the big toe.",
+      "function": "It lifts (extends) the big toe and helps dorsiflex the ankle.",
+      "location": "It lies deep in the anterior compartment of the leg; its tendon runs along the top of the foot to the big toe.",
+      "facts": [
+        "It is supplied by the deep fibular nerve (L5); weakness in lifting the big toe is a classic sign of L5 nerve root compression.",
+        "The dorsalis pedis pulse is usually felt just lateral to its tendon on the top of the foot."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/anterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/extensor-hallucis-longus-muscle"
+      ]
+    },
+    {
+      "id": "flexor-hallucis-longus",
+      "medical": "Flexor hallucis longus muscle",
+      "common": "Big toe flexor",
+      "category": "Leg",
+      "match": [
+        "Flexor hallucis longus.l",
+        "Flexor hallucis longus.r"
+      ],
+      "summary": "The flexor hallucis longus is a strong muscle of the deep back of the leg. It arises from the lower two-thirds of the back of the fibula and its tendon runs behind the medial malleolus and under the sole to the distal phalanx of the big toe.",
+      "function": "It bends the big toe and helps plantarflex the ankle, giving the final push-off in walking and running.",
+      "location": "It lies in the deep posterior compartment of the leg on the fibular side, beneath soleus.",
+      "facts": [
+        "Its tendon passes in a groove under the sustentaculum tali of the calcaneus.",
+        "It is supplied by the tibial nerve; overuse tendon problems are common in ballet dancers."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/posterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/flexor-hallucis-longus-muscle"
+      ]
+    },
+    {
+      "id": "flexor-digitorum-longus",
+      "medical": "Flexor digitorum longus muscle",
+      "common": "Long toe flexor",
+      "category": "Leg",
+      "match": [
+        "Flexor digitorum longus.l",
+        "Flexor digitorum longus.r"
+      ],
+      "summary": "The flexor digitorum longus is a deep muscle on the tibial side of the back of the leg. It arises from the back of the tibia and its tendon passes behind the medial malleolus, then splits in the sole into four tendons to the distal phalanges of the lesser toes.",
+      "function": "It bends the second to fifth toes, helps plantarflex the ankle and supports the arches of the foot.",
+      "location": "It lies in the deep posterior compartment of the leg, on the back of the tibia beneath soleus.",
+      "facts": [
+        "In the sole it crosses the tendon of flexor hallucis longus (the knot of Henry), and the quadratus plantae and lumbricals attach to it.",
+        "It is supplied by the tibial nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/posterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/flexor-digitorum-longus-muscle"
+      ]
+    },
+    {
+      "id": "popliteus",
+      "medical": "Popliteus muscle",
+      "common": "Knee unlocking muscle",
+      "category": "Leg",
+      "match": [
+        "Popliteus muscle.l",
+        "Popliteus muscle.r"
+      ],
+      "summary": "The popliteus is a thin, triangular muscle at the back of the knee. It runs from the outer side of the lateral femoral condyle, inside the joint capsule, to the back of the upper tibia above the soleal line.",
+      "function": "It 'unlocks' the fully straightened knee by rotating the femur slightly outward on the tibia (or the tibia inward), so the knee can begin to bend.",
+      "location": "It lies in the floor of the popliteal fossa behind the knee, deep to the gastrocnemius.",
+      "facts": [
+        "Its tendon runs inside the knee joint capsule between the lateral meniscus and the lateral collateral ligament.",
+        "It is supplied by the tibial nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/posterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/popliteus-muscle"
+      ]
+    },
+    {
+      "id": "plantaris",
+      "medical": "Plantaris muscle",
+      "common": "Small calf muscle (long thin tendon)",
+      "category": "Leg",
+      "match": [
+        "Plantaris muscle.l",
+        "Plantaris muscle.r"
+      ],
+      "summary": "The plantaris is a small muscle with a short belly and a very long, thin tendon. It arises just above the lateral femoral condyle and its tendon runs between gastrocnemius and soleus to join the calcaneal tendon or the heel.",
+      "function": "It weakly helps plantarflex the ankle and flex the knee.",
+      "location": "Its small belly lies behind the knee; its tendon runs down the back of the calf between the two main calf muscles.",
+      "facts": [
+        "It is absent in a small proportion of people.",
+        "Its long tendon is sometimes harvested as a tendon graft."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/leg/posterior-compartment/",
+        "https://www.kenhub.com/en/library/anatomy/plantaris-muscle"
+      ]
+    },
+    {
+      "id": "foot-dorsal-muscles",
+      "medical": "Extensor digitorum brevis and extensor hallucis brevis muscles",
+      "common": "Muscles on top of the foot",
+      "category": "Foot",
+      "match": [
+        "Extensor digitorum brevis.l",
+        "Extensor digitorum brevis.r",
+        "Extensor hallucis brevis.l",
+        "Extensor hallucis brevis.r"
+      ],
+      "summary": "Extensor digitorum brevis and extensor hallucis brevis are the only muscles on the top (dorsum) of the foot. They arise from the upper surface of the calcaneus; the hallucis part goes to the big toe and the digitorum part sends tendons to the second to fourth toes.",
+      "function": "They help the long extensors straighten the toes.",
+      "location": "They form a small fleshy bulge on the outer side of the top of the foot, just in front of the ankle.",
+      "facts": [
+        "Both are supplied by the deep fibular nerve.",
+        "The bulge of extensor digitorum brevis can be mistaken for swelling after an ankle injury."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/foot/",
+        "https://www.kenhub.com/en/library/anatomy/extensor-digitorum-brevis-muscle"
+      ]
+    },
+    {
+      "id": "foot-plantar-muscles",
+      "medical": "Intrinsic muscles of the sole of the foot",
+      "common": "Sole of foot muscles",
+      "category": "Foot",
+      "match": [
+        "Abductor hallucis.l",
+        "Abductor hallucis.r",
+        "Flexor digitorum brevis.l",
+        "Flexor digitorum brevis.r",
+        "Abductor digiti minimi of foot.l",
+        "Abductor digiti minimi of foot.r",
+        "Quadratus plantae muscle.l",
+        "Quadratus plantae muscle.r",
+        "Lumbrical muscles of foot.l",
+        "Lumbrical muscles of foot.r",
+        "Medial head of flexor hallucis brevis.l",
+        "Medial head of flexor hallucis brevis.r",
+        "Lateral head of flexor hallucis brevis.l",
+        "Lateral head of flexor hallucis brevis.r",
+        "Oblique head of adductor hallucis.l",
+        "Oblique head of adductor hallucis.r",
+        "Transverse head of adductor hallucis.l",
+        "Transverse head of adductor hallucis.r",
+        "Flexor digiti minimi of foot.l",
+        "Flexor digiti minimi of foot.r",
+        "(Opponens digiti minimi muscle of foot).l",
+        "(Opponens digiti minimi muscle of foot).r",
+        "Plantar interossei muscles.l",
+        "Plantar interossei muscles.r",
+        "Dorsal interossei muscles of foot.l",
+        "Dorsal interossei muscles of foot.r"
+      ],
+      "summary": "The sole of the foot contains many short muscles arranged in four layers. The first layer holds abductor hallucis, flexor digitorum brevis and abductor digiti minimi; the second quadratus plantae and the lumbricals; the third flexor hallucis brevis, adductor hallucis and flexor digiti minimi; the fourth the plantar and dorsal interossei.",
+      "function": "Together they fine-tune toe movements and, above all, brace the arches of the foot during standing, walking and running.",
+      "location": "They lie beneath the plantar aponeurosis in the sole, between the heel and the bases of the toes.",
+      "facts": [
+        "Almost all are supplied by the medial or lateral plantar nerves, the two end branches of the tibial nerve.",
+        "Quadratus plantae pulls on the flexor digitorum longus tendon to straighten its line of pull."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/lower-limb/muscles/foot/",
+        "https://www.kenhub.com/en/library/anatomy/abductor-hallucis-muscle",
+        "https://www.kenhub.com/en/library/anatomy/quadratus-plantae-muscle"
+      ]
+    },
+    {
+      "id": "coracobrachialis",
+      "medical": "Coracobrachialis muscle",
+      "common": "Inner upper arm muscle",
+      "category": "Upper arm",
+      "match": [
+        "Coracobrachialis muscle.l",
+        "Coracobrachialis muscle.r"
+      ],
+      "summary": "The coracobrachialis is a slim muscle of the front compartment of the arm. It arises from the tip of the coracoid process alongside the short head of biceps and inserts on the middle of the inner shaft of the humerus.",
+      "function": "It flexes and adducts the arm at the shoulder.",
+      "location": "It lies on the upper inner side of the arm, deep to the short head of biceps, near the armpit.",
+      "facts": [
+        "The musculocutaneous nerve usually pierces the muscle, which supplies it.",
+        "It is the smallest of the three muscles of the anterior arm compartment."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/upper-arm/",
+        "https://www.kenhub.com/en/library/anatomy/coracobrachialis-muscle"
+      ]
+    },
+    {
+      "id": "anconeus",
+      "medical": "Anconeus muscle",
+      "common": "Small elbow extensor",
+      "category": "Forearm",
+      "match": [
+        "Anconeus muscle.l",
+        "Anconeus muscle.r"
+      ],
+      "summary": "The anconeus is a small triangular muscle at the back of the elbow. It runs from the back of the lateral epicondyle of the humerus to the outer side of the olecranon and upper ulna.",
+      "function": "It helps triceps extend the elbow and steadies the joint.",
+      "location": "It lies at the back-outer side of the elbow, just below the lateral epicondyle.",
+      "facts": [
+        "It is supplied by the radial nerve through the nerve to anconeus, which is a branch of the nerve to the medial head of triceps.",
+        "Its fibres often blend with the triceps, and it is often described as a continuation of that muscle."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/posterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/anconeus-muscle"
+      ]
+    },
+    {
+      "id": "supinator",
+      "medical": "Supinator muscle",
+      "common": "Palm-up forearm muscle",
+      "category": "Forearm",
+      "match": [
+        "Supinator.l",
+        "Supinator.r"
+      ],
+      "summary": "The supinator is a broad, curved muscle wrapped around the upper radius. It arises from the lateral epicondyle, the ligaments of the elbow and the supinator crest of the ulna and winds around to the upper shaft of the radius.",
+      "function": "It turns the palm to face upward (supination), especially when the elbow is straight; biceps adds power when the elbow is bent.",
+      "location": "It lies deep in the upper back of the forearm, just below the elbow.",
+      "facts": [
+        "The deep branch of the radial nerve passes between its two layers and can be trapped at its upper edge, the arcade of Frohse.",
+        "It is supplied by the deep branch of the radial nerve (posterior interosseous nerve)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/posterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/supinator-muscle"
+      ]
+    },
+    {
+      "id": "flexor-carpi-radialis",
+      "medical": "Flexor carpi radialis muscle",
+      "common": "Wrist flexor (thumb side)",
+      "category": "Forearm",
+      "match": [
+        "Flexor carpi radialis.l",
+        "Flexor carpi radialis.r"
+      ],
+      "summary": "The flexor carpi radialis is a superficial muscle of the front of the forearm. It arises from the medial epicondyle through the common flexor tendon and its tendon ends on the bases of the second and third metacarpals.",
+      "function": "It flexes the wrist and bends it toward the thumb side (radial deviation).",
+      "location": "It runs down the front of the forearm; its tendon is felt at the wrist just on the thumb side of palmaris longus.",
+      "facts": [
+        "It is supplied by the median nerve.",
+        "The radial pulse is taken just lateral to its tendon at the wrist."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/anterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/flexor-carpi-radialis-muscle"
+      ]
+    },
+    {
+      "id": "flexor-carpi-ulnaris",
+      "medical": "Flexor carpi ulnaris muscle",
+      "common": "Wrist flexor (little finger side)",
+      "category": "Forearm",
+      "match": [
+        "Humeral head of flexor carpi ulnaris.l",
+        "Humeral head of flexor carpi ulnaris.r",
+        "Ulnar head of flexor carpi ulnaris.l",
+        "Ulnar head of flexor carpi ulnaris.r"
+      ],
+      "summary": "The flexor carpi ulnaris is the most medial superficial muscle of the front of the forearm. It has a humeral head from the medial epicondyle and an ulnar head from the olecranon and back of the ulna, and its tendon ends on the pisiform bone and, through ligaments, on the hamate and fifth metacarpal.",
+      "function": "It flexes the wrist and bends it toward the little finger side (ulnar deviation).",
+      "location": "It runs along the inner (little finger) border of the front of the forearm to the wrist.",
+      "facts": [
+        "The ulnar nerve enters the forearm between its two heads, a site where it can be compressed (cubital tunnel syndrome).",
+        "It is supplied by the ulnar nerve, unlike the other superficial forearm flexors."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/anterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/flexor-carpi-ulnaris-muscle"
+      ]
+    },
+    {
+      "id": "flexor-pollicis-longus",
+      "medical": "Flexor pollicis longus muscle",
+      "common": "Long thumb flexor",
+      "category": "Forearm",
+      "match": [
+        "Flexor pollicis longus.l",
+        "Flexor pollicis longus.r"
+      ],
+      "summary": "The flexor pollicis longus is a deep muscle of the front of the forearm. It arises from the front of the radius and the interosseous membrane and its tendon passes through the carpal tunnel to the distal phalanx of the thumb.",
+      "function": "It is the only muscle that bends the tip joint of the thumb and it also helps flex the rest of the thumb.",
+      "location": "It lies in the deep layer of the front of the forearm on the radius, beside flexor digitorum profundus.",
+      "facts": [
+        "It is supplied by the anterior interosseous branch of the median nerve.",
+        "Injury to that branch makes it impossible to form an 'OK' sign with the thumb and index finger."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/anterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/flexor-pollicis-longus-muscle"
+      ]
+    },
+    {
+      "id": "pronator-quadratus",
+      "medical": "Pronator quadratus muscle",
+      "common": "Square wrist pronator",
+      "category": "Forearm",
+      "match": [
+        "Pronator quadratus.l",
+        "Pronator quadratus.r"
+      ],
+      "summary": "The pronator quadratus is a flat, square muscle stretching across the lower front of the forearm between the ulna and the radius.",
+      "function": "It is the main muscle that turns the palm downward (pronation) and helps hold the lower ends of the radius and ulna together.",
+      "location": "It lies in the deepest layer of the front of the forearm, just above the wrist.",
+      "facts": [
+        "It is supplied by the anterior interosseous branch of the median nerve.",
+        "Surgeons lift it to reach the lower radius when repairing wrist fractures."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/anterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/pronator-quadratus-muscle"
+      ]
+    },
+    {
+      "id": "extensor-carpi-radialis-longus",
+      "medical": "Extensor carpi radialis longus muscle",
+      "common": "Long wrist extensor (thumb side)",
+      "category": "Forearm",
+      "match": [
+        "Extensor carpi radialis longus.l",
+        "Extensor carpi radialis longus.r"
+      ],
+      "summary": "The extensor carpi radialis longus is a superficial muscle of the back-outer forearm. It arises from the lower lateral supracondylar ridge of the humerus and its tendon ends on the back of the base of the second metacarpal.",
+      "function": "It extends the wrist and bends it toward the thumb side; it is active in making a firm fist.",
+      "location": "It lies on the outer side of the forearm, just behind brachioradialis.",
+      "facts": [
+        "It is supplied directly by the radial nerve.",
+        "Its tendon passes under the extensor retinaculum in the second extensor compartment, together with extensor carpi radialis brevis."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/posterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/extensor-carpi-radialis-longus-muscle"
+      ]
+    },
+    {
+      "id": "extensor-carpi-radialis-brevis",
+      "medical": "Extensor carpi radialis brevis muscle",
+      "common": "Short wrist extensor (thumb side)",
+      "category": "Forearm",
+      "match": [
+        "Extensor carpi radialis brevis.l",
+        "Extensor carpi radialis brevis.r"
+      ],
+      "summary": "The extensor carpi radialis brevis is a wrist extensor that lies just behind the longus. It arises from the lateral epicondyle through the common extensor tendon and ends on the back of the base of the third metacarpal.",
+      "function": "It extends the wrist and helps bend it toward the thumb side, steadying the wrist when the fingers grip.",
+      "location": "It lies on the back-outer side of the forearm, beneath and behind extensor carpi radialis longus.",
+      "facts": [
+        "Its origin at the lateral epicondyle is the site most often affected in tennis elbow (lateral epicondylitis).",
+        "It is supplied by the deep branch of the radial nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/posterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/extensor-carpi-radialis-brevis-muscle"
+      ]
+    },
+    {
+      "id": "extensor-carpi-ulnaris",
+      "medical": "Extensor carpi ulnaris muscle",
+      "common": "Wrist extensor (little finger side)",
+      "category": "Forearm",
+      "match": [
+        "Humeral head of extensor carpi ulnaris.l",
+        "Humeral head of extensor carpi ulnaris.r",
+        "Ulnar head of extensor carpi ulnaris.l",
+        "Ulnar head of extensor carpi ulnaris.r"
+      ],
+      "summary": "The extensor carpi ulnaris is a long, narrow muscle on the inner border of the back of the forearm. Its humeral head arises from the lateral epicondyle and its ulnar head from the back of the ulna; its tendon ends on the base of the fifth metacarpal.",
+      "function": "It extends the wrist and bends it toward the little finger side.",
+      "location": "It runs along the back of the ulna on the little finger side of the forearm.",
+      "facts": [
+        "It is supplied by the posterior interosseous nerve.",
+        "Its tendon runs in a groove beside the ulnar styloid and can slip out of place, causing a painful clicking wrist."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/posterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/extensor-carpi-ulnaris-muscle"
+      ]
+    },
+    {
+      "id": "extensor-digiti-minimi",
+      "medical": "Extensor digiti minimi muscle",
+      "common": "Little finger extensor",
+      "category": "Forearm",
+      "match": [
+        "Extensor digiti minimi.l",
+        "Extensor digiti minimi.r"
+      ],
+      "summary": "The extensor digiti minimi is a slender muscle that is often partly joined to extensor digitorum. It arises from the lateral epicondyle and its tendon joins the extensor expansion of the little finger.",
+      "function": "It straightens the little finger and helps extend the wrist.",
+      "location": "It lies on the back of the forearm between extensor digitorum and extensor carpi ulnaris.",
+      "facts": [
+        "It is supplied by the posterior interosseous nerve.",
+        "Its tendon passes through its own compartment (the fifth) under the extensor retinaculum."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/posterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/extensor-digiti-minimi-muscle"
+      ]
+    },
+    {
+      "id": "extensor-indicis",
+      "medical": "Extensor indicis muscle",
+      "common": "Index finger extensor",
+      "category": "Forearm",
+      "match": [
+        "Extensor indicis.l",
+        "Extensor indicis.r"
+      ],
+      "summary": "The extensor indicis is a narrow deep muscle of the back of the forearm. It arises from the lower back of the ulna and its tendon joins the extensor expansion of the index finger.",
+      "function": "It straightens the index finger independently of the other fingers, as in pointing.",
+      "location": "It lies in the deep layer of the back of the lower forearm.",
+      "facts": [
+        "It is supplied by the posterior interosseous nerve.",
+        "Its tendon is sometimes transferred to restore thumb extension after rupture of extensor pollicis longus."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/posterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/extensor-indicis-muscle"
+      ]
+    },
+    {
+      "id": "thumb-forearm-muscles",
+      "medical": "Abductor pollicis longus, extensor pollicis brevis and extensor pollicis longus muscles",
+      "common": "Thumb muscles of the forearm",
+      "category": "Forearm",
+      "match": [
+        "Abductor pollicis longus.l",
+        "Abductor pollicis longus.r",
+        "Extensor pollicis brevis.l",
+        "Extensor pollicis brevis.r",
+        "Extensor pollicis longus.l",
+        "Extensor pollicis longus.r"
+      ],
+      "summary": "Three deep muscles of the back of the forearm come to the surface on its outer side and run to the thumb, so they are sometimes called the 'outcropping' muscles. Abductor pollicis longus goes to the first metacarpal, extensor pollicis brevis to the first phalanx and extensor pollicis longus to the tip of the thumb.",
+      "function": "They move the thumb away from the palm and straighten its joints; they also help move the wrist.",
+      "location": "They arise from the backs of the radius, ulna and interosseous membrane and cross the lower outer forearm and wrist to the thumb.",
+      "facts": [
+        "Their tendons form the borders of the anatomical snuffbox, the hollow at the base of the thumb where the scaphoid can be felt.",
+        "Inflammation of the abductor pollicis longus and extensor pollicis brevis tendon sheath is called De Quervain's tenosynovitis."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/posterior-forearm/",
+        "https://www.kenhub.com/en/library/anatomy/abductor-pollicis-longus-muscle",
+        "https://www.kenhub.com/en/library/anatomy/extensor-pollicis-longus-muscle"
+      ]
+    },
+    {
+      "id": "thenar-muscles",
+      "medical": "Thenar muscles (abductor pollicis brevis, flexor pollicis brevis, opponens pollicis)",
+      "common": "Thumb ball muscles",
+      "category": "Hand",
+      "match": [
+        "Abductor pollicis brevis.l",
+        "Abductor pollicis brevis.r",
+        "Superficial head of flexor pollicis brevis.l",
+        "Superficial head of flexor pollicis brevis.r",
+        "Deep head of flexor pollicis brevis.l",
+        "Deep head of flexor pollicis brevis.r",
+        "Opponens pollicis muscle.l",
+        "Opponens pollicis muscle.r"
+      ],
+      "summary": "The thenar muscles form the fleshy mound at the base of the thumb. They are abductor pollicis brevis, flexor pollicis brevis (with superficial and deep heads) and opponens pollicis, arising mainly from the flexor retinaculum and nearby wrist bones.",
+      "function": "They move the thumb away from the palm, bend it and, most importantly, rotate it across the palm to touch the fingertips (opposition).",
+      "location": "They lie in the thenar eminence on the palm at the base of the thumb.",
+      "facts": [
+        "They are mainly supplied by the recurrent branch of the median nerve, so wasting of this mound is a sign of advanced carpal tunnel syndrome.",
+        "The deep head of flexor pollicis brevis is often supplied by the ulnar nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/hand/"
+      ]
+    },
+    {
+      "id": "adductor-pollicis",
+      "medical": "Adductor pollicis muscle",
+      "common": "Thumb-squeezing muscle",
+      "category": "Hand",
+      "match": [
+        "Oblique head of adductor pollicis.l",
+        "Oblique head of adductor pollicis.r",
+        "Transverse head of adductor pollicis.l",
+        "Transverse head of adductor pollicis.r"
+      ],
+      "summary": "The adductor pollicis is a fan-shaped muscle deep in the palm with an oblique head from the capitate and bases of the second and third metacarpals and a transverse head from the shaft of the third metacarpal. Both converge on the base of the first phalanx of the thumb.",
+      "function": "It pulls the thumb toward the palm, which is essential for a strong pinch or key grip.",
+      "location": "It lies deep in the palm in the web space between the thumb and the index finger.",
+      "facts": [
+        "It is supplied by the deep branch of the ulnar nerve.",
+        "Weakness causes Froment's sign: a person holding paper between thumb and index finger bends the thumb tip to compensate."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/hand/",
+        "https://www.kenhub.com/en/library/anatomy/adductor-pollicis-muscle"
+      ]
+    },
+    {
+      "id": "hypothenar-muscles",
+      "medical": "Hypothenar muscles (abductor, flexor and opponens digiti minimi)",
+      "common": "Little finger ball muscles",
+      "category": "Hand",
+      "match": [
+        "Abductor digiti minimi of hand.l",
+        "Abductor digiti minimi of hand.r",
+        "Flexor digiti minimi of hand.l",
+        "Flexor digiti minimi of hand.r",
+        "Opponens digiti minimi muscle of hand.l",
+        "Opponens digiti minimi muscle of hand.r"
+      ],
+      "summary": "The hypothenar muscles form the fleshy mound on the little finger side of the palm. They are abductor digiti minimi, flexor digiti minimi brevis and opponens digiti minimi, arising from the pisiform, hamate and flexor retinaculum.",
+      "function": "They spread, bend and slightly rotate the little finger, helping to cup the palm and grip.",
+      "location": "They lie in the hypothenar eminence on the inner edge of the palm.",
+      "facts": [
+        "All three are supplied by the deep branch of the ulnar nerve.",
+        "They are the hand's counterpart of the thenar group at the base of the thumb."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/hand/"
+      ]
+    },
+    {
+      "id": "hand-lumbricals-interossei",
+      "medical": "Lumbrical and interosseous muscles of the hand",
+      "common": "Small finger-control muscles",
+      "category": "Hand",
+      "match": [
+        "Lumbrical muscles of hand.l",
+        "Lumbrical muscles of hand.r",
+        "Palmar interossei muscles.l",
+        "Palmar interossei muscles.r",
+        "Dorsal interossei muscles of hand.l",
+        "Dorsal interossei muscles of hand.r"
+      ],
+      "summary": "The lumbricals are four small worm-like muscles arising from the tendons of flexor digitorum profundus in the palm. The interossei lie between the metacarpal bones: palmar interossei on the palm side and dorsal interossei, which are larger, toward the back of the hand.",
+      "function": "The lumbricals and interossei bend the knuckles while straightening the finger joints, as in holding a book flat; the dorsal interossei spread the fingers and the palmar interossei bring them together.",
+      "location": "They lie deep in the palm and between the long bones of the hand.",
+      "facts": [
+        "A common memory aid is 'PAD and DAB': palmar adduct, dorsal abduct.",
+        "The two lateral lumbricals are supplied by the median nerve; the medial two and all interossei by the ulnar nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/hand/",
+        "https://www.kenhub.com/en/library/anatomy/lumbrical-muscles-of-the-hand"
+      ]
+    },
+    {
+      "id": "subclavius",
+      "medical": "Subclavius muscle",
+      "common": "Collarbone anchor muscle",
+      "category": "Chest",
+      "match": [
+        "Subclavius muscle.l",
+        "Subclavius muscle.r"
+      ],
+      "summary": "The subclavius is a small, cylindrical muscle beneath the clavicle. It runs from the junction of the first rib and its cartilage to a groove on the underside of the middle clavicle.",
+      "function": "It pulls the clavicle down and toward the sternum, steadying the collarbone during shoulder movement.",
+      "location": "It lies under the collarbone, deep to pectoralis major.",
+      "facts": [
+        "It is supplied by the nerve to subclavius (C5-C6) from the brachial plexus.",
+        "It may cushion the subclavian vessels and brachial plexus when the clavicle is fractured."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/upper-limb/muscles/pectoral-region/",
+        "https://www.kenhub.com/en/library/anatomy/subclavius-muscle"
+      ]
+    },
+    {
+      "id": "serratus-posterior",
+      "medical": "Serratus posterior superior and inferior muscles",
+      "common": "Rib-moving back muscles",
+      "category": "Back",
+      "match": [
+        "Serratus posterior superior muscle.l",
+        "Serratus posterior superior muscle.r",
+        "Serratus posterior inferior muscle.l",
+        "Serratus posterior inferior muscle.r"
+      ],
+      "summary": "The serratus posterior superior and inferior are two thin sheets in the intermediate layer of the back. The superior runs from the spines of C7-T3 to ribs 2-5, and the inferior from the spines of T11-L2 to ribs 9-12.",
+      "function": "They are traditionally described as moving the ribs during breathing: the superior raising and the inferior lowering them, although their role is probably small.",
+      "location": "They lie beneath the rhomboids and latissimus dorsi, over the erector spinae.",
+      "facts": [
+        "Both are supplied by intercostal nerves (the inferior also by the subcostal nerve).",
+        "They are classed as respiratory muscles of the back rather than true back muscles."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/back/muscles/intermediate/"
+      ]
+    },
+    {
+      "id": "splenius",
+      "medical": "Splenius capitis and splenius cervicis muscles",
+      "common": "Neck strap muscles (back)",
+      "category": "Back",
+      "match": [
+        "Splenius capitis muscle.l",
+        "Splenius capitis muscle.r",
+        "Splenius colli muscle.l",
+        "Splenius colli muscle.r"
+      ],
+      "summary": "The splenius muscles are broad, flat bands on the back of the neck that wrap over the deeper muscles like a bandage. Splenius capitis runs from the nuchal ligament and upper thoracic spines to the mastoid process and skull, and splenius cervicis from T3-T6 to the upper cervical transverse processes.",
+      "function": "Acting together they extend the head and neck; one side alone tilts and turns the head toward the same side.",
+      "location": "They lie on the back of the neck beneath trapezius and sternocleidomastoid.",
+      "facts": [
+        "They form the superficial layer of the intrinsic (deep) back muscles and are supplied by posterior rami of cervical nerves.",
+        "Their name comes from the Greek splenion, 'bandage'."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/back/muscles/intrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/splenius-capitis-muscle"
+      ]
+    },
+    {
+      "id": "transversospinales",
+      "medical": "Transversospinales muscles (semispinalis, multifidus, rotatores)",
+      "common": "Deep spine stabilisers",
+      "category": "Back",
+      "match": [
+        "Semispinalis colli muscle.l",
+        "Semispinalis colli muscle.r",
+        "Semispinalis thoracis muscle.l",
+        "Semispinalis thoracis muscle.r",
+        "Multifidus colli muscle.l",
+        "Multifidus colli muscle.r",
+        "Multifidus thoracis muscle.l",
+        "Multifidus thoracis muscle.r",
+        "Multifidus lumborum muscle.l",
+        "Multifidus lumborum muscle.r",
+        "Rotatores.l",
+        "Rotatores.r"
+      ],
+      "summary": "The transversospinales are the deep back muscles that run upward and inward from the transverse processes to the spinous processes of higher vertebrae. From superficial to deep they are semispinalis (spanning about 4-6 vertebrae), multifidus (2-4) and rotatores (1-2).",
+      "function": "They steady individual vertebrae, extend the spine and rotate it toward the opposite side.",
+      "location": "They fill the groove between the spinous and transverse processes along the whole spine, beneath the erector spinae.",
+      "facts": [
+        "Multifidus is thickest in the lower back and is an important stabiliser of the lumbar spine.",
+        "All are supplied by posterior rami of spinal nerves."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/back/muscles/intrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/multifidus-muscle",
+        "https://www.kenhub.com/en/library/anatomy/rotatores-muscles"
+      ]
+    },
+    {
+      "id": "segmental-back-muscles",
+      "medical": "Interspinales and intertransversarii muscles",
+      "common": "Short spine muscles",
+      "category": "Back",
+      "match": [
+        "Interspinales colli muscles.l",
+        "Interspinales colli muscles.r",
+        "Interspinales thoracis muscles.l",
+        "Interspinales thoracis muscles.r",
+        "Interspinales lumborum muscles.l",
+        "Interspinales lumborum muscles.r",
+        "Dorsal parts of lateral intertransversarii lumborum muscles.l",
+        "Dorsal parts of lateral intertransversarii lumborum muscles.r",
+        "Ventral parts of lateral intertransversarii lumborum muscles.l",
+        "Ventral parts of lateral intertransversarii lumborum muscles.r"
+      ],
+      "summary": "The interspinales and intertransversarii are very short muscles joining neighbouring vertebrae. The interspinales run between spinous processes and the intertransversarii between transverse processes; they are best developed in the neck and lower back.",
+      "function": "They help extend and bend the spine and probably act mainly as sensors of vertebral position.",
+      "location": "They lie deepest of all the back muscles, between adjacent vertebrae.",
+      "facts": [
+        "They are rich in muscle spindles, which supports their role in sensing posture.",
+        "The lateral intertransversarii of the lumbar region are supplied by anterior rami, unlike most back muscles."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/back/muscles/intrinsic/",
+        "https://www.kenhub.com/en/library/anatomy/interspinales-muscles"
+      ]
+    },
+    {
+      "id": "levatores-costarum",
+      "medical": "Levatores costarum muscles",
+      "common": "Rib-lifting muscles",
+      "category": "Back",
+      "match": [
+        "Levatores breves costarum.l",
+        "Levatores breves costarum.r",
+        "Levatores longi costarum.l",
+        "Levatores longi costarum.r"
+      ],
+      "summary": "The levatores costarum are twelve pairs of small muscles running from the transverse processes of C7-T11 to the rib below (breves) or two ribs below (longi).",
+      "function": "They lift the ribs a little during breathing in and help bend the spine sideways.",
+      "location": "They lie in the back beside the spine, beneath the erector spinae.",
+      "facts": [
+        "They are supplied by posterior rami of spinal nerves.",
+        "The longi are found mainly in the lower thoracic region."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/muscles/thoracic-cage/",
+        "https://www.kenhub.com/en/library/anatomy/levatores-costarum-muscles"
+      ]
+    },
+    {
+      "id": "transversus-thoracis",
+      "medical": "Transversus thoracis muscle",
+      "common": "Inner chest wall muscle",
+      "category": "Chest",
+      "match": [
+        "Transversus thoracis muscle.l",
+        "Transversus thoracis muscle.r"
+      ],
+      "summary": "The transversus thoracis is a thin sheet of muscle on the inside of the front chest wall. It runs from the back of the lower sternum and xiphoid process upward and outward to the costal cartilages of ribs 2-6.",
+      "function": "It pulls the costal cartilages down and so helps breathing out.",
+      "location": "It lies on the inner surface of the front of the rib cage, behind the sternum.",
+      "facts": [
+        "It is supplied by intercostal nerves.",
+        "The internal thoracic artery runs between it and the costal cartilages."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/muscles/thoracic-cage/",
+        "https://www.kenhub.com/en/library/anatomy/transversus-thoracis-muscle"
+      ]
+    },
+    {
+      "id": "pyramidalis",
+      "medical": "Pyramidalis muscle",
+      "common": "Small lower-abdominal muscle",
+      "category": "Abdomen",
+      "match": [
+        "Pyramidalis muscle.l",
+        "Pyramidalis muscle.r"
+      ],
+      "summary": "The pyramidalis is a small triangular muscle at the bottom of the front abdominal wall. It runs from the pubic crest to the linea alba, in front of the lower rectus abdominis.",
+      "function": "It tenses the linea alba.",
+      "location": "It lies just above the pubic bone, inside the rectus sheath, in front of rectus abdominis.",
+      "facts": [
+        "It is absent in a proportion of people.",
+        "It is supplied by the subcostal nerve (T12)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/muscles/abdominal-wall/",
+        "https://www.kenhub.com/en/library/anatomy/pyramidalis-muscle"
+      ]
+    },
+    {
+      "id": "coccygeus",
+      "medical": "Coccygeus muscle",
+      "common": "Rear pelvic floor muscle",
+      "category": "Pelvis",
+      "match": [
+        "Coccygeus muscle.l",
+        "Coccygeus muscle.r"
+      ],
+      "summary": "The coccygeus is a triangular muscle and fibrous sheet at the back of the pelvic floor. It runs from the ischial spine to the edges of the lower sacrum and coccyx, overlying the sacrospinous ligament.",
+      "function": "It supports the pelvic organs and pulls the coccyx forward after it has been pushed back, for example during defecation.",
+      "location": "It lies at the back of the pelvic floor, behind the levator ani; together they make up the pelvic diaphragm.",
+      "facts": [
+        "It is supplied by branches of the anterior rami of S4-S5.",
+        "Much of it is fibrous and blends with the sacrospinous ligament."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/pelvis/muscles/pelvic-floor/",
+        "https://www.kenhub.com/en/library/anatomy/coccygeus-muscle"
+      ]
+    },
+    {
+      "id": "external-anal-sphincter",
+      "medical": "External anal sphincter",
+      "common": "Voluntary anal ring muscle",
+      "category": "Pelvis",
+      "match": [
+        "External anal sphincter.l",
+        "External anal sphincter.r"
+      ],
+      "summary": "The external anal sphincter is a ring of skeletal muscle surrounding the lower anal canal. It is described as having subcutaneous, superficial and deep parts and blends above with the puborectalis part of levator ani.",
+      "function": "It keeps the anal canal closed and can be tightened voluntarily to hold back stool and gas.",
+      "location": "It surrounds the lower 2-3 cm of the anal canal, outside the involuntary internal anal sphincter.",
+      "facts": [
+        "It is supplied by the inferior rectal branches of the pudendal nerve (S2-S4).",
+        "Its tone and voluntary squeeze are checked during a digital rectal examination."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/external-anal-sphincter",
+        "https://teachmeanatomy.info/pelvis/muscles/pelvic-floor/"
+      ]
+    },
+    {
+      "id": "scalenes",
+      "medical": "Scalene muscles (anterior, middle and posterior)",
+      "common": "Side neck muscles (scalenes)",
+      "category": "Neck",
+      "match": [
+        "Scalenus anterior muscle.l",
+        "Scalenus anterior muscle.r",
+        "Scalenus medius muscle.l",
+        "Scalenus medius muscle.r",
+        "Scalenus posterior muscle.l",
+        "Scalenus posterior muscle.r"
+      ],
+      "summary": "The scalenes are three paired muscles at the side of the neck. They run from the transverse processes of the cervical vertebrae down to the first rib (anterior and middle) and the second rib (posterior).",
+      "function": "They lift the first two ribs in forced breathing in and bend the neck to the same side.",
+      "location": "They lie deep in the side of the neck, behind sternocleidomastoid.",
+      "facts": [
+        "The brachial plexus and subclavian artery pass through the gap between scalenus anterior and medius; crowding here can cause thoracic outlet syndrome.",
+        "The phrenic nerve runs down on the front of scalenus anterior."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/muscles/scalene/",
+        "https://www.kenhub.com/en/library/anatomy/scalene-muscles"
+      ]
+    },
+    {
+      "id": "suboccipital-muscles",
+      "medical": "Suboccipital muscles",
+      "common": "Deep head-nodding muscles",
+      "category": "Neck",
+      "match": [
+        "Rectus posterior major capitis muscle.l",
+        "Rectus posterior major capitis muscle.r",
+        "Rectus posterior minor capitis muscle.l",
+        "Rectus posterior minor capitis muscle.r",
+        "Obliquus superior capitis muscle.l",
+        "Obliquus superior capitis muscle.r",
+        "Obliquus inferior capitis muscle.l",
+        "Obliquus inferior capitis muscle.r"
+      ],
+      "summary": "The suboccipital muscles are four small paired muscles just below the back of the skull: rectus capitis posterior major and minor and obliquus capitis superior and inferior. They link the occipital bone, the atlas (C1) and the axis (C2).",
+      "function": "They extend the head and rotate it at the upper neck joints and help make fine adjustments of head posture.",
+      "location": "They lie deep at the top of the back of the neck, beneath semispinalis capitis.",
+      "facts": [
+        "Three of them bound the suboccipital triangle, in whose floor the vertebral artery runs.",
+        "They are supplied by the suboccipital nerve, the posterior ramus of C1."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/muscles/suboccipital/",
+        "https://www.kenhub.com/en/library/anatomy/suboccipital-muscles"
+      ]
+    },
+    {
+      "id": "prevertebral-muscles",
+      "medical": "Prevertebral muscles (longus colli, longus capitis, rectus capitis anterior and lateralis)",
+      "common": "Deep front neck muscles",
+      "category": "Neck",
+      "match": [
+        "Longus colli muscle.l",
+        "Longus colli muscle.r",
+        "Longus capitis muscle.l",
+        "Longus capitis muscle.r",
+        "Rectus anterior capitis muscle.l",
+        "Rectus anterior capitis muscle.r",
+        "Rectus lateralis capitis muscle.l",
+        "Rectus lateralis capitis muscle.r"
+      ],
+      "summary": "The prevertebral muscles lie directly on the front of the cervical spine. Longus colli runs along the vertebral bodies, longus capitis from the cervical transverse processes to the base of the skull, and the small rectus capitis anterior and lateralis from the atlas to the skull.",
+      "function": "They flex the head and neck and help steady the cervical spine.",
+      "location": "They lie on the front of the vertebral column behind the pharynx and oesophagus.",
+      "facts": [
+        "Longus colli can be strained in whiplash injuries of the neck.",
+        "They are supplied by anterior rami of cervical nerves."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/muscles/prevertebral/",
+        "https://www.kenhub.com/en/library/anatomy/prevertebral-muscles",
+        "https://www.kenhub.com/en/library/anatomy/longus-colli-muscle"
+      ]
+    },
+    {
+      "id": "suprahyoid-muscles",
+      "medical": "Suprahyoid muscles (digastric, mylohyoid, geniohyoid, stylohyoid)",
+      "common": "Muscles above the hyoid",
+      "category": "Neck",
+      "match": [
+        "Anterior belly of digastric muscle.l",
+        "Anterior belly of digastric muscle.r",
+        "Posterior belly of digastric muscle.l",
+        "Posterior belly of digastric muscle.r",
+        "Mylohyoid muscle.l",
+        "Mylohyoid muscle.r",
+        "Geniohyoid muscle.l",
+        "Geniohyoid muscle.r",
+        "Stylohyoid muscle.l",
+        "Stylohyoid muscle.r"
+      ],
+      "summary": "The suprahyoid muscles connect the hyoid bone to the skull and lower jaw. They are the digastric, with anterior and posterior bellies joined by a tendon, the mylohyoid, which forms the floor of the mouth, the geniohyoid and the stylohyoid.",
+      "function": "They raise the hyoid and larynx during swallowing and speech and help open the mouth when the hyoid is fixed.",
+      "location": "They lie between the lower jaw and the hyoid bone, in the floor of the mouth and upper neck.",
+      "facts": [
+        "They have mixed nerve supply: the mylohyoid and anterior digastric by the nerve to mylohyoid (V3), the posterior digastric and stylohyoid by the facial nerve, and geniohyoid by C1 fibres travelling with the hypoglossal nerve.",
+        "The two bellies of the digastric reflect their origin from different embryonic arches."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/muscles/suprahyoid-muscles/",
+        "https://www.kenhub.com/en/library/anatomy/suprahyoid-muscles",
+        "https://www.kenhub.com/en/library/anatomy/digastric-muscle"
+      ]
+    },
+    {
+      "id": "infrahyoid-muscles",
+      "medical": "Infrahyoid muscles (omohyoid, sternohyoid, sternothyroid, thyrohyoid)",
+      "common": "Strap muscles of the neck",
+      "category": "Neck",
+      "match": [
+        "Omohyoid muscle.l",
+        "Omohyoid muscle.r",
+        "Sternohyoid muscle.l",
+        "Sternohyoid muscle.r",
+        "Sternothyroid muscle.l",
+        "Sternothyroid muscle.r",
+        "Thyrohyoid muscle.l",
+        "Thyrohyoid muscle.r"
+      ],
+      "summary": "The infrahyoid or 'strap' muscles are four thin, ribbon-like muscles below the hyoid bone. They run from the sternum, thyroid cartilage and scapula (omohyoid) up to the hyoid or larynx.",
+      "function": "They pull the hyoid and larynx down after swallowing and hold the hyoid steady so the suprahyoid muscles can open the mouth.",
+      "location": "They lie on the front of the neck over the larynx, trachea and thyroid gland.",
+      "facts": [
+        "Most are supplied by the ansa cervicalis (C1-C3); thyrohyoid gets C1 fibres travelling with the hypoglossal nerve.",
+        "Surgeons separate or divide them to reach the thyroid gland."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/muscles/infrahyoid/",
+        "https://www.kenhub.com/en/library/anatomy/infrahyoid-muscles"
+      ]
+    },
+    {
+      "id": "pharyngeal-muscles",
+      "medical": "Pharyngeal muscles (constrictors, stylopharyngeus, palatopharyngeus)",
+      "common": "Throat (swallowing) muscles",
+      "category": "Neck",
+      "match": [
+        "Superior pharyngeal constrictor.l",
+        "Superior pharyngeal constrictor.r",
+        "Middle pharyngeal constrictor.l",
+        "Middle pharyngeal constrictor.r",
+        "Inferior pharyngeal constrictor.l",
+        "Inferior pharyngeal constrictor.r",
+        "Stylopharyngeus muscle.l",
+        "Stylopharyngeus muscle.r",
+        "Palatopharyngeus muscle.l",
+        "Palatopharyngeus muscle.r"
+      ],
+      "summary": "The wall of the pharynx contains an outer layer of three overlapping constrictor muscles (superior, middle and inferior) and an inner layer of longitudinal muscles, including stylopharyngeus and palatopharyngeus.",
+      "function": "The constrictors squeeze in sequence to push food down into the oesophagus, and the longitudinal muscles shorten and lift the pharynx during swallowing.",
+      "location": "They form the muscular tube behind the nose, mouth and larynx, in front of the cervical spine.",
+      "facts": [
+        "Most are supplied by the vagus nerve through the pharyngeal plexus; stylopharyngeus is the only muscle supplied by the glossopharyngeal nerve.",
+        "A weak area in the inferior constrictor (Killian's dehiscence) is where a Zenker's diverticulum can form."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/viscera/pharynx/"
+      ]
+    },
+    {
+      "id": "laryngeal-muscles",
+      "medical": "Intrinsic laryngeal muscles",
+      "common": "Voice box muscles",
+      "category": "Neck",
+      "match": [
+        "Posterior crico-arytenoid muscle.l",
+        "Posterior crico-arytenoid muscle.r",
+        "Lateral crico-arytenoid muscle.l",
+        "Lateral crico-arytenoid muscle.r",
+        "Transverse arytenoid muscle",
+        "Ary-epiglottic part of oblique arytenoid muscle.l",
+        "Ary-epiglottic part of oblique arytenoid muscle.r",
+        "External part of thyro-arytenoid muscle.l",
+        "External part of thyro-arytenoid muscle.r",
+        "Thyro-epiglottic part of thyro-arytenoid muscle.l",
+        "Thyro-epiglottic part of thyro-arytenoid muscle.r",
+        "Straight part of cricothyroid muscle.l",
+        "Straight part of cricothyroid muscle.r",
+        "Oblique part of cricothyroid muscle.l",
+        "Oblique part of cricothyroid muscle.r"
+      ],
+      "summary": "The intrinsic laryngeal muscles are small muscles that move the cartilages of the voice box. They include the cricothyroid, the posterior and lateral crico-arytenoids, the transverse and oblique arytenoids and the thyro-arytenoid.",
+      "function": "They open and close the gap between the vocal folds and change their tension, controlling breathing, voice and protection of the airway during swallowing.",
+      "location": "They lie within and on the laryngeal cartilages in the front of the neck.",
+      "facts": [
+        "The posterior crico-arytenoid is the only muscle that opens the vocal folds, so damage to its nerve on both sides can block the airway.",
+        "All are supplied by the recurrent laryngeal nerve except cricothyroid, which is supplied by the external laryngeal nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/viscera/larynx/",
+        "https://www.kenhub.com/en/library/anatomy/muscles-of-the-larynx",
+        "https://www.kenhub.com/en/library/anatomy/posterior-cricoarytenoid-muscle"
+      ]
+    },
+    {
+      "id": "tongue-extrinsic-muscles",
+      "medical": "Genioglossus and hyoglossus muscles",
+      "common": "Tongue-moving muscles",
+      "category": "Head",
+      "match": [
+        "Genioglossus muscle.l",
+        "Genioglossus muscle.r",
+        "Hyoglossus muscle.l",
+        "Hyoglossus muscle.r"
+      ],
+      "summary": "The genioglossus and hyoglossus are extrinsic tongue muscles, which move the tongue as a whole. Genioglossus fans backward from the inner surface of the chin into the tongue, and hyoglossus rises from the hyoid bone into the side of the tongue.",
+      "function": "Genioglossus sticks the tongue out and keeps it from falling back; hyoglossus pulls the tongue down and back.",
+      "location": "They lie in the floor of the mouth and the body of the tongue, above the hyoid bone.",
+      "facts": [
+        "Both are supplied by the hypoglossal nerve (CN XII); with a one-sided lesion the tongue deviates toward the weak side when stuck out.",
+        "Relaxation of genioglossus during sleep contributes to obstructive sleep apnoea."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/tongue/"
+      ]
+    },
+    {
+      "id": "medial-pterygoid",
+      "medical": "Medial pterygoid muscle",
+      "common": "Inner jaw-closing muscle",
+      "category": "Head",
+      "match": [
+        "Medial pterygoid muscle.l",
+        "Medial pterygoid muscle.r"
+      ],
+      "summary": "The medial pterygoid is a thick, four-sided chewing muscle on the inner side of the lower jaw. It arises mainly from the lateral pterygoid plate and runs down and back to the inner surface of the angle of the mandible.",
+      "function": "It lifts the jaw to close the mouth and, with the lateral pterygoid, moves the jaw from side to side in grinding.",
+      "location": "It lies inside the ramus of the mandible, mirroring the masseter on the outside.",
+      "facts": [
+        "It and the masseter form a muscular sling around the angle of the jaw.",
+        "It is supplied by the mandibular nerve (V3)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/mastication/",
+        "https://www.kenhub.com/en/library/anatomy/medial-pterygoid-muscle"
+      ]
+    },
+    {
+      "id": "lateral-pterygoid",
+      "medical": "Lateral pterygoid muscle",
+      "common": "Jaw-opening chewing muscle",
+      "category": "Head",
+      "match": [
+        "Superior head of lateral pterygoid muscle.l",
+        "Superior head of lateral pterygoid muscle.r",
+        "Inferior head of lateral pterygoid muscle.l",
+        "Inferior head of lateral pterygoid muscle.r"
+      ],
+      "summary": "The lateral pterygoid is a short, thick chewing muscle with superior and inferior heads. They arise from the greater wing of the sphenoid and the lateral pterygoid plate and run backward to the neck of the mandible and the jaw joint disc and capsule.",
+      "function": "It pulls the jaw forward and helps open the mouth; acting on one side, it swings the jaw to the opposite side.",
+      "location": "It lies deep in the infratemporal fossa, above the medial pterygoid and in front of the jaw joint.",
+      "facts": [
+        "It is the only muscle of mastication that helps open the mouth.",
+        "It is supplied by the mandibular nerve (V3)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/mastication/",
+        "https://www.kenhub.com/en/library/anatomy/lateral-pterygoid-muscle"
+      ]
+    },
+    {
+      "id": "extraocular-muscles",
+      "medical": "Extraocular muscles",
+      "common": "Eye-moving muscles",
+      "category": "Head",
+      "match": [
+        "Superior rectus muscle.l",
+        "Superior rectus muscle.r",
+        "Inferior rectus muscle.l",
+        "Inferior rectus muscle.r",
+        "Medial rectus muscle.l",
+        "Medial rectus muscle.r",
+        "Lateral rectus muscle.l",
+        "Lateral rectus muscle.r",
+        "Superior oblique muscle.l",
+        "Superior oblique muscle.r",
+        "Inferior oblique muscle.l",
+        "Inferior oblique muscle.r",
+        "Levator palpebrae superioris.l",
+        "Levator palpebrae superioris.r",
+        "Common tendinous ring.l",
+        "Common tendinous ring.r",
+        "Trochlea of superior oblique muscle.l",
+        "Trochlea of superior oblique muscle.r"
+      ],
+      "summary": "Six muscles move each eyeball: four recti (superior, inferior, medial and lateral) that arise from the common tendinous ring at the back of the orbit, and two obliques. A seventh, levator palpebrae superioris, raises the upper eyelid. The superior oblique tendon passes through a fibrous pulley, the trochlea.",
+      "function": "They turn the eye up, down, in and out and rotate it, keeping both eyes aligned on the same target.",
+      "location": "They lie within the bony orbit around the eyeball.",
+      "facts": [
+        "Nerve supply follows the formula LR6 SO4: lateral rectus by the abducens nerve (VI), superior oblique by the trochlear nerve (IV) and all the rest by the oculomotor nerve (III).",
+        "A third-nerve palsy causes a drooping eyelid because levator palpebrae superioris is paralysed."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/organs/eye/extraocular-muscles/"
+      ]
+    },
+    {
+      "id": "platysma",
+      "medical": "Platysma",
+      "common": "Neck skin muscle",
+      "category": "Neck",
+      "match": [
+        "Platysma.l",
+        "Platysma.r"
+      ],
+      "summary": "The platysma is a broad, thin sheet of muscle in the skin of the front of the neck. It runs from the fascia over the upper chest and shoulder up over the collarbone to the lower jaw and the skin of the lower face.",
+      "function": "It tenses the skin of the neck and pulls down the corners of the mouth and the lower jaw, as in an expression of strain or horror.",
+      "location": "It lies just under the skin of the front and sides of the neck.",
+      "facts": [
+        "It is supplied by the cervical branch of the facial nerve (CN VII), like the other muscles of facial expression.",
+        "Its vertical bands become more visible with age."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/facial-expression/"
+      ]
+    },
+    {
+      "id": "buccinator",
+      "medical": "Buccinator muscle",
+      "common": "Cheek muscle",
+      "category": "Face",
+      "match": [
+        "Bucinator.l",
+        "Bucinator.r"
+      ],
+      "summary": "The buccinator is a thin, four-sided muscle that forms the muscular wall of the cheek. It arises from the outer surfaces of the upper and lower jaws near the molars and from the pterygomandibular raphe and blends into the lips at the corner of the mouth. (The model spells it 'Bucinator'.)",
+      "function": "It presses the cheek against the teeth, keeping food between the teeth during chewing, and helps blow air out, as when playing a trumpet.",
+      "location": "It lies deep in the cheek, between the upper and lower jaws; the parotid duct pierces it opposite the upper second molar.",
+      "facts": [
+        "Its name comes from the Latin buccinator, 'trumpeter'.",
+        "It is supplied by the buccal branch of the facial nerve, not the buccal branch of the trigeminal nerve, which only carries sensation."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/facial-expression/",
+        "https://www.kenhub.com/en/library/anatomy/buccinator-muscle"
+      ]
+    },
+    {
+      "id": "zygomaticus",
+      "medical": "Zygomaticus major and minor muscles",
+      "common": "Smile muscles",
+      "category": "Face",
+      "match": [
+        "Zygomaticus major muscle.l",
+        "Zygomaticus major muscle.r",
+        "Zygomaticus minor muscle.l",
+        "Zygomaticus minor muscle.r"
+      ],
+      "summary": "The zygomaticus major and minor are slender muscles running from the cheekbone (zygomatic bone) down to the mouth. The major goes to the corner of the mouth (modiolus) and the minor to the upper lip.",
+      "function": "Zygomaticus major pulls the corner of the mouth up and out in smiling; zygomaticus minor lifts the upper lip.",
+      "location": "They cross the cheek diagonally from the cheekbone toward the corner of the mouth.",
+      "facts": [
+        "A true (Duchenne) smile combines zygomaticus major with contraction of orbicularis oculi around the eye.",
+        "Both are supplied by the zygomatic and buccal branches of the facial nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/facial-expression/",
+        "https://www.kenhub.com/en/library/anatomy/zygomaticus-major-muscle",
+        "https://www.kenhub.com/en/library/anatomy/zygomaticus-minor-muscle"
+      ]
+    },
+    {
+      "id": "upper-lip-elevators",
+      "medical": "Levator labii superioris, levator labii superioris alaeque nasi and levator anguli oris",
+      "common": "Upper lip lifters",
+      "category": "Face",
+      "match": [
+        "Levator labii superioris.l",
+        "Levator labii superioris.r",
+        "Levator nasolabialis.l",
+        "Levator nasolabialis.r",
+        "Levator anguli oris.l",
+        "Levator anguli oris.r"
+      ],
+      "summary": "These muscles run from the upper jaw and the area below the eye down into the upper lip. Levator labii superioris lifts the lip, levator labii superioris alaeque nasi (listed in the model as 'Levator nasolabialis') also reaches the side of the nose, and levator anguli oris goes to the corner of the mouth.",
+      "function": "They raise the upper lip and the corners of the mouth, as in sneering or smiling, and one flares the nostril.",
+      "location": "They lie in the upper cheek between the lower edge of the orbit and the upper lip.",
+      "facts": [
+        "They help shape the nasolabial fold, the crease running from the nose to the corner of the mouth.",
+        "All are supplied by the facial nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/facial-expression/",
+        "https://www.kenhub.com/en/library/anatomy/levator-labii-superioris-muscle"
+      ]
+    },
+    {
+      "id": "lower-lip-depressors",
+      "medical": "Depressor anguli oris, depressor labii inferioris and mentalis",
+      "common": "Lower lip and chin muscles",
+      "category": "Face",
+      "match": [
+        "Depressor anguli oris.l",
+        "Depressor anguli oris.r",
+        "Depressor labii inferioris.l",
+        "Depressor labii inferioris.r",
+        "Mentalis muscle.l",
+        "Mentalis muscle.r"
+      ],
+      "summary": "These muscles arise from the lower jaw below the mouth. Depressor anguli oris pulls on the corner of the mouth, depressor labii inferioris on the lower lip, and mentalis on the skin of the chin.",
+      "function": "They pull the corners of the mouth and the lower lip down, as in frowning or sadness; mentalis raises and wrinkles the chin and pushes out the lower lip, as in pouting.",
+      "location": "They lie on the front of the lower jaw below the lower lip.",
+      "facts": [
+        "They are supplied by the marginal mandibular branch of the facial nerve; injury to this branch causes an uneven smile.",
+        "Mentalis produces the dimpled 'orange peel' look of the chin in some people."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/facial-expression/",
+        "https://www.kenhub.com/en/library/anatomy/depressor-anguli-oris-muscle",
+        "https://www.kenhub.com/en/library/anatomy/mentalis-muscle"
+      ]
+    },
+    {
+      "id": "risorius",
+      "medical": "Risorius muscle",
+      "common": "Grin muscle",
+      "category": "Face",
+      "match": [
+        "Risorius muscle.l",
+        "Risorius muscle.r"
+      ],
+      "summary": "The risorius is a thin, narrow band of muscle running horizontally across the cheek to the corner of the mouth. It arises from the fascia over the parotid gland and masseter.",
+      "function": "It pulls the corner of the mouth sideways, as in a grin or a grimace.",
+      "location": "It lies in the lower cheek, between the masseter and the corner of the mouth.",
+      "facts": [
+        "It is very variable and sometimes absent.",
+        "It is supplied by the buccal branch of the facial nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/facial-expression/",
+        "https://www.kenhub.com/en/library/anatomy/risorius-muscle"
+      ]
+    },
+    {
+      "id": "nose-and-brow-muscles",
+      "medical": "Nasalis, depressor septi nasi, procerus and corrugator supercilii",
+      "common": "Nose and frown muscles",
+      "category": "Face",
+      "match": [
+        "Nasalis muscle.l",
+        "Nasalis muscle.r",
+        "Depressor septi nasi.l",
+        "Depressor septi nasi.r",
+        "Procerus muscle.l",
+        "Procerus muscle.r",
+        "Corrugator supercilii.l",
+        "Corrugator supercilii.r"
+      ],
+      "summary": "Several small facial muscles act on the nose and brow. Nasalis compresses or flares the nostrils, depressor septi nasi pulls down the nasal septum, procerus lies over the bridge of the nose, and corrugator supercilii runs from the inner end of the eyebrow ridge into the skin of the eyebrow.",
+      "function": "They move the nostrils and the skin of the nose and brow; procerus makes horizontal lines across the nose bridge and corrugator draws the eyebrows together in frowning.",
+      "location": "They lie over the nose and between the eyebrows.",
+      "facts": [
+        "The vertical frown lines between the eyebrows come mainly from corrugator supercilii, and are a common target of cosmetic botulinum toxin injections.",
+        "All are supplied by the facial nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/facial-expression/",
+        "https://www.kenhub.com/en/library/anatomy/nasalis-muscle",
+        "https://www.kenhub.com/en/library/anatomy/procerus-muscle",
+        "https://www.kenhub.com/en/library/anatomy/corrugator-supercilii-muscle"
+      ]
+    },
+    {
+      "id": "temporoparietalis",
+      "medical": "Temporoparietalis muscle",
+      "common": "Side scalp muscle",
+      "category": "Face",
+      "match": [
+        "Temporoparietalis muscle.l",
+        "Temporoparietalis muscle.r"
+      ],
+      "summary": "The temporoparietalis is a thin, variable sheet of muscle on the side of the scalp above the ear. It lies between the frontal belly of occipitofrontalis and the ear muscles and blends into the epicranial aponeurosis.",
+      "function": "It helps tighten the scalp and may raise the ears slightly.",
+      "location": "It lies on the side of the head above and in front of the ear, over the temporal fascia.",
+      "facts": [
+        "Together with occipitofrontalis it is grouped as the epicranius muscle.",
+        "It is supplied by the temporal branch of the facial nerve."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/head/muscles/facial-expression/",
+        "https://www.kenhub.com/en/library/anatomy/occipitofrontalis-muscle"
+      ]
+    }
+  ],
+  "commonNames": {}
+}

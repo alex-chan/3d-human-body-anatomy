@@ -1,0 +1,1361 @@
+{
+  "layer": "organs",
+  "overview": {
+    "title": "Internal organs",
+    "summary": "The internal organs (viscera) are the working parts housed in the head, chest, abdomen and pelvis: the heart and lungs, the brain and eyes, the digestive tract with its glands, the kidneys and bladder, and the endocrine and lymphoid organs. Each is built from specialised tissues arranged to carry out a particular job, and they are tightly linked by blood vessels and nerves.",
+    "function": "Together the organs pump and oxygenate blood, take in and digest food, filter waste into urine, produce hormones that coordinate the body, defend against infection and, through the brain and sense organs, perceive the world and control behaviour.",
+    "facts": [
+      "An adult heart weighs roughly 250-350 g, about the size of a fist.",
+      "The cerebellum takes up only about a tenth of the brain's volume yet holds about 80% of the brain's neurons (roughly 69 billion).",
+      "Each kidney contains around a million nephrons, the tiny units that filter blood to make urine."
+    ],
+    "sources": [
+      "https://my.clevelandclinic.org/health/body/21704-heart",
+      "https://en.wikipedia.org/wiki/Heart",
+      "https://my.clevelandclinic.org/health/body/23418-cerebellum",
+      "https://my.clevelandclinic.org/health/body/21481-liver",
+      "https://my.clevelandclinic.org/health/body/21824-kidney"
+    ]
+  },
+  "structures": [
+    {
+      "id": "right-atrium",
+      "medical": "Right atrium",
+      "common": "Right upper heart chamber",
+      "category": "Heart",
+      "match": [
+        "Right atrium"
+      ],
+      "summary": "The right atrium is the thin-walled upper chamber on the right side of the heart. It collects oxygen-poor blood returning from the body and from the heart muscle itself. Its inner wall has a smooth back part and a ridged front part lined with pectinate muscles, divided by a ridge called the crista terminalis.",
+      "function": "Receives deoxygenated blood from the superior and inferior venae cavae and the coronary sinus and passes it through the tricuspid valve into the right ventricle. It also houses the heart's natural pacemaker, the sinoatrial node.",
+      "location": "On the right side of the heart behind the sternum; a narrow strip of it between the two venae cavae forms the heart's right border.",
+      "facts": [
+        "The sinoatrial (SA) node sits in the wall of the right atrium near where the superior vena cava enters.",
+        "A shallow dip on its septal wall, the fossa ovalis, is the remnant of the fetal foramen ovale."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/organs/heart/atria-ventricles/",
+        "https://www.kenhub.com/en/library/anatomy/the-atria-of-the-heart",
+        "https://en.wikipedia.org/wiki/Heart"
+      ]
+    },
+    {
+      "id": "right-ventricle",
+      "medical": "Right ventricle",
+      "common": "Right lower heart chamber",
+      "category": "Heart",
+      "match": [
+        "Right ventricle",
+        "Anterior papillary muscle of right ventricle",
+        "Inferior papillary muscle of right ventricle",
+        "Septal papillary muscle of right ventricle"
+      ],
+      "summary": "The right ventricle is the lower right pumping chamber, forming most of the front surface of the heart. Its inflow part is roughened by muscular ridges (trabeculae carneae) and three papillary muscles, while its smooth outflow funnel, the conus arteriosus, leads to the pulmonary valve.",
+      "function": "Pumps deoxygenated blood through the pulmonary valve into the pulmonary trunk and on to the lungs for gas exchange.",
+      "location": "Forms most of the front (sternocostal) surface of the heart behind the sternum and much of its lower surface resting on the diaphragm.",
+      "facts": [
+        "It has three papillary muscles (anterior, posterior/inferior and septal) that anchor the tricuspid valve cords.",
+        "A muscular bridge called the moderator band carries part of the conducting system across its cavity."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/organs/heart/atria-ventricles/",
+        "https://www.kenhub.com/en/library/anatomy/the-ventricles-of-the-heart"
+      ]
+    },
+    {
+      "id": "left-atrium",
+      "medical": "Left atrium",
+      "common": "Left upper heart chamber",
+      "category": "Heart",
+      "match": [
+        "Left atrium"
+      ],
+      "summary": "The left atrium is the upper chamber on the left side of the heart and, with the right atrium, forms the heart's base at the back. It receives oxygen-rich blood returning from the lungs. Its inflow area is smooth, and its small ear-like pouch (the left auricle) contains pectinate muscles.",
+      "function": "Receives oxygenated blood from the four pulmonary veins and passes it through the mitral valve into the left ventricle.",
+      "location": "At the back of the heart, where together with the right atrium it forms the heart's base (posterior surface).",
+      "facts": [
+        "Four pulmonary veins, typically two from each lung, open into its back wall.",
+        "Its slender ear-like extension, the left auricle, contributes to the heart's left border."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/organs/heart/atria-ventricles/",
+        "https://www.kenhub.com/en/library/anatomy/the-atria-of-the-heart"
+      ]
+    },
+    {
+      "id": "left-ventricle",
+      "medical": "Left ventricle",
+      "common": "Main pumping chamber",
+      "category": "Heart",
+      "match": [
+        "Left ventricle",
+        "Inferior papillary muscle of left ventricle"
+      ],
+      "summary": "The left ventricle is the heart's most powerful chamber and forms its apex. Its wall is about three times thicker than that of the right ventricle because it must push blood around the entire body. Two papillary muscles tether the mitral valve cords, and its smooth outflow region, the aortic vestibule, leads to the aortic valve.",
+      "function": "Pumps oxygenated blood through the aortic valve into the aorta and the systemic circulation.",
+      "location": "Forms the apex and, with the left auricle, the left border of the heart, pointing forward, down and to the left.",
+      "facts": [
+        "Its wall is roughly three times as thick as the right ventricle's.",
+        "At rest it ejects about 70 mL of blood per beat, giving a cardiac output of around 5 L per minute."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/organs/heart/atria-ventricles/",
+        "https://www.kenhub.com/en/library/anatomy/the-ventricles-of-the-heart",
+        "https://en.wikipedia.org/wiki/Heart"
+      ]
+    },
+    {
+      "id": "tricuspid-valve",
+      "medical": "Right atrioventricular valve (tricuspid valve)",
+      "common": "Tricuspid valve",
+      "category": "Heart",
+      "match": [
+        "Inferior leaflet of right atrioventricular valve",
+        "Septal leaflet of right atrioventricular valve"
+      ],
+      "summary": "The tricuspid valve guards the opening between the right atrium and right ventricle. It has three leaflets (anterior, septal and posterior/inferior) whose free edges are tied by chordae tendineae to papillary muscles. The model shows its inferior and septal leaflets.",
+      "function": "Opens to let blood flow from the right atrium into the right ventricle and snaps shut when the ventricle contracts, preventing backflow into the atrium.",
+      "location": "Sits at the right atrioventricular opening, behind the lower right part of the sternum.",
+      "facts": [
+        "Papillary muscles contract during systole to stop the leaflets from flipping back into the atrium.",
+        "Closure of the two atrioventricular valves contributes to the first heart sound ('lub')."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/organs/heart/heart-valves/",
+        "https://my.clevelandclinic.org/health/body/17067-heart-valves"
+      ]
+    },
+    {
+      "id": "aortic-valve",
+      "medical": "Aortic valve",
+      "common": "Aortic valve",
+      "category": "Heart",
+      "match": [
+        "Left coronary leaflet",
+        "Right coronary leaflet",
+        "Non-coronary leaflet"
+      ],
+      "summary": "The aortic valve is a semilunar valve with three pocket-like cusps at the exit of the left ventricle. Behind two of the cusps lie small dilations, the aortic sinuses, from which the coronary arteries arise; the third cusp has no coronary artery and is called the non-coronary (posterior) cusp.",
+      "function": "Lets blood leave the left ventricle for the aorta during contraction and closes as the ventricle relaxes, stopping blood from falling back.",
+      "location": "Lies between the left ventricle and the ascending aorta, near the centre of the heart behind the sternum.",
+      "facts": [
+        "The left and right coronary arteries originate from the aortic sinuses just above the valve.",
+        "Its closure at the start of diastole helps produce the second heart sound ('dub')."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/organs/heart/heart-valves/",
+        "https://my.clevelandclinic.org/health/body/17067-heart-valves"
+      ]
+    },
+    {
+      "id": "pulmonary-valve",
+      "medical": "Pulmonary valve",
+      "common": "Pulmonary valve",
+      "category": "Heart",
+      "match": [
+        "Anterior semilunar leaflet of pulmonary valve",
+        "Left semilunar leaflet of pulmonary valve",
+        "Right semilunar leaflet of pulmonary valve"
+      ],
+      "summary": "The pulmonary valve is a semilunar valve with three cusps (anterior, left and right) at the top of the right ventricle's outflow funnel. Its cusps fill like pockets when blood tries to flow backward, sealing the opening.",
+      "function": "Allows blood to pass from the right ventricle into the pulmonary trunk and prevents it from returning when the ventricle relaxes.",
+      "location": "Located at the top of the conus arteriosus (outflow funnel) of the right ventricle, where the pulmonary trunk begins.",
+      "facts": [
+        "Like the aortic valve it has three cusps but no chordae tendineae or papillary muscles.",
+        "It is one of four heart valves, two on each side of the heart."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/organs/heart/heart-valves/",
+        "https://my.clevelandclinic.org/health/body/17067-heart-valves"
+      ]
+    },
+    {
+      "id": "frontal-lobe",
+      "medical": "Frontal lobe",
+      "common": "Front part of the brain",
+      "category": "Brain - cerebrum",
+      "match": [
+        "Inferior frontal sulcus.l",
+        "Inferior frontal sulcus.r",
+        "Lat_Fis-ant-Horizont.l",
+        "Lat_Fis-ant-Horizont.r",
+        "Lat_Fis-ant-Vertical.l",
+        "Lat_Fis-ant-Vertical.r",
+        "Middle frontal gyrus.l",
+        "Middle frontal gyrus.r",
+        "Olfactory sulcus.l",
+        "Olfactory sulcus.r",
+        "Orbital gyri (Frontomarginal gyrus and sulcus*).l",
+        "Orbital gyri (Frontomarginal gyrus and sulcus*).r",
+        "Orbital gyri.l",
+        "Orbital gyri.r",
+        "Orbital part of  inferior frontal gyrus.l",
+        "Orbital sulci (H-shaped orbital sulci*).l",
+        "Orbital sulci (H-shaped orbital sulci*).r",
+        "Orbital sulci (Lateral Orbital sulcus*).l",
+        "Orbital sulci (Lateral Orbital sulcus*).r",
+        "Paracentral gyrus and sulcus*.l",
+        "Paracentral gyrus and sulcus*.r",
+        "Paracentral sulcus.l",
+        "Paracentral sulcus.r",
+        "Precentral sulcus (Superior part)*.l",
+        "Precentral sulcus (Superior part)*.r",
+        "Precentral sulcus (inferior part)*.l",
+        "Precentral sulcus (inferior part)*.r",
+        "Straight gyrus (Gyrus rectus).l",
+        "Straight gyrus (Gyrus rectus).r",
+        "Superior frontal gyrus.l",
+        "Superior frontal gyrus.r",
+        "Superior frontal sulcus.l",
+        "Superior frontal sulcus.r",
+        "Transverse frontopolar gyrus and sulcus*.l",
+        "Transverse frontopolar gyrus and sulcus*.r",
+        "Orbital part of  inferior frontal gyrus.r"
+      ],
+      "summary": "The frontal lobe is the largest lobe of each cerebral hemisphere, making up roughly a quarter to two-fifths of the cortex. Its surface is organised into superior, middle and inferior frontal gyri and orbital gyri on its underside. Its front part, the prefrontal cortex, underlies planning, judgment and personality.",
+      "function": "Controls voluntary movement, speech production (on the dominant side), attention, planning, decision-making, impulse control and social behaviour.",
+      "location": "Occupies the front of each hemisphere beneath the frontal bone, in front of the central sulcus and above the lateral sulcus.",
+      "facts": [
+        "The famous 19th-century case of Phineas Gage showed how frontal lobe injury can change personality.",
+        "It is separated from the parietal lobe by the central sulcus and from the temporal lobe by the lateral sulcus."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neuroanatomy/structures/cerebrum/",
+        "https://www.kenhub.com/en/library/anatomy/lobes-of-the-brain",
+        "https://my.clevelandclinic.org/health/body/24501-frontal-lobe"
+      ]
+    },
+    {
+      "id": "precentral-gyrus",
+      "medical": "Precentral gyrus",
+      "common": "Primary motor cortex",
+      "category": "Brain - cerebrum",
+      "match": [
+        "Precentral gyrus.l",
+        "Precentral gyrus.r"
+      ],
+      "summary": "The precentral gyrus is the ridge of cortex just in front of the central sulcus at the back of the frontal lobe. It contains the primary motor cortex (Brodmann area 4), including giant pyramidal Betz cells whose axons descend to the brainstem and spinal cord.",
+      "function": "Sends commands for voluntary movement to the opposite side of the body, with body parts mapped in order along the gyrus (the motor homunculus).",
+      "location": "Posterior frontal lobe, immediately anterior to the central sulcus, running from the top of the hemisphere down to the lateral sulcus.",
+      "facts": [
+        "The leg is represented near the midline, the face lowest and most lateral, with a large area for the hand between.",
+        "Damage to it causes weakness or paralysis on the opposite side of the body."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Precentral_gyrus",
+        "https://teachmeanatomy.info/neuroanatomy/structures/cerebrum/",
+        "https://www.kenhub.com/en/library/anatomy/lobes-of-the-brain"
+      ]
+    },
+    {
+      "id": "broca-area",
+      "medical": "Opercular and triangular parts of inferior frontal gyrus (Broca area)",
+      "common": "Broca's area (speech area)",
+      "category": "Brain - cerebrum",
+      "match": [
+        "Triangular part of inferior frontal gyrus.l",
+        "Triangular part of inferior frontal gyrus.r",
+        "Opercular part of inferior frontal gyrus.l",
+        "Opercular part of inferior frontal gyrus.r"
+      ],
+      "summary": "The opercular and triangular parts of the inferior frontal gyrus correspond to Brodmann areas 44 and 45. In the dominant hemisphere (usually the left) this region is known as Broca's area and is central to producing speech.",
+      "function": "Plans and coordinates the production of spoken and written language, including grammar and articulation.",
+      "location": "Inferior frontal gyrus of the frontal lobe, just above the front branches of the lateral sulcus.",
+      "facts": [
+        "Paul Broca described it in the 1860s after studying a patient nicknamed 'Tan', who could say only that syllable.",
+        "Damage causes Broca's (expressive) aphasia: effortful, halting speech with relatively preserved comprehension."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Broca%27s_area",
+        "https://www.kenhub.com/en/library/anatomy/lobes-of-the-brain",
+        "https://teachmeanatomy.info/neuroanatomy/structures/cerebrum/"
+      ]
+    },
+    {
+      "id": "parietal-lobe",
+      "medical": "Parietal lobe",
+      "common": "Upper back part of the brain",
+      "category": "Brain - cerebrum",
+      "match": [
+        "Angular gyrus.l",
+        "Angular gyrus.r",
+        "Intraparietal sulcus.l",
+        "Intraparietal sulcus.r",
+        "Postcentral sulcus.l",
+        "Postcentral sulcus.r",
+        "Precuneus.l",
+        "Precuneus.r",
+        "Superior parietal lobule.l",
+        "Superior parietal lobule.r",
+        "Supramarginal gyrus.l",
+        "Supramarginal gyrus.r",
+        "Subparietal sulcus.l",
+        "Subparietal sulcus.r",
+        "Sulcus interm_prim-Jensen.l",
+        "Sulcus interm_prim-Jensen.r"
+      ],
+      "summary": "The parietal lobe forms roughly a quarter of each hemisphere, between the frontal and occipital lobes and above the temporal lobe. Behind the postcentral gyrus it divides into superior and inferior parietal lobules; the inferior lobule contains the supramarginal and angular gyri, and the precuneus lies on its inner surface.",
+      "function": "Integrates touch, body position and other sensations, and supports spatial awareness, attention, calculation and aspects of language and reading.",
+      "location": "Beneath the parietal bone, behind the central sulcus, above the lateral sulcus and in front of the parieto-occipital sulcus.",
+      "facts": [
+        "The dominant parietal lobe is more involved with language and mathematics, the non-dominant side with visuospatial skills.",
+        "The angular and supramarginal gyri are key areas for reading and writing."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/parietal-lobe",
+        "https://teachmeanatomy.info/neuroanatomy/structures/cerebrum/"
+      ]
+    },
+    {
+      "id": "postcentral-gyrus",
+      "medical": "Postcentral gyrus",
+      "common": "Primary sensory (touch) cortex",
+      "category": "Brain - cerebrum",
+      "match": [
+        "Postcentral gyrus.l",
+        "Postcentral gyrus.r"
+      ],
+      "summary": "The postcentral gyrus is the ridge of cortex just behind the central sulcus at the front of the parietal lobe. It houses the primary somatosensory cortex (Brodmann areas 3, 1 and 2), which receives touch, pain, temperature and position signals relayed through the thalamus.",
+      "function": "Registers bodily sensations from the opposite side of the body, mapped in an orderly 'sensory homunculus'.",
+      "location": "Anterior parietal lobe, between the central sulcus in front and the postcentral sulcus behind.",
+      "facts": [
+        "The sensory map was charted by neurosurgeon Wilder Penfield using electrical stimulation during surgery.",
+        "Body regions with fine sensation, such as the lips and fingertips, have disproportionately large areas."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Postcentral_gyrus",
+        "https://www.kenhub.com/en/library/anatomy/parietal-lobe",
+        "https://teachmeanatomy.info/neuroanatomy/structures/cerebrum/"
+      ]
+    },
+    {
+      "id": "temporal-lobe",
+      "medical": "Temporal lobe",
+      "common": "Side part of the brain",
+      "category": "Brain - cerebrum",
+      "match": [
+        "Inferior temporal gyrus.l",
+        "Inferior temporal gyrus.r",
+        "Inferior temporal sulcus.l",
+        "Inferior temporal sulcus.r",
+        "Lateral occipitotemporal gyrus.l",
+        "Lateral occipitotemporal gyrus.r",
+        "Medial occipitotemporal gyrus (Parahippocampal*).l",
+        "Medial occipitotemporal gyrus (Parahippocampal*).r",
+        "Middle temporal gyrus.l",
+        "Middle temporal gyrus.r",
+        "Occipitotemporal sulcus (Lateral part*).l",
+        "Occipitotemporal sulcus (Lateral part*).r",
+        "Superior temporal gyrus (Lateral part).l",
+        "Superior temporal gyrus (Lateral part).r",
+        "Superior temporal sulcus.l",
+        "Superior temporal sulcus.r",
+        "Temporal plane.l",
+        "Temporal plane.r",
+        "Temporal pole.l",
+        "Temporal pole.r",
+        "Transverse temporal gyri.l",
+        "Transverse temporal gyri.r",
+        "Collateral sulcus.l",
+        "Collateral sulcus.r"
+      ],
+      "summary": "The temporal lobe is the second-largest lobe, accounting for just over a fifth of the neocortex. Its lateral surface has superior, middle and inferior temporal gyri; the transverse temporal gyri (of Heschl) are tucked inside the lateral sulcus, and the medial part includes the parahippocampal gyrus next to the hippocampus.",
+      "function": "Processes hearing, language comprehension (Wernicke's area in the dominant hemisphere), object and face recognition, and memory formation.",
+      "location": "Sits in the middle cranial fossa beneath the temporal bone, below the lateral sulcus.",
+      "facts": [
+        "The primary auditory cortex (Brodmann area 41) lies on the transverse temporal gyri.",
+        "Medial temporal structures such as the hippocampus and amygdala are vital for memory and emotion."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/temporal-lobe",
+        "https://teachmeanatomy.info/neuroanatomy/structures/cerebrum/",
+        "https://www.kenhub.com/en/library/anatomy/lobes-of-the-brain"
+      ]
+    },
+    {
+      "id": "occipital-lobe",
+      "medical": "Occipital lobe",
+      "common": "Back part of the brain (visual area)",
+      "category": "Brain - cerebrum",
+      "match": [
+        "Calcarine sulcus.l",
+        "Calcarine sulcus.r",
+        "Cuneus.l",
+        "Cuneus.r",
+        "Inferior occipital gyrus and sulcus*.l",
+        "Inferior occipital gyrus and sulcus*.r",
+        "Lateral occipital gyrus (Middle occipital gyrus*).l",
+        "Lateral occipital gyrus (Middle occipital gyrus*).r",
+        "Lingual gyrus.l",
+        "Lingual gyrus.r",
+        "Lunate sulcus.l",
+        "Lunate sulcus.r",
+        "Occipital pole.l",
+        "Occipital pole.r",
+        "Superior occipital gyri.l",
+        "Superior occipital gyri.r",
+        "Transverse occipital sulcus.l",
+        "Transverse occipital sulcus.r",
+        "Anterior occipital sulcus*.l",
+        "Anterior occipital sulcus*.r",
+        " Posterior transverse collateral sulcus.l",
+        " Posterior transverse collateral sulcus.r"
+      ],
+      "summary": "The occipital lobe is the smallest lobe, about 18% of neocortical volume, forming the rear pole of each hemisphere. On its inner surface the calcarine sulcus separates the cuneus above from the lingual gyrus below; the primary visual cortex lines this sulcus.",
+      "function": "Receives and processes visual information from the eyes, analysing features such as shape, colour and motion.",
+      "location": "At the back of the cerebrum beneath the occipital bone, behind the parieto-occipital sulcus and resting on the tentorium cerebelli.",
+      "facts": [
+        "The primary visual cortex (V1, Brodmann area 17) receives input via the optic radiations.",
+        "It is supplied mainly by the posterior cerebral artery."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/occipital-lobe",
+        "https://teachmeanatomy.info/neuroanatomy/structures/cerebrum/"
+      ]
+    },
+    {
+      "id": "insula",
+      "medical": "Insula (insular lobe)",
+      "common": "Insula (hidden lobe)",
+      "category": "Brain - cerebrum",
+      "match": [
+        "Insula (Subcentral gyrus and ant. and post. sulci*).l",
+        "Insula (Subcentral gyrus and ant. and post. sulci*).r",
+        "Circular sulcus of insula.l",
+        "Circular sulcus of insula.r"
+      ],
+      "summary": "The insula is a region of cortex folded deep inside the lateral sulcus, hidden from view by overlapping flaps (opercula) of the frontal, parietal and temporal lobes. It is outlined by the circular sulcus and divided into anterior and posterior parts.",
+      "function": "Processes taste, internal body sensations (interoception), pain and temperature, and contributes to emotional awareness and the regulation of bodily balance.",
+      "location": "Deep within the lateral sulcus of each hemisphere, beneath the opercula.",
+      "facts": [
+        "It contains part of the primary taste (gustatory) cortex.",
+        "Smokers with strokes damaging the insula have been found to lose their urge to smoke far more often than others."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Insular_cortex",
+        "https://www.kenhub.com/en/library/anatomy/lobes-of-the-brain"
+      ]
+    },
+    {
+      "id": "corpus-callosum",
+      "medical": "Corpus callosum",
+      "common": "Bridge between brain halves",
+      "category": "Brain - cerebrum",
+      "match": [
+        "Corpus callosum"
+      ],
+      "summary": "The corpus callosum is a thick, arched band of nerve fibres that crosses the midline at the bottom of the longitudinal fissure. It is the largest white-matter structure in the brain, about 10 cm long, and is divided into rostrum, genu, body and splenium.",
+      "function": "Carries signals between corresponding areas of the left and right hemispheres so they can share information and coordinate movement, sensation and thinking.",
+      "location": "Deep in the middle of the brain at the bottom of the longitudinal fissure, between the two hemispheres.",
+      "facts": [
+        "It contains about 200-300 million nerve fibres (axons).",
+        "Cutting it (corpus callosotomy) is a treatment for some severe forms of epilepsy."
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/corpus-callosum",
+        "https://en.wikipedia.org/wiki/Corpus_callosum"
+      ]
+    },
+    {
+      "id": "cingulate-gyrus",
+      "medical": "Cingulate gyrus",
+      "common": "Cingulate gyrus (limbic cortex)",
+      "category": "Brain - cerebrum",
+      "match": [
+        "Cingulate gyrus (Posteroventral part*).l",
+        "Cingulate gyrus (Posteroventral part*).r",
+        "Cingulate gyrus and sulcus (Middle anterior part).l",
+        "Cingulate gyrus and sulcus (Middle anterior part).r",
+        "Cingulate gyrus and sulcus (Middle posterior part).l",
+        "Cingulate gyrus and sulcus (Middle posterior part).r",
+        "Cingulate gyrus and sulcus (Posterior dorsal part).l",
+        "Cingulate gyrus and sulcus (Posterior dorsal part).r",
+        "Cingulate sulcus (Marginal part*).l",
+        "Cingulate sulcus (Marginal part*).r"
+      ],
+      "summary": "The cingulate gyrus is a curved band of cortex on the inner (medial) surface of each hemisphere that arches around the corpus callosum. It lies between the callosal sulcus below and the cingulate sulcus above, and is a key part of the limbic lobe. It is divided into anterior, middle and posterior cingulate regions and the retrosplenial cortex.",
+      "function": "Links emotion with behaviour: its front part helps process emotions, pain and motivation and monitors errors, the middle part aids decision-making and movement control, and the back part supports memory and spatial orientation.",
+      "location": "Medial surface of the cerebral hemisphere, directly above and around the corpus callosum, from below its rostrum back to behind its splenium.",
+      "facts": [
+        "It is supplied mainly by the pericallosal branch of the anterior cerebral artery.",
+        "Changes in the cingulate cortex are linked with depression, Alzheimer disease and addiction."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/cingulate-gyrus",
+        "https://www.ncbi.nlm.nih.gov/books/NBK537077/"
+      ]
+    },
+    {
+      "id": "cerebellum",
+      "medical": "Cerebellum",
+      "common": "Little brain",
+      "category": "Brain - hindbrain",
+      "match": [
+        "Anterior quadrangular lobule.l",
+        "Anterior quadrangular lobule.r",
+        "Biventral lobule.l",
+        "Biventral lobule.r",
+        "Central lobule",
+        "Culmen",
+        "Declive",
+        "Flocculus.l",
+        "Flocculus.r",
+        "Folium of vermis",
+        "Gracile lobule.l",
+        "Gracile lobule.r",
+        "Inferior semilunar lobule.l",
+        "Inferior semilunar lobule.r",
+        "Lingula of cerebellum",
+        "Nodule of vermis",
+        "Peduncle of flocculus.l",
+        "Peduncle of flocculus.r",
+        "Posterior quadrangular lobule.l",
+        "Posterior quadrangular lobule.r",
+        "Pyramis of vermis",
+        "Superior cerebellar peduncle.l",
+        "Superior cerebellar peduncle.r",
+        "Superior semilunar lobule.l",
+        "Superior semilunar lobule.r",
+        "Tonsil of cerebellum.l",
+        "Tonsil of cerebellum.r",
+        "Tuber of vermis",
+        "Uvula of vermis",
+        "Wing of central lobule.l",
+        "Wing of central lobule.r"
+      ],
+      "summary": "The cerebellum is the finely folded structure at the back of the brain, made of two hemispheres joined by a midline vermis and divided into anterior, posterior and flocculonodular lobes. It connects to the brainstem through three pairs of cerebellar peduncles. Its lobules include the tonsils, flocculus and quadrangular, semilunar and biventral lobules.",
+      "function": "Coordinates movement, balance, posture and eye movements, fine-tunes muscle timing and supports motor learning; it also contributes to some cognitive and emotional processing.",
+      "location": "In the posterior cranial fossa behind the pons and medulla, beneath the occipital lobes and separated from them by the tentorium cerebelli.",
+      "facts": [
+        "It occupies about 10% of brain volume yet contains about 80% of the brain's neurons (roughly 69 billion).",
+        "Signs of cerebellar damage are remembered as DANISH: dysdiadochokinesia, ataxia, nystagmus, intention tremor, slurred (scanning) speech and hypotonia."
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/23418-cerebellum",
+        "https://teachmeanatomy.info/neuroanatomy/structures/cerebellum/"
+      ]
+    },
+    {
+      "id": "midbrain",
+      "medical": "Midbrain (mesencephalon)",
+      "common": "Midbrain",
+      "category": "Brain - brainstem",
+      "match": [
+        "Midbrain.l",
+        "Midbrain.r",
+        "Base of peduncle.l",
+        "Base of peduncle.r",
+        "Interpeduncular fossa.l",
+        "Interpeduncular fossa.r"
+      ],
+      "summary": "The midbrain is the short uppermost part of the brainstem, connecting the pons to the forebrain. Its front surface shows two thick cerebral peduncles with the interpeduncular fossa between them. It contains the nuclei of cranial nerves III and IV.",
+      "function": "Relays motor and sensory pathways and controls eye movements, pupil reflexes and reflex responses to sights and sounds.",
+      "location": "Top of the brainstem, below the thalamus and above the pons, in front of the cerebellum.",
+      "facts": [
+        "It contains the nuclei of cranial nerves III and IV, both of which move the eye.",
+        "The brainstem as a whole carries 10 of the 12 cranial nerves (III to XII)."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-brainstem",
+        "https://my.clevelandclinic.org/health/body/21598-brainstem"
+      ]
+    },
+    {
+      "id": "pons",
+      "medical": "Pons",
+      "common": "Pons",
+      "category": "Brain - brainstem",
+      "match": [
+        "Pons.l",
+        "Pons.r"
+      ],
+      "summary": "The pons is the bulging middle segment of the brainstem, whose name means 'bridge'. Its large front portion carries fibres crossing to the cerebellum, and it contains the nuclei of cranial nerves V to VIII.",
+      "function": "Relays signals between the cerebrum and cerebellum and helps control facial sensation and movement, eye movements, hearing, balance, breathing rhythm and sleep.",
+      "location": "Between the midbrain above and the medulla oblongata below, in front of the cerebellum and resting on the clivus of the skull.",
+      "facts": [
+        "The whole brainstem is only about 5-7 cm long.",
+        "It contains the nuclei of cranial nerves V to VIII, serving facial sensation, eye and face movement, hearing and balance."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-brainstem",
+        "https://my.clevelandclinic.org/health/body/21598-brainstem"
+      ]
+    },
+    {
+      "id": "medulla-oblongata",
+      "medical": "Medulla oblongata",
+      "common": "Medulla (lower brainstem)",
+      "category": "Brain - brainstem",
+      "match": [
+        "Medulla oblongata.l",
+        "Medulla oblongata.r"
+      ],
+      "summary": "The medulla oblongata is the lowest part of the brainstem, continuous with the spinal cord at the foramen magnum. On its front are the pyramids, where most motor fibres cross to the opposite side, and it contains the nuclei of cranial nerves IX to XII.",
+      "function": "Houses centres that regulate breathing, heart rate, blood pressure and swallowing, and carries all pathways between brain and spinal cord.",
+      "location": "Lowest brainstem, below the pons and in front of the cerebellum, ending at the foramen magnum.",
+      "facts": [
+        "Crossing of the corticospinal tracts at the pyramids is why each side of the brain controls the opposite side of the body.",
+        "Together with the pons and midbrain, it gives rise to cranial nerves III to XII."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-brainstem",
+        "https://my.clevelandclinic.org/health/body/21598-brainstem"
+      ]
+    },
+    {
+      "id": "pituitary-gland",
+      "medical": "Hypophysis (pituitary gland)",
+      "common": "Pituitary gland",
+      "category": "Endocrine",
+      "match": [
+        "Adenohypophysis",
+        "Neurohypophysis"
+      ],
+      "summary": "The pituitary is a pea-sized endocrine gland hanging from the hypothalamus by a stalk (infundibulum). Its anterior lobe (adenohypophysis) makes up about three-quarters or more of the gland and makes its own hormones; the posterior lobe (neurohypophysis) is an extension of the brain that stores hormones made in the hypothalamus.",
+      "function": "The anterior lobe secretes growth hormone, prolactin, TSH, ACTH and the gonadotropins (FSH and LH), which control many other glands; the posterior lobe releases oxytocin and antidiuretic hormone (vasopressin).",
+      "location": "Sits in the sella turcica of the sphenoid bone at the base of the brain, just below the optic chiasm and above the sphenoid sinus.",
+      "facts": [
+        "Because the optic chiasm lies just above it, a pituitary tumour can cause loss of peripheral vision.",
+        "It is often called the 'master gland' because its hormones direct other endocrine glands such as the thyroid and adrenal glands."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/pituitary-gland",
+        "https://my.clevelandclinic.org/health/body/22214-anterior-pituitary"
+      ]
+    },
+    {
+      "id": "eyeball",
+      "medical": "Eyeball (bulbus oculi)",
+      "common": "Eyeball",
+      "category": "Eye",
+      "match": [
+        "Sclera.l",
+        "Sclera.r"
+      ],
+      "summary": "The eyeball is a roughly spherical organ with three layers: an outer fibrous coat (white sclera and clear cornea), a middle vascular layer (choroid, ciliary body and iris) and the inner light-sensitive retina. A clear, flexible lens behind the iris fine-tunes focus; the space in front of it holds watery aqueous humour, and the larger space behind it is filled with the gel-like vitreous body.",
+      "function": "Focuses light onto the retina and converts it into nerve signals sent to the brain through the optic nerve.",
+      "location": "Sits within the bony orbit at the front of the skull, connected to the brain by the optic nerve.",
+      "facts": [
+        "The tough sclera covers about the posterior five-sixths of the eyeball; the cornea covers the front sixth.",
+        "The vitreous is about 98-99% water and fills around 80% of the eye's volume.",
+        "The lens supplies about a third of the eye's focusing power and stiffens with age (presbyopia)."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/structure-of-the-eyeball",
+        "https://my.clevelandclinic.org/health/body/24611-aqueous-humor-vitreous-humor",
+        "https://www.aao.org/eye-health/anatomy/parts-of-eye"
+      ]
+    },
+    {
+      "id": "cornea",
+      "medical": "Cornea",
+      "common": "Cornea (clear front of the eye)",
+      "category": "Eye",
+      "match": [
+        "Cornea.l",
+        "Cornea.r"
+      ],
+      "summary": "The cornea is the transparent, dome-shaped window at the front of the eye, continuous with the sclera at the limbus. It has five layers (epithelium, Bowman's layer, stroma, Descemet's membrane and endothelium) and contains no blood vessels, receiving nutrients from tears and aqueous humour.",
+      "function": "Protects the eye and does most of its focusing, bending incoming light toward the lens and retina.",
+      "location": "Front of the eyeball, covering the iris and pupil.",
+      "facts": [
+        "It provides about two-thirds (roughly 70%) of the eye's focusing power.",
+        "It is one of the most sensitive tissues of the body, supplied by the ophthalmic nerve, which is why touching it triggers a blink (corneal reflex)."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/cornea",
+        "https://www.kenhub.com/en/library/anatomy/structure-of-the-eyeball",
+        "https://my.clevelandclinic.org/health/body/eye-lens-crystalline-lens"
+      ]
+    },
+    {
+      "id": "iris",
+      "medical": "Iris",
+      "common": "Iris (coloured part of the eye)",
+      "category": "Eye",
+      "match": [
+        "Iris.l",
+        "Iris.r"
+      ],
+      "summary": "The iris is the pigmented, ring-shaped diaphragm between the cornea and the lens, with the pupil at its centre. It is part of the eye's middle vascular layer and contains two smooth muscles: a circular sphincter that narrows the pupil and a radial dilator that widens it.",
+      "function": "Automatically adjusts pupil size to control how much light reaches the retina.",
+      "location": "Behind the cornea and in front of the lens, separating the anterior and posterior chambers.",
+      "facts": [
+        "Eye colour depends on the amount of melanin pigment in the iris, which is inherited.",
+        "The pattern of each iris is unique, like a fingerprint."
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/22502-iris",
+        "https://www.kenhub.com/en/library/anatomy/structure-of-the-eyeball"
+      ]
+    },
+    {
+      "id": "pharynx",
+      "medical": "Pharynx",
+      "common": "Throat",
+      "category": "Respiratory / digestive tract",
+      "match": [
+        "Nasopharynx",
+        "Oropharynx",
+        "Laryngopharynx"
+      ],
+      "summary": "The pharynx is a muscular tube shared by the airway and food passage, running from the base of the skull to the level of the C6 vertebra. It has three parts: the nasopharynx behind the nose, the oropharynx behind the mouth, and the laryngopharynx behind the larynx, which leads into the oesophagus.",
+      "function": "Carries air to the larynx and food and drink to the oesophagus, and its muscles propel swallowed material downward.",
+      "location": "Behind the nasal cavity, mouth and larynx, in front of the cervical vertebrae.",
+      "facts": [
+        "It is about 12-14 cm (about 5 inches) long in adults.",
+        "A ring of lymphoid tissue (adenoids, palatine and lingual tonsils) guards its entrance."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/viscera/pharynx/",
+        "https://my.clevelandclinic.org/health/body/21869-pharynx",
+        "https://www.kenhub.com/en/library/anatomy/the-pharynx"
+      ]
+    },
+    {
+      "id": "trachea",
+      "medical": "Trachea",
+      "common": "Windpipe",
+      "category": "Respiratory tract",
+      "match": [
+        "Trachea"
+      ],
+      "summary": "The trachea is a flexible tube held open by C-shaped rings of cartilage, whose open backs are bridged by the trachealis muscle. It is lined by ciliated epithelium with mucus-producing goblet cells that form a 'mucociliary escalator'.",
+      "function": "Conducts air between the larynx and the bronchi and clears inhaled particles upward in mucus.",
+      "location": "Runs from the lower border of the cricoid cartilage (about C6) down to the sternal angle, where it divides at the carina.",
+      "facts": [
+        "It is about 10-12 cm long and 1.5-2 cm wide in adults, with roughly 16-20 cartilage rings.",
+        "The carina at its fork is highly sensitive and triggers the cough reflex."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/organs/tracheobronchial-tree/",
+        "https://my.clevelandclinic.org/health/body/21828-trachea"
+      ]
+    },
+    {
+      "id": "bronchi",
+      "medical": "Bronchi (main, lobar and segmental)",
+      "common": "Bronchial tubes",
+      "category": "Respiratory tract",
+      "match": [
+        "Left main bronchus",
+        "Right main bronchus",
+        "Left inferior lobar bronchus",
+        "Left superior lobar bronchus",
+        "Intermediate bronchus.r",
+        "Right superior lobar bronchus",
+        "(Anteromedial basal segmental bronchus of left lung)",
+        "Anterior basal segmental bronchus of left lung (BVIII)",
+        "Lateral basal segmental bronchus of left lung (BIX)",
+        "Medial basal segmental bronchus of left lung (BVII)",
+        "Posterior basal segmental bronchus of left lung (BX)",
+        "Superior segmental bronchus of left lung (BVI)",
+        "Anterior segmental bronchus of left lung (BIII)",
+        "Apicoposterior segmental bronchus of left lung (BI+BII)",
+        "Inferior lingular segmental bronchus of left lung (BV)",
+        "Superior lingular segmental bronchus of left lung (BIV)",
+        "Anterior basal segmental bronchus of right lung (BVIII)",
+        "Lateral basal segmental bronchus of right lung (BIX)",
+        "Medial basal segmental bronchus of right lung (BVII)",
+        "Posterior basal segmental bronchus of right lung (BX)",
+        "Superior segmental bronchus of right lung (BVI)",
+        "Anterior segmental bronchus of right lung (BIII)",
+        "Apical segmental bronchus of right lung (BI)",
+        "Posterior segmental bronchus of right lung (BII)",
+        "Middle lobar bronchus.r",
+        "Right inferior lobar bronchus",
+        "Lateral segmental bronchus of right lung (BIV)",
+        "Medial segmental bronchus of right lung (BV)"
+      ],
+      "summary": "The bronchi are the branching airways of the lungs. The trachea divides into right and left main bronchi, which split into lobar bronchi (three on the right, two on the left) and then segmental bronchi, each supplying one bronchopulmonary segment.",
+      "function": "Distribute air from the trachea to every part of the lungs and, like the trachea, clear mucus and debris.",
+      "location": "Begin at the carina behind the sternal angle and enter each lung at its hilum, branching throughout the lung tissue.",
+      "facts": [
+        "The right main bronchus is wider, shorter and more vertical, so inhaled objects lodge there more often.",
+        "Like the trachea, the main bronchi are supported by C-shaped cartilage rings; inside the lungs these give way to irregular cartilage plates."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/organs/tracheobronchial-tree/",
+        "https://www.kenhub.com/en/library/anatomy/the-lung",
+        "https://en.wikipedia.org/wiki/Bronchus"
+      ]
+    },
+    {
+      "id": "right-lung",
+      "medical": "Right lung",
+      "common": "Right lung",
+      "category": "Lungs",
+      "match": [
+        "Superior lobe of right lung",
+        "Middle lobe of right lung",
+        "Inferior lobe of right lung"
+      ],
+      "summary": "The right lung is a cone-shaped, spongy organ divided by the oblique and horizontal fissures into superior, middle and inferior lobes. It is slightly larger and heavier than the left lung and contains 10 bronchopulmonary segments.",
+      "function": "Exchanges gases between air and blood: oxygen enters the blood and carbon dioxide leaves it across the thin walls of the alveoli.",
+      "location": "Fills the right side of the chest cavity, from its apex just above the first rib to its base on the diaphragm, with the mediastinum on its inner side.",
+      "facts": [
+        "It weighs about 625 g compared with about 565 g for the left lung.",
+        "It is shorter and wider than the left lung."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-lung",
+        "https://teachmeanatomy.info/thorax/organs/lungs/",
+        "https://my.clevelandclinic.org/health/body/8960-lungs"
+      ]
+    },
+    {
+      "id": "left-lung",
+      "medical": "Left lung",
+      "common": "Left lung",
+      "category": "Lungs",
+      "match": [
+        "Superior lobe of left lung",
+        "Inferior lobe of left lung"
+      ],
+      "summary": "The left lung is divided by a single oblique fissure into superior and inferior lobes. Its front border has a cardiac notch that makes room for the heart, below which a tongue-shaped extension of the upper lobe, the lingula, curves around the heart.",
+      "function": "Takes in oxygen and gives off carbon dioxide across its alveoli, working together with the right lung.",
+      "location": "Occupies the left side of the chest cavity, beside the heart, with its base on the left dome of the diaphragm.",
+      "facts": [
+        "The lingula is the left lung's counterpart to the right middle lobe.",
+        "It usually has 8-10 bronchopulmonary segments, versus 10 on the right."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/organs/lungs/",
+        "https://www.kenhub.com/en/library/anatomy/the-lung",
+        "https://my.clevelandclinic.org/health/body/8960-lungs"
+      ]
+    },
+    {
+      "id": "oesophagus",
+      "medical": "Oesophagus (esophagus)",
+      "common": "Food pipe (gullet)",
+      "category": "Digestive tract",
+      "match": [
+        "Oesophagus"
+      ],
+      "summary": "The oesophagus is a muscular tube about 25 cm long that carries swallowed food from the pharynx to the stomach. Its wall changes from voluntary (striated) muscle in the upper third to smooth muscle in the lower third, and it has an upper sphincter and a functional lower sphincter.",
+      "function": "Moves food and liquid down to the stomach by waves of muscular contraction (peristalsis) and, at its lower end, helps stop stomach acid from refluxing upward.",
+      "location": "Begins at the level of the cricoid cartilage (C6), runs down behind the trachea and in front of the spine, and passes through the diaphragm at T10 to join the stomach.",
+      "facts": [
+        "It narrows at four points where swallowed objects tend to lodge: the cricoid cartilage, aortic arch, left main bronchus and diaphragm.",
+        "Weakness of the lower sphincter lets acid rise, causing heartburn and GERD."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/gi-tract/oesophagus/",
+        "https://my.clevelandclinic.org/health/body/21728-esophagus"
+      ]
+    },
+    {
+      "id": "stomach",
+      "medical": "Stomach",
+      "common": "Stomach",
+      "category": "Digestive tract",
+      "match": [
+        "Stomach"
+      ],
+      "summary": "The stomach is a J-shaped, expandable sac between the oesophagus and duodenum. It has four regions: cardia, fundus, body and pyloric part (antrum and pylorus), with a short concave lesser curvature and a long convex greater curvature. Its wall has four layers, including a thick muscular coat that churns food.",
+      "function": "Stores swallowed food, mixes it with acid and enzymes to begin digestion, and releases the resulting chyme in small amounts into the duodenum through the pyloric sphincter.",
+      "location": "Upper abdomen, mostly to the left of the midline below the diaphragm; the pylorus lies at about the L1 vertebral level.",
+      "facts": [
+        "Its blood supply comes from branches of the coeliac trunk that run along both curvatures.",
+        "In a hiatus hernia part of the stomach pushes up through the diaphragm into the chest."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/gi-tract/stomach/",
+        "https://my.clevelandclinic.org/health/body/21758-stomach"
+      ]
+    },
+    {
+      "id": "liver",
+      "medical": "Liver",
+      "common": "Liver",
+      "category": "Digestive glands",
+      "match": [
+        "Liver",
+        "Posterior segment of liver (I)",
+        "Left posterior lateral segment of liver (II)",
+        "Left anterior lateral segment of liver (III)",
+        "Left medial segment of liver (IV)",
+        "Anterior medial segment of liver (V)",
+        "Anterior lateral segment of liver (VI)",
+        "Posterior lateral segment of liver (VII)",
+        "Posterior medial segment of liver (VIII)"
+      ],
+      "summary": "The liver is the largest gland and largest internal organ, weighing about 1.5 kg (roughly 3.3 lb) in adults. Anatomically it has a large right lobe, a smaller left lobe and two small lobes underneath (caudate and quadrate); surgeons divide it into eight functional segments (I-VIII), each with its own blood supply and bile drainage, as shown in the model.",
+      "function": "Produces bile, stores glycogen, makes blood-clotting factors and other plasma proteins, and processes nutrients, drugs and toxins arriving from the gut.",
+      "location": "Upper right abdomen under the diaphragm, protected by the lower ribs and extending across the midline to the left.",
+      "facts": [
+        "It receives about 75% of its blood from the hepatic portal vein and 25% from the hepatic artery.",
+        "It is one of the few organs able to regenerate lost tissue."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/viscera/liver/",
+        "https://my.clevelandclinic.org/health/body/21481-liver",
+        "https://en.wikipedia.org/wiki/Liver"
+      ]
+    },
+    {
+      "id": "gallbladder",
+      "medical": "Gallbladder",
+      "common": "Gallbladder",
+      "category": "Digestive glands",
+      "match": [
+        "Gallbladder"
+      ],
+      "summary": "The gallbladder is a small pear-shaped sac with a fundus, body and neck, which tapers into the cystic duct. It holds about 30-50 mL of bile made by the liver and concentrates it between meals.",
+      "function": "Stores and concentrates bile and squeezes it into the duodenum when fatty food arrives, in response to the hormone cholecystokinin.",
+      "location": "Lies in a shallow fossa on the underside of the liver; its fundus is near the tip of the right 9th costal cartilage in the midclavicular line.",
+      "facts": [
+        "It is not essential: after removal, bile flows directly from the liver into the intestine.",
+        "Gallstones are the most common reason for its removal (cholecystectomy)."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/viscera/gallbladder/",
+        "https://my.clevelandclinic.org/health/body/21690-gallbladder"
+      ]
+    },
+    {
+      "id": "bile-duct",
+      "medical": "Bile duct (common bile duct)",
+      "common": "Common bile duct",
+      "category": "Digestive glands",
+      "match": [
+        "Bile duct"
+      ],
+      "summary": "The common bile duct is the main trunk of the biliary tree, about 6-8 cm long. It forms where the common hepatic duct from the liver joins the cystic duct from the gallbladder and ends by uniting with the pancreatic duct at the hepatopancreatic ampulla (of Vater).",
+      "function": "Carries bile from the liver and gallbladder into the duodenum, where it helps digest fats.",
+      "location": "Runs down from the underside of the liver, near the pancreatic head, to open into the duodenum at the major duodenal papilla.",
+      "facts": [
+        "Gallstones that slip into it are the most common cause of bile duct blockage, which can cause jaundice.",
+        "Its opening into the duodenum is controlled by the sphincter of Oddi."
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/24523-bile-duct",
+        "https://teachmeanatomy.info/abdomen/viscera/gallbladder/",
+        "https://teachmeanatomy.info/abdomen/viscera/pancreas/"
+      ]
+    },
+    {
+      "id": "pancreas",
+      "medical": "Pancreas",
+      "common": "Pancreas",
+      "category": "Digestive glands",
+      "match": [
+        "Pancreas",
+        "Pancreatic duct",
+        "Accessory pancreatic duct"
+      ],
+      "summary": "The pancreas is an elongated gland about 15 cm long with five parts: head, uncinate process, neck, body and tail. It is both an exocrine gland, making digestive enzymes that drain through the main (Wirsung) and accessory (Santorini) pancreatic ducts, and an endocrine gland whose islets release hormones.",
+      "function": "Secretes enzymes that digest proteins, fats and carbohydrates into the duodenum, and produces insulin, glucagon and somatostatin to regulate blood sugar.",
+      "location": "Lies across the back of the upper abdomen behind the stomach at about L1-L2, with its head in the curve of the duodenum and its tail reaching the spleen.",
+      "facts": [
+        "The main duct joins the bile duct at the major duodenal papilla, while the accessory duct opens separately at the minor papilla.",
+        "Except for its tail, it is retroperitoneal (behind the lining of the abdominal cavity)."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-pancreas",
+        "https://teachmeanatomy.info/abdomen/viscera/pancreas/"
+      ]
+    },
+    {
+      "id": "duodenum",
+      "medical": "Duodenum",
+      "common": "First part of the small intestine",
+      "category": "Digestive tract",
+      "match": [
+        "Duodenum"
+      ],
+      "summary": "The duodenum is the first and shortest part of the small intestine, about 25-30 cm long. It forms a C-shaped loop around the head of the pancreas and has four parts: superior, descending, horizontal and ascending. Bile and pancreatic juice enter it at the major duodenal papilla.",
+      "function": "Neutralises stomach acid with bicarbonate-rich mucus from Brunner's glands and mixes food with bile and pancreatic enzymes, beginning nutrient absorption.",
+      "location": "Upper abdomen, curving from the pylorus of the stomach around the pancreatic head to the duodenojejunal flexure; mostly retroperitoneal.",
+      "facts": [
+        "Its first part, the duodenal cap or bulb, is the most common site of peptic ulcers.",
+        "Its Brunner's glands are a distinctive feature not found in the jejunum."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-duodenum",
+        "https://teachmeanatomy.info/abdomen/gi-tract/small-intestine/",
+        "https://my.clevelandclinic.org/health/body/22135-small-intestine"
+      ]
+    },
+    {
+      "id": "jejunum",
+      "medical": "Jejunum (and ileum)",
+      "common": "Small intestine (middle part)",
+      "category": "Digestive tract",
+      "match": [
+        "Jejunum"
+      ],
+      "summary": "The jejunum is the middle section of the small intestine, making up about two-fifths of the jejunoileum; the remaining three-fifths is the ileum, which in this model is included in the same coiled object. The jejunum has a thicker, redder wall with tall, closely packed circular folds (plicae circulares) that greatly increase its absorbing surface.",
+      "function": "Absorbs most digested nutrients, including sugars, amino acids and fats, together with water and electrolytes.",
+      "location": "Coils mainly in the upper left part of the abdomen, suspended from the back wall by the mesentery; the ileum lies more in the lower right.",
+      "facts": [
+        "The whole small intestine is about 3-5 m long in a living person (6-7 m at autopsy, when the muscle is relaxed) and about 2.5-3 cm in diameter.",
+        "More than 90% of the nutrients and water taken from food are absorbed in the small intestine."
+      ],
+      "sources": [
+        "https://www.kenhub.com/en/library/anatomy/the-jejunum",
+        "https://teachmeanatomy.info/abdomen/gi-tract/small-intestine/",
+        "https://my.clevelandclinic.org/health/body/22135-small-intestine",
+        "https://en.wikipedia.org/wiki/Small_intestine"
+      ]
+    },
+    {
+      "id": "ascending-colon",
+      "medical": "Ascending colon",
+      "common": "Ascending colon",
+      "category": "Large intestine",
+      "match": [
+        "Ascending colon"
+      ],
+      "summary": "The ascending colon is the first part of the colon above the caecum, about 20 cm long. It is retroperitoneal, fixed to the back wall of the abdomen, and like the rest of the colon has three longitudinal muscle bands (taeniae coli) that gather it into pouches (haustra).",
+      "function": "Absorbs water and salts from the liquid contents arriving from the small intestine and moves them upward toward the transverse colon.",
+      "location": "Right side of the abdomen, rising from the caecum to the underside of the liver, where it turns at the right colic (hepatic) flexure.",
+      "facts": [
+        "It is supplied by branches of the superior mesenteric artery because it develops from the embryonic midgut.",
+        "The whole large intestine is about 1.8 m (6 ft) long."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/gi-tract/colon/",
+        "https://my.clevelandclinic.org/health/body/22134-colon-large-intestine"
+      ]
+    },
+    {
+      "id": "transverse-colon",
+      "medical": "Transverse colon",
+      "common": "Transverse colon",
+      "category": "Large intestine",
+      "match": [
+        "Transverse colon"
+      ],
+      "summary": "The transverse colon is the longest and most mobile part of the colon, over 45 cm long. It hangs across the abdomen on its own mesentery, the transverse mesocolon, between the hepatic and splenic flexures.",
+      "function": "Continues absorbing water and salts and moves the contents from right to left.",
+      "location": "Crosses the upper abdomen from the right colic (hepatic) flexure to the left colic (splenic) flexure near the spleen, below the stomach.",
+      "facts": [
+        "Being intraperitoneal and hung on a mesentery, it is the most mobile part of the colon.",
+        "Its proximal part is supplied by the superior mesenteric artery and its distal part by the inferior mesenteric artery, reflecting its midgut/hindgut origin."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/gi-tract/colon/",
+        "https://my.clevelandclinic.org/health/body/22134-colon-large-intestine"
+      ]
+    },
+    {
+      "id": "descending-colon",
+      "medical": "Descending colon",
+      "common": "Descending colon",
+      "category": "Large intestine",
+      "match": [
+        "Descending colon"
+      ],
+      "summary": "The descending colon is the part of the colon that runs down the left side of the abdomen, about 25 cm long. It is retroperitoneal and narrower than the ascending colon.",
+      "function": "Stores and propels increasingly solid faeces down toward the sigmoid colon while absorbing remaining water.",
+      "location": "Left side of the abdomen, from the left colic (splenic) flexure down in front of the left kidney to the left iliac fossa.",
+      "facts": [
+        "It is supplied by the inferior mesenteric artery (hindgut).",
+        "The marginal artery of Drummond links the colic arteries and provides back-up blood flow along its length."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/gi-tract/colon/",
+        "https://my.clevelandclinic.org/health/body/22134-colon-large-intestine",
+        "https://www.kenhub.com/en/library/anatomy/descending-colon"
+      ]
+    },
+    {
+      "id": "sigmoid-colon",
+      "medical": "Sigmoid colon",
+      "common": "Sigmoid colon",
+      "category": "Large intestine",
+      "match": [
+        "Sigmoid colon"
+      ],
+      "summary": "The sigmoid colon is the S-shaped final part of the colon, about 35-40 cm long. It has a mesentery, the sigmoid mesocolon, which makes it quite mobile, and it ends where the taeniae coli spread out at the rectosigmoid junction.",
+      "function": "Holds faeces before they pass into the rectum for defecation.",
+      "location": "Lower left abdomen and pelvis, from the left iliac fossa to the rectum.",
+      "facts": [
+        "The taeniae coli, haustra and fatty omental appendices that mark the colon end at the rectosigmoid junction.",
+        "It is supplied by the inferior mesenteric artery."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/gi-tract/colon/",
+        "https://my.clevelandclinic.org/health/body/22134-colon-large-intestine"
+      ]
+    },
+    {
+      "id": "vermiform-appendix",
+      "medical": "Vermiform appendix",
+      "common": "Appendix",
+      "category": "Large intestine",
+      "match": [
+        "Vermiform appendix"
+      ],
+      "summary": "The appendix is a narrow, blind-ended tube attached to the caecum where its three taeniae coli meet. It is usually about 8-10 cm (3-4 in) long and rich in lymphoid tissue. Its position varies; lying behind the caecum (retrocaecal) is the most common, in about 65% of people.",
+      "function": "Contains immune tissue and may act as a reservoir of beneficial gut bacteria, although it is not essential for life.",
+      "location": "Lower right abdomen, projecting from the posteromedial end of the caecum; its base usually lies under McBurney's point.",
+      "facts": [
+        "McBurney's point lies one-third of the way from the right anterior superior iliac spine to the umbilicus.",
+        "Appendicitis is the most common condition affecting it and usually requires surgery."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/gi-tract/appendix/",
+        "https://my.clevelandclinic.org/health/body/appendix"
+      ]
+    },
+    {
+      "id": "mitral-valve",
+      "medical": "Mitral valve",
+      "common": "Mitral valve (left heart inlet valve)",
+      "category": "Heart",
+      "match": [
+        "Posterior leaflet of left atrioventricular valve"
+      ],
+      "summary": "The mitral (bicuspid) valve guards the opening between the left atrium and left ventricle. It has two leaflets, a larger, semicircular anterior leaflet and a narrower posterior leaflet with a longer attachment around the valve ring, anchored by chordae tendineae to the two papillary muscles of the left ventricle. The model shows its posterior leaflet.",
+      "function": "Opens to let oxygen-rich blood flow from the left atrium into the left ventricle and closes when the ventricle contracts, stopping backflow toward the lungs.",
+      "location": "At the left atrioventricular opening, deep in the heart behind the left half of the sternum at about the level of the 4th costal cartilage.",
+      "facts": [
+        "It is the only heart valve with two leaflets; its name comes from its resemblance to a bishop's mitre.",
+        "Mitral valve prolapse, where a leaflet bulges back into the atrium, is one of the most common valve disorders."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/organs/heart/heart-valves/",
+        "https://my.clevelandclinic.org/health/body/24002-mitral-valve"
+      ]
+    },
+    {
+      "id": "pineal-gland",
+      "medical": "Pineal gland",
+      "common": "Pineal gland",
+      "category": "Endocrine",
+      "match": [
+        "Pineal gland"
+      ],
+      "summary": "The pineal gland is a tiny, pine-cone-shaped endocrine gland about 0.8 cm long, attached to the roof of the third ventricle. It is made mainly of cells called pinealocytes and often collects calcium deposits with age.",
+      "function": "Releases melatonin, mostly at night in the dark, helping to set the body's daily sleep-wake (circadian) rhythm.",
+      "location": "Deep in the centre of the brain, behind the third ventricle and above the midbrain, between the two thalami.",
+      "facts": [
+        "Its calcified form is often visible on X-rays and CT scans and can act as a midline landmark.",
+        "Light reaching the retina suppresses its melatonin output through a pathway via the hypothalamus."
+      ],
+      "sources": [
+        "https://my.clevelandclinic.org/health/body/23334-pineal-gland",
+        "https://www.kenhub.com/en/library/anatomy/pineal-gland"
+      ]
+    },
+    {
+      "id": "thyroid-gland",
+      "medical": "Thyroid gland",
+      "common": "Thyroid",
+      "category": "Endocrine",
+      "match": [
+        "Thyroid gland"
+      ],
+      "summary": "The thyroid is a butterfly-shaped endocrine gland made of right and left lobes joined by a narrow isthmus. It is enclosed in the pretracheal fascia, so it moves up and down when you swallow. Some people have a small extra pyramidal lobe rising from the isthmus.",
+      "function": "Makes thyroid hormones (T4 and T3), which set the body's metabolic rate and affect heart rate, temperature and growth, and calcitonin from its C cells.",
+      "location": "Front of the neck at about C5-T1, wrapped around the upper trachea and larynx; the isthmus usually lies over the 2nd-3rd tracheal rings.",
+      "facts": [
+        "The recurrent laryngeal nerves run close behind it, so they must be protected during thyroid surgery to avoid hoarseness.",
+        "It develops at the base of the tongue and descends to the neck along the thyroglossal duct."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/viscera/thyroid-gland/",
+        "https://my.clevelandclinic.org/health/body/23188-thyroid"
+      ]
+    },
+    {
+      "id": "parathyroid-glands",
+      "medical": "Parathyroid glands",
+      "common": "Parathyroids",
+      "category": "Endocrine",
+      "match": [
+        "Superior parathyroid gland.l",
+        "Superior parathyroid gland.r",
+        "Inferior parathyroid gland.l",
+        "Inferior parathyroid gland.r"
+      ],
+      "summary": "The parathyroid glands are usually four small, yellowish-brown glands, each about the size of a grain of rice, arranged as a superior and an inferior pair. Their position varies, especially the inferior pair, which migrate further during development.",
+      "function": "Secrete parathyroid hormone (PTH), which raises blood calcium by releasing it from bone, reducing its loss in urine and boosting vitamin D activation for gut absorption.",
+      "location": "On the back surface of the thyroid gland's lobes in the neck, two on each side.",
+      "facts": [
+        "The superior glands develop from the 4th pharyngeal pouch and the inferior glands from the 3rd, together with the thymus.",
+        "Accidental removal during thyroid surgery can cause low blood calcium, with tingling and muscle cramps."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/neck/viscera/parathyroid-glands/",
+        "https://my.clevelandclinic.org/health/body/parathyroid-gland"
+      ]
+    },
+    {
+      "id": "thymus",
+      "medical": "Thymus",
+      "common": "Thymus",
+      "category": "Lymphoid organs",
+      "match": [
+        "Left lobe of thymus",
+        "Right lobe of thymus"
+      ],
+      "summary": "The thymus is a soft, two-lobed lymphoid organ where immature white blood cells mature into T cells. Each lobe is divided into lobules with a lymphocyte-packed outer cortex and a paler inner medulla containing Hassall's corpuscles. It is largest in childhood and after puberty is gradually replaced by fat (involution).",
+      "function": "Trains T lymphocytes to recognise foreign antigens while tolerating the body's own tissues, laying the foundation of cell-mediated immunity.",
+      "location": "Upper front of the chest in the superior and anterior mediastinum, behind the manubrium of the sternum and in front of the great vessels.",
+      "facts": [
+        "It develops from the third pharyngeal pouch.",
+        "Its absence or underdevelopment in DiGeorge syndrome leads to repeated infections."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/thorax/organs/thymus/",
+        "https://my.clevelandclinic.org/health/body/23016-thymus"
+      ]
+    },
+    {
+      "id": "spleen",
+      "medical": "Spleen",
+      "common": "Spleen",
+      "category": "Lymphoid organs",
+      "match": [
+        "Spleen"
+      ],
+      "summary": "The spleen is the largest lymphoid organ, a soft, fist-sized, purple organ with a thin capsule. Inside, red pulp filters the blood and white pulp contains lymphocytes arranged around small arteries. Vessels enter and leave at its hilum on the inner (visceral) surface.",
+      "function": "Filters blood, removing old and damaged red blood cells and recycling their iron, stores platelets and some blood cells, and mounts immune responses against blood-borne microbes.",
+      "location": "Upper left abdomen behind the stomach, under the diaphragm and protected by ribs 9-11.",
+      "facts": [
+        "It is the most commonly injured abdominal organ in blunt trauma, often together with left rib fractures.",
+        "A healthy spleen cannot normally be felt; it becomes palpable when enlarged about two to three times."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/viscera/spleen/",
+        "https://my.clevelandclinic.org/health/body/21567-spleen"
+      ]
+    },
+    {
+      "id": "adrenal-glands",
+      "medical": "Suprarenal (adrenal) glands",
+      "common": "Adrenal glands",
+      "category": "Endocrine",
+      "match": [
+        "Suprarenal gland.l",
+        "Suprarenal gland.r"
+      ],
+      "summary": "The adrenal glands are two small endocrine glands capping the kidneys: the right is pyramid-shaped and the left crescent (semilunar)-shaped. Each has an outer cortex with three zones (glomerulosa, fasciculata and reticularis) and an inner medulla of chromaffin cells.",
+      "function": "The cortex makes aldosterone (salt and water balance), cortisol (stress response, blood sugar) and weak androgens; the medulla releases adrenaline and noradrenaline for the 'fight or flight' response.",
+      "location": "On the upper inner pole of each kidney, behind the peritoneum at about T11-T12, enclosed with the kidneys in the renal fascia.",
+      "facts": [
+        "Each gland has three arteries, from the inferior phrenic artery, the aorta and the renal artery.",
+        "The right adrenal vein drains straight into the inferior vena cava, the left into the left renal vein."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/viscera/adrenal-glands/",
+        "https://my.clevelandclinic.org/health/body/23005-adrenal-gland"
+      ]
+    },
+    {
+      "id": "kidney",
+      "medical": "Kidney",
+      "common": "Kidney",
+      "category": "Urinary system",
+      "match": [
+        "Kidney.l",
+        "Kidney.r"
+      ],
+      "summary": "The kidneys are paired, bean-shaped organs about 10-12 cm long. Each has an outer cortex and an inner medulla of renal pyramids and contains around a million filtering units (nephrons). Renal vessels and the ureter pass through the hilum on the inner border, and the kidney is wrapped in a capsule, perirenal fat and renal fascia.",
+      "function": "Filters the blood to remove waste and excess water as urine, balances salts and acid-base levels, helps control blood pressure (renin) and makes erythropoietin and active vitamin D.",
+      "location": "Behind the peritoneum on the back wall of the abdomen, either side of the spine from about T12 to L3; the right kidney sits slightly lower because of the liver.",
+      "facts": [
+        "Together the kidneys receive about 20-25% of the heart's output.",
+        "The segmental renal arteries are end arteries, so blockage of one causes loss of that segment."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/viscera/kidney/",
+        "https://my.clevelandclinic.org/health/body/21824-kidney"
+      ]
+    },
+    {
+      "id": "renal-pelvis",
+      "medical": "Renal pelvis",
+      "common": "Kidney collecting funnel",
+      "category": "Urinary system",
+      "match": [
+        "Renal pelvis.l",
+        "Renal pelvis.r"
+      ],
+      "summary": "The renal pelvis is the funnel-shaped upper end of the ureter inside the kidney. Urine drips from the renal papillae into cup-like minor calyces, which merge into two or three major calyces that open into the pelvis.",
+      "function": "Collects urine from all the calyces and channels it into the ureter.",
+      "location": "In the renal sinus at the hilum of each kidney, narrowing at the pelviureteric junction where the ureter begins.",
+      "facts": [
+        "The pelviureteric junction is one of the narrow points where kidney stones commonly lodge.",
+        "Swelling of the pelvis and calyces from blocked outflow is called hydronephrosis."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/abdomen/viscera/kidney/",
+        "https://www.kenhub.com/en/library/anatomy/kidneys"
+      ]
+    },
+    {
+      "id": "ureter",
+      "medical": "Ureter",
+      "common": "Ureter (kidney-to-bladder tube)",
+      "category": "Urinary system",
+      "match": [
+        "Ureter.l",
+        "Ureter.r"
+      ],
+      "summary": "The ureters are two narrow muscular tubes, each about 25-30 cm long, lined by stretchy urothelium. Roughly half of each lies in the abdomen and half in the pelvis. They have three natural narrowings: the pelviureteric junction, where they cross the pelvic brim, and where they pass through the bladder wall.",
+      "function": "Carry urine from each kidney to the bladder by waves of peristalsis; their oblique path through the bladder wall acts as a valve against backflow.",
+      "location": "Behind the peritoneum, down the back of the abdomen on the psoas muscle, over the pelvic brim near the iliac vessels and into the back of the bladder.",
+      "facts": [
+        "Kidney stones tend to stick at the three narrow points, causing severe colicky pain.",
+        "The ureterovesical junction is usually the narrowest part."
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK532980/",
+        "https://www.kenhub.com/en/library/anatomy/ureter"
+      ]
+    },
+    {
+      "id": "urinary-bladder",
+      "medical": "Urinary bladder",
+      "common": "Bladder",
+      "category": "Urinary system",
+      "match": [
+        "Urinary bladder"
+      ],
+      "summary": "The urinary bladder is a hollow, stretchy muscular sac with an apex, body, fundus (base) and neck. Its wall is made of the detrusor smooth muscle and folded into rugae when empty, except over the smooth triangular trigone between the two ureter openings and the outlet.",
+      "function": "Stores urine and empties it on demand: parasympathetic nerves contract the detrusor during urination, while sympathetic nerves help keep it relaxed during filling.",
+      "location": "In the pelvis behind the pubic symphysis, with the rectum (or other pelvic organs) behind it; when full it rises into the lower abdomen.",
+      "facts": [
+        "A healthy adult bladder typically holds about 400-600 mL.",
+        "Stretch receptors in its wall signal fullness to the brain, creating the urge to urinate."
+      ],
+      "sources": [
+        "https://teachmeanatomy.info/pelvis/viscera/bladder/",
+        "https://my.clevelandclinic.org/health/body/25010-bladder"
+      ]
+    }
+  ],
+  "commonNames": {
+    "Posterior leaflet of left atrioventricular valve": "Mitral valve (back leaflet)",
+    "Pulmonary trunk": "Main lung artery",
+    "Epiglottis": "Epiglottis",
+    "Central sulcus.l": "Central fissure (boundary between motor and sensory cortex)",
+    "Central sulcus.r": "Central fissure (boundary between motor and sensory cortex)",
+    "Soft palate": "Soft palate",
+    "Uvula of palate": "Uvula",
+    "Gingiva": "Gums",
+    "Mucosa of nasal cavity": "Lining of the nose",
+    "Tongue": "Tongue",
+    "Parotid gland.l": "Parotid salivary gland",
+    "Parotid gland.r": "Parotid salivary gland",
+    "(Accessory parotid gland).l": "Accessory parotid gland",
+    "(Accessory parotid gland).r": "Accessory parotid gland",
+    "Parotid duct.l": "Parotid (Stensen's) duct",
+    "Parotid duct.r": "Parotid (Stensen's) duct",
+    "Submandibular gland.l": "Submandibular salivary gland",
+    "Submandibular gland.r": "Submandibular salivary gland",
+    "Submandibular duct.l": "Submandibular (Wharton's) duct",
+    "Submandibular duct.r": "Submandibular (Wharton's) duct",
+    "Sublingual gland.l": "Sublingual salivary gland",
+    "Sublingual gland.r": "Sublingual salivary gland",
+    "Lat_Fis-post.l": "Lateral (Sylvian) fissure",
+    "Lat_Fis-post.r": "Lateral (Sylvian) fissure",
+    "Parieto-occipital sulcus.l": "Parieto-occipital fissure",
+    "Parieto-occipital sulcus.r": "Parieto-occipital fissure"
+  }
+}

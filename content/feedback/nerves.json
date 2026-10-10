@@ -1,0 +1,156 @@
+{
+ "review r1": {
+  "issues": [
+   {
+    "id": "trochlear-nerve",
+    "severity": "major",
+    "problem": "The function line says superior oblique moves the eye 'downward and inward'. The muscle depresses, intorts and abducts the eye; TeachMeAnatomy (the cited source) says 'depress and intort'. Students confuse the testing position (looking down and in) with the muscle's action, and this sentence repeats that confusion.",
+    "fix": "Function: 'Supplies the superior oblique muscle, which rotates the top of the eye toward the nose (intorsion) and lowers the gaze, most strongly when the eye is turned toward the nose, e.g. when reading or walking downstairs.' Keep the diplopia fact and add that the head tilts away from the affected side."
+   },
+   {
+    "id": "abducens-nerve",
+    "severity": "minor",
+    "problem": "The summary says the nerve 'leaves the brainstem at the pons'. TeachMeAnatomy gives the exit as the junction of the pons and the medulla. Location says 'through Dorello's canal and the cavernous sinus' without saying it runs inside the sinus next to the internal carotid artery. That detail is what explains why it is often the first nerve affected by cavernous sinus lesions.",
+    "fix": "Summary: '...leaves the brainstem at the junction of the pons and medulla...'. Location: 'From the pontomedullary junction, up over the tip of the petrous temporal bone (through Dorello's canal), through the middle of the cavernous sinus beside the internal carotid artery, then via the superior orbital fissure into the orbit.'"
+   },
+   {
+    "id": "facial-nerve",
+    "severity": "minor",
+    "problem": "'Leaves the brainstem at the pons' is imprecise, since the nerve emerges at the cerebellopontine angle, at the pontomedullary junction. The function line leaves out the non-facial muscles (stapedius, posterior belly of digastric, stylohyoid), and 'salivary glands' could be read to include the parotid, which is supplied by CN IX.",
+    "fix": "Summary: '...emerges at the cerebellopontine angle (pons-medulla junction) with CN VIII...'. Function: '...moves the muscles of facial expression plus stapedius, stylohyoid and posterior digastric; carries taste from the front two-thirds of the tongue; drives the lacrimal, submandibular and sublingual glands (not the parotid).'"
+   },
+   {
+    "id": "trigeminal-nerve",
+    "severity": "minor",
+    "problem": "The function line says it carries sensation from 'the scalp', but V1 covers only the front of the scalp up to about the vertex. The rest comes from C2-C3 (greater occipital nerve). The motor list also omits tensor tympani, tensor veli palatini, mylohyoid and anterior digastric. The mandibular nerve trunk has no object of its own; only its divisions exist in the model.",
+    "fix": "Change to '...face, front of the scalp, eye, nose, mouth and teeth'. Add: 'V3 also supplies mylohyoid, anterior digastric, tensor tympani and tensor veli palatini.' Optionally note that the V3 trunk is shown through its anterior and posterior divisions."
+   },
+   {
+    "id": "intercostal-nerves",
+    "severity": "minor",
+    "problem": "Fact 2 ('Irritation of the lower intercostal nerves explains why some abdominal problems cause pain felt in the abdominal wall') is vague and teaches no clear anatomy. The entry also misses two points that matter more: most of T1 joins the brachial plexus, and the lower nerves continue as thoracoabdominal nerves (T10 reaches the umbilicus).",
+    "fix": "Replace fact 2 with: 'The lower nerves (T7-T11) continue forward into the abdominal wall as the thoracoabdominal nerves; T10 supplies the skin around the navel. Shingles often follows the strip of skin supplied by one intercostal nerve.' Optionally add to the summary: 'Most of T1 joins the brachial plexus.'"
+   },
+   {
+    "id": "cauda-equina",
+    "severity": "minor",
+    "problem": "The syndrome fact leaves out saddle (perineal) numbness, the key red flag, and does not say this is a surgical emergency. The word 'later' also suggests bladder problems come late, when urinary retention can be an early sign.",
+    "fix": "'Compression of these roots (cauda equina syndrome) is a surgical emergency: warning signs are numbness of the saddle area, leg weakness, and loss of bladder or bowel control.'"
+   },
+   {
+    "id": "olfactory-nerve",
+    "severity": "minor",
+    "problem": "The '30-60 days' neuron lifespan is not in either cited source. TeachMeAnatomy only says basal stem cells produce new receptor cells. The figure is broadly accepted in the physiology literature but is currently unsupported by the listed sources.",
+    "fix": "Either soften to 'are continually replaced from basal stem cells, roughly every one to two months' and add a source that states it (e.g. a StatPearls olfaction article), or drop the number."
+   },
+   {
+    "id": "median-nerve",
+    "severity": "minor",
+    "problem": "The function line leaves out the lateral two lumbricals, and the sensory description leaves out the lateral palm (via the palmar branch). Fact 2 then relies on the palmar branch without the function line ever saying it supplies the palm. Roots given as 'C6-T1, sometimes C5' are acceptable, but Kenhub lists C5-T1.",
+    "fix": "Function: '...most forearm flexors, the thenar muscles and the first two lumbricals; sensation to the lateral palm and the palmar side of the thumb, index, middle and half the ring finger (including their nail beds).' Roots: 'C5-T1 (mainly C6-T1)'."
+   },
+   {
+    "id": "radial-nerve",
+    "severity": "minor",
+    "problem": "The function line leaves out brachioradialis, supinator and anconeus. Brachioradialis matters here because the musculocutaneous entry says 'brachioradialis can still flex the elbow' without saying which nerve supplies it. The common name 'Wrist-extensor nerve' is an invented label, not an established term.",
+    "fix": "Function: 'Supplies triceps, anconeus, brachioradialis, supinator and all the wrist and finger extensors...'. Common name: use a plain descriptor such as 'Back-of-arm nerve', or leave it as 'Radial nerve'."
+   },
+   {
+    "id": "musculocutaneous-nerve",
+    "severity": "minor",
+    "problem": "Fact 2 says brachioradialis rescues elbow flexion but not that it works because it is supplied by a different nerve (radial). Brachialis also usually gets a small radial nerve twig. Common name 'Biceps nerve' is not an established term.",
+    "fix": "'...because brachioradialis (supplied by the radial nerve) and part of brachialis can still flex the elbow.' Consider the common name 'Front-of-arm nerve'."
+   },
+   {
+    "id": "sciatic-nerve",
+    "severity": "minor",
+    "problem": "'Supplies the hamstring muscles directly' misses that the short head of biceps femoris is supplied by the common fibular part, and that the nerve also supplies the hamstring part of adductor magnus. The '2 cm wide' fact repeats the overview word for word. It matches TeachMeAnatomy ('approximately 2cm wide'), which is fine, but it is duplicated. TeachMeAnatomy also notes that about 12% of people have a high division, which would be a better fact.",
+    "fix": "Function: 'Supplies the hamstrings and the hamstring part of adductor magnus...'. Replace the duplicated width fact with: 'In about 1 in 8 people it splits into its two branches high up, sometimes even inside the pelvis.'"
+   },
+   {
+    "id": "spinal-nerve-roots",
+    "severity": "minor",
+    "problem": "Fact 1 ('31 pairs of spinal nerves...') copies the overview fact exactly, so it appears twice on the site. The function line says the anterior root is only motor, but it also carries preganglionic autonomic fibres (sympathetic from T1-L2, parasympathetic from S2-S4).",
+    "fix": "Replace fact 1 with: 'Spinal nerves C1-C7 exit above the vertebra of the same number, C8 exits below C7, and from T1 downward each exits below its own vertebra.' Function: 'The anterior root carries motor and autonomic fibres out of the cord...'."
+   },
+   {
+    "id": "common-fibular-nerve",
+    "severity": "minor",
+    "problem": "The entry leaves out that it supplies the short head of biceps femoris, and that the deep fibular nerve supplies extensor digitorum brevis on the top of the foot. Common name 'Peroneal nerve' is the older medical synonym, not a lay term, though it is widely used.",
+    "fix": "Add to function: 'Before dividing it supplies the short head of biceps femoris; the deep fibular nerve also supplies the small toe-extensor muscles on the top of the foot.' The common name is acceptable but could be 'Peroneal (foot-drop) nerve'."
+   },
+   {
+    "id": "long-thoracic-nerve",
+    "severity": "minor",
+    "problem": "The common name 'Nerve to serratus anterior' is a technical synonym, not a common term. Content otherwise matches TeachMeAnatomy (C5-C7, runs behind the plexus, winged scapula).",
+    "fix": "Common name: 'Winged-scapula nerve' or 'Shoulder-blade nerve'. Alternatively keep it, since the task allows real widely used terms, but it is not lay-friendly."
+   },
+   {
+    "id": "vagus-nerve",
+    "severity": "minor",
+    "problem": "The common name is identical to the medical name, which is acceptable since 'vagus nerve' is widely used. The entry does not say how far down the gut it reaches, which students are routinely asked.",
+    "fix": "Add to function or a fact: 'Its parasympathetic supply reaches the gut as far as roughly the last third of the transverse colon; beyond that the pelvic splanchnic nerves (S2-S4) take over.'"
+   },
+   {
+    "id": "brachial-plexus (match)",
+    "severity": "major",
+    "problem": "The match list bundles 12 separately named branches under 'Brachial plexus' with no text of their own: dorsal scapular, suprascapular, subclavian, lateral and medial pectoral, upper and lower subscapular, thoracodorsal, and the medial cutaneous nerves of the arm and forearm with their branches. Clicking any of them, for example the suprascapular or thoracodorsal nerve, shows generic plexus text. Model data problems: there are no lateral or medial cord objects, and 'Superior subscapular nerve.r' is mis-grouped under 'Branches of posterior part of lumbar plexus.g'.",
+    "fix": "Split out at least: suprascapular nerve (C5-C6; supraspinatus and infraspinatus, passes through the suprascapular notch), thoracodorsal nerve (C6-C8; latissimus dorsi, used in breast reconstruction flaps), dorsal scapular nerve (C5; rhomboids and levator scapulae), and the medial and lateral pectoral nerves. Fix the model grouping for 'Superior subscapular nerve.r'."
+   },
+   {
+    "id": "optic-nerve",
+    "severity": "minor",
+    "problem": "The medical name includes the optic tract, but the tract is not part of CN II; it is a diencephalic white-matter pathway, and the model groups it under Diencephalon. The facts are otherwise correct: about 1-1.2 million fibres, roughly 50 mm long, and bitemporal hemianopia from chiasm compression.",
+    "fix": "Keep the grouping, but add to the summary: 'Strictly, the optic tract is a brain pathway rather than part of the cranial nerve.' Optionally give the length as '~45-50 mm (range 35-55)'."
+   },
+   {
+    "id": "vestibulocochlear-nerve (match)",
+    "severity": "minor",
+    "problem": "The right cochlear nerve object in the model is named 'Cochlear nerve' with no '.r' suffix. The content lists it correctly, but any left/right highlighting logic that parses the suffix will miss it. The same applies to 'Common plantar digital branches of medial plantar nerve' (right side) in tibial-nerve.",
+    "fix": "Rename the model objects to 'Cochlear nerve.r' and 'Common plantar digital branches of medial plantar nerve.r', then update both match lists. Otherwise, make sure the side logic does not depend on the suffix."
+   },
+   {
+    "id": "sympathetic-trunk (source)",
+    "severity": "minor",
+    "problem": "The Radiopaedia link 'articles/sympathetic-trunk' resolves to the general 'Sympathetic nervous system' article, not a trunk-specific page. The 'Sympathetic nerves.l/.r' objects are not explained anywhere in the text.",
+    "fix": "Keep the link (it is trustworthy), or relabel it as the SNS article. Add one line: 'Branches leaving the chain (sympathetic and splanchnic nerves) travel to the organs and blood vessels.'"
+   },
+   {
+    "id": "stria-terminalis (model)",
+    "severity": "minor",
+    "problem": "'Stria terminalis.l/.r' is in the nerves object list but is a limbic white-matter tract of the brain, not a peripheral nerve. Its '.r' copy is also grouped under 'White matter of telencephalon.l'.",
+    "fix": "Leave it out of the nerves content, which is correct as is. Consider moving it to a brain layer and fixing the group side in the model."
+   }
+  ],
+  "missingImportant": [
+   "Lateral femoral cutaneous nerve (.l/.r), in the model but unused: L2-L3, sensation to the outer thigh; compression under the inguinal ligament causes meralgia paresthetica (common, clinically important).",
+   "Superior gluteal nerve (.l/.r), in the model but unused: L4-S1, supplies gluteus medius, gluteus minimus and tensor fasciae latae; injury gives a positive Trendelenburg sign and gait.",
+   "Posterior femoral cutaneous nerve (.l/.r, plus its anterior/posterior root objects), in the model but unused: S1-S3, skin of the back of the thigh and buttock fold.",
+   "Iliohypogastric, ilio-inguinal and genitofemoral nerves (including 'Femoral branch of genitofemoral nerve'), in the model but unused: an L1 'groin nerves' entry covering hernia-repair nerve injury and the cremasteric reflex (genitofemoral).",
+   "Nerve to piriformis and nerve to quadratus femoris (.l/.r), in the model but unused: could go in a single 'Sacral plexus: small hip-rotator nerves' entry.",
+   "Lumbar plexus and sacral plexus overview entries: the site has a brachial plexus entry but no equivalent for the lower-limb plexuses.",
+   "Suprascapular, thoracodorsal and dorsal scapular nerves deserve their own entries rather than being hidden in the brachial-plexus match list.",
+   "Hypoglossal nerve (CN XII) has no object in the model, so the site shows only 11 cranial nerves despite the overview saying 12. Either note this in the overview or add the object to the model."
+  ],
+  "notes": "I reviewed all 31 entries in C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\nerves.json against C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\names\\nerves.txt. The names file is tab-separated ('name<TAB>[group: ...]<TAB>[mat: ...]'), so I matched on the first column only. Every one of the match strings resolves to a real object, with no missing names and no wrong left/right pairs. The 24 objects not used by any entry are the lower-limb plexus nerves listed under missingImportant, plus stria terminalis. The sandbox has no curl network access, so I checked the source links I had doubts about with WebFetch instead of an automated status check. All of those loaded and are relevant (Cleveland Clinic abducens, TeachMeAnatomy long thoracic, pudendal, trochlear and spinal cord, Radiopaedia intercostal and trochlear, Kenhub olfactory, cauda equina and sympathetic). Radiopaedia 'sympathetic-trunk' resolves to the general SNS article. The remaining TeachMeAnatomy and Kenhub links follow their standard URL patterns but were not individually loaded. The sources confirmed several claims: sciatic nerve about 2 cm wide at L4-S3 with a 12% high-division rate, cauda equina L2-Co1, abducens exiting at the pontomedullary junction, and superior oblique acting to 'depress and intort'. The only outright factual error is the trochlear/superior oblique action; everything else is imprecision or omission. The pitch is generally right for educated adults. A few terms (Dorello's canal, lumbar cistern, cerebellopontine angle) could each use a short explanation. The wording is paraphrased: the phrases I spot-checked against TeachMeAnatomy and Kenhub were not copied. Two facts duplicate the overview (31 spinal nerve pairs, sciatic 2 cm), and several invented common names ('Wrist-extensor nerve', 'Biceps nerve', 'Carpal tunnel nerve') are plain descriptors rather than established terms, which is acceptable under the brief but weaker than real lay names such as 'Funny bone nerve'."
+ },
+ "score r1": {
+  "score": 7,
+  "accuracy": 7,
+  "modelMatching": 7,
+  "levelAndClarity": 8,
+  "coverage": 6,
+  "sourcing": 8,
+  "mustFix": [
+   "trochlear-nerve function: replace 'helps move the eye downward and inward' with the correct action: superior oblique intorts, depresses and abducts the eye, and depresses it most when the eye is adducted, e.g. reading or going downstairs. Keep 'down and in' only as the clinical test position. Add that the head tilts away from the affected side (TeachMeAnatomy).",
+   "brachial-plexus: split out at least the suprascapular (C5-C6; supraspinatus/infraspinatus; suprascapular notch), thoracodorsal (C6-C8; latissimus dorsi) and dorsal scapular (C5; rhomboids, levator scapulae) nerves into their own entries. At the moment clicking any of the 12 bundled branches shows generic plexus text.",
+   "Add entries for the clinically important lower-limb objects that are in the model but unused: lateral femoral cutaneous (L2-L3; meralgia paresthetica), superior gluteal (L4-S1; gluteus medius/minimus, TFL; Trendelenburg sign), posterior femoral cutaneous (S1-S3) and the iliohypogastric/ilio-inguinal/genitofemoral group (L1-L2; hernia-repair injury, cremasteric reflex). Nerve to piriformis and nerve to quadratus femoris can share one small entry.",
+   "sciatic-nerve: replace the width fact, which repeats the overview word for word, with the ~12% high-division variation (TeachMeAnatomy). Add the hamstring part of adductor magnus to the function line.",
+   "spinal-nerve-roots: replace fact 1, which repeats the overview's '31 pairs' fact word for word, with the C1-C7 exit-above / C8 / T1-onward exit-below rule. Say the anterior root also carries preganglionic autonomic fibres.",
+   "cauda-equina: add saddle anaesthesia (which Kenhub lists) and state that the syndrome is a surgical emergency.",
+   "Overview says 12 cranial nerves but the model has no hypoglossal (CN XII) object and there is no entry for it. Add a note or the object so the site is not inconsistent.",
+   "Model data: rename 'Cochlear nerve' to 'Cochlear nerve.r' (right side has no suffix) and fix the group of 'Superior subscapular nerve.r' (wrongly under a lumbar plexus group). Alternatively, make sure the side-highlighting logic does not depend on the suffix."
+  ],
+  "rationale": "I checked all match names with Python against the first column of names/nerves.txt (255 objects). All 30 entries resolve (the reviewer said 31, but there are 30), with no missing names. 24 objects are unused: the lateral femoral cutaneous, superior gluteal, posterior femoral cutaneous (plus its two root objects), iliohypogastric, ilio-inguinal and genitofemoral (plus its femoral branch), nerve to piriformis and nerve to quadratus femoris, and stria terminalis. The last is a brain tract and is correctly left out. The model has a suprascapular nerve object but no hypoglossal object. 'Cochlear nerve' (right side) has no .r suffix, and 'Superior subscapular nerve.r' is filed under a lumbar-plexus group, as the reviewer said.\n\nI spot-checked these facts against the sources:\n- **Trochlear:** TeachMeAnatomy says the superior oblique acts to \"depress and intort\" the eye. The entry's 'downward and inward' mixes up the test position with the muscle's action and implies adduction. This is the one real factual error, so accuracy is capped and the overall score is capped at 7.\n- **Abducens:** TeachMeAnatomy gives the exit as the pons-medulla junction, so 'at the pons' is imprecise, not wrong.\n- **Facial:** TeachMeAnatomy itself says it 'arises in the pons'. The source lists stapedius, stylohyoid and posterior digastric, which the entry omits. That is minor.\n- **Olfactory:** the reviewer was wrong here. Kenhub states that olfactory receptor cells live 30-60 days, so the fact is sourced.\n- **Optic:** Kenhub gives about 1 million fibres and 35-55 mm, which matches the entry.\n- **Sciatic:** TeachMeAnatomy confirms 2 cm wide, L4-S3, the hamstring part of adductor magnus, and a 12% high division.\n- **Cauda equina:** Kenhub gives L2-Co1 (matches) and lists bladder and bowel loss as 'typically later findings', so 'later' is supported. It also lists saddle anaesthesia, which the entry omits.\n- **Common fibular:** TeachMeAnatomy confirms L4-S2, that it supplies the short head of biceps femoris (missing from the entry), and that the deep fibular nerve supplies the first web space (matches).\n- **Median:** TeachMeAnatomy gives C6-T1 with C5 in some people (matches), lists the lateral two lumbricals (omitted), and confirms the palm is spared because of the palmar branch (matches).\n\nOther facts I checked from knowledge are correct: VAN order in the costal groove, the stellate ganglion, recurrent laryngeal nerve anatomy, pupil-sparing in diabetic CN III palsy, the regimental badge area, and the long thoracic nerve roots C5-C7.\n\n- **Pitch and clarity:** good for students. A few terms are left unexplained (Dorello's canal, lumbar cistern).\n- **Coverage:** weakest area. 12 brachial plexus branches share generic text, lower-limb plexus nerves are missing, there are no lumbar or sacral plexus entries, and two facts duplicate the overview.\n- **Sourcing:** reputable (TeachMeAnatomy, Kenhub, Radiopaedia, Cleveland Clinic). Radiopaedia's sympathetic-trunk link resolves to the general sympathetic nervous system article.\n\nFixing the trochlear error and the coverage and duplication items would make this publishable at 9."
+ }
+}

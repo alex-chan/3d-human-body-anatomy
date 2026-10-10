@@ -1,0 +1,149 @@
+{
+ "review r1": {
+  "issues": [
+   {
+    "id": "skeletal.keyFacts[2] + faq 'How many vertebrae are in the spine?'",
+    "severity": "major",
+    "problem": "The text says the spine is '33 stacked vertebrae' with no qualifier. That number is the count of segments (and matches the Cleveland Clinic wording), but an adult has 26 separate vertebral bones: 24 free vertebrae (C1-C7, T1-T12, L1-L5), plus the sacrum (5 fused) and the coccyx (3-5 fused). The model matches the adult count: skeleton.txt has Atlas (C1), Axis (C2), Vertebra C3-C7, T1-T12, L1-L5, Sacrum and Coccyx, which is 26 objects. A student who counts them in the viewer will get 26 and think the text is wrong. It also conflicts with the '206 bones' figure, which only works if the sacrum and coccyx are counted as single bones.",
+    "fix": "Change to: 'The spine has 33 vertebral segments: 7 cervical, 12 thoracic, 5 lumbar, 5 sacral and about 4 coccygeal. In adults the sacral and coccygeal segments fuse, so the adult spine is 26 separate bones: 24 vertebrae plus the sacrum and coccyx, as shown in the model.'"
+   },
+   {
+    "id": "reproductive-male (system + faq 'Where is testosterone made?', 'What does the prostate do?')",
+    "severity": "major",
+    "problem": "The system card and two FAQs describe the penis, scrotum, testicles, vas deferens, seminal vesicles, prostate and urethra. None of these exist in the 3D model: I searched every names/*.txt file for prostat, testi, penis, scrot, deferens, seminal and urethra and got zero matches. Users will try to click structures that are not there. The 'endocrine' summary also lists the testes as a key gland.",
+    "fix": "Either add male reproductive meshes to the model, or add one line to the card: 'These organs are not shown in this 3D model.' Also consider demoting this system below systems that are actually modelled. The facts themselves are correct (checked against Cleveland Clinic prostate/testicles pages)."
+   },
+   {
+    "id": "lymphatic-immune + colorConventions.lymphatics",
+    "severity": "major",
+    "problem": "The card is built around lymph vessels and about 600 lymph nodes, and the colour table defines a lymphatics colour (#3E9B4F). The model has no lymph nodes or lymph vessels: a grep for 'lymph' in all names files returns only the group 'Secondary lymphoid organs.g' (Spleen). The only lymphoid organs present are the Spleen and the Left/Right lobe of thymus. The tonsils listed in the keywords are also not in the model; the only 'tonsil' objects are 'Tonsil of cerebellum', which is brain tissue.",
+    "fix": "Point the clickable content at the spleen and thymus, say that lymph nodes and vessels are not modelled, and either drop the unused lymphatics colour or mark it 'reserved'. Remove 'tonsils' from the keywords, or add a note so a keyword search for tonsils cannot land on 'Tonsil of cerebellum.l/.r'."
+   },
+   {
+    "id": "faq 'How many teeth do adults have?'",
+    "severity": "minor",
+    "problem": "The answer (32 teeth, including 12 molars with wisdom teeth) is correct and matches Cleveland Clinic. The model, however, has 28 teeth: upper and lower medial incisor, lateral incisor, canine, first and second premolar, and first and second molar on each side. It has no third molars (wisdom teeth).",
+    "fix": "Add: 'The model shows 28 teeth; the four wisdom teeth (third molars) are not included, and many adults have them removed or never develop them.'"
+   },
+   {
+    "id": "faq 'What is the longest and strongest bone?'",
+    "severity": "minor",
+    "problem": "The answer says the adult femur 'averages around 19 to 20 inches'. The cited Cleveland Clinic femur page says 'around 18 inches'. Anatomy references give an average adult femur of about 45-48 cm (18-19 in), so '20 inches' is at the high end and does not match the cited source.",
+    "fix": "Change to 'about 18 to 19 inches (45 to 48 cm) long in adults'."
+   },
+   {
+    "id": "systems.circulatory.keyFacts[0] / faq 'How much blood does the heart pump each day?' / systems.integumentary.keyFacts[0] / faq 'What does the prostate do?'",
+    "severity": "minor",
+    "problem": "Several sentences are near-verbatim copies of Cleveland Clinic text: 'circulates about 2,000 gallons (more than 7,500 liters)...'; 'largest and heaviest organ... weighs about 6 pounds (or more) and is approximately 2 millimeters thick'; 'fluid contains enzymes, zinc and citric acid... muscles also help push semen through the urethra'. This is a copied-text risk.",
+    "fix": "Rewrite in the site's own words and use metric-first numbers for a medical audience. For example: 'Cardiac output is about 5 L/min at rest, roughly 7,000-7,500 L per day'; 'Skin weighs about 3-4 kg (roughly 6-9 lb) and is on average about 2 mm thick, from under 0.5 mm on the eyelids to over 4 mm on the soles'; 'Prostatic secretions (rich in citrate, zinc and enzymes such as PSA) make up about a quarter to a third of semen volume; smooth muscle in the gland helps expel it during ejaculation.'"
+   },
+   {
+    "id": "systems.urinary.keyFacts[0] + faq 'How much blood do the kidneys filter?'",
+    "severity": "minor",
+    "problem": "The number is quoted from the source (NIDDK: 120-150 quarts), but at medical-student level 'filter about 120-150 quarts of blood' is physiologically loose. The kidneys filter plasma: the GFR is about 125 mL/min, or roughly 180 L of filtrate per day. Total renal blood flow is much higher, about 1.1-1.2 L/min. The urinary summary also leaves out the endocrine roles of the kidney.",
+    "fix": "Change to: 'The kidneys produce about 150-180 litres of glomerular filtrate a day (NIDDK puts it at 120-150 quarts) and reabsorb about 99% of it, leaving 1-2 litres of urine.' Add that the kidneys make erythropoietin and renin and activate vitamin D."
+   },
+   {
+    "id": "systems.muscular.summary + faq 'What are the three types of muscle?'",
+    "severity": "minor",
+    "problem": "'Cardiac and smooth muscle... are run by the autonomic nervous system' is imprecise. Cardiac muscle sets its own rhythm through the SA node pacemaker cells, and the autonomic nervous system only changes the rate and force. Many smooth muscles also have intrinsic or hormonal control, for example the enteric nervous system in the gut.",
+    "fix": "Change to: 'Cardiac and smooth muscle are involuntary. The heart generates its own rhythm (SA node), which the autonomic nervous system speeds up or slows down, and smooth muscle is controlled by autonomic nerves, hormones and local signals.'"
+   },
+   {
+    "id": "faq 'Where are blood cells made?'",
+    "severity": "minor",
+    "problem": "'Most red blood cells, platelets...' is wrong in detail. In healthy adults essentially all red cells and platelets come from red marrow; 'most' applies only to white cells, because T lymphocytes mature in the thymus and lymphocytes multiply in lymphoid organs.",
+    "fix": "Change to: 'In adults, red blood cells, platelets and white blood cells are all made in red bone marrow (haematopoiesis), mainly in flat bones and vertebrae. Some lymphocytes then mature or multiply in the thymus, spleen and lymph nodes.'"
+   },
+   {
+    "id": "systems.integumentary.summary + faq 'What are the layers of the skin?'",
+    "severity": "minor",
+    "problem": "The text calls the hypodermis the third layer of skin. Cleveland Clinic says the same, but Terminologia Anatomica and standard histology texts define skin as the epidermis plus dermis; the hypodermis (subcutaneous tissue, tela subcutanea) lies beneath the skin and is not part of it. At medical-student level this should be stated precisely.",
+    "fix": "Change to: 'Skin has two layers, the epidermis and the dermis, and sits on the hypodermis (subcutaneous fat), which is often grouped with it in patient materials.'"
+   },
+   {
+    "id": "colorConventions.sources",
+    "severity": "minor",
+    "problem": "Two of the colour-convention sources are weak. The ResearchGate figure link returns HTTP 403 and ResearchGate is not an authoritative source. The NCBI figure NBK562095 ch20.Fig8 comes from 'Brain and Human Body Modeling 2020', a chapter on computational models for transcranial magnetic stimulation, so it shows one model's colour choices and does not establish an anatomical convention. The note's phrase 'NCBI-hosted research figures use the same scheme' rests on that one figure.",
+    "fix": "Remove the ResearchGate URL. Replace the NBK562095 figure with an anatomy teaching source, or keep only Kenhub and reword the note to 'Kenhub describes this as the usual convention in anatomy atlases.'"
+   },
+   {
+    "id": "sources (muscular, faq strongest/smallest muscle, pancreas, red cell lifespan, veins look blue, brain energy)",
+    "severity": "minor",
+    "problem": "Several sources fall outside the trusted list: livescience.com, britannica.com (HTTP 403 to automated checks), loc.gov (HTTP 403 to automated checks, probably bot-blocking only), redcrossblood.org, theconversation.com and brainfacts.org. They are reputable, but none is a clinical or anatomical reference. The two sources for the stapedius also disagree: Kenhub says about 6 mm and LiveScience says about 5 mm.",
+    "fix": "Where possible, replace these with StatPearls, Kenhub or MedlinePlus. For example, use StatPearls 'Physiology, Red Blood Cell' for the 120-day lifespan and a StatPearls or Kenhub pancreas page. Give the stapedius size as 'about 5-6 mm'."
+   },
+   {
+    "id": "systems.endocrine",
+    "severity": "minor",
+    "problem": "The key-gland list leaves out the pineal gland, although 'Pineal gland' exists in organs.txt (group Endocrine glands.g). It also names the hypothalamus and testes, and neither is in the model (no match for 'hypothalam', 'testi' or 'testis' in any names file). The model does contain the adenohypophysis and neurohypophysis, the Superior/Inferior parathyroid gland.l/.r, the Suprarenal gland.l/.r and the Thyroid gland, but the text never mentions the anterior/posterior pituitary split.",
+    "fix": "Add the pineal gland (melatonin, sleep-wake rhythm). Add a sentence that the pituitary has an anterior lobe (adenohypophysis) and a posterior lobe (neurohypophysis), since both are separate objects. Add 'suprarenal' as a keyword synonym for adrenal, because the model uses the name 'Suprarenal gland'. Note that the hypothalamus and testes are not modelled."
+   },
+   {
+    "id": "systems.digestive",
+    "severity": "minor",
+    "problem": "The summary skips several digestive structures that the model has: Parotid/Submandibular/Sublingual gland.l/.r with their ducts, Tongue, Soft palate, Uvula of palate, Naso/Oro/Laryngopharynx, Vermiform appendix, and the colon split into Ascending, Transverse, Descending and Sigmoid colon. There are no objects named ileum, caecum or rectum, so the FAQ's list 'duodenum, jejunum and ileum' names one part a user cannot find.",
+    "fix": "Add a sentence on the salivary glands (about 1-1.5 L of saliva a day; amylase starts starch digestion), the pharynx, and the appendix and colon segments. Note that the ileum, caecum and rectum are not modelled separately. Add keywords: salivary, parotid, tongue, appendix, pharynx."
+   },
+   {
+    "id": "systems.respiratory",
+    "severity": "minor",
+    "problem": "The summary starts at the trachea. The model includes the upper airway (Mucosa of nasal cavity, Nasopharynx, Oropharynx, Laryngopharynx, Epiglottis) and a full bronchial tree (main, lobar and segmental bronchi BI-BX), none of which is mentioned.",
+    "fix": "Add: 'Air enters through the nose and pharynx and passes the larynx, where the epiglottis closes during swallowing. The trachea splits into the right and left main bronchi, which divide into lobar and then segmental bronchi (10 segments on the right, usually 8-10 on the left).' Add keywords: larynx, epiglottis, pharynx, segmental bronchus."
+   },
+   {
+    "id": "systems.nervous",
+    "severity": "minor",
+    "problem": "The model's brain is very detailed: frontal, parietal, temporal, occipital and limbic lobes with named gyri and sulci, the insula, corpus callosum, cerebellar lobules, and the midbrain, pons and medulla. The nervous summary only mentions the brain and spinal cord in general terms and never names the cerebrum, cerebellum or brainstem. That is too shallow for this model and this audience.",
+    "fix": "Add: 'The brain has three main parts: the cerebrum (four lobes, joined across the midline by the corpus callosum), the cerebellum (coordination and balance) and the brainstem (midbrain, pons and medulla, which control breathing and heart rate).' Mention that the precentral gyrus is the primary motor cortex and the postcentral gyrus is the primary sensory cortex, because both are clickable."
+   },
+   {
+    "id": "faq tone (e.g. neurons 'tiny chatterboxes', 'Hehe, that tickles!', 'Tiny bone, big job!')",
+    "severity": "minor",
+    "problem": "The site is aimed at medical students, but many answers use a children's register. The 'Pretty neat that everyone's frame is slightly unique!' style weakens credibility for that audience.",
+    "fix": "Keep the mascot's friendly tone but cut the childish asides from the factual answers. Keep jokes to the greetings and idle lines."
+   },
+   {
+    "id": "faq 'How many ribs do we have?'",
+    "severity": "minor",
+    "problem": "The answer is correct but shallow for this audience. The model shows the true/false/floating distinction directly, since it has Costal cartilage of first to tenth rib.l/.r and no costal cartilage for ribs 11-12.",
+    "fix": "Add: 'Ribs 1-7 are true ribs (each has its own costal cartilage attached to the sternum), ribs 8-10 are false ribs (their cartilages join the cartilage above), and ribs 11-12 are floating ribs with no anterior attachment.'"
+   }
+  ],
+  "missingImportant": [
+   "No special senses entry, although the model has a detailed Eyeball.g (Cornea, Iris, Lens, Retina, Sclera, Vitreous body, Anterior chamber, all .l/.r) and middle-ear ossicles (Malleus, Incus, Stapes .l/.r). Add a 'Special senses: eye and ear' system with facts on the lens, retina and ossicle chain.",
+   "Heart internal structures in the model (Right/Left atrium, Right/Left ventricle, the papillary muscles, the pulmonary valve and aortic valve leaflets, the right atrioventricular valve leaflets) get no content beyond the 'four chambers, four valves' FAQ. Add papillary muscles and chordae tendineae and the tricuspid vs mitral naming. Also note a model naming error: 'Posterior leaflet of left atrioventricular valve' sits in the group 'Right atrioventricular valve.g'.",
+   "Liver segments I-VIII (Couinaud) are modelled as separate objects but never explained. Add a brief note on the functional segments and why surgeons use them.",
+   "Pineal gland, parathyroid glands (4 objects), salivary glands, tongue, pharynx, larynx/epiglottis, vermiform appendix and colon segments are all in the model but not mentioned in any system.",
+   "Brain regions (cerebrum lobes, cerebellum, brainstem, corpus callosum) are heavily modelled but have no system-level content.",
+   "Spinal cord funiculi and spinal nerve roots/ganglia are in the model (Anterior/Lateral/Posterior fasciculus proprius, Anterior/Posterior root of spinal nerve, Spinal ganglion), but the nervous summary never explains dorsal = sensory and ventral = motor roots."
+  ],
+  "notes": "I reviewed C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\doctor.json. It has no per-structure 'match' fields, only 11 system cards, 57 FAQs, a colour-convention block and mascot lines. So instead of checking match mappings, I checked every structure the text mentions against the files in C:\\Users\\SDF 01\\Downloads\\3D_Human\\content\\names\\ (organs.txt, skeleton.txt, muscles.txt, nerves.txt, arteries.txt, veins.txt, skin.txt).\n\nSource checks: I requested every URL. All Cleveland Clinic, NIDDK, Kenhub, AANS and MedlinePlus pages returned 200. ResearchGate returned 403, which is a real problem. Britannica and loc.gov also returned 403, probably because they block automated requests. The PubMed and NCBI pages sit behind a captcha, so I identified them by search: NBK554461 is StatPearls 'Neuroanatomy, Unmyelinated Nerve Fibers', PMID 6131421 is Ritchie 1982 on fibre diameter and conduction velocity, and NBK562095 is a TMS modelling chapter.\n\nThese facts matched their sources or standard anatomy:\n- 206-213 adult bones and about 270 at birth\n- 12 pairs of ribs; 12 cranial and 31 spinal nerve pairs (8/12/5/5/1)\n- sciatic nerve is the longest nerve; spinal cord about 45 cm ending at L1-L2\n- brain about 3 lb, about 86 billion neurons, about 20% of the body's energy\n- A-alpha fibres 80-120 m/s, C fibres 0.5-2 m/s\n- about 2,000 gal a day, about 100,000 beats a day, more than 60,000 miles of vessels, heart 8-12 oz, 5 L of blood (male) and 4 L (female), red cells last 120 days\n- lung lobes and cardiac notch, 12-20 breaths/min, about 480 million alveoli\n- small intestine about 22 ft by 2 cm with more than 90% of absorption; large intestine 5-6 ft; liver 3-5 lb\n- about 1 million nephrons per kidney, bladder holds 1.5-2 cups\n- prostate position and size, Leydig cells make testosterone\n- about 600 lymph nodes, spleen is the largest lymphatic organ, thymus matures T cells\n- skin about 6 lb and about 2 mm thick, about 40,000 cells shed a day, renewed about every 30 days\n- skeletal muscle 30-40% of body mass, more than 600 muscles\n- stapedius about 5-6 mm, gluteus maximus is the largest muscle, masseter the strongest for its size\n\nNone of the problems found is critical. The largest are the 33-vertebrae wording against the model's 26 bones, and two whole system cards (male reproductive, lymphatic) about structures the model does not contain."
+ },
+ "score r1": {
+  "score": 6,
+  "accuracy": 7,
+  "modelMatching": 5,
+  "levelAndClarity": 6,
+  "coverage": 5,
+  "sourcing": 6,
+  "mustFix": [
+   "Skeletal keyFacts + FAQ: replace '33 stacked vertebrae' with 33 segments that fuse into 26 adult bones (24 vertebrae + sacrum + coccyx). The model has exactly 26 vertebral objects (Atlas, Axis, C3-C7, T1-T12, L1-L5, Sacrum, Coccyx).",
+   "Urinary keyFacts + FAQ: change 'filter 120-150 quarts of blood' to glomerular filtrate of about 180 L/day (GFR about 120-125 mL/min, StatPearls NBK500032) with about 99% reabsorbed. Add the renal endocrine roles (EPO, renin, vitamin D activation).",
+   "FAQ 'Where are blood cells made?': in adults all RBCs and platelets come from red marrow. Only some lymphocytes mature or multiply in the thymus and lymphoid organs.",
+   "Muscular summary + FAQ: cardiac muscle is myogenic (SA node) and the ANS only modulates rate and force. Smooth muscle is also under hormonal, local and enteric control.",
+   "Femur FAQ: change '19 to 20 inches' to about 18-19 in (45-48 cm) to match the cited Cleveland Clinic figure of about 18 in.",
+   "Integumentary: skin is epidermis + dermis, and the hypodermis (subcutaneous tissue) lies beneath it.",
+   "Male reproductive card: none of the described organs exist in the model (grep for prostat/penis/testis/deferens/seminal/urethra finds 0; 'testi' only matches 'Intestine'). Add a 'not shown in this model' note and remove testes and hypothalamus from the endocrine key-gland list, or flag them as not modelled.",
+   "Lymphatic card + lymphatics colour: the model has no lymph nodes or vessels, only the spleen and thymus. Refocus on those. Remove 'tonsils' from the keywords so a search cannot land on 'Tonsil of cerebellum'.",
+   "Teeth FAQ: note that the model shows 28 teeth (no third molars; 16 molar/premolar objects confirmed).",
+   "Endocrine: add the pineal gland (present in organs.txt), the adenohypophysis/neurohypophysis split and the 'suprarenal' synonym.",
+   "Digestive FAQ: note that the ileum, caecum and rectum are not separate objects (0 matches). Add the salivary glands, pharynx, appendix and colon segments that are modelled.",
+   "Rewrite the near-verbatim Cleveland Clinic sentences (2,000 gallons, skin 6 lb / 2 mm, prostate enzymes/zinc/citric acid) in original, metric-first wording.",
+   "Remove the ResearchGate colour-convention source (403) and the TMS-modelling NBK562095 figure as 'convention' evidence. Replace non-clinical sources (livescience, theconversation, brainfacts, redcrossblood) with StatPearls, Kenhub or MedlinePlus where possible.",
+   "Remove the childish asides from factual FAQ answers ('tiny chatterboxes', etc.). Keep playfulness in the mascot lines only.",
+   "Add depth suited to medical students: brain divisions (cerebrum lobes, corpus callosum, cerebellum, brainstem, precentral/postcentral gyri), the upper airway and segmental bronchi, true/false/floating ribs, dorsal sensory vs ventral motor roots, and a special-senses (eye/ossicles) entry, since these are all modelled."
+  ],
+  "rationale": "Verified directly: doctor.json (50 KB, keys layer/systems/faq/colorConventions/lines) contains the flagged text exactly: '33 stacked vertebrae', 'averages around 19 to 20 inches', 'filter about 120 to 150 quarts of blood', 'run by the autonomic nervous system', 'Most red blood cells, platelets and most white blood cells', 'three layers: epidermis, dermis and hypodermis', and 'tiny chatterboxes'. Python/grep over names/*.txt confirms the reviewer's model-matching claims. There are 0 matches for prostat, penis, node, hypothalam, ileum, rectum and caecum. 'testi' matches only 'Intestine' (8 colon/small-intestine objects). 'lymph' has 1 match (the group label). 'tonsil' has 2 matches (cerebellar). Pineal is present. There are 16 premolar/molar objects and no third molars, so the model has 28 teeth. Exactly 26 vertebral objects are present. Web spot-checks: StatPearls GFR gives about 120 mL/min, 180 L/day and 99% reabsorbed, which confirms the kidney wording is physiologically loose. Femur references give about 46 cm (18 in), which confirms '19-20 in' is high. Standard facts I checked were correct: 206 bones, 12 cranial and 31 spinal nerve pairs, 86 billion neurons, 32 adult teeth, 120-day RBC lifespan, 5 L blood volume, and about 1 million nephrons per kidney. Several statements are factually imprecise or wrong at medical-student level (marrow 'most', blood vs filtrate, autonomic control of cardiac muscle, the vertebra count against the model's 26 bones), so accuracy is capped at 7. Model matching is weak: two whole system cards and a colour cover structures that are absent, while heavily modelled regions (brain, special senses, bronchial tree, liver segments) get no content. Register is often childish for the audience, and some sources are weak or near-copied. The draft is not yet publishable. It reaches 9+ once the mustFix items are fixed."
+ }
+}
