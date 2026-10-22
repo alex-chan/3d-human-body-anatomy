@@ -1,0 +1,3 @@
+.standing-ui .press-role-row { align-items:flex-start; }.standing-ui .press-role-row span { line-height:1.6; }.standing-ui .press-role-row i { margin-top:2px; }.standing-ui .bench-readout #common-cue { min-height:42px; }
+.standing-ui #common-play { background:#65e2c7;color:#071e1b;min-width:60px; }
+.standing-ui #common-scrub { display:block;width:100%;height:10px;accent-color:#65e2c7;pointer-events:auto;cursor:pointer;margin-top:9px; }

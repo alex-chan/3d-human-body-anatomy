@@ -1,0 +1,100 @@
+body.bench-mode { background: #090f18; }
+.bench-mode #boot, .bench-mode .hud-top, .bench-mode .hud-panel, .bench-mode #doctor-canvas, .bench-mode #bubble, .bench-mode #chat-panel, .bench-mode .dock, .bench-mode footer, .bench-mode .credits, .bench-mode .fx-scanlines, .bench-mode .fx-vignette, .bench-mode #loading { display: none !important; }
+.bench-mode #labels { display: none; }
+.bench-ui { position: fixed; inset: 0; color: #eaf3f7; font-family: system-ui, sans-serif; pointer-events: none; z-index: 30; }
+.bench-ui button, .bench-ui a, .bench-ui select { pointer-events: auto; }
+.bench-heading { position: absolute; top: 30px; left: 36px; }
+.bench-back { color: #9cabb7; font-size: 12px; text-decoration: none; display: block; margin-bottom: 28px; }
+.bench-kicker { color: #5fe6cc; font: 11px monospace; letter-spacing: 3px; }
+.bench-heading h1 { margin: 10px 0 8px; font-size: 32px; font-weight: 600; letter-spacing: 2px; }
+.bench-heading p { margin: 0; font: 10px monospace; letter-spacing: 3px; color: #8297a8; }
+.bench-readout { position: absolute; top: 40px; right: 36px; width: 258px; padding: 20px; background: #101d2bd9; border: 1px solid #2b3e4b; border-radius: 12px; }
+.bench-status { color: #60dfc7; font-size: 11px; letter-spacing: 2px; }
+.bench-status::before { content: ''; display: inline-block; width: 5px; height: 5px; margin-right: 8px; background: #60dfc7; border-radius: 50%; }
+.bench-readout strong { display: block; font-size: 25px; font-weight: 500; margin: 10px 0 18px; }
+.press-meter { height: 3px; background: #2d414e; border-radius: 4px; overflow: hidden; }
+.press-meter i { display: block; height: 100%; background: #60dfc7; }
+.bench-readout p { font-size: 11px; color: #c7d7df; line-height: 1.8; margin: 15px 0 6px; }
+.bench-readout span { color: #62dfc7; }
+.bench-readout small { color: #7f95a5; font-size: 10px; }
+.bench-toolbar { position: absolute; bottom: 55px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 6px; white-space: nowrap; background: #111f2eeb; padding: 10px; border: 1px solid #2c4052; border-radius: 14px; box-shadow: 0 8px 40px #0005; pointer-events: auto; }
+.bench-toolbar button, .bench-toolbar select { appearance: none; background: #1b2d3c; border: 1px solid #314659; border-radius: 7px; color: #c7d8e2; font: 12px system-ui; padding: 10px 13px; cursor: pointer; }
+.bench-toolbar button:hover, .bench-toolbar .active { color: #72f1d7; background: #1d3d42; border-color: #3b8079; }
+.bench-toolbar #press-play { color: #071e1b; background: #65e2c7; border-color: #65e2c7; min-width: 64px; }
+.bench-toolbar label { font-size: 12px; color: #8fa5b6; padding-left: 8px; }
+.bench-toolbar select { padding: 10px 8px; margin-left: 6px; }
+.bench-divider { height: 20px; width: 1px; background: #344757; margin: 0 5px; }
+.bench-hint { position: absolute; bottom: 14px; left: 0; width: 100%; text-align: center; font-size: 10px; letter-spacing: 1px; color: #7890a1; }
+.bench-hint span { margin: 0 12px; color: #3c5668; }
+@media (max-width: 800px) {
+  .bench-heading { top: 18px; left: 18px; } .bench-back { margin-bottom: 18px; }
+  .bench-heading h1 { font-size: 23px; } .bench-readout { top: auto; bottom: 160px; right: 16px; width: 160px; padding: 12px; }
+  .bench-readout strong { font-size: 20px; margin: 5px 0 10px; } .bench-readout p { font-size: 10px; } .bench-readout small { display: none; }
+  .bench-toolbar { bottom: 42px; width: calc(100% - 26px); justify-content: center; flex-wrap: wrap; white-space: normal; gap: 5px; }
+  .bench-toolbar button { padding: 8px 10px; font-size: 11px; } .bench-divider { display: none; }
+  .bench-hint { font-size: 8px; bottom: 6px; letter-spacing: 0; }
+}
+
+.bench-mode #tooltip, .bench-mode #tour-bar { display: none !important; }
+
+.press-scrub-label { display: block; color: #7f95a5; font-size: 10px; margin-top: 12px; }
+#press-scrub { display: block; width: 100%; margin: 8px 0 0; accent-color: #65e2c7; pointer-events: auto; cursor: pointer; height: 10px; }
+
+/* The three colours encode exercise roles rather than fabricated EMG values. */
+.press-legend { position: absolute; top: 195px; left: 36px; width: 272px; padding: 17px 18px; background: #0e1925eb; border: 1px solid #304354; border-radius: 12px; }
+.press-legend h2 { font-size: 14px; font-weight: 600; margin: 0 0 15px; }
+.press-legend h2 span { color: #849ba9; font-size: 10px; font-weight: 400; padding-left: 9px; }
+.press-role-row { display: flex; align-items: center; gap: 8px; margin: 12px 0; font-size: 11px; }
+.press-role-row i { width: 12px; height: 12px; flex: none; border-radius: 4px; border: 1px solid #ffffff30; }
+.press-role-row b { font-weight: 500; width: 52px; flex: none; }
+.press-role-row span { color: #a8bcc9; font-size: 10px; }
+.role-primary { background: #961c38; }.role-assist { background: #df8d87; }.role-neutral { background: #e8ecef; }
+.press-legend p { color: #8499a7; font-size: 10px; line-height: 1.7; margin: 12px 0 8px; }
+.press-legend a { color: #83a7b5; font-size: 10px; text-decoration: none; pointer-events: auto; }
+.press-muscle-labels { position: absolute; inset: 0; pointer-events: none; }
+.press-muscle-labels[hidden], .press-legend[hidden] { display: none; }
+.press-muscle-labels svg { position: absolute; width: 100%; height: 100%; overflow: visible; }
+.press-muscle-labels line { stroke-width: 1; stroke: #df8d87; opacity: .8; }
+.press-muscle-labels circle { fill: #df8d87; stroke: #18252c; stroke-width: 1; }
+.press-muscle-labels line.primary { stroke: #f57891; }.press-muscle-labels circle.primary { fill: #b32b4a; }
+.press-muscle-tag { position: absolute; top: 0; left: 0; box-sizing: border-box; width: 120px; min-height: 43px; padding: 6px 10px; border-radius: 6px; border: 1px solid #d9a4a1; background: #172330f5; box-shadow: 0 2px 9px #0005; }
+.press-muscle-tag b { display: block; font-size: 11px; font-weight: 600; color: #f3bcb7; }.press-muscle-tag span { display: block; color: #aabac5; font-size: 9px; margin-top: 2px; }
+.press-muscle-tag.primary { background: #61162bf2; border-color: #c85672; }.press-muscle-tag.primary b { color: #fff0f3; }
+@media(max-width: 800px) {
+  .press-legend { top: 143px; left: 18px; width: 246px; padding: 11px 13px; }
+  .press-legend h2 { margin: 0 0 7px; font-size: 12px; }
+  .press-role-row { margin: 7px 0; font-size: 10px; gap: 7px; }
+  .press-legend p { margin: 7px 0 0; font-size: 9px; line-height: 1.5; }
+  .press-legend p br { display: none; }
+  .press-legend a { display: none; }
+  .press-muscle-tag { width: 100px; padding: 6px 8px; }
+  .press-muscle-tag b { font-size: 10px; }
+}
+
+.press-instructions-toggle { position: absolute; top: 34px; left: 390px; padding: 10px 16px; background: #152a38; border: 1px solid #3e6972; border-radius: 8px; color: #9ce9da; font: 12px system-ui; cursor: pointer; }
+.press-instructions-toggle:hover, .press-instructions-toggle.active { background: #214047; border-color: #65e2c7; }
+.press-instructions { position: absolute; right: 36px; top: 82px; bottom: 150px; box-sizing: border-box; width: 350px; max-width: calc(100% - 32px); overflow: auto; overscroll-behavior: contain; padding: 22px; color: #d8e5ee; background: #101e2bf5; border: 1px solid #3b5464; border-radius: 14px; pointer-events: auto; box-shadow: 0 12px 50px #0007; z-index: 5; scrollbar-width: thin; scrollbar-color: #476273 transparent; }
+.press-instructions[hidden] { display: none; }
+.press-instructions-head { display: flex; justify-content: space-between; align-items: flex-start; }
+.press-instructions-head span { color: #67d9c2; font: 10px monospace; letter-spacing: 1px; }
+.press-instructions h2 { font-size: 20px; font-weight: 600; margin: 8px 0 0; }
+.press-instructions-head button { width: 28px; height: 28px; border: 1px solid #385464; border-radius: 6px; background: #1b2e3e; color: #bacbd6; cursor: pointer; font-size: 20px; }
+.press-instructions-lead { font-size: 11px; color: #90a7b6; line-height: 1.8; margin: 14px 0 18px; }
+.press-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 7px; }
+.press-steps li { display: flex; gap: 12px; padding: 12px 10px; border-radius: 8px; border: 1px solid transparent; }
+.press-step-number { font: 11px monospace; color: #627e91; padding-top: 3px; }
+.press-steps h3, .press-errors h3 { font-size: 12px; font-weight: 600; margin: 0 0 6px; }
+.press-steps p, .press-errors p { font-size: 11px; line-height: 1.85; color: #a0b6c4; margin: 0; }
+.press-steps li.current { border-color: #397366; background: #193e3d; }
+.press-steps li.current h3, .press-steps li.current .press-step-number { color: #91edd7; }
+.press-steps li.current p { color: #c7e3de; }
+.press-errors { border-top: 1px solid #304657; margin-top: 18px; padding-top: 16px; }
+.press-errors h3 { color: #eac7ab; }
+.press-instructions-note { font-size: 10px; line-height: 1.7; color: #7c98ab; margin: 16px 0 12px; }
+.press-instructions-source { font-size: 10px; color: #8fcdbf; text-decoration: none; }
+.bench-readout .press-phase-cue { min-height: 38px; }
+@media(max-width: 800px) {
+  .press-instructions-toggle { top: 25px; left: auto; right: 18px; padding: 8px 12px; font-size: 11px; }
+  .press-instructions { top: 75px; right: 16px; bottom: 150px; width: 330px; padding: 18px; }
+  .bench-readout .press-phase-cue { min-height: 36px; line-height: 1.7; margin-top: 12px; }
+}

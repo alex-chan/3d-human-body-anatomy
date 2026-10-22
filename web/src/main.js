@@ -5,6 +5,13 @@ import { Brain } from './brain.js'
 import { sfx, play } from './sfx.js'
 import { TourRunner } from './tours.js'
 import { Intro } from './intro.js'
+import { startBenchPress } from './benchPress.js'
+import { startStandingExercise } from './standingExercises.js'
+import { COMMON } from './commonExercises.js'
+import { resolveRoute } from './routes.js'
+const exerciseId = resolveRoute(location.href, import.meta.env.BASE_URL).exercise?.id
+const benchRequested = exerciseId === 'bench' || exerciseId in COMMON
+if (benchRequested) document.body.classList.add('bench-mode')
 import { t, setLang, getLang } from './i18n.js'
 
 const $ = (s) => document.querySelector(s)
@@ -80,7 +87,7 @@ function refreshLayerStates() {
 // The 3D body loads behind the landing text; intro.js turns it and peels it layer by layer while it streams in.
 const bootLog = $('#boot-log'), bootFill = $('#boot-fill'), bootBtn = $('#boot-start'), tourBtn = $('#boot-tour')
 const logLine = (txt, ok) => { const d = document.createElement('div'); d.innerHTML = `&gt; ${txt} ${ok ? '<span class="ok">[OK]</span>' : ''}`; bootLog.replaceChildren(d) }
-const bootOrder = ['skeleton', 'organs', 'arteries', 'veins', 'muscles', 'skin', 'nerves']
+const bootOrder = benchRequested ? ['skeleton', 'muscles'] : ['skeleton', 'organs', 'arteries', 'veins', 'muscles', 'skin', 'nerves']
 let loadedCount = 0, booted = false
 document.body.classList.add('intro')
 const intro = new Intro(anatomy, {
@@ -139,6 +146,7 @@ tourBtn.addEventListener('click', () => enterApp(() => tours.start('blood')))
   }
   // Never leave visitors stuck on the landing page, even if the skeleton could not be downloaded.
   if (bootBtn.disabled) { setReady(); intro.start(); doctor.walkOn() }
+  if (benchRequested) { enterApp(); if (exerciseId === 'bench') startBenchPress(anatomy); else startStandingExercise(anatomy, exerciseId) }
 })()
 
 // ---------------- presets ----------------
@@ -176,6 +184,15 @@ for (const [key, cfg] of PRESETS) {
   b.addEventListener('mouseenter', play.hover)
   $('#presets').appendChild(b)
 }
+
+const pressEntry = document.createElement('button')
+pressEntry.textContent = '仰卧杠铃胸推 →'
+pressEntry.addEventListener('click', () => { location.href = './exercises/bench/' })
+$('#presets').appendChild(pressEntry)
+const libraryEntry = document.createElement('button')
+libraryEntry.textContent = '全部动作 →'
+libraryEntry.addEventListener('click', () => { location.href = './' })
+$('#presets').appendChild(libraryEntry)
 
 // ---------------- dock ----------------
 /** Dock on/off button. Returns a setter so other code (e.g. Dr. Buddy) can flip it and keep the button in sync. */
@@ -238,6 +255,7 @@ let downAt = null, lastHoverName = null
 const canvas = $('#scene')
 canvas.addEventListener('pointerdown', (e) => { downAt = { x: e.clientX, y: e.clientY } })
 canvas.addEventListener('pointerup', (e) => {
+  if (benchRequested) return
   if (!downAt || Math.hypot(e.clientX - downAt.x, e.clientY - downAt.y) > 5) return
   if (doctor.hitTest(e.clientX, e.clientY)) return
   const m = anatomy.pick(e.clientX, e.clientY)
@@ -246,6 +264,7 @@ canvas.addEventListener('pointerup', (e) => {
 })
 let hoverRaf = 0
 canvas.addEventListener('pointermove', (e) => {
+  if (benchRequested) return
   if (e.buttons) { tooltip.classList.add('hidden'); return }
   cancelAnimationFrame(hoverRaf)
   hoverRaf = requestAnimationFrame(() => {
@@ -429,7 +448,9 @@ refreshLayerStates()
 
 function loop() {
   intro.update()
+  anatomy.updateExercise?.()
   anatomy.update()
+  anatomy.updateExerciseLabels?.()
   doctor.update()
   requestAnimationFrame(loop)
 }

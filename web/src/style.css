@@ -299,3 +299,10 @@ html[lang=hi] .boot-scan, html[lang=hi] .lname, html[lang=hi] .lstate, html[lang
 html[lang=hi] .boot-stats span, html[lang=hi] #info-body h4, html[lang=hi] dialog#about h2 { font-family: 'Baloo 2', Rajdhani, sans-serif; font-weight: 700; }
 html[lang=hi] .boot-head { line-height: 1.25; font-size: clamp(32px, 4.4vw, 56px); }
 html[lang=hi] .boot-lead, html[lang=hi] #bubble-text, html[lang=hi] #info-body p, html[lang=hi] #info-body li { line-height: 1.6; }
+
+/* Readable content before the interactive viewer starts, and without JavaScript. */
+#seo-content { max-width:900px; margin:30px auto; padding:24px; font:15px/1.9 system-ui,sans-serif; }
+#seo-content h1 { font-size:28px; }
+#seo-content article { padding:16px 0; border-bottom:1px solid #263c49; }
+body:has(> #seo-content):not(:has(> #viewer-shell:not([hidden]))) { height:auto; overflow:visible; }
+html:has(#seo-content) { height:auto; overflow-y:auto; }
